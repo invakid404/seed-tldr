@@ -2,8 +2,8 @@
 id: common.tlmgr-shell
 title: Tlmgr Shell
 desc: ''
-updated: 1642441815076
-created: 1642441815076
+updated: 1656627622943
+created: 1656627622943
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -45,7 +45,7 @@ sources:
 
 `restart`
 
-- Print the version of the current protocoll:
+- Print the version of the current protocol:
 
 `protocol`
 

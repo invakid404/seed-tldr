@@ -2,8 +2,8 @@
 id: linux.dm-tool
 title: Dm Tool
 desc: ''
-updated: 1643803780823
-created: 1643803780823
+updated: 1656627622971
+created: 1656627622971
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -25,7 +25,7 @@ sources:
 
 `dm-tool lock`
 
-- Swicth to a specific user, showing an authentication prompt if required:
+- Switch to a specific user, showing an authentication prompt if required:
 
 `dm-tool switch-to-user {{username}} {{session}}`
 
