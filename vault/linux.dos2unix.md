@@ -2,8 +2,8 @@
 id: linux.dos2unix
 title: Dos2unix
 desc: ''
-updated: 1642441815093
-created: 1642441815093
+updated: 1656620558048
+created: 1656620558048
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,7 +15,7 @@ sources:
 # dos2unix
 
 > Change DOS-style line endings to Unix-style.
-> Replaces CRLF with CR.
+> Replaces CRLF with LF.
 > More information: <https://manned.org/dos2unix>.
 
 - Change the line endings of a file:

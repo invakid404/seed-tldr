@@ -2,8 +2,8 @@
 id: common.tlmgr-backup
 title: Tlmgr Backup
 desc: ''
-updated: 1642441815076
-created: 1642441815076
+updated: 1656620558016
+created: 1656620558016
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,7 +15,7 @@ sources:
 # tlmgr backup
 
 > Manage backups of TeX Live packages.
-> The default backup location is saved in the `backupdir` setting, which can be optained with `tlmgr option`.
+> The default backup location is saved in the `backupdir` setting, which can be obtained with `tlmgr option`.
 > More information: <https://www.tug.org/texlive/tlmgr.html>.
 
 - Make a backup of one or more packages:

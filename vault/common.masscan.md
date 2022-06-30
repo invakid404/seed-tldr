@@ -2,8 +2,8 @@
 id: common.masscan
 title: Masscan
 desc: ''
-updated: 1642441815046
-created: 1642441815046
+updated: 1656620557966
+created: 1656620557966
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,7 +15,7 @@ sources:
 # Masscan
 
 > Network scanner for scanning as fast as possible.
-> Best run with elevated priviledges. Nmap compability run `masscan --nmap` to find out more.
+> Best run with elevated privileges. Nmap compatibility run `masscan --nmap` to find out more.
 > More information: <https://github.com/robertdavidgraham/masscan>.
 
 - Scan an IP or network subnet for port 80:

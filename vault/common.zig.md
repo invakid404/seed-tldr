@@ -2,8 +2,8 @@
 id: common.zig
 title: Zig
 desc: ''
-updated: 1642441815086
-created: 1642441815086
+updated: 1656620558036
+created: 1656620558036
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -29,7 +29,7 @@ sources:
 
 `zig init-exe`
 
-- Intitialize a `zig build` library:
+- Initialize a `zig build` library:
 
 `zig init-lib`
 

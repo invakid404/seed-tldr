@@ -2,8 +2,8 @@
 id: common.timidity
 title: Timidity
 desc: ''
-updated: 1642441815076
-created: 1642441815076
+updated: 1656620558016
+created: 1656620558016
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -14,7 +14,7 @@ sources:
 ---
 # timidity
 
-> TiMidity++ is a MIDI file player and convertor.
+> TiMidity++ is a MIDI file player and converter.
 > More information: <http://timidity.sourceforge.net>.
 
 - Play a MIDI file:
