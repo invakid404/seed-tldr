@@ -2,8 +2,8 @@
 id: linux.namei
 title: Namei
 desc: ''
-updated: 1642441815105
-created: 1642441815105
+updated: 1656591837638
+created: 1656591837638
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -16,6 +16,7 @@ sources:
 
 > Follows a pathname (which can be a symbolic link) until a terminal point is found (a file/directory/char device etc).
 > This program is useful for finding "too many levels of symbolic links" problems.
+> More information: <https://manned.org/namei>.
 
 - Resolve the pathnames specified as the argument parameters:
 

@@ -2,8 +2,8 @@
 id: osx.applecamerad
 title: Applecamerad
 desc: ''
-updated: 1642441815119
-created: 1642441815119
+updated: 1656591837669
+created: 1656591837669
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -16,6 +16,7 @@ sources:
 
 > Camera manager.
 > It should not be invoked manually.
+> More information: <https://www.theiphonewiki.com/wiki/Services>.
 
 - Start the daemon:
 

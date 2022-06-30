@@ -2,8 +2,8 @@
 id: common.phpstan
 title: Phpstan
 desc: ''
-updated: 1642441815057
-created: 1642441815057
+updated: 1656591837543
+created: 1656591837543
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -21,19 +21,19 @@ sources:
 
 `phpstan analyse --help`
 
-- Analyse the specified space-separated directories:
+- Analyze the specified space-separated directories:
 
 `phpstan analyse {{path/to/directory}}`
 
-- Analyse a directory using a configuration file:
+- Analyze a directory using a configuration file:
 
 `phpstan analyse {{path/to/directory}} --configuration {{path/to/config}}`
 
-- Analyse using a specific rule level (0-7, higher is stricter):
+- Analyze using a specific rule level (0-7, higher is stricter):
 
 `phpstan analyse {{path/to/directory}} --level {{level}}`
 
-- Specify an autoload file to load before analysing:
+- Specify an autoload file to load before analyzing:
 
 `phpstan analyse {{path/to/directory}} --autoload-file {{path/to/autoload_file}}`
 

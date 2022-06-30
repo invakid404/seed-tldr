@@ -2,8 +2,8 @@
 id: linux.notify-send
 title: Notify Send
 desc: ''
-updated: 1642441815106
-created: 1642441815106
+updated: 1656591837640
+created: 1656591837640
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,6 +15,7 @@ sources:
 # notify-send
 
 > Uses the current desktop environment's notification system to create a notification.
+> More information: <https://manned.org/notify-send>.
 
 - Show a notification with the title "Test" and the content "This is a test":
 

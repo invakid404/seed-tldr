@@ -2,8 +2,8 @@
 id: common.grep
 title: Grep
 desc: ''
-updated: 1642441815031
-created: 1642441815031
+updated: 1656591837490
+created: 1656591837490
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -37,9 +37,9 @@ sources:
 
 `grep --{{context|before-context|after-context}}={{3}} "{{search_pattern}}" {{path/to/file}}`
 
-- Print file name and line number for each match:
+- Print file name and line number for each match with color output:
 
-`grep --with-filename --line-number "{{search_pattern}}" {{path/to/file}}`
+`grep --with-filename --line-number --color=always "{{search_pattern}}" {{path/to/file}}`
 
 - Search for lines matching a pattern, printing only the matched text:
 

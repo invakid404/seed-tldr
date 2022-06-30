@@ -2,8 +2,8 @@
 id: linux.resize2fs
 title: Resize2fs
 desc: ''
-updated: 1642441815110
-created: 1642441815110
+updated: 1656591837649
+created: 1656591837649
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -16,6 +16,7 @@ sources:
 
 > Resize an ext2, ext3 or ext4 filesystem.
 > Does not resize the underlying partition. The filesystem may have to be unmounted first, read the man page for more details.
+> More information: <https://manned.org/resize2fs>.
 
 - Automatically resize a filesystem:
 

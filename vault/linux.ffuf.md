@@ -2,8 +2,8 @@
 id: linux.ffuf
 title: Ffuf
 desc: ''
-updated: 1642441815094
-created: 1642441815094
+updated: 1656591837622
+created: 1656591837622
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -21,7 +21,7 @@ sources:
 
 `ffuf -w {{path/to/wordlist}} -u {{https://target/FUZZ}} -c -v`
 
-- Fuzz host-[H]eaders with a host file on a traget website and [m]atch HTTP 200 [c]ode responses:
+- Fuzz host-[H]eaders with a host file on a target website and [m]atch HTTP 200 [c]ode responses:
 
 `ffuf -w {{hosts.txt}} -u {{https://example.org}} -H "{{Host: FUZZ}}" -mc {{200}}`
 

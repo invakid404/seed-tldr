@@ -2,8 +2,8 @@
 id: linux.v4l2-ctl
 title: V4l2 Ctl
 desc: ''
-updated: 1642441815116
-created: 1642441815116
+updated: 1656591837659
+created: 1656591837659
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -33,7 +33,7 @@ sources:
 
 `v4l2-ctl --all --device {{path/to/video_device}}`
 
-- Capture a JPEG photo with a specfic resolution from video device:
+- Capture a JPEG photo with a specific resolution from video device:
 
 `v4l2-ctl --device {{path/to/video_device}} --set-fmt-video=width={{width}},height={{height}},pixelformat=MJPG --stream-mmap --stream-to={{path/to/output.jpg}} --stream-count=1`
 

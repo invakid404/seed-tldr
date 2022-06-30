@@ -2,8 +2,8 @@
 id: common.ogr2ogr
 title: Ogr2ogr
 desc: ''
-updated: 1645970511529
-created: 1645970511529
+updated: 1656591837535
+created: 1656591837535
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -14,12 +14,16 @@ sources:
 ---
 # ogr2ogr
 
-> Convert Simple Features data between file formats.
+> Convert geospatial vector data between file formats.
 > More information: <https://gdal.org/programs/ogr2ogr.html>.
 
 - Convert a Shapefile into a GeoPackage:
 
 `ogr2ogr -f GPKG {{path/to/output}}.gpkg {{path/to/input}}.shp`
+
+- Reduce a GeoJSON to features matching a condition:
+
+`ogr2ogr -where '{{myProperty > 42}}' -f {{GeoJSON}} {{path/to/output.geojson}} {{path/to/input.geojson}}`
 
 - Change coordinate reference system of a GeoPackage from `EPSG:4326` to `EPSG:3857`:
 

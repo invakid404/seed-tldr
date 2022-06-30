@@ -2,8 +2,8 @@
 id: linux.xeyes
 title: Xeyes
 desc: ''
-updated: 1642441815118
-created: 1642441815118
+updated: 1656591837667
+created: 1656591837667
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,6 +15,7 @@ sources:
 # xeyes
 
 > Display eyes on the screen that follow the mouse cursor.
+> More information: <https://manned.org/xeyes>.
 
 - Launch xeyes on the local machine's default display:
 

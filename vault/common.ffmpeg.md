@@ -2,8 +2,8 @@
 id: common.ffmpeg
 title: Ffmpeg
 desc: ''
-updated: 1642441815017
-created: 1642441815017
+updated: 1656591837464
+created: 1656591837464
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -21,9 +21,9 @@ sources:
 
 `ffmpeg -i {{video.mp4}} -vn {{sound}}.mp3`
 
-- Convert frames from a video or GIF into individual numbered images:
+- Save a video as GIF, scaling the height to 1000px and setting framerate to 15:
 
-`ffmpeg -i {{video.mpg|video.gif}} {{frame_%d.png}}`
+`ffmpeg -i {{video.mp4}} -vf 'scale=-1:{{1000}}' -r {{15}} {{output.gif}}`
 
 - Combine numbered images (`frame_1.jpg`, `frame_2.jpg`, etc) into a video or GIF:
 

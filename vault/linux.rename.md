@@ -2,8 +2,8 @@
 id: linux.rename
 title: Rename
 desc: ''
-updated: 1642441815110
-created: 1642441815110
+updated: 1656591837649
+created: 1656591837649
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -18,6 +18,7 @@ sources:
 > NOTE: this page refers to the command from the `util-linux` package.
 > For the Perl version, see `file-rename` or `perl-rename`.
 > Warning: This command has no safeguards and will overwrite files without prompting.
+> More information: <https://manned.org/rename>.
 
 - Rename files using simple substitutions (substitute 'foo' with 'bar' wherever found):
 

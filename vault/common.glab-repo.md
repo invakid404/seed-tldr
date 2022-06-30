@@ -2,8 +2,8 @@
 id: common.glab-repo
 title: Glab Repo
 desc: ''
-updated: 1642441815028
-created: 1642441815028
+updated: 1656591837486
+created: 1656591837486
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -29,7 +29,7 @@ sources:
 
 `glab repo fork {{owner}}/{{repository}} --clone`
 
-- View a repository in the web browser:
+- View a repository in the default web browser:
 
 `glab repo view {{owner}}/{{repository}} --web`
 

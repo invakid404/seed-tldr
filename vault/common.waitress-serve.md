@@ -2,8 +2,8 @@
 id: common.waitress-serve
 title: Waitress Serve
 desc: ''
-updated: 1642441815082
-created: 1642441815082
+updated: 1656591837592
+created: 1656591837592
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,6 +15,7 @@ sources:
 # waitress-serve
 
 > Pure Python WSGI HTTP Server.
+> More information: <https://github.com/Pylons/waitress>.
 
 - Run a Python web app:
 

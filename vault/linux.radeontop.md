@@ -2,8 +2,8 @@
 id: linux.radeontop
 title: Radeontop
 desc: ''
-updated: 1642441815109
-created: 1642441815109
+updated: 1656591837648
+created: 1656591837648
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -14,11 +14,11 @@ sources:
 ---
 # radeontop
 
-> Show utilisation of AMD GPUs.
+> Show utilization of AMD GPUs.
 > May require root privileges depending on your system.
 > More information: <https://github.com/clbr/radeontop>.
 
-- Show the utilisation of the default AMD GPU:
+- Show the utilization of the default AMD GPU:
 
 `radeontop`
 

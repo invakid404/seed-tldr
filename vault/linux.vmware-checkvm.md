@@ -2,8 +2,8 @@
 id: linux.vmware-checkvm
 title: Vmware Checkvm
 desc: ''
-updated: 1642441815116
-created: 1642441815116
+updated: 1656591837659
+created: 1656591837659
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,6 +15,7 @@ sources:
 # vmware-checkvm
 
 > Checks to see if the current host is a VMware VM or not.
+> More information: <https://manned.org/vmware-checkvm>.
 
 - Return the current VMware software version (exit status determines whether the system is a VM or not):
 

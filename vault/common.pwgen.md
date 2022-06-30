@@ -2,8 +2,8 @@
 id: common.pwgen
 title: Pwgen
 desc: ''
-updated: 1642441815063
-created: 1642441815063
+updated: 1656591837553
+created: 1656591837553
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,6 +15,7 @@ sources:
 # pwgen
 
 > Generate pronounceable passwords.
+> More information: <https://github.com/tytso/pwgen>.
 
 - Generate random password with s[y]mbols:
 

@@ -2,8 +2,8 @@
 id: common.satis
 title: Satis
 desc: ''
-updated: 1642441815067
-created: 1642441815067
+updated: 1656591837561
+created: 1656591837561
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -17,7 +17,7 @@ sources:
 > The command-line utility for the Satis static Composer repository.
 > More information: <https://github.com/composer/satis>.
 
-- Initialise a Satis configuration:
+- Initialize a Satis configuration:
 
 `satis init {{satis.json}}`
 

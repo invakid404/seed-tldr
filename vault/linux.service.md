@@ -2,8 +2,8 @@
 id: linux.service
 title: Service
 desc: ''
-updated: 1642441815112
-created: 1642441815112
+updated: 1656591837652
+created: 1656591837652
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -16,6 +16,7 @@ sources:
 
 > Manage services by running init scripts.
 > The full script path should be omitted (`/etc/init.d/` is assumed).
+> More information: <https://manned.org/service>.
 
 - List the name and status of all services:
 

@@ -2,8 +2,8 @@
 id: common.gopass
 title: Gopass
 desc: ''
-updated: 1642441815030
-created: 1642441815030
+updated: 1656591837489
+created: 1656591837489
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -17,7 +17,7 @@ sources:
 > Standard Unix Password Manager for Teams. Written in Go.
 > More information: <https://www.gopass.pw>.
 
-- Initialise the configuration settings:
+- Initialize the configuration settings:
 
 `gopass init`
 

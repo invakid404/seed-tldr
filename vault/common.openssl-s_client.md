@@ -2,8 +2,8 @@
 id: common.openssl-s_client
 title: Openssl S_client
 desc: ''
-updated: 1642441815054
-created: 1642441815054
+updated: 1656591837536
+created: 1656591837536
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -24,6 +24,10 @@ sources:
 - Display the certificate presented by an SSL/TLS server:
 
 `openssl s_client -connect {{host}}:{{port}} </dev/null`
+
+- Set the Server Name Indicator (SNI) when connecting to the SSL/TLS server:
+
+`openssl s_client -connect {{host}}:{{port}} -servername {{hostname}}`
 
 - Display the complete certificate chain of an HTTPS server:
 

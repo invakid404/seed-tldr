@@ -2,8 +2,8 @@
 id: linux.setxkbmap
 title: Setxkbmap
 desc: ''
-updated: 1642441815112
-created: 1642441815112
+updated: 1656591837652
+created: 1656591837652
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,6 +15,7 @@ sources:
 # setxkbmap
 
 > Set the keyboard using the X Keyboard Extension.
+> More information: <https://manned.org/setxkbmap>.
 
 - Set the keyboard in French AZERTY:
 

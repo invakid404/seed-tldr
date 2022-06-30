@@ -2,8 +2,8 @@
 id: linux.quotacheck
 title: Quotacheck
 desc: ''
-updated: 1642441815109
-created: 1642441815109
+updated: 1656591837648
+created: 1656591837648
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -16,6 +16,7 @@ sources:
 
 > Scan a filesystem for disk usage; create, check and repair quota files.
 > It is best to run quota check with quotas turned off to prevent damage or loss to quota files.
+> More information: <https://manned.org/quotacheck>.
 
 - Check quotas on all mounted non-NFS filesystems:
 

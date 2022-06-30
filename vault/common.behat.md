@@ -2,8 +2,8 @@
 id: common.behat
 title: Behat
 desc: ''
-updated: 1642441814998
-created: 1642441814998
+updated: 1656591837428
+created: 1656591837428
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -17,7 +17,7 @@ sources:
 > A PHP framework for Behaviour-Driven Development.
 > More information: <https://behat.org>.
 
-- Initialise a new Behat project:
+- Initialize a new Behat project:
 
 `behat --init`
 

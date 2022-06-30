@@ -2,8 +2,8 @@
 id: common.prettier
 title: Prettier
 desc: ''
-updated: 1642441815061
-created: 1642441815061
+updated: 1656591837549
+created: 1656591837549
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -36,4 +36,8 @@ sources:
 - Format files or directories recursively using single quotes and no trailing commas:
 
 `prettier --single-quote --trailing-comma {{none}} --write {{path/to/file_or_directory}}`
+
+- Format JavaScript and TypeScript files recursively, replacing the original:
+
+`prettier --write "**/*.{js,jsx,ts,tsx}"`
 

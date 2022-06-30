@@ -2,8 +2,8 @@
 id: linux.rdesktop
 title: Rdesktop
 desc: ''
-updated: 1642441815110
-created: 1642441815110
+updated: 1656591837648
+created: 1656591837648
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -16,6 +16,7 @@ sources:
 
 > Remote Desktop Protocol client.
 > It can be used to connect the remote computer using the RDP protocol.
+> More information: <https://manned.org/rdesktop>.
 
 - Connect to a remote computer (default port is 3389):
 

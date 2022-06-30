@@ -2,8 +2,8 @@
 id: linux.whatis
 title: Whatis
 desc: ''
-updated: 1642441815117
-created: 1642441815117
+updated: 1656591837660
+created: 1656591837660
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,6 +15,7 @@ sources:
 # whatis
 
 > Display one-line descriptions from manual pages.
+> More information: <https://manned.org/whatis>.
 
 - Display a description from a man page:
 

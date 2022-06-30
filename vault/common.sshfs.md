@@ -2,8 +2,8 @@
 id: common.sshfs
 title: Sshfs
 desc: ''
-updated: 1642441815071
-created: 1642441815071
+updated: 1656591837572
+created: 1656591837572
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -14,7 +14,7 @@ sources:
 ---
 # sshfs
 
-> Filesystem client based on ssh.
+> Filesystem client based on SSH.
 > More information: <https://github.com/libfuse/sshfs>.
 
 - Mount remote directory:

@@ -2,8 +2,8 @@
 id: common.gh
 title: Gh
 desc: ''
-updated: 1642441815020
-created: 1642441815020
+updated: 1656591837471
+created: 1656591837471
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -30,7 +30,7 @@ sources:
 
 `gh issue list`
 
-- View an issue in the browser:
+- View an issue in the default web browser:
 
 `gh issue view --web {{issue_number}}`
 
@@ -38,11 +38,11 @@ sources:
 
 `gh pr create`
 
-- View a pull request in the browser:
+- View a pull request in the default web browser:
 
 `gh pr view --web {{pr_number}}`
 
-- Locally check out the branch of a pull request, given its number:
+- Check out a specific pull request locally:
 
 `gh pr checkout {{pr_number}}`
 

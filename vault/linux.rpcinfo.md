@@ -2,8 +2,8 @@
 id: linux.rpcinfo
 title: Rpcinfo
 desc: ''
-updated: 1642441815110
-created: 1642441815110
+updated: 1656591837650
+created: 1656591837650
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,6 +15,7 @@ sources:
 # rpcinfo
 
 > Makes an RPC call to an RPC server and reports what it finds.
+> More information: <https://manned.org/rpcinfo>.
 
 - Show full table of all RPC services registered on localhost:
 

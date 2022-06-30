@@ -2,8 +2,8 @@
 id: common.gpg
 title: Gpg
 desc: ''
-updated: 1642441815030
-created: 1642441815030
+updated: 1656591837489
+created: 1656591837489
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,7 +15,7 @@ sources:
 # gpg
 
 > GNU Privacy Guard.
-> See `gpg2` for GNU Privacy Guard 2.
+> See `gpg2` for GNU Privacy Guard 2. Most operating systems symlink `gpg` to `gpg2`.
 > More information: <https://gnupg.org>.
 
 - Create a GPG public and private key interactively:
@@ -26,9 +26,9 @@ sources:
 
 `gpg --clearsign {{doc.txt}}`
 
-- Encrypt `doc.txt` for [alice@example.com](mailto:alice@example.com) (output to `doc.txt.gpg`):
+- Encrypt and sign `doc.txt` for [alice@example.com](mailto:alice@example.com) and [bob@example.com](mailto:bob@example.com) (output to `doc.txt.gpg`):
 
-`gpg --encrypt --recipient {{alice@example.com}} {{doc.txt}}`
+`gpg --encrypt --sign --recipient {{alice@example.com}} --recipient {{bob@example.com}} {{doc.txt}}`
 
 - Encrypt `doc.txt` with only a passphrase (output to `doc.txt.gpg`):
 

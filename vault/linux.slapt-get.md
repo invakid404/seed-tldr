@@ -2,8 +2,8 @@
 id: linux.slapt-get
 title: Slapt Get
 desc: ''
-updated: 1642441815113
-created: 1642441815113
+updated: 1656591837653
+created: 1656591837653
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -16,6 +16,7 @@ sources:
 
 > An apt like system for Slackware package management.
 > Package sources need to be configured in the slapt-getrc file.
+> More information: <https://software.jaos.org>.
 
 - Update the list of available packages and versions:
 

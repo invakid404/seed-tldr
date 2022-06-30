@@ -2,8 +2,8 @@
 id: linux.hashcat
 title: Hashcat
 desc: ''
-updated: 1642441815097
-created: 1642441815097
+updated: 1656591837626
+created: 1656591837626
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,7 +15,7 @@ sources:
 # hashcat
 
 > Fast and advanced password recovery tool.
-> More information: <https://manned.org/hashcat>.
+> More information: <https://hashcat.net/wiki/doku.php?id=hashcat>.
 
 - Perform a brute-force attack (mode 3) with the default hashcat mask:
 

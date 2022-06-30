@@ -2,8 +2,8 @@
 id: linux.zramctl
 title: Zramctl
 desc: ''
-updated: 1642441815119
-created: 1642441815119
+updated: 1656591837669
+created: 1656591837669
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -30,11 +30,11 @@ sources:
 
 `sudo modprobe zram num_devices={{2}}`
 
-- Find and initialise the next free zram device to a 2 GB virtual drive using LZ4 compression:
+- Find and initialize the next free zram device to a 2 GB virtual drive using LZ4 compression:
 
 `sudo zramctl --find --size {{2GB}} --algorithm {{lz4}}`
 
-- List currently initialised devices:
+- List currently initialized devices:
 
 `zramctl`
 

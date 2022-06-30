@@ -2,8 +2,8 @@
 id: common.opt
 title: Opt
 desc: ''
-updated: 1642441815054
-created: 1642441815054
+updated: 1656591837537
+created: 1656591837537
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -14,7 +14,7 @@ sources:
 ---
 # opt
 
-> A tool that takes LLVM source files and runs specified optimizations and/or analyses on them.
+> A tool that takes LLVM source files and runs specified optimizations and/or analysis on them.
 > More information: <https://llvm.org/docs/CommandGuide/opt.html>.
 
 - Run an optimization or analysis on a bitcode file:

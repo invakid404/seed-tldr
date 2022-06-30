@@ -2,8 +2,8 @@
 id: common.atoum
 title: Atoum
 desc: ''
-updated: 1642441814995
-created: 1642441814995
+updated: 1656591837422
+created: 1656591837422
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -17,7 +17,7 @@ sources:
 > A simple, modern and intuitive unit testing framework for PHP.
 > More information: <http://atoum.org>.
 
-- Initialise a configuration file:
+- Initialize a configuration file:
 
 `atoum --init`
 

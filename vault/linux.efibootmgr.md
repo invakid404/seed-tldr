@@ -2,8 +2,8 @@
 id: linux.efibootmgr
 title: Efibootmgr
 desc: ''
-updated: 1642441815093
-created: 1642441815093
+updated: 1656591837620
+created: 1656591837620
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -17,7 +17,7 @@ sources:
 > Manipulate the UEFI Boot Manager.
 > More information: <https://manned.org/efibootmgr>.
 
-- List the current settings / bootnums:
+- List the current settings then bootnums with their name:
 
 `efibootmgr`
 

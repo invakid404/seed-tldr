@@ -2,8 +2,8 @@
 id: common.pip
 title: Pip
 desc: ''
-updated: 1642441815060
-created: 1642441815060
+updated: 1656591837547
+created: 1656591837547
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -41,4 +41,8 @@ sources:
 - Show installed package info:
 
 `pip show {{package_name}}`
+
+- Install packages from a file:
+
+`pip install --requirement {{requirements.txt}}`
 

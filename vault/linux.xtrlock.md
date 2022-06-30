@@ -2,8 +2,8 @@
 id: linux.xtrlock
 title: Xtrlock
 desc: ''
-updated: 1642441815119
-created: 1642441815119
+updated: 1656591837668
+created: 1656591837668
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,6 +15,7 @@ sources:
 # xtrlock
 
 > Lock the X display until the user supplies their password.
+> More information: <https://manned.org/xtrlock>.
 
 - Lock the display and show a padlock instead of the cursor:
 

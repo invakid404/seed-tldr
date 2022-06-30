@@ -2,8 +2,8 @@
 id: linux.po4a-gettextize
 title: Po4a Gettextize
 desc: ''
-updated: 1642441815108
-created: 1642441815108
+updated: 1656591837644
+created: 1656591837644
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -25,7 +25,7 @@ sources:
 
 `po4a-gettextize --help-format`
 
-- Convert a text file along with a translated document to a PO file (`-l` option can be provied multiple times):
+- Convert a text file along with a translated document to a PO file (`-l` option can be provided multiple times):
 
 `po4a-gettextize --format {{text}} --master {{path/to/master.txt}} --localized {{path/to/translated.txt}} --po {{path/to/result.po}}`
 

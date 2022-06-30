@@ -2,8 +2,8 @@
 id: common.nix
 title: Nix
 desc: ''
-updated: 1642441815051
-created: 1642441815051
+updated: 1656591837531
+created: 1656591837531
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -27,7 +27,7 @@ sources:
 
 - Optimise Nix store disk usage by combining duplicate files:
 
-`nix optimise-store`
+`nix store optimise`
 
 - Start an interactive environment for evaluating Nix expressions:
 

@@ -2,8 +2,8 @@
 id: linux.prt-get
 title: Prt Get
 desc: ''
-updated: 1642441815109
-created: 1642441815109
+updated: 1656591837645
+created: 1656591837645
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,6 +15,7 @@ sources:
 # prt-get
 
 > The CRUX package manager.
+> More information: <https://crux.nu/doc/prt-get%20-%20User%20Manual.html>.
 
 - Install a package:
 

@@ -2,8 +2,8 @@
 id: common.gh-pr-create
 title: Gh Pr Create
 desc: ''
-updated: 1642441815020
-created: 1642441815020
+updated: 1656591837470
+created: 1656591837470
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -33,7 +33,7 @@ sources:
 
 `gh pr create --base {{base_branch}} --title "{{title}}" --body "{{body}}"`
 
-- Start opening a pull request in the browser:
+- Start opening a pull request in the default web browser:
 
 `gh pr create --web`
 

@@ -2,8 +2,8 @@
 id: linux.phpquery
 title: Phpquery
 desc: ''
-updated: 1642441815107
-created: 1642441815107
+updated: 1656591837643
+created: 1656591837643
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,6 +15,7 @@ sources:
 # phpquery
 
 > PHP extension manager for Debian-based OSes.
+> More information: <https://helpmanual.io/help/phpquery/>.
 
 - List available PHP versions:
 

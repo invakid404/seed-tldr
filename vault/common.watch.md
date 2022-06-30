@@ -2,8 +2,8 @@
 id: common.watch
 title: Watch
 desc: ''
-updated: 1642441815082
-created: 1642441815082
+updated: 1656591837593
+created: 1656591837593
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -28,4 +28,8 @@ sources:
 - Monitor the contents of a directory, highlighting differences as they appear:
 
 `watch -d {{ls -l}}`
+
+- Repeatedly run a pipeline and show the result:
+
+`watch '{{command_1}} | {{command_2}} | {{command_3}}'`
 

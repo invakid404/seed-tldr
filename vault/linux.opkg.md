@@ -2,8 +2,8 @@
 id: linux.opkg
 title: Opkg
 desc: ''
-updated: 1642441815106
-created: 1642441815106
+updated: 1656591837641
+created: 1656591837641
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,6 +15,7 @@ sources:
 # opkg
 
 > A lightweight package manager used to install OpenWrt packages.
+> More information: <https://openwrt.org/docs/guide-user/additional-software/opkg>.
 
 - Install a package:
 

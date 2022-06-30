@@ -2,8 +2,8 @@
 id: linux.ports
 title: Ports
 desc: ''
-updated: 1642441815108
-created: 1642441815108
+updated: 1656591837644
+created: 1656591837644
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,6 +15,7 @@ sources:
 # ports
 
 > Update/list the ports tree on a CRUX system.
+> More information: <https://manned.org/ports>.
 
 - Update the ports tree:
 

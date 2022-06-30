@@ -2,8 +2,8 @@
 id: linux.uprecords
 title: Uprecords
 desc: ''
-updated: 1642441815116
-created: 1642441815116
+updated: 1656591837658
+created: 1656591837658
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,6 +15,7 @@ sources:
 # uprecords
 
 > Displays a summary of historical uptime records.
+> More information: <https://manned.org/uprecords>.
 
 - Display a summary of the top 10 historical uptime records:
 

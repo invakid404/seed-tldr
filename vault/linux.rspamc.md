@@ -2,8 +2,8 @@
 id: linux.rspamc
 title: Rspamc
 desc: ''
-updated: 1642441815111
-created: 1642441815111
+updated: 1656591837650
+created: 1656591837650
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,6 +15,7 @@ sources:
 # rspamc
 
 > Command-line client for rspamd servers.
+> More information: <https://manned.org/rspamc>.
 
 - Train the bayesian filter to recognise an email as spam:
 

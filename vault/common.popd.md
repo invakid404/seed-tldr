@@ -2,8 +2,8 @@
 id: common.popd
 title: Popd
 desc: ''
-updated: 1642441815060
-created: 1642441815060
+updated: 1656591837549
+created: 1656591837549
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -16,6 +16,7 @@ sources:
 
 > Remove a directory placed on the directory stack via the pushd shell built-in.
 > See also `pushd` to place a directory on the stack and `dirs` to display directory stack contents.
+> More information: <https://www.gnu.org/software/bash/manual/html_node/Directory-Stack-Builtins.html>.
 
 - Remove the top directory from the stack and cd to it:
 

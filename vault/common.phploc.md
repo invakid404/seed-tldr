@@ -2,8 +2,8 @@
 id: common.phploc
 title: Phploc
 desc: ''
-updated: 1642441815057
-created: 1642441815057
+updated: 1656591837542
+created: 1656591837542
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -17,7 +17,7 @@ sources:
 > A tool for quickly measuring the size and analyzing the structure of a PHP project.
 > More information: <https://github.com/sebastianbergmann/phploc>.
 
-- Analyse a directory and print the result:
+- Analyze a directory and print the result:
 
 `phploc {{path/to/directory}}`
 

@@ -2,8 +2,8 @@
 id: linux.runuser
 title: Runuser
 desc: ''
-updated: 1642441815111
-created: 1642441815111
+updated: 1656591837651
+created: 1656591837651
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,6 +15,7 @@ sources:
 # runuser
 
 > Run commands as a specific user and group without asking for password (needs root privileges).
+> More information: <https://manned.org/runuser>.
 
 - Run command as a different user:
 

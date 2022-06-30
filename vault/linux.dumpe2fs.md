@@ -2,8 +2,8 @@
 id: linux.dumpe2fs
 title: Dumpe2fs
 desc: ''
-updated: 1642441815093
-created: 1642441815093
+updated: 1656591837619
+created: 1656591837619
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -26,7 +26,7 @@ sources:
 
 `dumpe2fs -b {{/dev/sdXN}}`
 
-- Force display filesystem information even with non-recognisable feature flags:
+- Force display filesystem information even with unrecognizable feature flags:
 
 `dumpe2fs -f {{/dev/sdXN}}`
 

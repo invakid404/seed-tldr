@@ -2,8 +2,8 @@
 id: common.pwd
 title: Pwd
 desc: ''
-updated: 1642441815063
-created: 1642441815063
+updated: 1656591837553
+created: 1656591837553
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -23,9 +23,9 @@ sources:
 
 - Print the current directory, and resolve all symlinks (i.e. show the "physical" path):
 
-`pwd --physical`
+`pwd -P`
 
 - Print the current logical directory:
 
-`pwd --logical`
+`pwd -L`
 

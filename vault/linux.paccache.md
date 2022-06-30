@@ -2,8 +2,8 @@
 id: linux.paccache
 title: Paccache
 desc: ''
-updated: 1642441815106
-created: 1642441815106
+updated: 1656591837641
+created: 1656591837641
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,6 +15,7 @@ sources:
 # paccache
 
 > A pacman cache cleaning utility.
+> More information: <https://manned.org/paccache>.
 
 - Remove all but the 3 most recent package versions from the pacman cache:
 

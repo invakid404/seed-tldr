@@ -2,8 +2,8 @@
 id: common.zeek
 title: Zeek
 desc: ''
-updated: 1642441815086
-created: 1642441815086
+updated: 1656591837600
+created: 1656591837600
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -14,7 +14,7 @@ sources:
 ---
 # zeek
 
-> Passive network traffic analyser.
+> Passive network traffic analyzer.
 > Any output and log files will be saved to the current working directory.
 > More information: <https://docs.zeek.org/en/lts/quickstart.html#zeek-as-a-command-line-utility>.
 

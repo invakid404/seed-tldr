@@ -2,8 +2,8 @@
 id: linux.snap
 title: Snap
 desc: ''
-updated: 1642441815113
-created: 1642441815113
+updated: 1656591837654
+created: 1656591837654
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -16,6 +16,7 @@ sources:
 
 > Tool for managing the "snap" self-contained software packages.
 > Similar to what `apt` is for ".deb".
+> More information: <https://manned.org/snap>.
 
 - Search for a package:
 

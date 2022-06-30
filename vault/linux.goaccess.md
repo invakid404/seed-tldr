@@ -2,8 +2,8 @@
 id: linux.goaccess
 title: Goaccess
 desc: ''
-updated: 1642441815096
-created: 1642441815096
+updated: 1656591837625
+created: 1656591837625
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -25,7 +25,7 @@ sources:
 
 `goaccess {{path/to/logfile}} --log-format={{format}}`
 
-- Analyse a log from stdin:
+- Analyze a log from stdin:
 
 `tail -f {{path/to/logfile}} | goaccess -`
 

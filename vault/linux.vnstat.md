@@ -2,8 +2,8 @@
 id: linux.vnstat
 title: Vnstat
 desc: ''
-updated: 1642441815117
-created: 1642441815117
+updated: 1656591837660
+created: 1656591837660
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,6 +15,7 @@ sources:
 # vnstat
 
 > A console-based network traffic monitor.
+> More information: <https://manned.org/vnstat>.
 
 - Display traffic summary for all interfaces:
 

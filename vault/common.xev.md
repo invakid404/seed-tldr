@@ -2,8 +2,8 @@
 id: common.xev
 title: Xev
 desc: ''
-updated: 1642441815084
-created: 1642441815084
+updated: 1656591837596
+created: 1656591837596
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -17,7 +17,7 @@ sources:
 > Print contents of X events.
 > More information: <https://gitlab.freedesktop.org/xorg/app/xev>.
 
-- Monitor all occuring X events:
+- Monitor all occurring X events:
 
 `xev`
 

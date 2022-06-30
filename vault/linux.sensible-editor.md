@@ -2,8 +2,8 @@
 id: linux.sensible-editor
 title: Sensible Editor
 desc: ''
-updated: 1642441815112
-created: 1642441815112
+updated: 1656591837652
+created: 1656591837652
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,6 +15,7 @@ sources:
 # sensible-editor
 
 > Open the default editor.
+> More information: <https://manned.org/sensible-editor>.
 
 - Open a file in the default editor:
 

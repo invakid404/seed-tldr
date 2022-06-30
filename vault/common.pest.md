@@ -2,8 +2,8 @@
 id: common.pest
 title: Pest
 desc: ''
-updated: 1642441815056
-created: 1642441815056
+updated: 1656591837541
+created: 1656591837541
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -17,7 +17,7 @@ sources:
 > A PHP testing framework with a focus on simplicity.
 > More information: <https://pestphp.com>.
 
-- Initialise a standard Pest configuration in the current directory:
+- Initialize a standard Pest configuration in the current directory:
 
 `pest --init`
 

@@ -2,8 +2,8 @@
 id: common.glab-alias
 title: Glab Alias
 desc: ''
-updated: 1642441815028
-created: 1642441815028
+updated: 1656591837485
+created: 1656591837485
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -27,7 +27,7 @@ sources:
 
 - Create a `glab` subcommand alias:
 
-`glab alias set {{pv}} '{{pr view}}'`
+`glab alias set {{mrv}} '{{mr view}}'`
 
 - Set a shell command as a `glab` subcommand:
 

@@ -2,8 +2,8 @@
 id: linux.pacaur
 title: Pacaur
 desc: ''
-updated: 1642441815106
-created: 1642441815106
+updated: 1656591837641
+created: 1656591837641
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,6 +15,7 @@ sources:
 # pacaur
 
 > A utility for Arch Linux to build and install packages from the Arch User Repository.
+> More information: <https://github.com/rmarquis/pacaur>.
 
 - Synchronize and update all packages (includes AUR):
 

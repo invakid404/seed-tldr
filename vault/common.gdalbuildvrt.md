@@ -2,8 +2,8 @@
 id: common.gdalbuildvrt
 title: Gdalbuildvrt
 desc: ''
-updated: 1642441815019
-created: 1642441815019
+updated: 1656591837468
+created: 1656591837468
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -29,7 +29,7 @@ sources:
 
 `gdalbuildvrt -separate {{path/to/rgb.vrt}} {{path/to/red.tif}} {{path/to/green.tif}} {{path/to/blue.tif}}`
 
-- Make a virtual mosaic with blue background colour (RGB: 0 0 255):
+- Make a virtual mosaic with blue background color (RGB: 0 0 255):
 
 `gdalbuildvrt -hidenodata -vrtnodata "{{0 0 255}}" {{path/to/output.vrt}} {{path/to/input_directory/*.tif}}`
 

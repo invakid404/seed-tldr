@@ -2,8 +2,8 @@
 id: linux.sa
 title: Sa
 desc: ''
-updated: 1642441815112
-created: 1642441815112
+updated: 1656591837651
+created: 1656591837651
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -16,6 +16,7 @@ sources:
 
 > Summarizes accounting information. Part of the acct package.
 > Shows commands called by users, including basic info on CPU time spent processing and I/O rates.
+> More information: <https://manned.org/man/sa.8>.
 
 - Display executable invocations per user (username not displayed):
 

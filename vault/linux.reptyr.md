@@ -2,8 +2,8 @@
 id: linux.reptyr
 title: Reptyr
 desc: ''
-updated: 1642441815110
-created: 1642441815110
+updated: 1656591837649
+created: 1656591837649
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -12,7 +12,7 @@ sources:
     url: 'https://github.com/tldr-pages/tldr/blob/master/LICENSE.md'
     license: Creative Commons
 ---
-# reptry
+# reptyr
 
 > Move a running process to a new terminal.
 > Best used when you forget to start a long running task in `screen`.

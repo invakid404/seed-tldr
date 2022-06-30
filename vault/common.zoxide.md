@@ -2,8 +2,8 @@
 id: common.zoxide
 title: Zoxide
 desc: ''
-updated: 1642441815086
-created: 1642441815086
+updated: 1656591837601
+created: 1656591837601
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -34,9 +34,9 @@ sources:
 
 `zoxide add {{path/to/directory}}`
 
-- Remove a directory from `zoxide`'s database:
+- Remove a directory from `zoxide`'s database interactively:
 
-`zoxide remove {{path/to/directory}}`
+`zoxide remove {{path/to/directory}} --interactive`
 
 - Generate shell configuration for command aliases (`z`, `za`, `zi`, `zq`, `zr`):
 

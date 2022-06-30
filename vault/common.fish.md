@@ -2,8 +2,8 @@
 id: common.fish
 title: Fish
 desc: ''
-updated: 1642441815018
-created: 1642441815018
+updated: 1656591837465
+created: 1656591837465
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -25,17 +25,21 @@ sources:
 
 `fish --no-config`
 
-- Execute a command:
+- Execute specific commands:
 
-`fish --command "{{command}}"`
+`fish --command "{{echo 'fish is executed'}}"`
 
-- Execute a script:
+- Execute a specific script:
 
 `fish {{path/to/script.fish}}`
 
-- Check a script for syntax errors:
+- Check a specific script for syntax errors:
 
 `fish --no-execute {{path/to/script.fish}}`
+
+- Execute specific commands from stdin:
+
+`{{echo "echo 'fish is executed'"}} | fish`
 
 - Start an interactive shell session in private mode, where the shell does not access old history or save new history:
 
@@ -44,8 +48,4 @@ sources:
 - Define and export an environmental variable that persists across shell restarts (builtin):
 
 `set --universal --export {{variable_name}} {{variable_value}}`
-
-- Print the version:
-
-`fish --version`
 

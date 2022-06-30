@@ -2,8 +2,8 @@
 id: linux.script
 title: Script
 desc: ''
-updated: 1642441815112
-created: 1642441815112
+updated: 1656591837651
+created: 1656591837651
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,6 +15,7 @@ sources:
 # script
 
 > Record all terminal output to file.
+> More information: <https://manned.org/script>.
 
 - Record a new session to a file named `typescript` in the current directory:
 

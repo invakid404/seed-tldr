@@ -2,8 +2,8 @@
 id: linux.journalctl
 title: Journalctl
 desc: ''
-updated: 1642441815100
-created: 1642441815100
+updated: 1656591837629
+created: 1656591837629
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -17,17 +17,17 @@ sources:
 > Query the systemd journal.
 > More information: <https://manned.org/journalctl>.
 
-- Show all messages from this [b]oot:
+- Show all messages with priority level 3 (errors) from this [b]oot:
 
-`journalctl -b`
+`journalctl -b --priority={{3}}`
 
 - Show all messages from last [b]oot:
 
 `journalctl -b -1`
 
-- Show all messages with priority level 3 (errors) from this [b]oot:
+- Delete journal logs which are older than 2 days:
 
-`journalctl -b --priority={{3}}`
+`journalctl --vacuum-time={{2d}}`
 
 - [f]ollow new messages (like `tail -f` for traditional syslog):
 

@@ -2,8 +2,8 @@
 id: linux.setfacl
 title: Setfacl
 desc: ''
-updated: 1642441815112
-created: 1642441815112
+updated: 1656591837652
+created: 1656591837652
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,6 +15,7 @@ sources:
 # setfacl
 
 > Set file access control lists (ACL).
+> More information: <https://manned.org/setfacl>.
 
 - Modify ACL of a file for user with read and write access:
 

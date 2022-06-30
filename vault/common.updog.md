@@ -2,8 +2,8 @@
 id: common.updog
 title: Updog
 desc: ''
-updated: 1642441815079
-created: 1642441815079
+updated: 1656591837586
+created: 1656591837586
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -34,7 +34,7 @@ sources:
 
 `updog --password {{password}}`
 
-- Enable transport encryption via SSL :
+- Enable transport encryption via SSL:
 
 `updog --ssl`
 

@@ -2,8 +2,8 @@
 id: common.rspec
 title: Rspec
 desc: ''
-updated: 1642441815066
-created: 1642441815066
+updated: 1656591837559
+created: 1656591837559
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -17,7 +17,7 @@ sources:
 > Behavior-driven development testing framework written in Ruby to test Ruby code.
 > More information: <https://rspec.info>.
 
-- Initialise an .rspec config and a spec helper file:
+- Initialize an .rspec config and a spec helper file:
 
 `rspec --init`
 

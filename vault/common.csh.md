@@ -2,8 +2,8 @@
 id: common.csh
 title: Csh
 desc: ''
-updated: 1642441815005
-created: 1642441815005
+updated: 1656591837439
+created: 1656591837439
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,6 +15,7 @@ sources:
 # csh
 
 > The shell (command interpreter) with C-like syntax.
+> See also: `tcsh`.
 > More information: <https://www.mkssoftware.com/docs/man1/csh.1.asp>.
 
 - Start an interactive shell session:
@@ -25,11 +26,11 @@ sources:
 
 `csh -f`
 
-- Execute a [c]ommand:
+- Execute specific [c]ommands:
 
-`csh -c "{{command}}"`
+`csh -c "{{echo 'csh is executed'}}"`
 
-- Execute a script:
+- Execute a specific script:
 
 `csh {{path/to/script.csh}}`
 

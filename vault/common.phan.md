@@ -2,8 +2,8 @@
 id: common.phan
 title: Phan
 desc: ''
-updated: 1642441815057
-created: 1642441815057
+updated: 1656591837541
+created: 1656591837541
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -25,11 +25,11 @@ sources:
 
 `phan --init --init-level {{level}}`
 
-- Analyse the current directory:
+- Analyze the current directory:
 
 `phan`
 
-- Analyse one or more directories:
+- Analyze one or more directories:
 
 `phan --directory {{path/to/directory}} --directory {{path/to/another_directory}}`
 

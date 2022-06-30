@@ -2,8 +2,8 @@
 id: linux.ndctl
 title: Ndctl
 desc: ''
-updated: 1642441815105
-created: 1642441815105
+updated: 1656591837638
+created: 1656591837638
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,6 +15,7 @@ sources:
 # ndctl
 
 > Utility for managing Non-Volatile DIMMs.
+> More information: <https://manned.org/ndctl>.
 
 - Create an 'fsdax' mode namespace:
 

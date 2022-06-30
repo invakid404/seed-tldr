@@ -2,8 +2,8 @@
 id: linux.perl-rename
 title: Perl Rename
 desc: ''
-updated: 1642441815107
-created: 1642441815107
+updated: 1656591837642
+created: 1656591837642
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -16,6 +16,7 @@ sources:
 
 > Rename multiple files.
 > NOTE: this page refers to the command from the `perl-rename` Arch Linux package.
+> More information: <https://manned.org/rename>.
 
 - Rename files using a Perl Common Regular Expression (substitute 'foo' with 'bar' wherever found):
 

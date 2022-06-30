@@ -2,8 +2,8 @@
 id: common.glab
 title: Glab
 desc: ''
-updated: 1642441815028
-created: 1642441815029
+updated: 1656591837486
+created: 1656591837486
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -14,30 +14,35 @@ sources:
 ---
 # glab
 
-> GitLab CLI tool to help working with GitLab from the command-line.
+> Work seamlessly with GitLab from the command-line.
+> Some subcommands such as `glab config` have their own usage documentation.
 > More information: <https://github.com/profclems/glab>.
 
-- Create a merge request:
+- Clone a GitLab repository locally:
 
-`glab mr create`
-
-- List merge requests:
-
-`glab mr list`
+`glab repo clone {{owner}}/{{repository}}`
 
 - Create a new issue:
 
 `glab issue create`
 
-- View and filter the current repository's open issues:
+- View and filter the open issues of the current repository:
 
 `glab issue list`
 
-- List pipelines:
+- View an issue in the default browser:
 
-`glab pipeline list`
+`glab issue view --web {{issue_number}}`
 
-- Clone a repository into a specific directory:
+- Create a merge request:
 
-`glab repo clone {{user}}/{{repository}} {{directory}}`
+`glab mr create`
+
+- View a pull request in the default web browser:
+
+`glab mr view --web {{pr_number}}`
+
+- Check out a specific pull request locally:
+
+`glab mr checkout {{pr_number}}`
 

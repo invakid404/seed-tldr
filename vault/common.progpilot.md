@@ -2,8 +2,8 @@
 id: common.progpilot
 title: Progpilot
 desc: ''
-updated: 1642441815061
-created: 1642441815061
+updated: 1656591837550
+created: 1656591837550
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -17,11 +17,11 @@ sources:
 > A PHP static analysis tool for detecting security vulnerabilities.
 > More information: <https://github.com/designsecurity/progpilot>.
 
-- Analyse the current directory:
+- Analyze the current directory:
 
 `progpilot`
 
-- Analyse a specific file or directory:
+- Analyze a specific file or directory:
 
 `progpilot {{path/to/file_or_directory}}`
 

@@ -2,8 +2,8 @@
 id: common.phing
 title: Phing
 desc: ''
-updated: 1642441815057
-created: 1642441815057
+updated: 1656591837542
+created: 1656591837542
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -21,7 +21,7 @@ sources:
 
 `phing`
 
-- Initialise a new build file:
+- Initialize a new build file:
 
 `phing -i {{path/to/build.xml}}`
 

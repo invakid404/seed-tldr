@@ -2,8 +2,8 @@
 id: common.hydra
 title: Hydra
 desc: ''
-updated: 1642441815034
-created: 1642441815034
+updated: 1656591837496
+created: 1656591837496
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -26,9 +26,9 @@ sources:
 
 `hydra -l {{username}} -P {{path/to/wordlist.txt}} {{host_ip}} {{ssh}}`
 
-- Guess Telnet credentials using a list of usernames and a single password, specifying a non-standard port and IPv6:
+- Guess HTTPS webform credentials using two specific lists of usernames and passwords ("https_post_request" can be like "username=^USER^&password=^PASS^"):
 
-`hydra -L {{path/to/usernames.txt}} -p {{password}} -s {{port}} -6 {{host_ip}} {{telnet}}`
+`hydra -L {{path/to/usernames.txt}} -P {{path/to/wordlist.txt}} {{host_ip}} {{https-post-form}} "{{url_without_host}}:{{https_post_request}}:{{login_failed_string}}"`
 
 - Guess FTP credentials using usernames and passwords lists, specifying the number of threads:
 

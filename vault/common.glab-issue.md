@@ -2,8 +2,8 @@
 id: common.glab-issue
 title: Glab Issue
 desc: ''
-updated: 1642574148922
-created: 1642574148922
+updated: 1656591837485
+created: 1656591837485
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -20,6 +20,10 @@ sources:
 - Display a specific issue:
 
 `glab issue view {{issue_number}}`
+
+- Display a specific issue in the default web browser:
+
+`glab issue view {{issue_number}} --web`
 
 - Create a new issue in the default web browser:
 

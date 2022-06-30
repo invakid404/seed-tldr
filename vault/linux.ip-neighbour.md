@@ -2,8 +2,8 @@
 id: linux.ip-neighbour
 title: Ip Neighbour
 desc: ''
-updated: 1642441815099
-created: 1642441815099
+updated: 1656591837628
+created: 1656591837628
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -12,7 +12,7 @@ sources:
     url: 'https://github.com/tldr-pages/tldr/blob/master/LICENSE.md'
     license: Creative Commons
 ---
-# ip-neighbour
+# ip neighbour
 
 > Neighbour/ARP tables management IP subcommand.
 > More information: <https://manned.org/ip-neighbour.8>.

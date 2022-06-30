@@ -2,8 +2,8 @@
 id: linux.nordvpn
 title: Nordvpn
 desc: ''
-updated: 1642441815106
-created: 1642441815106
+updated: 1656591837640
+created: 1656591837640
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -36,4 +36,12 @@ sources:
 - Connect to a NordVPN server in a specific country:
 
 `nordvpn connect {{Germany}}`
+
+- Connect to a NordVPN server in a specific country and city:
+
+`nordvpn connect {{Germany}} {{Berlin}}`
+
+- Set autoconnect option:
+
+`nordvpn set autoconnect on`
 

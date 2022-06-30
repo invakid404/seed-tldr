@@ -2,8 +2,8 @@
 id: linux.sensors
 title: Sensors
 desc: ''
-updated: 1642441815112
-created: 1642441815112
+updated: 1656591837652
+created: 1656591837652
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,6 +15,7 @@ sources:
 # sensors
 
 > Report sensors information.
+> More information: <https://manned.org/sensors>.
 
 - Show the current readings of all sensor chips:
 

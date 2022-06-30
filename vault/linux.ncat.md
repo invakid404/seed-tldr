@@ -2,8 +2,8 @@
 id: linux.ncat
 title: Ncat
 desc: ''
-updated: 1642441815105
-created: 1642441815105
+updated: 1656591837638
+created: 1656591837638
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,6 +15,7 @@ sources:
 # ncat
 
 > Use the normal `cat` functionality over networks.
+> More information: <https://manned.org/ncat>.
 
 - Listen for input on the specified port and write it to the specified file:
 

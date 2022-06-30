@@ -2,8 +2,8 @@
 id: linux.reflector
 title: Reflector
 desc: ''
-updated: 1642441815110
-created: 1642441815110
+updated: 1656591837649
+created: 1656591837649
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,6 +15,7 @@ sources:
 # reflector
 
 > Arch script to fetch and sort mirrorlists.
+> More information: <https://manned.org/reflector>.
 
 - Get all mirrors, sort for download speed and save them:
 

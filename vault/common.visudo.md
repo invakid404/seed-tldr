@@ -2,8 +2,8 @@
 id: common.visudo
 title: Visudo
 desc: ''
-updated: 1642441815081
-created: 1642441815081
+updated: 1656591837591
+created: 1656591837591
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -24,6 +24,10 @@ sources:
 - Check the sudoers file for errors:
 
 `sudo visudo -c`
+
+- Edit the sudoers file using a specific editor:
+
+`sudo EDITOR={{editor}} visudo`
 
 - Display version information:
 

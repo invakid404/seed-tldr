@@ -2,8 +2,8 @@
 id: linux.tcpflow
 title: Tcpflow
 desc: ''
-updated: 1642441815114
-created: 1642441815114
+updated: 1656591837655
+created: 1656591837655
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,6 +15,7 @@ sources:
 # tcpflow
 
 > Capture TCP traffic for debugging and analysis.
+> More information: <https://manned.org/tcpflow>.
 
 - Show all data on the given interface and port:
 

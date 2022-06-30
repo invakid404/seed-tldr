@@ -2,8 +2,8 @@
 id: linux.kde-inhibit
 title: Kde Inhibit
 desc: ''
-updated: 1642441815100
-created: 1642441815100
+updated: 1656591837629
+created: 1656591837629
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,6 +15,7 @@ sources:
 # kde-inhibit
 
 > Inhibit various desktop functions while a command runs.
+> More information: <https://invent.kde.org/plasma/kde-cli-tools/-/blob/master/kdeinhibit/main.cpp>.
 
 - Inhibit power management:
 

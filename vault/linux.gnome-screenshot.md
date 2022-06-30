@@ -1,0 +1,51 @@
+---
+id: linux.gnome-screenshot
+title: Gnome Screenshot
+desc: ''
+updated: 1656591837625
+created: 1656591837625
+stub: false
+isDir: false
+gitNotePath: 'pages/{{ noteHiearchy }}.md'
+sources:
+  - name: tldr-pages
+    url: 'https://github.com/tldr-pages/tldr/blob/master/LICENSE.md'
+    license: Creative Commons
+---
+# gnome-screenshot
+
+> Capture the screen, a window, or a user-defined area and save the image to a file.
+> More information: <https://manned.org/gnome-screenshot>.
+
+- Take a screenshot and save it to the default location, normally `~/Pictures`:
+
+`gnome-screenshot`
+
+- Take a screenshot and save it to the named file location:
+
+`gnome-screenshot --file {{path/to/file}}`
+
+- Take a screenshot and save it to the clipboard:
+
+`gnome-screenshot --clipboard`
+
+- Take a screenshot after the specified number of seconds:
+
+`gnome-screenshot --delay {{5}}`
+
+- Launch the GNOME Screenshot GUI:
+
+`gnome-screenshot --interactive`
+
+- Take a screenshot of the current window and save it to the specified file location:
+
+`gnome-screenshot --window --file {{path/to/file}}`
+
+- Take a screenshot after the specified number of seconds and save it to the clipboard:
+
+`gnome-screenshot --delay {{10}} --clipboard`
+
+- Display the version:
+
+`gnome-screenshot --version`
+

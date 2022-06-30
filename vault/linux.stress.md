@@ -2,8 +2,8 @@
 id: linux.stress
 title: Stress
 desc: ''
-updated: 1642441815114
-created: 1642441815114
+updated: 1656591837655
+created: 1656591837655
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,6 +15,7 @@ sources:
 # stress
 
 > A tool to stress test CPU, memory, and IO on a Linux system.
+> More information: <https://manned.org/stress>.
 
 - Spawn 4 workers to stress test CPU:
 

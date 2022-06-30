@@ -2,8 +2,8 @@
 id: common.unison
 title: Unison
 desc: ''
-updated: 1642441815079
-created: 1642441815079
+updated: 1656591837586
+created: 1656591837586
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -17,7 +17,7 @@ sources:
 > Bidirectional file synchronisation tool.
 > More information: <https://www.cis.upenn.edu/~bcpierce/unison/download/releases/stable/unison-manual.html>.
 
-- Sync two directories (creates log first time these two directories are synchronised):
+- Sync two directories (creates log first time these two directories are synchronized):
 
 `unison {{path/to/directory_1}} {{path/to/directory_2}}`
 

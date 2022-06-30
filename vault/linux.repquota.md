@@ -2,8 +2,8 @@
 id: linux.repquota
 title: Repquota
 desc: ''
-updated: 1642441815110
-created: 1642441815110
+updated: 1656591837649
+created: 1656591837649
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,6 +15,7 @@ sources:
 # repquota
 
 > Display a summary of existing file quotas for a filesystem.
+> More information: <https://manned.org/repquota>.
 
 - Report stats for all quotas in use:
 

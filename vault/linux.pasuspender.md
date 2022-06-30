@@ -2,8 +2,8 @@
 id: linux.pasuspender
 title: Pasuspender
 desc: ''
-updated: 1642441815107
-created: 1642441815107
+updated: 1656591837642
+created: 1656591837642
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,6 +15,7 @@ sources:
 # pasuspender
 
 > Temporarily suspends `pulseaudio` while another command is running to allow access to alsa.
+> More information: <https://manned.org/pasuspender>.
 
 - Suspend PulseAudio while running `jackd`:
 

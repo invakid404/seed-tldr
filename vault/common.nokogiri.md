@@ -2,8 +2,8 @@
 id: common.nokogiri
 title: Nokogiri
 desc: ''
-updated: 1642441815051
-created: 1642441815051
+updated: 1656591837532
+created: 1656591837532
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -25,7 +25,7 @@ sources:
 
 `nokogiri {{url|path/to/file}} --type {{xml|html}}`
 
-- Load a specific initialisation file before parsing:
+- Load a specific initialization file before parsing:
 
 `nokogiri {{url|path/to/file}} -C {{path/to/config_file}}`
 

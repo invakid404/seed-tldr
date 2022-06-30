@@ -2,8 +2,8 @@
 id: linux.taskset
 title: Taskset
 desc: ''
-updated: 1642441815114
-created: 1642441815114
+updated: 1656591837655
+created: 1656591837655
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,6 +15,7 @@ sources:
 # taskset
 
 > Get or set a process' CPU affinity or start a new process with a defined CPU affinity.
+> More information: <https://manned.org/taskset>.
 
 - Get a running process' CPU affinity by PID:
 

@@ -2,8 +2,8 @@
 id: linux.vncviewer
 title: Vncviewer
 desc: ''
-updated: 1642441815117
-created: 1642441815117
+updated: 1656591837660
+created: 1656591837660
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,6 +15,7 @@ sources:
 # vncviewer
 
 > Launches a VNC (Virtual Network Computing) client.
+> More information: <https://manned.org/vncviewer>.
 
 - Launch a VNC client which connects to a host on a given display:
 

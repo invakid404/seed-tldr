@@ -2,8 +2,8 @@
 id: common.vboxmanage
 title: Vboxmanage
 desc: ''
-updated: 1642441815079
-created: 1642441815079
+updated: 1656591837587
+created: 1656591837587
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -32,7 +32,7 @@ sources:
 
 - Start a virtual machine in headless mode:
 
-`VBoxManage startvm {{name|uuid}} -type headless`
+`VBoxManage startvm {{name|uuid}} --type headless`
 
 - Shutdown the virtual machine and save its current state:
 

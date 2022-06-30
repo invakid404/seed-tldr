@@ -2,8 +2,8 @@
 id: linux.xclip
 title: Xclip
 desc: ''
-updated: 1642441815118
-created: 1642441815118
+updated: 1656591837666
+created: 1656591837666
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -16,6 +16,7 @@ sources:
 
 > X11 clipboard manipulation tool, similar to `xsel`.
 > Handles the X primary and secondary selections, plus the system clipboard (`Ctrl + C`/`Ctrl + V`).
+> More information: <https://manned.org/xclip>.
 
 - Copy the output from a command to the X11 primary selection area (clipboard):
 

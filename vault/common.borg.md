@@ -2,8 +2,8 @@
 id: common.borg
 title: Borg
 desc: ''
-updated: 1642441814999
-created: 1642441814999
+updated: 1656591837429
+created: 1656591837429
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -18,7 +18,7 @@ sources:
 > Creates local or remote backups that are mountable as filesystems.
 > More information: <https://borgbackup.readthedocs.io/en/stable/usage/general.html>.
 
-- Initialise a (local) repository:
+- Initialize a (local) repository:
 
 `borg init {{path/to/repo_directory}}`
 

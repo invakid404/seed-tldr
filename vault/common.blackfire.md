@@ -2,8 +2,8 @@
 id: common.blackfire
 title: Blackfire
 desc: ''
-updated: 1642441814999
-created: 1642441814999
+updated: 1656591837428
+created: 1656591837428
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -17,7 +17,7 @@ sources:
 > A command-line profiling tool for PHP.
 > More information: <https://blackfire.io>.
 
-- Initialise and configure the Blackfire client:
+- Initialize and configure the Blackfire client:
 
 `blackfire config`
 

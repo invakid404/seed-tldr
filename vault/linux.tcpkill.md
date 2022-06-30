@@ -2,8 +2,8 @@
 id: linux.tcpkill
 title: Tcpkill
 desc: ''
-updated: 1642441815114
-created: 1642441815114
+updated: 1656591837655
+created: 1656591837655
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,6 +15,7 @@ sources:
 # tcpkill
 
 > Kills specified in-progress TCP connections.
+> More information: <https://manned.org/tcpkill>.
 
 - Kill in-progress connections at a specified interface, host and port:
 

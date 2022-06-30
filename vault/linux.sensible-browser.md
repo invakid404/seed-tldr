@@ -2,8 +2,8 @@
 id: linux.sensible-browser
 title: Sensible Browser
 desc: ''
-updated: 1642441815112
-created: 1642441815112
+updated: 1656591837652
+created: 1656591837652
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,6 +15,7 @@ sources:
 # sensible-browser
 
 > Open the default browser.
+> More information: <https://manned.org/sensible-browser>.
 
 - Open a new window of the default browser:
 

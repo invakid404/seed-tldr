@@ -2,8 +2,8 @@
 id: linux.wl-copy
 title: Wl Copy
 desc: ''
-updated: 1647496911535
-created: 1647496911535
+updated: 1656591837661
+created: 1656591837661
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -18,17 +18,17 @@ sources:
 > See also: `wl-paste`.
 > More information: <https://github.com/bugaevc/wl-clipboard>.
 
-- Copy text to the clipboard:
+- Copy the text to the clipboard:
 
-`wl-copy {{text}}`
+`wl-copy "{{text}}"`
 
-- Copy the output of a command to the clipboard:
+- Pipe the command (`ls`) output to the clipboard:
 
-`{{command}} | wl-copy`
+`{{ls}} | wl-copy`
 
 - Copy for only one paste and then clear it:
 
-`wl-copy --paste-once`
+`wl-copy --paste-once "{{text}}"`
 
 - Clear the clipboard:
 

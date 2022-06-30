@@ -2,8 +2,8 @@
 id: linux.ctrlaltdel
 title: Ctrlaltdel
 desc: ''
-updated: 1642441815091
-created: 1642441815091
+updated: 1656591837612
+created: 1656591837612
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,6 +15,7 @@ sources:
 # ctrlaltdel
 
 > Utility to control what happens when CTRL+ALT+DEL is pressed.
+> More information: <https://manned.org/ctrlaltdel>.
 
 - Get current setting:
 

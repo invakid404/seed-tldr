@@ -2,8 +2,8 @@
 id: linux.pinout
 title: Pinout
 desc: ''
-updated: 1642441815108
-created: 1642441815108
+updated: 1656591837643
+created: 1656591837643
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -21,7 +21,7 @@ sources:
 
 `pinout`
 
-- Open <https://pinout.xyz/> in the default broswer:
+- Open <https://pinout.xyz/> in the default browser:
 
 `pinout -x`
 

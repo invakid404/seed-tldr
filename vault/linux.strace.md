@@ -2,8 +2,8 @@
 id: linux.strace
 title: Strace
 desc: ''
-updated: 1642441815114
-created: 1642441815114
+updated: 1656591837654
+created: 1656591837654
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,6 +15,7 @@ sources:
 # strace
 
 > Troubleshooting tool for tracing system calls.
+> More information: <https://manned.org/strace>.
 
 - Start tracing a specific process by its PID:
 

@@ -2,8 +2,8 @@
 id: linux.x11vnc
 title: X11vnc
 desc: ''
-updated: 1642441815118
-created: 1642441815118
+updated: 1656591837661
+created: 1656591837661
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -16,6 +16,7 @@ sources:
 
 > A VNC server that will enable VNC on an existing display server.
 > By default, the server will automatically terminate once all clients disconnect from it.
+> More information: <https://manned.org/x11vnc>.
 
 - Launch a VNC server that allows multiple clients to connect:
 

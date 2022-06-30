@@ -2,8 +2,8 @@
 id: linux.trash
 title: Trash
 desc: ''
-updated: 1642441815115
-created: 1642441815115
+updated: 1656591837656
+created: 1656591837656
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -33,7 +33,7 @@ sources:
 
 `trash-empty`
 
-- Permanentely delete all files in the trash which are older than 10 days:
+- Permanently delete all files in the trash which are older than 10 days:
 
 `trash-empty {{10}}`
 

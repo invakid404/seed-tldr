@@ -2,8 +2,8 @@
 id: linux.atool
 title: Atool
 desc: ''
-updated: 1642441815088
-created: 1642441815088
+updated: 1656591837605
+created: 1656591837605
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -27,9 +27,9 @@ sources:
 
 - Create a new 7zip archive with two files:
 
-`atool --add {{path/to/archive.7z}} {{path/to/file1}} {{path/to/file2}}`
+`atool --add {{path/to/archive.7z}} {{path/to/file1 path/to/file2 ...}}`
 
 - Extract all zip and rar archives in the current directory:
 
-`atool --each --extract {{*.zip}} {{*.rar}}`
+`atool --each --extract {{*.zip *.rar}}`
 

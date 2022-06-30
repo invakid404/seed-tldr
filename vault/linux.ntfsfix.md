@@ -2,8 +2,8 @@
 id: linux.ntfsfix
 title: Ntfsfix
 desc: ''
-updated: 1642441815106
-created: 1642441815106
+updated: 1656591837640
+created: 1656591837640
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,6 +15,7 @@ sources:
 # ntfsfix
 
 > Fix common problems on an NTFS partition.
+> More information: <https://manned.org/ntfsfix>.
 
 - Fix a given NTFS partition:
 

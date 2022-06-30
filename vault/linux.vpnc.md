@@ -2,8 +2,8 @@
 id: linux.vpnc
 title: Vpnc
 desc: ''
-updated: 1642441815117
-created: 1642441815117
+updated: 1656591837660
+created: 1656591837660
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,6 +15,7 @@ sources:
 # vpnc
 
 > A VPN client for the Cisco 3000 VPN Concentrator.
+> More information: <https://manned.org/vpnc>.
 
 - Connect with a defined configuration file:
 

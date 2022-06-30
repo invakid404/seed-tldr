@@ -2,8 +2,8 @@
 id: linux.scriptreplay
 title: Scriptreplay
 desc: ''
-updated: 1642441815112
-created: 1642441815112
+updated: 1656591837652
+created: 1656591837652
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,6 +15,7 @@ sources:
 # scriptreplay
 
 > Replay a typescript created by the `script` command to the standard output.
+> More information: <https://manned.org/scriptreplay>.
 
 - Replay a typescript at the speed it was recorded:
 

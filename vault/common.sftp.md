@@ -2,8 +2,8 @@
 id: common.sftp
 title: Sftp
 desc: ''
-updated: 1642441815068
-created: 1642441815068
+updated: 1656591837567
+created: 1656591837567
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -26,6 +26,10 @@ sources:
 - Connect using an alternate port:
 
 `sftp -P {{remote_port}} {{remote_user}}@{{remote_host}}`
+
+- Connect using a predefined host (in `~/.ssh/config`):
+
+`sftp {{host}}`
 
 - Transfer remote file to the local system:
 

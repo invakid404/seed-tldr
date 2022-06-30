@@ -2,8 +2,8 @@
 id: linux.xsel
 title: Xsel
 desc: ''
-updated: 1642441815118
-created: 1642441815118
+updated: 1656591837668
+created: 1656591837668
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,6 +15,7 @@ sources:
 # xsel
 
 > X11 selection and clipboard manipulation tool.
+> More information: <https://manned.org/xsel>.
 
 - Use a command's output as input of the clip[b]oard (equivalent to `Ctrl + C`):
 

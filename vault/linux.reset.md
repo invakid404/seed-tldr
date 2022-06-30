@@ -2,8 +2,8 @@
 id: linux.reset
 title: Reset
 desc: ''
-updated: 1642441815110
-created: 1642441815110
+updated: 1656591837649
+created: 1656591837649
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -14,9 +14,10 @@ sources:
 ---
 # reset
 
-> Reinitialises the current terminal. Clears the entire terminal screen.
+> Reinitializes the current terminal. Clears the entire terminal screen.
+> More information: <https://manned.org/reset>.
 
-- Reinitialise the current terminal:
+- Reinitialize the current terminal:
 
 `reset`
 

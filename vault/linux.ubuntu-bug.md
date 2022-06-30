@@ -2,8 +2,8 @@
 id: linux.ubuntu-bug
 title: Ubuntu Bug
 desc: ''
-updated: 1642441815115
-created: 1642441815115
+updated: 1656591837657
+created: 1656591837657
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,6 +15,7 @@ sources:
 # ubuntu-bug
 
 > This command is an alias of `apport-bug`.
+> More information: <https://manned.org/ubuntu-bug>.
 
 - View documentation for the original command:
 

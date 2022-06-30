@@ -2,8 +2,8 @@
 id: linux.pwdx
 title: Pwdx
 desc: ''
-updated: 1642441815109
-created: 1642441815109
+updated: 1656591837647
+created: 1656591837647
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,6 +15,7 @@ sources:
 # pwdx
 
 > Print working directory of a process.
+> More information: <https://manned.org/pwdx>.
 
 - Print current working directory of a process:
 

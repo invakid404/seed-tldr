@@ -2,8 +2,8 @@
 id: linux.wpa_cli
 title: Wpa_cli
 desc: ''
-updated: 1642441815117
-created: 1642441815117
+updated: 1656591837661
+created: 1656591837661
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,6 +15,7 @@ sources:
 # wpa_cli
 
 > Add and configure wlan interfaces.
+> More information: <https://manned.org/wpa_cli>.
 
 - Scan for available networks:
 

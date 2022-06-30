@@ -2,8 +2,8 @@
 id: linux.see
 title: See
 desc: ''
-updated: 1642441815112
-created: 1642441815112
+updated: 1656591837652
+created: 1656591837652
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -16,6 +16,7 @@ sources:
 
 > Alias to `run-mailcap`'s view.
 > An alias to a `run-mailcap`'s action print.
+> More information: <https://manned.org/see>.
 
 - See action can be used to view any file (usually image) on default mailcap explorer:
 

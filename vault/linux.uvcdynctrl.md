@@ -2,8 +2,8 @@
 id: linux.uvcdynctrl
 title: Uvcdynctrl
 desc: ''
-updated: 1642441815116
-created: 1642441815116
+updated: 1656591837658
+created: 1656591837658
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,6 +15,7 @@ sources:
 # uvcdynctrl
 
 > A libwebcam command-line tool to manage dynamic controls in uvcvideo.
+> More information: <https://manned.org/uvcdynctrl>.
 
 - List all available cameras:
 

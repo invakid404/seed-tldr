@@ -2,8 +2,8 @@
 id: linux.ncal
 title: Ncal
 desc: ''
-updated: 1642441815105
-created: 1642441815105
+updated: 1656591837638
+created: 1656591837638
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,6 +15,7 @@ sources:
 # ncal
 
 > This command is an alias of `cal`.
+> More information: <https://manned.org/ncal>.
 
 - View documentation for the original command:
 

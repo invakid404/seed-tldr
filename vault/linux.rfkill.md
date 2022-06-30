@@ -2,8 +2,8 @@
 id: linux.rfkill
 title: Rfkill
 desc: ''
-updated: 1642441815110
-created: 1642441815110
+updated: 1656591837649
+created: 1656591837649
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,6 +15,7 @@ sources:
 # rfkill
 
 > Enable and disable wireless devices.
+> More information: <https://manned.org/rfkill>.
 
 - List devices:
 

@@ -2,8 +2,8 @@
 id: linux.pidof
 title: Pidof
 desc: ''
-updated: 1642441815107
-created: 1642441815107
+updated: 1656591837643
+created: 1656591837643
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,6 +15,7 @@ sources:
 # pidof
 
 > Gets the ID of a process using its name.
+> More information: <https://manned.org/pidof>.
 
 - List all process IDs with given name:
 

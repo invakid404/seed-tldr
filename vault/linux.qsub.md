@@ -2,8 +2,8 @@
 id: linux.qsub
 title: Qsub
 desc: ''
-updated: 1642441815109
-created: 1642441815109
+updated: 1656591837647
+created: 1656591837647
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,6 +15,7 @@ sources:
 # qsub
 
 > Submits a script to the queue management system TORQUE.
+> More information: <https://manned.org/qsub.1>.
 
 - Submit a script with default settings (depends on TORQUE settings):
 

@@ -2,8 +2,8 @@
 id: common.gimp
 title: Gimp
 desc: ''
-updated: 1647648191462
-created: 1647648191462
+updated: 1656591837471
+created: 1656591837471
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -22,17 +22,17 @@ sources:
 
 `gimp`
 
-- Start without the splash screen:
-
-`gimp --no-splash`
-
-- Open the specified files:
+- Open specific files:
 
 `gimp {{path/to/image1 path/to/image2 ...}}`
 
-- Start the new instance, even if there is already a running one:
+- Open specific files in a new window:
 
-`gimp --new-instance`
+`gimp --new-instance {{path/to/image1 path/to/image2 ...}}`
+
+- Start without a splash screen:
+
+`gimp --no-splash`
 
 - Print errors and warnings to the console instead of showing them in a dialog box:
 

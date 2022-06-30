@@ -2,8 +2,8 @@
 id: linux.squeue
 title: Squeue
 desc: ''
-updated: 1642441815113
-created: 1642441815113
+updated: 1656591837654
+created: 1656591837654
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,6 +15,7 @@ sources:
 # squeue
 
 > View the jobs queued in the SLURM scheduler.
+> More information: <https://manned.org/squeue>.
 
 - View the queue:
 

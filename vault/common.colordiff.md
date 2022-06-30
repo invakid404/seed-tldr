@@ -2,8 +2,8 @@
 id: common.colordiff
 title: Colordiff
 desc: ''
-updated: 1642441815003
-created: 1642441815003
+updated: 1656591837435
+created: 1656591837435
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,7 +15,7 @@ sources:
 # colordiff
 
 > A tool to colorize diff output.
-> The Perl script colordiff is a wrapper for `diff` and produces the same output but with pretty syntax highlighting. Colour schemes can be customized.
+> The Perl script colordiff is a wrapper for `diff` and produces the same output but with pretty syntax highlighting. Color schemes can be customized.
 > More information: <https://github.com/kimmel/colordiff>.
 
 - Compare files:

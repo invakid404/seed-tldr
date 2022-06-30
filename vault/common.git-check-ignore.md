@@ -2,8 +2,8 @@
 id: common.git-check-ignore
 title: Git Check Ignore
 desc: ''
-updated: 1642441815022
-created: 1642441815022
+updated: 1656591837473
+created: 1656591837473
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -14,7 +14,7 @@ sources:
 ---
 # git check-ignore
 
-> Analyse and debug Git ignore / exclude (".gitignore") files.
+> Analyze and debug Git ignore / exclude (".gitignore") files.
 > More information: <https://git-scm.com/docs/git-check-ignore>.
 
 - Check whether a file or directory is ignored:

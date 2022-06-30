@@ -2,8 +2,8 @@
 id: common.wal
 title: Wal
 desc: ''
-updated: 1642441815082
-created: 1642441815082
+updated: 1656591837593
+created: 1656591837593
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -27,15 +27,15 @@ sources:
 
 - Create a light color scheme:
 
-`wal -il {{image.png}}`
+`wal -i {{image.png}} -l`
 
 - Skip setting the desktop wallpaper:
 
-`wal -in {{image.png}}`
+`wal -i {{image.png}} -n`
 
 - Skip setting the terminal colors:
 
-`wal -is {{image.png}}`
+`wal -i {{image.png}} -s`
 
 - Restore the previously generated color scheme and wallpaper:
 

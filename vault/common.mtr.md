@@ -2,8 +2,8 @@
 id: common.mtr
 title: Mtr
 desc: ''
-updated: 1642441815049
-created: 1642441815049
+updated: 1656591837527
+created: 1656591837527
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -36,4 +36,8 @@ sources:
 - Wait for a given time (in seconds) before sending another packet to the same hop:
 
 `mtr -i {{seconds}} {{host}}`
+
+- Display the Autonomous System Number (ASN) for each hop:
+
+`mtr --aslookup {{hostname}}`
 

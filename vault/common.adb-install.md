@@ -2,8 +2,8 @@
 id: common.adb-install
 title: Adb Install
 desc: ''
-updated: 1642441814992
-created: 1642441814992
+updated: 1656591837417
+created: 1656591837417
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -20,6 +20,10 @@ sources:
 - Push an Android application to an emulator/device:
 
 `adb install {{path/to/file.apk}}`
+
+- Push an Android application to a specific emulator/device (overrides `$ANDROID_SERIAL`):
+
+`adb -s {{serial_number}} install {{path/to/file.apk}}`
 
 - Reinstall an existing app, keeping its data:
 

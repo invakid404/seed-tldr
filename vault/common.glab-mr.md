@@ -2,8 +2,8 @@
 id: common.glab-mr
 title: Glab Mr
 desc: ''
-updated: 1642441815028
-created: 1642441815028
+updated: 1656591837486
+created: 1656591837486
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -22,7 +22,7 @@ sources:
 
 `glab mr create`
 
-- Check out a merge request locally:
+- Check out a specific merge request locally:
 
 `glab mr checkout {{mr_number}}`
 

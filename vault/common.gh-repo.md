@@ -2,8 +2,8 @@
 id: common.gh-repo
 title: Gh Repo
 desc: ''
-updated: 1642441815020
-created: 1642441815020
+updated: 1656591837470
+created: 1656591837470
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -29,7 +29,7 @@ sources:
 
 `gh repo fork {{owner}}/{{repository}} --clone`
 
-- View a repository in the web browser:
+- View a repository in the default web browser:
 
 `gh repo view {{repository}} --web`
 

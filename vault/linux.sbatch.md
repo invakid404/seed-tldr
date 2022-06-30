@@ -2,8 +2,8 @@
 id: linux.sbatch
 title: Sbatch
 desc: ''
-updated: 1642441815112
-created: 1642441815112
+updated: 1656591837651
+created: 1656591837651
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,6 +15,7 @@ sources:
 # sbatch
 
 > Submit a batch job to the SLURM scheduler.
+> More information: <https://manned.org/sbatch>.
 
 - Submit a batch job:
 

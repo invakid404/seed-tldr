@@ -2,8 +2,8 @@
 id: common.git-lfs
 title: Git Lfs
 desc: ''
-updated: 1642441815024
-created: 1642441815024
+updated: 1656591837478
+created: 1656591837478
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -17,7 +17,7 @@ sources:
 > Work with large files in Git repositories.
 > More information: <https://git-lfs.github.com>.
 
-- Initialise Git LFS:
+- Initialize Git LFS:
 
 `git lfs install`
 

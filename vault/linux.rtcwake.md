@@ -2,8 +2,8 @@
 id: linux.rtcwake
 title: Rtcwake
 desc: ''
-updated: 1642441815111
-created: 1642441815111
+updated: 1656591837650
+created: 1656591837650
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,6 +15,7 @@ sources:
 # rtcwake
 
 > Enter a system sleep state until specified wakeup time relative to your BIOS clock.
+> More information: <https://manned.org/rtcwake>.
 
 - Show whether an alarm is set or not:
 

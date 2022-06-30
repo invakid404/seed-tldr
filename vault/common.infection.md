@@ -2,8 +2,8 @@
 id: common.infection
 title: Infection
 desc: ''
-updated: 1642441815035
-created: 1642441815035
+updated: 1656591837499
+created: 1656591837499
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -17,7 +17,7 @@ sources:
 > A mutation testing framework for PHP.
 > More information: <https://infection.github.io>.
 
-- Analyse code using the configuration file (or create one if it does not exist):
+- Analyze code using the configuration file (or create one if it does not exist):
 
 `infection`
 

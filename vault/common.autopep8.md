@@ -2,8 +2,8 @@
 id: common.autopep8
 title: Autopep8
 desc: ''
-updated: 1642441814995
-created: 1642441814995
+updated: 1656591837422
+created: 1656591837423
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -25,7 +25,7 @@ sources:
 
 `autopep8 --diff {{path/to/file}}`
 
-- Format a file in-pace and save the changes:
+- Format a file in-place and save the changes:
 
 `autopep8 --in-place {{path/to/file.py}}`
 

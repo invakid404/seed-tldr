@@ -2,8 +2,8 @@
 id: linux.smbclient
 title: Smbclient
 desc: ''
-updated: 1642441815113
-created: 1642441815113
+updated: 1656591837653
+created: 1656591837653
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,6 +15,7 @@ sources:
 # smbclient
 
 > FTP-like client to access SMB/CIFS resources on servers.
+> More information: <https://manned.org/smbclient>.
 
 - Connect to a share (user will be prompted for password; `exit` to quit the session):
 
