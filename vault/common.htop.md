@@ -2,8 +2,8 @@
 id: common.htop
 title: Htop
 desc: ''
-updated: 1642441815033
-created: 1642441815033
+updated: 1656796630687
+created: 1656796630687
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -32,6 +32,10 @@ sources:
 - See interactive commands while running htop:
 
 `?`
+
+- Switch to a different tab:
+
+`tab`
 
 - Display help:
 
