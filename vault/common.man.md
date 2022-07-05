@@ -2,8 +2,8 @@
 id: common.man
 title: Man
 desc: ''
-updated: 1642441815046
-created: 1642441815046
+updated: 1657009575481
+created: 1657009575481
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -24,6 +24,10 @@ sources:
 - Display the man page for a command from section 7:
 
 `man {{7}} {{command}}`
+
+- List all available sections for a command:
+
+`man -f {{command}}`
 
 - Display the path searched for manpages:
 
