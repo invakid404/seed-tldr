@@ -2,8 +2,8 @@
 id: common.crontab
 title: Crontab
 desc: ''
-updated: 1642441815005
-created: 1642441815005
+updated: 1657384026483
+created: 1657384026483
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,8 +15,7 @@ sources:
 # crontab
 
 > Schedule cron jobs to run on a time interval for the current user.
-> Job definition format: "(min) (hour) (day_of_month) (month) (day_of_week) command_to_execute".
-> More information: <https://manned.org/crontab>.
+> More information: <https://crontab.guru/>.
 
 - Edit the crontab file for the current user:
 
@@ -42,11 +41,11 @@ sources:
 
 `0 10 * * * {{command_to_execute}}`
 
-- Sample job which runs every minute on the 3rd of April:
+- Sample crontab entry, which runs a command every 10 minutes:
 
-`* * 3 Apr * {{command_to_execute}}`
+`*/10 * * * * {{command_to_execute}}`
 
-- Sample job which runs a certain script at 02:30 every Friday:
+- Sample crontab entry, which runs a certain script at 02:30 every Friday:
 
 `30 2 * * Fri {{/absolute/path/to/script.sh}}`
 
