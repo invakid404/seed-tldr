@@ -2,8 +2,8 @@
 id: linux.rpm
 title: Rpm
 desc: ''
-updated: 1656591837650
-created: 1656591837650
+updated: 1657430362515
+created: 1657430362515
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -44,4 +44,8 @@ sources:
 - Show changed, missing and/or incorrectly installed files of matching packages:
 
 `rpm --verify --all '{{php-*}}'`
+
+- Display the changelog of a specific package:
+
+`rpm --query --changelog {{package_name}}`
 
