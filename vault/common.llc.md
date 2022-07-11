@@ -2,8 +2,8 @@
 id: common.llc
 title: Llc
 desc: ''
-updated: 1642441815041
-created: 1642441815041
+updated: 1657504906885
+created: 1657504906885
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -29,7 +29,7 @@ sources:
 
 `llc --output {{path/to/output.s}}`
 
-- Emit fully relocateable, position independent code:
+- Emit fully relocatable, position independent code:
 
 `llc -relocation-model=pic {{path/to/input.ll}}`
 

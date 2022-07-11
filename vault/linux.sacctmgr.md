@@ -2,8 +2,8 @@
 id: linux.sacctmgr
 title: Sacctmgr
 desc: ''
-updated: 1656591837651
-created: 1656591837651
+updated: 1657504907013
+created: 1657504907013
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -31,5 +31,5 @@ sources:
 
 - Show details of user/association/cluster/account using a specific format:
 
-`sacctmgr show {{user|association|cluster|account}} format="Accout%10" format="GrpTRES%30"`
+`sacctmgr show {{user|association|cluster|account}} format="Account%10" format="GrpTRES%30"`
 

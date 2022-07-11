@@ -2,8 +2,8 @@
 id: linux.resolvectl
 title: Resolvectl
 desc: ''
-updated: 1642441815110
-created: 1642441815110
+updated: 1657504907012
+created: 1657504907012
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -42,7 +42,7 @@ sources:
 
 `resolvectl opengpg {{email}}`
 
-- Retreive a TLS key:
+- Retrieve a TLS key:
 
 `resolvectl tlsa tcp {{domain}}:443`
 

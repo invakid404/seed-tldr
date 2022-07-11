@@ -2,8 +2,8 @@
 id: common.hping3
 title: Hping3
 desc: ''
-updated: 1642441815033
-created: 1642441815033
+updated: 1657504906868
+created: 1657504906868
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,7 +15,7 @@ sources:
 # hping3
 
 > Advanced ping utility which supports protocols such TCP, UDP, and raw IP.
-> Best run with elevated priviledges.
+> Best run with elevated privileges.
 > More information: <https://github.com/antirez/hping>.
 
 - Ping a destination with 4 ICMP ping requests:

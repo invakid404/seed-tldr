@@ -2,8 +2,8 @@
 id: common.git-blame-someone-else
 title: Git Blame Someone Else
 desc: ''
-updated: 1642441815021
-created: 1642441815021
+updated: 1657504906846
+created: 1657504906846
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -17,7 +17,7 @@ sources:
 > Blame someone else for your bad code.
 > More information: <https://github.com/jayphelps/git-blame-someone-else>.
 
-- Change the commiter and author of a commit:
+- Change the committer and author of a commit:
 
 `git blame-someone-else "{{author <someone@example.com>}}" {{commit}}`
 
