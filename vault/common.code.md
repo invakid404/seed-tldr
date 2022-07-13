@@ -2,8 +2,8 @@
 id: common.code
 title: Code
 desc: ''
-updated: 1656591837435
-created: 1656591837435
+updated: 1657743768010
+created: 1657743768010
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -47,5 +47,5 @@ sources:
 
 - Start the editor as a superuser (root) while storing user data in a specific directory:
 
-`sudo code --user-data-dir {[path/to/directory}}`
+`sudo code --user-data-dir {{path/to/directory}}`
 
