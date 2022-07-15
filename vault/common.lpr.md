@@ -2,8 +2,8 @@
 id: common.lpr
 title: Lpr
 desc: ''
-updated: 1642441815043
-created: 1642441815043
+updated: 1657898681542
+created: 1657898681542
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,8 +15,8 @@ sources:
 # lpr
 
 > CUPS tool for printing files.
-> See also `lpstat` and `lpadmin` for listing and configuring printers.
-> More information: <http://www.CUPS.org>.
+> See also: `lpstat` and `lpadmin`.
+> More information: <https://www.cups.org/doc/man-lpr.html>.
 
 - Print a file to the default printer:
 
@@ -36,7 +36,7 @@ sources:
 
 - Print double-sided either in portrait (long) or in landscape (short):
 
-`lpr -o sides={{two_sided_long_edge|two_sided_short_edge}} {{path/to/file}}`
+`lpr -o sides={{two-sided-long-edge|two-sided-short-edge}} {{path/to/file}}`
 
 - Set page size (more options may be available depending on setup):
 
