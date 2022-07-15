@@ -2,8 +2,8 @@
 id: linux.fuser
 title: Fuser
 desc: ''
-updated: 1642441815095
-created: 1642441815095
+updated: 1657902761287
+created: 1657902761287
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -36,4 +36,8 @@ sources:
 - Find which processes are accessing the filesystem containing a specific file or directory:
 
 `fuser --mount {{path/to/file_or_directory}}`
+
+- Kill all processes with a TCP connection on a specific port:
+
+`fuser --kill {{port}}/tcp`
 
