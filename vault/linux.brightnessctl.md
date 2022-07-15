@@ -2,8 +2,8 @@
 id: linux.brightnessctl
 title: Brightnessctl
 desc: ''
-updated: 1642441815089
-created: 1642441815089
+updated: 1657895043785
+created: 1657895043785
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -35,5 +35,5 @@ sources:
 
 - Decrease brightness by a specified decrement:
 
-`brightnessctl set {{-10%}}`
+`brightnessctl set {{10%-}}`
 
