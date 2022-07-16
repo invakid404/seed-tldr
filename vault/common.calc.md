@@ -2,8 +2,8 @@
 id: common.calc
 title: Calc
 desc: ''
-updated: 1656591837431
-created: 1656591837431
+updated: 1658006250418
+created: 1658006250418
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -14,14 +14,38 @@ sources:
 ---
 # calc
 
-> An interactive arbitrary-precision calculator on the terminal.
+> An interactive arbitrary-precision calculator in the terminal.
 > More information: <https://github.com/lcn2/calc>.
 
-- Start calc in interactive mode:
+- Start `calc` in interactive mode:
 
 `calc`
 
 - Perform a calculation in non-interactive mode:
 
-`calc -p '{{85 * (36 / 4)}}'`
+`calc '{{85 * (36 / 4)}}'`
+
+- Perform a calculation without any output formatting (for use with pipes):
+
+`calc -p '{{4/3 * pi() * 5^3}}'`
+
+- Perform a calculation and then switch to [i]nteractive mode:
+
+`calc -i '{{sqrt(2)}}'`
+
+- Start `calc` in a specific permission [m]ode (0 to 7, defaults to 7):
+
+`calc -m {{mode}}`
+
+- View an introduction to `calc`:
+
+`calc help intro`
+
+- View an overview of `calc`:
+
+`calc help overview`
+
+- Open the `calc` manual:
+
+`calc help`
 
