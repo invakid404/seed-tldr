@@ -2,8 +2,8 @@
 id: linux.dnf
 title: Dnf
 desc: ''
-updated: 1642441815092
-created: 1642441815092
+updated: 1658078383662
+created: 1658078383662
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -29,13 +29,9 @@ sources:
 
 `dnf info {{package}}`
 
-- Install a new package:
+- Install a new package (use `-y` to confirm all prompts automatically):
 
 `sudo dnf install {{package}}`
-
-- Install a new package and assume yes to all questions:
-
-`sudo dnf -y install {{package}}`
 
 - Remove a package:
 
@@ -48,4 +44,8 @@ sources:
 - Find which packages provide a given file:
 
 `dnf provides {{file}}`
+
+- View all past operations:
+
+`dnf history`
 
