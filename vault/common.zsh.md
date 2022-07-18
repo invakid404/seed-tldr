@@ -2,8 +2,8 @@
 id: common.zsh
 title: Zsh
 desc: ''
-updated: 1642441815086
-created: 1642441815086
+updated: 1658125705562
+created: 1658125705562
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -37,4 +37,8 @@ sources:
 - Start an interactive shell session in verbose mode, printing each command before executing it:
 
 `zsh --verbose`
+
+- Execute a specific command inside `zsh` with disabled glob patterns:
+
+`noglob {{command}}`
 
