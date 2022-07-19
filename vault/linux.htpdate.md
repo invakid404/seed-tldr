@@ -2,8 +2,8 @@
 id: linux.htpdate
 title: Htpdate
 desc: ''
-updated: 1642441815097
-created: 1642441815097
+updated: 1658240355788
+created: 1658240355788
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -25,7 +25,7 @@ sources:
 
 `htpdate -q {{host}}`
 
-- Compensate the systematisch clock drift:
+- Compensate the systematic clock drift:
 
 `sudo htpdate -x {{host}}`
 

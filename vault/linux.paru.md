@@ -2,8 +2,8 @@
 id: linux.paru
 title: Paru
 desc: ''
-updated: 1642441815107
-created: 1642441815107
+updated: 1658240355801
+created: 1658240355801
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -19,7 +19,7 @@ sources:
 
 - Interactively search for and install a package:
 
-`paru {{package_name_or_seach_term}}`
+`paru {{package_name_or_search_term}}`
 
 - Synchronize and update all packages:
 

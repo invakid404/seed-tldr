@@ -2,8 +2,8 @@
 id: linux.create_ap
 title: Create_ap
 desc: ''
-updated: 1642441815091
-created: 1642441815091
+updated: 1658240355773
+created: 1658240355773
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -27,7 +27,7 @@ sources:
 
 - Create an access point without Internet sharing:
 
-`create_ap -n {{wlan0}} {{acces_point_ssid}} {{passphrase}}`
+`create_ap -n {{wlan0}} {{access_point_ssid}} {{passphrase}}`
 
 - Create a bridged network with Internet sharing:
 

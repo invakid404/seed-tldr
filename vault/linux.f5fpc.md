@@ -2,8 +2,8 @@
 id: linux.f5fpc
 title: F5fpc
 desc: ''
-updated: 1642441815094
-created: 1642441815094
+updated: 1658240355783
+created: 1658240355783
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -14,7 +14,7 @@ sources:
 ---
 # f5fpc
 
-> A proprietry commercial SSL VPN client by BIG-IP Edge.
+> A proprietary commercial SSL VPN client by BIG-IP Edge.
 > More information: <https://techdocs.f5.com/kb/en-us/products/big-ip_apm/manuals/product/apm-client-configuration-11-4-0/4.html>.
 
 - Open a new VPN connection:

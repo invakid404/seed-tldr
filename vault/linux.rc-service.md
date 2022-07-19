@@ -2,8 +2,8 @@
 id: linux.rc-service
 title: Rc Service
 desc: ''
-updated: 1643296751728
-created: 1643296751728
+updated: 1658240355806
+created: 1658240355806
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -28,7 +28,7 @@ sources:
 
 - Stop a service:
 
-`sudo rc-servie {{service_name}} stop`
+`sudo rc-service {{service_name}} stop`
 
 - Restart a service:
 

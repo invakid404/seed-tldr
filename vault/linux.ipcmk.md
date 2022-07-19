@@ -2,8 +2,8 @@
 id: linux.ipcmk
 title: Ipcmk
 desc: ''
-updated: 1642441815100
-created: 1642441815100
+updated: 1658240355789
+created: 1658240355789
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -31,5 +31,5 @@ sources:
 
 - Create a shared memory segment with specific permissions (default is 0644):
 
-`ipcmk --shmem {{segment_size_in_bytes}} {{octal_permissons}}`
+`ipcmk --shmem {{segment_size_in_bytes}} {{octal_permissions}}`
 

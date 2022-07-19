@@ -2,8 +2,8 @@
 id: linux.ctr
 title: Ctr
 desc: ''
-updated: 1642441815091
-created: 1642441815091
+updated: 1658240355773
+created: 1658240355773
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -31,5 +31,5 @@ sources:
 
 - Tag an image:
 
-`ctr images tag {{souce_image}}:{{source_tag}} {{target_image}}:{{target_tag}}`
+`ctr images tag {{source_image}}:{{source_tag}} {{target_image}}:{{target_tag}}`
 
