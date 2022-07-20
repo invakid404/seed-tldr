@@ -2,8 +2,8 @@
 id: linux.dpkg-query
 title: Dpkg Query
 desc: ''
-updated: 1642441815093
-created: 1642441815093
+updated: 1658341531828
+created: 1658341531828
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -19,17 +19,21 @@ sources:
 
 - List all installed packages:
 
-`dpkg-query -l`
+`dpkg-query --list`
 
 - List installed packages matching a pattern:
 
-`dpkg-query -l '{{pattern}}'`
+`dpkg-query --list '{{libc6*}}'`
 
 - List all files installed by a package:
 
-`dpkg-query -L {{package_name}}`
+`dpkg-query --listfiles {{libc6}}`
 
 - Show information about a package:
 
-`dpkg-query -s {{package_name}}`
+`dpkg-query --status {{libc6}}`
+
+- Search for packages that own files matching a pattern:
+
+`dpkg-query --search {{/etc/ld.so.conf.d}}`
 
