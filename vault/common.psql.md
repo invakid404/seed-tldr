@@ -2,8 +2,8 @@
 id: common.psql
 title: Psql
 desc: ''
-updated: 1642441815061
-created: 1642441815061
+updated: 1658455612892
+created: 1658455612892
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -17,7 +17,7 @@ sources:
 > PostgreSQL command-line client.
 > More information: <https://www.postgresql.org/docs/current/app-psql.html>.
 
-- Connect to the database. It connects to localhost using default port 5432 with default user as currently logged in user:
+- Connect to the database. By default, it connects to the local socket using port 5432 with the currently logged in user:
 
 `psql {{database}}`
 
