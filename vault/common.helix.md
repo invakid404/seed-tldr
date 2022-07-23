@@ -2,8 +2,8 @@
 id: common.helix
 title: Helix
 desc: ''
-updated: 1642441815032
-created: 1642441815032
+updated: 1658593725399
+created: 1658593725399
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -12,11 +12,11 @@ sources:
     url: 'https://github.com/tldr-pages/tldr/blob/master/LICENSE.md'
     license: Creative Commons
 ---
-# vim
+# helix
 
 > Helix, A post-modern text editor, provides several modes for different kinds of text manipulation.
 > Pressing `i` enters insert mode. `<Esc>` enters normal mode, which enables the use of Helix commands.
-> More information: <https://helix-editor.com/>.
+> More information: <https://helix-editor.com>.
 
 - Open a file:
 
