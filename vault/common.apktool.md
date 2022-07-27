@@ -2,8 +2,8 @@
 id: common.apktool
 title: Apktool
 desc: ''
-updated: 1642441814994
-created: 1642441814994
+updated: 1658920673762
+created: 1658920673762
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -25,7 +25,7 @@ sources:
 
 `apktool b {{path/to/directory}}`
 
-- Install and store frameworks:
+- Install and store a framework:
 
 `apktool if {{framework.apk}}`
 
