@@ -2,8 +2,8 @@
 id: common.visudo
 title: Visudo
 desc: ''
-updated: 1656591837591
-created: 1656591837591
+updated: 1658926036848
+created: 1658926036848
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,7 +15,7 @@ sources:
 # visudo
 
 > Safely edit the sudoers file.
-> More information: <https://www.sudo.ws/man/1.8.13/visudo.man.html>.
+> More information: <https://www.sudo.ws/docs/man/visudo.man>.
 
 - Edit the sudoers file:
 

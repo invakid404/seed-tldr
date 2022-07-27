@@ -2,8 +2,8 @@
 id: common.virt-sparsify
 title: Virt Sparsify
 desc: ''
-updated: 1642441815080
-created: 1642441815080
+updated: 1658926036848
+created: 1658926036848
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -16,7 +16,7 @@ sources:
 
 > Make virtual machine drive images thin-provisioned.
 > NOTE: Use only for offline machines to avoid data corruption.
-> Home page: <https://libguestfs.org/>.
+> More information: <https://libguestfs.org>.
 
 - Create a sparsified compressed image without snapshots from an unsparsified one:
 

@@ -2,8 +2,8 @@
 id: common.spatial
 title: Spatial
 desc: ''
-updated: 1642441815070
-created: 1642441815070
+updated: 1658926036827
+created: 1658926036827
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,6 +15,7 @@ sources:
 # spatial
 
 > A set of commands for managing and developing SpatialOS projects.
+> More information: <https://ims.improbable.io/products/spatialos>.
 
 - Run this when you use a project for the first time:
 

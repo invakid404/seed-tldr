@@ -2,8 +2,8 @@
 id: common.singularity
 title: Singularity
 desc: ''
-updated: 1642441815069
-created: 1642441815069
+updated: 1658926036825
+created: 1658926036825
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,6 +15,7 @@ sources:
 # singularity
 
 > Manage Singularity containers and images.
+> More information: <https://singularity-docs.readthedocs.io/en/latest/#commands>.
 
 - Download a remote image from Sylabs Cloud:
 
