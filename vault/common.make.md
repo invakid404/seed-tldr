@@ -2,8 +2,8 @@
 id: common.make
 title: Make
 desc: ''
-updated: 1642441815046
-created: 1642441815046
+updated: 1659035805652
+created: 1659035805652
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -41,6 +41,10 @@ sources:
 - Force making of a target, even if source files are unchanged:
 
 `make --always-make {{target}}`
+
+- Override a variable defined in the Makefile:
+
+`make {{target}} {{variable}}={{new_value}}`
 
 - Override variables defined in the Makefile by the environment:
 
