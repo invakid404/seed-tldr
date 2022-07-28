@@ -2,8 +2,8 @@
 id: osx.security
 title: Security
 desc: ''
-updated: 1642441815122
-created: 1642441815122
+updated: 1658992810360
+created: 1658992810360
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -14,20 +14,20 @@ sources:
 ---
 # security
 
-> Administer Keychains, keys, certificates and the Security framework.
+> Administer keychains, keys, certificates and the Security framework.
 > More information: <https://ss64.com/osx/security.html>.
 
-- List the available keychains:
+- List all available keychains:
 
 `security list-keychains`
 
 - Delete a specific keychain:
 
-`security delete-keychain {{path}}`
+`security delete-keychain {{path/to/file.keychain}}`
 
 - Create a keychain:
 
-`security create-keychain -p {{password}} {{keychain.name}}`
+`security create-keychain -p {{password}} {{path/to/file.keychain}}`
 
 - Set a certificate to use with a website or [s]ervice by its [c]ommon name (fails if several certificates with the same common name exist):
 
@@ -35,5 +35,13 @@ sources:
 
 - Add a certificate from file to a [k]eychain (if -k isn't specified, the default keychain is used):
 
-`security add-certificates -k {{keychain.name}} {{path/to/file.pem}}`
+`security add-certificates -k {{keychain.name}} {{path/to/cert.pem}}`
+
+- Add a CA certificate to the per-user Trust Settings:
+
+`security add-trusted-cert -k {{path/to/user-keychain.keychain-db}} {{path/to/ca-cert.pem}}`
+
+- Remove a CA certificate from the per-user Trust Settings:
+
+`security remove-trusted-cert {{path/to/ca-cert.pem}}`
 
