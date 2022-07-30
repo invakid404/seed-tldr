@@ -2,8 +2,8 @@
 id: linux.nmcli-radio
 title: Nmcli Radio
 desc: ''
-updated: 1646866913775
-created: 1646866913775
+updated: 1659184494743
+created: 1659184494743
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,7 +15,7 @@ sources:
 # nmcli radio
 
 > Show radio switches status or enable and disable switches.
-> See also: `nmcli agent`.
+> This subcommand can also be called with `nmcli r`.
 > More information: <https://networkmanager.dev/docs/api/latest/nmcli.html>.
 
 - Show status of Wi-Fi in NetworkManager:

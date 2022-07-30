@@ -2,8 +2,8 @@
 id: linux.nmcli-connection
 title: Nmcli Connection
 desc: ''
-updated: 1646802118864
-created: 1646802118864
+updated: 1659184494743
+created: 1659184494743
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,6 +15,7 @@ sources:
 # nmcli connection
 
 > Connection management with NetworkManager.
+> This subcommand can also be called with `nmcli c`.
 > More information: <https://networkmanager.dev/docs/api/latest/nmcli.html>.
 
 - List all NetworkManager connections (shows name, UUID, type and device):

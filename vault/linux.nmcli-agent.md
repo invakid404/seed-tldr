@@ -2,8 +2,8 @@
 id: linux.nmcli-agent
 title: Nmcli Agent
 desc: ''
-updated: 1646866913775
-created: 1646866913775
+updated: 1659184494743
+created: 1659184494743
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,7 +15,7 @@ sources:
 # nmcli agent
 
 > Run nmcli as a NetworkManager secret agent or polkit agent.
-> See also: `nmcli radio`.
+> This subcommand can also be called with `nmcli a`.
 > More information: <https://networkmanager.dev/docs/api/latest/nmcli.html>.
 
 - Register nmcli as a secret agent and listen for secret requests:
