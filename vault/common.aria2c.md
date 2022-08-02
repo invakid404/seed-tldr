@@ -2,8 +2,8 @@
 id: common.aria2c
 title: Aria2c
 desc: ''
-updated: 1642441814995
-created: 1642441814995
+updated: 1659439080522
+created: 1659439080522
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -26,9 +26,9 @@ sources:
 
 `aria2c --out={{filename}} {{url}}`
 
-- Download multiple files in parallel:
+- Download multiple (different) files in parallel:
 
-`aria2c --force-sequential {{url_1}} {{url_2}}`
+`aria2c --force-sequential {{false}} {{url_1}} {{url_2}}`
 
 - Download from multiple sources with each URI pointing to the same file:
 
