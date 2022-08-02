@@ -2,8 +2,8 @@
 id: linux.flameshot
 title: Flameshot
 desc: ''
-updated: 1656591837622
-created: 1656591837622
+updated: 1659406908478
+created: 1659406908478
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -46,7 +46,7 @@ sources:
 
 `flameshot gui --clipboard`
 
-- Create a screenshot with a specific delay in seconds:
+- Create a screenshot with a specific delay in milliseconds:
 
-`flameshot full --delay {{5}}`
+`flameshot full --delay {{5000}}`
 
