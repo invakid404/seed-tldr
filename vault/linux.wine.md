@@ -2,8 +2,8 @@
 id: linux.wine
 title: Wine
 desc: ''
-updated: 1642441815117
-created: 1642441815117
+updated: 1659500355520
+created: 1659500355520
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -14,22 +14,30 @@ sources:
 ---
 # wine
 
-> Run Windows programs on Unix.
+> Run Windows executables on Unix-based systems.
 > More information: <https://wiki.winehq.org/>.
 
-- Run `ipconfig.exe` program:
+- Run a specific program inside the `wine` environment:
 
-`wine {{ipconfig}} {{/all}}`
+`wine {{command}}`
 
-- Run `cmd.exe` in background:
+- Run a specific program in background:
 
-`wine start {{cmd}}`
+`wine start {{command}}`
 
-- Run Windows-like Package Manager:
+- Install/uninstall an MSI package:
 
-`wine uninstaller`
+`wine msiexec /{{i|x}} {{path/to/package.msi}}`
 
-- Install MSI packages:
+- Run `File Explorer`, `Notepad`, or `WordPad`:
 
-`wine msiexec /i {{package}}`
+`wine {{explorer|notepad|write}}`
+
+- Run `Registry Editor`, `Control Panel`, or `Task Manager`:
+
+`wine {{regedit|control|taskmgr}}`
+
+- Run the configuration tool:
+
+`wine winecfg`
 
