@@ -2,8 +2,8 @@
 id: linux.hdparm
 title: Hdparm
 desc: ''
-updated: 1642441815097
-created: 1642441815097
+updated: 1659671488832
+created: 1659671488832
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -40,4 +40,8 @@ sources:
 - Put the drive into idle (low-power) mode, also setting its standby timeout:
 
 `sudo hdparm -S {{standby_timeout}} {{device}}`
+
+- Test the read speed of a specific device:
+
+`sudo hdparm -tT {{device}}`
 
