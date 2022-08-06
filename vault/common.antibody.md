@@ -2,8 +2,8 @@
 id: common.antibody
 title: Antibody
 desc: ''
-updated: 1642441814994
-created: 1642441814994
+updated: 1659803260215
+created: 1659803260215
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -14,7 +14,7 @@ sources:
 ---
 # antibody
 
-> The fastest shell plugin manager.
+> "The fastest" shell plugin manager.
 > More information: <https://getantibody.github.io>.
 
 - Bundle all plugins for static loading:
