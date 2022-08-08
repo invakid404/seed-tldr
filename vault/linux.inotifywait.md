@@ -2,8 +2,8 @@
 id: linux.inotifywait
 title: Inotifywait
 desc: ''
-updated: 1642441815098
-created: 1642441815098
+updated: 1659979516636
+created: 1659979516636
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -40,4 +40,8 @@ sources:
 - Only watch for file modification events:
 
 `while inotifywait --event {{modify}} {{path/to/file}}; do {{command}}; done`
+
+- Continuously watch a specific file for events without exiting:
+
+`while inotifywait --monitor {{path/to/file}}; do {{command}}; done`
 
