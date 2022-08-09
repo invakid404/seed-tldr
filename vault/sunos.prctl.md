@@ -2,8 +2,8 @@
 id: sunos.prctl
 title: Prctl
 desc: ''
-updated: 1642441815125
-created: 1642441815125
+updated: 1660072904835
+created: 1660072904835
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -14,8 +14,7 @@ sources:
 ---
 # prctl
 
-> Get or set the resource controls of running processes,.
-> Tasks, and projects.
+> Get or set the resource controls of running processes, tasks, and projects.
 > More information: <https://www.unix.com/man-page/sunos/1/prctl>.
 
 - Examine process limits and permissions:
