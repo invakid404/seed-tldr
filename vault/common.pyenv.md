@@ -2,8 +2,8 @@
 id: common.pyenv
 title: Pyenv
 desc: ''
-updated: 1642441815063
-created: 1642441815063
+updated: 1660130270396
+created: 1660130270396
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -24,6 +24,10 @@ sources:
 - List all Python versions under the `${PYENV_ROOT}/versions` directory:
 
 `pyenv versions`
+
+- List all Python versions that can be installed from upstream:
+
+`pyenv install --list`
 
 - Install a Python version under the `${PYENV_ROOT}/versions` directory:
 
