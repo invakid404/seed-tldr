@@ -2,8 +2,8 @@
 id: common.perl
 title: Perl
 desc: ''
-updated: 1656591837541
-created: 1656591837541
+updated: 1660311802180
+created: 1660311802180
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -33,7 +33,7 @@ sources:
 
 `perl -d {{script.pl}}`
 
-- Edit all file lines [i]n-place with a specific replacement [e]xpression and save a file with a new extension:
+- Edit all file lines [i]n-place with a specific replacement [e]xpression, saving a backup with a new extension:
 
 `perl -p -i'.{{extension}}' -e 's/{{regular_expression}}/{{replacement}}/g' {{path/to/file}}`
 
