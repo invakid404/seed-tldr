@@ -2,8 +2,8 @@
 id: windows.cd
 title: CD
 desc: ''
-updated: 1642441815126
-created: 1642441815126
+updated: 1660519198654
+created: 1660519198654
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -14,14 +14,10 @@ sources:
 ---
 # cd
 
-> Displays the name of or changes the current working directory.
+> Display the current working directory or change the current working directory.
 > More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/cd>.
 
-- Go to a directory in the same drive:
-
-`cd {{path/to/directory}}`
-
-- Display the name of the current directory:
+- Display the path of the current directory:
 
 `cd`
 
@@ -29,7 +25,11 @@ sources:
 
 `cd ..`
 
-- Go to a directory in a different drive:
+- Go to a specific directory in the same drive:
 
-`cd {{path/to/directory}} /d`
+`cd {{path\to\directory}}`
+
+- Go to a specific directory in a different [d]rive:
+
+`cd /d {{C}}:{{path\to\directory}}`
 
