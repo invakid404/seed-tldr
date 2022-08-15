@@ -1,9 +1,9 @@
 ---
-id: common.ed
+id: osx.ed
 title: Ed
 desc: ''
-updated: 1660529406955
-created: 1660529406955
+updated: 1660529407138
+created: 1660529407138
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -22,21 +22,13 @@ sources:
 
 `ed`
 
-- Start an interactive editor session with an empty document and a specific prompt:
+- Start an interactive editor session with an empty document and a specific [p]rompt:
 
-`ed --prompt='> '`
-
-- Start an interactive editor session with user-friendly errors:
-
-`ed --verbose`
+`ed -p '> '`
 
 - Start an interactive editor session with an empty document and without diagnostics, byte counts and '!' prompt:
 
-`ed --quiet`
-
-- Start an interactive editor session without exit status change when command fails:
-
-`ed --loose-exit-status`
+`ed -s`
 
 - Edit a specific file (this shows the byte count of the loaded file):
 
