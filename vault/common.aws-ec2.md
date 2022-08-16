@@ -2,8 +2,8 @@
 id: common.aws-ec2
 title: Aws Ec2
 desc: ''
-updated: 1642441814996
-created: 1642441814996
+updated: 1660627293405
+created: 1660627293405
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -17,14 +17,6 @@ sources:
 > CLI for AWS EC2.
 > Provides secure and resizable computing capacity in the AWS cloud to enable faster development and deployment of applications.
 > More information: <https://awscli.amazonaws.com/v2/documentation/api/latest/reference/ec2/index.html>.
-
-- Show list of all available EC2 commands:
-
-`aws ec2 help`
-
-- Show help for specific EC2 subcommand:
-
-`aws ec2 {{subcommand}} help`
 
 - Display information about a specific instance:
 
@@ -49,4 +41,12 @@ sources:
 - List available AMIs (Amazon Machine Images):
 
 `aws ec2 describe-images`
+
+- Show list of all available EC2 commands:
+
+`aws ec2 help`
+
+- Show help for specific EC2 subcommand:
+
+`aws ec2 {{subcommand}} help`
 
