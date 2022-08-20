@@ -2,8 +2,8 @@
 id: common.stormlock
 title: Stormlock
 desc: ''
-updated: 1642441815073
-created: 1642441815073
+updated: 1660961285175
+created: 1660961285175
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -19,7 +19,7 @@ sources:
 
 - Acquire a lease for resource:
 
-`stormlock aquire {{resource}}`
+`stormlock acquire {{resource}}`
 
 - Release the given lease for the given resource:
 

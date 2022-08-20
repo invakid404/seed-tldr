@@ -2,8 +2,8 @@
 id: common.troff
 title: Troff
 desc: ''
-updated: 1642441815077
-created: 1642441815077
+updated: 1660961285183
+created: 1660961285183
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -14,7 +14,7 @@ sources:
 ---
 # troff
 
-> Typesetting processor for the groff (GNU Troff) document fomatting system.
+> Typesetting processor for the groff (GNU Troff) document formatting system.
 > See also `groff`.
 > More information: <https://manned.org/troff>.
 
