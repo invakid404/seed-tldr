@@ -2,8 +2,8 @@
 id: common.gcc
 title: Gcc
 desc: ''
-updated: 1646222518216
-created: 1646222518216
+updated: 1661172195458
+created: 1661172195458
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -33,7 +33,7 @@ sources:
 
 `gcc -S {{path/to/source.c}}`
 
-- Compile source code without linking:
+- Compile source code into an object file without linking:
 
 `gcc -c {{path/to/source.c}}`
 
