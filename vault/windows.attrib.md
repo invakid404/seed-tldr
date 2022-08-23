@@ -2,8 +2,8 @@
 id: windows.attrib
 title: Attrib
 desc: ''
-updated: 1642441815126
-created: 1642441815126
+updated: 1661286116905
+created: 1661286116905
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -14,30 +14,30 @@ sources:
 ---
 # attrib
 
-> Displays or changes file and directory attributes.
+> Display or change attributes of files or directories.
 > More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/attrib>.
 
-- Display the attributes of the files in the current directory:
+- Display all set attributes of files in the current directory:
 
 `attrib`
 
-- Display the attributes of the files in the current directory and sub-directories:
+- Display all set attributes of files in a specific directory:
 
-`attrib /S`
+`attrib {{path\to\directory}}`
 
-- Display the attributes of the files and directories in the current directory and sub-directories:
+- Display all set attributes of files and [d]irectories in the current directory:
 
-`attrib /S /D`
+`attrib /d`
 
-- Add the read-only attribute to a file:
+- Display all set attributes of files in the current directory and [s]ub-directories:
 
-`attrib +R {{document.txt}}`
+`attrib /s`
 
-- Remove the system and hidden attributes of a file:
+- Add the `[r]ead-only` or `[a]rchive` or `[s]ystem` or `[h]idden` or `not content [i]ndexed` attribute to files or directories:
 
-`attrib -S -H {{document.txt}}`
+`attrib +{{r|a|s|h|i}} {{path\to\file_or_directory1 path\to\file_or_directory2 ...}}`
 
-- Add the hidden attribute to a directory:
+- Remove a specific attribute of files or directories:
 
-`attrib +H {{path\to\directory}}`
+`attrib -{{r|a|s|h|i}} {{path\to\file_or_directory1 path\to\file_or_directory2 ...}}`
 
