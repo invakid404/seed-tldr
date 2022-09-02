@@ -2,8 +2,8 @@
 id: common.emacs
 title: Emacs
 desc: ''
-updated: 1642441815012
-created: 1642441815012
+updated: 1662093973131
+created: 1662093973131
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -25,6 +25,10 @@ sources:
 - Open a file at a specified line number:
 
 `emacs +{{line_number}} {{path/to/file}}`
+
+- Run an Emacs Lisp file as a script:
+
+`emacs --script {{path/to/file.el}}`
 
 - Start Emacs in console mode (without an X window):
 
