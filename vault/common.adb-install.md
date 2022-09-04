@@ -2,8 +2,8 @@
 id: common.adb-install
 title: Adb Install
 desc: ''
-updated: 1656591837417
-created: 1656591837417
+updated: 1662319046409
+created: 1662319046409
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -28,6 +28,10 @@ sources:
 - Reinstall an existing app, keeping its data:
 
 `adb install -r {{path/to/file.apk}}`
+
+- Push an Android application allowing version code downgrade (debuggable packages only):
+
+`adb install -d {{path/to/file.apk}}`
 
 - Grant all permissions listed in the app manifest:
 
