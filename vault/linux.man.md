@@ -2,8 +2,8 @@
 id: linux.man
 title: Man
 desc: ''
-updated: 1658197111845
-created: 1658197111845
+updated: 1662477799883
+created: 1662477799883
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -39,7 +39,7 @@ sources:
 
 - Display the man page using a specific locale:
 
-`man {{command}} --locale={{locale}}`
+`man --locale={{locale}} {{command}}`
 
 - Search for manpages containing a search string:
 
