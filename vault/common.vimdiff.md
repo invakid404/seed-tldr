@@ -2,8 +2,8 @@
 id: common.vimdiff
 title: Vimdiff
 desc: ''
-updated: 1642441815080
-created: 1642441815080
+updated: 1662517680793
+created: 1662517680793
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -26,11 +26,11 @@ sources:
 
 `Ctrl + w {{h|l}}`
 
-- Jump to the next difference:
+- Jump to the previous difference:
 
 `[c`
 
-- Jump to the previous difference:
+- Jump to the next difference:
 
 `]c`
 
