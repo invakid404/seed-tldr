@@ -2,8 +2,8 @@
 id: common.git-bisect
 title: Git Bisect
 desc: ''
-updated: 1642441815021
-created: 1642441815021
+updated: 1662564274250
+created: 1662564274250
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -33,4 +33,8 @@ sources:
 - Skip a commit during a bisect (e.g. one that fails the tests due to a different issue):
 
 `git bisect skip`
+
+- Display a log of what has been done so far:
+
+`git bisect log`
 
