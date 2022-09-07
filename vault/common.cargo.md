@@ -2,8 +2,8 @@
 id: common.cargo
 title: Cargo
 desc: ''
-updated: 1642441815001
-created: 1642441815001
+updated: 1662593264222
+created: 1662593264222
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -41,6 +41,10 @@ sources:
 - Build the Rust project in the current directory:
 
 `cargo build`
+
+- Build the rust project in the current directory using the nightly compiler:
+
+`cargo +nightly build`
 
 - Build using a specific number of threads (default is the number of CPU cores):
 
