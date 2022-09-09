@@ -2,8 +2,8 @@
 id: common.npx
 title: Npx
 desc: ''
-updated: 1645185722345
-created: 1645185722345
+updated: 1662690477283
+created: 1662690477283
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -25,7 +25,7 @@ sources:
 
 `npx --package {{package_name}} {{module_name}}`
 
-- Run a command if existis in the current path or in `node_modules/.bin`:
+- Run a command if it exists in the current path or in `node_modules/.bin`:
 
 `npx --no-install {{command}} {{command_arguments}}`
 
