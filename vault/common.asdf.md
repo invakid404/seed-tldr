@@ -2,8 +2,8 @@
 id: common.asdf
 title: Asdf
 desc: ''
-updated: 1642441814995
-created: 1642441814995
+updated: 1662870303633
+created: 1662870303633
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -19,15 +19,15 @@ sources:
 
 - List all available plugins:
 
-`asdf plugin-list-all`
+`asdf plugin list all`
 
 - Install a plugin:
 
-`asdf plugin-add {{name}}`
+`asdf plugin add {{name}}`
 
 - List all available versions for a package:
 
-`asdf list-all {{name}}`
+`asdf list all {{name}}`
 
 - Install a specific version of a package:
 
