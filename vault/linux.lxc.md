@@ -2,8 +2,8 @@
 id: linux.lxc
 title: Lxc
 desc: ''
-updated: 1642441815102
-created: 1642441815102
+updated: 1662949900591
+created: 1662949900591
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -45,4 +45,8 @@ sources:
 - Take a snapshot of a container:
 
 `lxc snapshot [{{remote}}:]{{container}} {{snapshot}}`
+
+- Execute a specific command inside a container:
+
+`lxc exec [{{remote}}:]{{container}} {{command}}`
 
