@@ -2,8 +2,8 @@
 id: common.tldr
 title: Tldr
 desc: ''
-updated: 1642441815076
-created: 1642441815076
+updated: 1663163663115
+created: 1663163663115
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -14,22 +14,22 @@ sources:
 ---
 # tldr
 
-> Displays simple help pages for command-line tools, from the tldr-pages project.
+> Display simple help pages for command-line tools from the tldr-pages project.
 > More information: <https://tldr.sh>.
 
-- Show the tldr page for a command (hint: this is how you got here!):
+- Print the tldr page for a specific command (hint: this is how you got here!):
 
 `tldr {{command}}`
 
-- Show the tldr page for `cd`, overriding the default platform:
+- Print the tldr page for a specific subcommand:
 
-`tldr -p {{android|linux|osx|sunos|windows}} {{cd}}`
+`tldr {{command}}-{{subcommand}}`
 
-- Show the tldr page for a subcommand:
+- Print the tldr page for a command for a specific [p]latform:
 
-`tldr {{git-checkout}}`
+`tldr -p {{android|linux|osx|sunos|windows}} {{command}}`
 
-- Update local pages (if the client supports caching):
+- [u]pdate the local cache of tldr pages:
 
 `tldr -u`
 
