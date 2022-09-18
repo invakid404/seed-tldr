@@ -2,8 +2,8 @@
 id: common.javac
 title: Javac
 desc: ''
-updated: 1642441815036
-created: 1642441815036
+updated: 1663539762295
+created: 1663539762295
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -31,5 +31,5 @@ sources:
 
 - Compile a `.java` file and place the resulting class file in a specific directory:
 
-`javac -d {{path/to/some/directory}} {{file.java}}`
+`javac -d {{path/to/directory}} {{file.java}}`
 
