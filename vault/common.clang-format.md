@@ -2,8 +2,8 @@
 id: common.clang-format
 title: Clang Format
 desc: ''
-updated: 1642441815002
-created: 1642441815002
+updated: 1663609051985
+created: 1663609051985
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -27,7 +27,7 @@ sources:
 
 - Format a file using a predefined coding style:
 
-`clang-format --style={{LLVM|Google|Chromium|Mozilla|WebKit}} {{path/to/file}}`
+`clang-format --style={{LLVM|GNU|Google|Chromium|Microsoft|Mozilla|WebKit}} {{path/to/file}}`
 
 - Format a file using the `.clang-format` file in one of the parent directories of the source file:
 
@@ -35,5 +35,5 @@ sources:
 
 - Generate a custom `.clang-format` file:
 
-`clang-format --style={{LLVM|Google|Chromium|Mozilla|WebKit}} --dump-config > {{.clang-format}}`
+`clang-format --style={{LLVM|GNU|Google|Chromium|Microsoft|Mozilla|WebKit}} --dump-config > {{.clang-format}}`
 
