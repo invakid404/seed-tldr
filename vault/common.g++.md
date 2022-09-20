@@ -2,8 +2,8 @@
 id: common.g++
 title: G++
 desc: ''
-updated: 1646222518216
-created: 1646222518216
+updated: 1663649450821
+created: 1663649450821
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -33,4 +33,12 @@ sources:
 - Include libraries located at a different path than the source file:
 
 `g++ {{path/to/source.cpp}} -o {{path/to/output_executable}} -I{{path/to/header}} -L{{path/to/library}} -l{{library_name}}`
+
+- Compile and link multiple source code files into an executable binary:
+
+`g++ -c {{path/to/source_1.cpp path/to/source_2.cpp ...}} && g++ -o {{path/to/output_executable}} {{path/to/source_1.o path/to/source_2.o ...}}`
+
+- Display version:
+
+`g++ --version`
 
