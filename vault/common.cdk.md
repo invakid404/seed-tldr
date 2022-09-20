@@ -2,8 +2,8 @@
 id: common.cdk
 title: Cdk
 desc: ''
-updated: 1642441815001
-created: 1642441815001
+updated: 1663640634556
+created: 1663640634556
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -43,5 +43,5 @@ sources:
 
 - Open the CDK API reference in your browser:
 
-`cdk doc`
+`cdk docs`
 
