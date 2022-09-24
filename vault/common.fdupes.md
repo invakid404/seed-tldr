@@ -2,8 +2,8 @@
 id: common.fdupes
 title: Fdupes
 desc: ''
-updated: 1642441815017
-created: 1642441815017
+updated: 1663986563288
+created: 1663986563288
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -32,6 +32,10 @@ sources:
 - Search multiple directories, one recursively:
 
 `fdupes {{directory1}} -R {{directory2}}`
+
+- Search recursively and replace duplicates with hardlinks:
+
+`fdupes -rH {{directory}}`
 
 - Search recursively for duplicates and display interactive prompt to pick which ones to keep, deleting the others:
 
