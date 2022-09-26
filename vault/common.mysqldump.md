@@ -2,8 +2,8 @@
 id: common.mysqldump
 title: Mysqldump
 desc: ''
-updated: 1642441815050
-created: 1642441815050
+updated: 1664217099092
+created: 1664217099092
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -32,5 +32,5 @@ sources:
 
 - Backup all databases from a remote host, redirecting the output to a file (user will be prompted for a password):
 
-`mysqldump --host={(ip_or_hostname)} --user {{user}} --password --all-databases > ({path/to/file.sql}}`
+`mysqldump --host={{ip_or_hostname}} --user {{user}} --password --all-databases > {{path/to/file.sql}}`
 
