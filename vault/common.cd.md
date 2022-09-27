@@ -2,8 +2,8 @@
 id: common.cd
 title: CD
 desc: ''
-updated: 1647169313142
-created: 1647169313142
+updated: 1664296707251
+created: 1664296707251
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -36,4 +36,8 @@ sources:
 - Go to the previously chosen directory:
 
 `cd -`
+
+- Go to the root directory:
+
+`cd /`
 
