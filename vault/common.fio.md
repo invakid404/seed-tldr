@@ -2,8 +2,8 @@
 id: common.fio
 title: Fio
 desc: ''
-updated: 1646744767446
-created: 1646744767446
+updated: 1664613092131
+created: 1664613092131
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -29,4 +29,8 @@ sources:
 - Test random read/write:
 
 `sudo fio --filename={{path/to/file}} --size=500GB --direct=1 --rw=randrw --bs=4k --ioengine=libaio --iodepth=256 --runtime=120 --numjobs=4 --time_based --group_reporting --name={{job_name}} --eta-newline=1`
+
+- Test with parameters from a job file:
+
+`sudo fio {{path/to/job_file}}`
 
