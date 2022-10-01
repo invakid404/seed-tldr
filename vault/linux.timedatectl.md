@@ -2,8 +2,8 @@
 id: linux.timedatectl
 title: Timedatectl
 desc: ''
-updated: 1642441815115
-created: 1642441815115
+updated: 1664655944926
+created: 1664655944926
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -36,4 +36,8 @@ sources:
 - Enable Network Time Protocol (NTP) synchronization:
 
 `timedatectl set-ntp on`
+
+- Change the hardware clock time standard to localtime:
+
+`timedatectl set-local-rtc 1`
 
