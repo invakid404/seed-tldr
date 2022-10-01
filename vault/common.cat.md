@@ -2,8 +2,8 @@
 id: common.cat
 title: Cat
 desc: ''
-updated: 1642441815001
-created: 1642441815001
+updated: 1664619989582
+created: 1664619989582
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -19,21 +19,21 @@ sources:
 
 - Print the contents of a file to the standard output:
 
-`cat {{file}}`
+`cat {{path/to/file}}`
 
-- Concatenate several files into the target file:
+- Concatenate several files into an output file:
 
-`cat {{file1}} {{file2}} > {{target_file}}`
+`cat {{path/to/file1}} {{path/to/file2}} > {{path/to/output_file}}`
 
-- Append several files into the target file:
+- Append several files into an output file:
 
-`cat {{file1}} {{file2}} >> {{target_file}}`
+`cat {{path/to/file1}} {{path/to/file2}} >> {{path/to/output_file}}`
 
 - Number all output lines:
 
-`cat -n {{file}}`
+`cat -n {{path/to/file}}`
 
 - Display non-printable and whitespace characters (with `M-` prefix if non-ASCII):
 
-`cat -v -t -e {{file}}`
+`cat -v -t -e {{path/to/file}}`
 
