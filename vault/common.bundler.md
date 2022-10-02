@@ -2,8 +2,8 @@
 id: common.bundler
 title: Bundler
 desc: ''
-updated: 1642441815000
-created: 1642441815000
+updated: 1664742376585
+created: 1664742376585
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -18,7 +18,7 @@ sources:
 > `bundler` is a common name for the command `bundle`, but not a command itself.
 > More information: <https://bundler.io/man/bundle.1.html>.
 
-- View documentation for the actual command:
+- View documentation for the original command:
 
 `tldr bundle`
 

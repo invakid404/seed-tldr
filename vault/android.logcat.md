@@ -2,8 +2,8 @@
 id: android.logcat
 title: Logcat
 desc: ''
-updated: 1642441814990
-created: 1642441814990
+updated: 1664742376563
+created: 1664742376563
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -14,7 +14,7 @@ sources:
 ---
 # logcat
 
-> Dump a log of system messages.
+> Dump a log of system messages, including stack traces when an error occurred, and information messages logged by applications.
 > More information: <https://developer.android.com/studio/command-line/logcat>.
 
 - Display system logs:
