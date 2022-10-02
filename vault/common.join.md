@@ -2,8 +2,8 @@
 id: common.join
 title: Join
 desc: ''
-updated: 1642441815037
-created: 1642441815037
+updated: 1664720595085
+created: 1664720595085
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -32,4 +32,8 @@ sources:
 - Produce a line for each unpairable line for file1:
 
 `join -a {{1}} {{file1}} {{file2}}`
+
+- Join a file from stdin:
+
+`cat {{path/to/file1}} | join - {{path/to/file2}}`
 
