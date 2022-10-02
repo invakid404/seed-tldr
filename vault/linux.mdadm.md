@@ -2,8 +2,8 @@
 id: linux.mdadm
 title: Linux
 desc: ''
-updated: 1642441815103
-created: 1642441815103
+updated: 1664745713214
+created: 1664745713214
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -19,25 +19,29 @@ sources:
 
 - Create array:
 
-`mdadm --create {{/dev/md/MyRAID}} --level {{raid_level}} --raid-devices {{number_of_disks}} {{/dev/sdXN}}`
+`sudo mdadm --create {{/dev/md/MyRAID}} --level {{raid_level}} --raid-devices {{number_of_disks}} {{/dev/sdXN}}`
 
 - Stop array:
 
-`mdadm --stop {{/dev/md0}}`
+`sudo mdadm --stop {{/dev/md0}}`
 
 - Mark disk as failed:
 
-`mdadm --fail {{/dev/md0}} {{/dev/sdXN}}`
+`sudo mdadm --fail {{/dev/md0}} {{/dev/sdXN}}`
 
 - Remove disk:
 
-`mdadm --remove {{/dev/md0}} {{/dev/sdXN}}`
+`sudo mdadm --remove {{/dev/md0}} {{/dev/sdXN}}`
 
 - Add disk to array:
 
-`mdadm --assemble {{/dev/md0}} {{/dev/sdXN}}`
+`sudo mdadm --assemble {{/dev/md0}} {{/dev/sdXN}}`
 
 - Show RAID info:
 
-`mdadm --detail {{/dev/md0}}`
+`sudo mdadm --detail {{/dev/md0}}`
+
+- Reset disk by deleting RAID metadata:
+
+`sudo mdadm --zero-superblock {{/dev/sdXN}}`
 
