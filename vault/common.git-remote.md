@@ -2,8 +2,8 @@
 id: common.git-remote
 title: Git Remote
 desc: ''
-updated: 1642441815025
-created: 1642441815025
+updated: 1664769727612
+created: 1664769727612
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -32,6 +32,10 @@ sources:
 - Change the URL of a remote (use `--add` to keep the existing URL):
 
 `git remote set-url {{remote_name}} {{new_url}}`
+
+- Show the URL of a remote:
+
+`git remote get-url {{remote_name}}`
 
 - Remove a remote:
 
