@@ -2,8 +2,8 @@
 id: common.g++
 title: G++
 desc: ''
-updated: 1663649450821
-created: 1663649450821
+updated: 1664775910136
+created: 1664775910136
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -22,7 +22,7 @@ sources:
 
 `g++ {{path/to/source.cpp}} -o {{path/to/output_executable}}`
 
-- Display (almost) all errors and warnings:
+- Display common warnings:
 
 `g++ {{path/to/source.cpp}} -Wall -o {{path/to/output_executable}}`
 

@@ -2,8 +2,8 @@
 id: common.gcc
 title: Gcc
 desc: ''
-updated: 1661272165780
-created: 1661272165780
+updated: 1664775910137
+created: 1664775910137
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -21,7 +21,7 @@ sources:
 
 `gcc {{path/to/source1.c path/to/source2.c ...}} -o {{path/to/output_executable}}`
 
-- Allow warnings, debug symbols in output:
+- Show common warnings, debug symbols in output:
 
 `gcc {{path/to/source.c}} -Wall -Og -o {{path/to/output_executable}}`
 
