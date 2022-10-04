@@ -2,8 +2,8 @@
 id: common.test
 title: Test
 desc: ''
-updated: 1642441815075
-created: 1642441815075
+updated: 1664879247082
+created: 1664879247082
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -34,7 +34,7 @@ sources:
 
 `test ! -d "{{path/to/directory}}"`
 
-- If-else statement:
+- If A is true, then do B, or C in the case of an error (notice that C may run even if A fails):
 
 `test {{condition}} && {{echo "true"}} || {{echo "false"}}`
 
