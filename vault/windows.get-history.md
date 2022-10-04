@@ -2,8 +2,8 @@
 id: windows.get-history
 title: Get History
 desc: ''
-updated: 1642441815128
-created: 1642441815128
+updated: 1664897374262
+created: 1664897374262
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -16,7 +16,7 @@ sources:
 
 > Display PowerShell command history.
 > This command can only be used through PowerShell.
-> More information: <https://docs.microsoft.com/powershell/module/microsoft.powershell.core/get-history>.
+> More information: <https://learn.microsoft.com/powershell/module/microsoft.powershell.core/get-history>.
 
 - Display the commands history list with ID:
 

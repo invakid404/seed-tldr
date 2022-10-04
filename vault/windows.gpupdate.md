@@ -2,8 +2,8 @@
 id: windows.gpupdate
 title: Gpupdate
 desc: ''
-updated: 1642441815128
-created: 1642441815128
+updated: 1664897374262
+created: 1664897374262
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,7 +15,7 @@ sources:
 # gpupdate
 
 > A tool to check and apply Windows Group Policy settings.
-> More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/gpupdate>.
+> More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/gpupdate>.
 
 - Check and apply updated Group Policy settings:
 

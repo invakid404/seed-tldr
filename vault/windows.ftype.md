@@ -2,8 +2,8 @@
 id: windows.ftype
 title: Ftype
 desc: ''
-updated: 1642441815127
-created: 1642441815127
+updated: 1664897374262
+created: 1664897374262
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,7 +15,7 @@ sources:
 # ftype
 
 > Display or modify file types used for file extension association.
-> More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/ftype>.
+> More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/ftype>.
 
 - Display a list of all file types:
 

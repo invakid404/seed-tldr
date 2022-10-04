@@ -2,8 +2,8 @@
 id: windows.forfiles
 title: Forfiles
 desc: ''
-updated: 1642441815127
-created: 1642441815127
+updated: 1664897374261
+created: 1664897374261
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,7 +15,7 @@ sources:
 # forfiles
 
 > Select one or more files to execute a specified command on.
-> More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/forfiles>.
+> More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/forfiles>.
 
 - Search for files in the current directory:
 

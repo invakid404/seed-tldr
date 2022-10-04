@@ -2,8 +2,8 @@
 id: common.dotnet-publish
 title: Dotnet Publish
 desc: ''
-updated: 1642441815010
-created: 1642441815010
+updated: 1664897373986
+created: 1664897373986
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,7 +15,7 @@ sources:
 # dotnet publish
 
 > Publish a .NET application and its dependencies to a directory for deployment to a hosting system.
-> More information: <https://docs.microsoft.com/dotnet/core/tools/dotnet-publish>.
+> More information: <https://learn.microsoft.com/dotnet/core/tools/dotnet-publish>.
 
 - Compile a .NET project in release mode:
 

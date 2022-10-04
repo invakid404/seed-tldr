@@ -2,8 +2,8 @@
 id: common.dotnet-tool
 title: Dotnet Tool
 desc: ''
-updated: 1656591837451
-created: 1656591837451
+updated: 1664897373986
+created: 1664897373986
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,7 +15,7 @@ sources:
 # dotnet tool
 
 > Manage .NET tools and search published tools in NuGet.
-> More information: <https://docs.microsoft.com/dotnet/core/tools/global-tools>.
+> More information: <https://learn.microsoft.com/dotnet/core/tools/global-tools>.
 
 - Install a global tool (don't use `--global` for local tools):
 

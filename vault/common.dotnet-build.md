@@ -2,8 +2,8 @@
 id: common.dotnet-build
 title: Dotnet Build
 desc: ''
-updated: 1642441815010
-created: 1642441815010
+updated: 1664897373986
+created: 1664897373986
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,7 +15,7 @@ sources:
 # dotnet build
 
 > Builds a .NET application and its dependencies.
-> More information: <https://docs.microsoft.com/dotnet/core/tools/dotnet-build>.
+> More information: <https://learn.microsoft.com/dotnet/core/tools/dotnet-build>.
 
 - Compile the project or solution in the current directory:
 

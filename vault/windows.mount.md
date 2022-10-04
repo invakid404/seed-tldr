@@ -2,8 +2,8 @@
 id: windows.mount
 title: Mount
 desc: ''
-updated: 1642441815128
-created: 1642441815128
+updated: 1664897374263
+created: 1664897374263
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,7 +15,7 @@ sources:
 # mount
 
 > Mount Network File System (NFS) network shares.
-> More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/mount>.
+> More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/mount>.
 
 - Mount a share to the "Z" drive letter:
 

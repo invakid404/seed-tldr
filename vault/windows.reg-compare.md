@@ -2,8 +2,8 @@
 id: windows.reg-compare
 title: Reg Compare
 desc: ''
-updated: 1642441815129
-created: 1642441815129
+updated: 1664897374264
+created: 1664897374264
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,7 +15,7 @@ sources:
 # reg compare
 
 > Compare keys and their values in the registry.
-> More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/reg-compare>.
+> More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/reg-compare>.
 
 - Compare all values under a specific key with a second key:
 

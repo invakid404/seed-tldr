@@ -2,8 +2,8 @@
 id: common.az-lock
 title: Az Lock
 desc: ''
-updated: 1642441814997
-created: 1642441814997
+updated: 1664897373955
+created: 1664897373955
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -16,7 +16,7 @@ sources:
 
 > Manage Azure locks.
 > Part of `azure-cli`.
-> More information: <https://docs.microsoft.com/cli/azure/lock>.
+> More information: <https://learn.microsoft.com/cli/azure/lock>.
 
 - Create a read-only subscription level lock:
 

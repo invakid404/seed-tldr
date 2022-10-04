@@ -2,8 +2,8 @@
 id: windows.invoke-item
 title: Invoke Item
 desc: ''
-updated: 1642441815128
-created: 1642441815128
+updated: 1664897374262
+created: 1664897374262
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -16,7 +16,7 @@ sources:
 
 > Open files in their respective default programs.
 > This command can only be used through PowerShell.
-> More information: <https://docs.microsoft.com/powershell/module/microsoft.powershell.management/invoke-item>.
+> More information: <https://learn.microsoft.com/powershell/module/microsoft.powershell.management/invoke-item>.
 
 - Open a file in its default program:
 

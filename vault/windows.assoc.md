@@ -2,8 +2,8 @@
 id: windows.assoc
 title: Assoc
 desc: ''
-updated: 1661286116905
-created: 1661286116905
+updated: 1664897374257
+created: 1664897374257
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,7 +15,7 @@ sources:
 # assoc
 
 > Display or change associations between file extensions and file types.
-> More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/assoc>.
+> More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/assoc>.
 
 - List all associations between file extensions and file types:
 

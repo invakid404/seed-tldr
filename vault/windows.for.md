@@ -2,8 +2,8 @@
 id: windows.for
 title: For
 desc: ''
-updated: 1642441815127
-created: 1642441815127
+updated: 1664897374261
+created: 1664897374261
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,7 +15,7 @@ sources:
 # for
 
 > Conditionally execute a command several times.
-> More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/for>.
+> More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/for>.
 
 - Execute given commands for the specified set:
 

@@ -2,8 +2,8 @@
 id: windows.fsutil
 title: Fsutil
 desc: ''
-updated: 1642441815127
-created: 1642441815127
+updated: 1664897374261
+created: 1664897374261
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,7 +15,7 @@ sources:
 # fsutil
 
 > Displays information about file system volumes.
-> More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/fsutil>.
+> More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/fsutil>.
 
 - Display a list of volumes:
 

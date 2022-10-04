@@ -2,8 +2,8 @@
 id: windows.exit
 title: Exit
 desc: ''
-updated: 1642441815127
-created: 1642441815127
+updated: 1664897374260
+created: 1664897374260
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,7 +15,7 @@ sources:
 # exit
 
 > Quit the current CMD instance or the current batch file.
-> More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/exit>.
+> More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/exit>.
 
 - Quit the current CMD instance:
 

@@ -2,8 +2,8 @@
 id: common.az-account
 title: Az Account
 desc: ''
-updated: 1642441814997
-created: 1642441814997
+updated: 1664897373955
+created: 1664897373955
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -16,7 +16,7 @@ sources:
 
 > Manage Azure subscription information.
 > Part of `az`, the command-line client for Microsoft Azure.
-> More information: <https://docs.microsoft.com/cli/azure/account>.
+> More information: <https://learn.microsoft.com/cli/azure/account>.
 
 - Print a list of subscriptions for the logged in account:
 

@@ -2,8 +2,8 @@
 id: common.powershell
 title: Powershell
 desc: ''
-updated: 1659578329829
-created: 1659578329829
+updated: 1664897374093
+created: 1664897374093
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -16,7 +16,7 @@ sources:
 
 > Command-line shell and scripting language designed especially for system administration.
 > See also: `pwsh`.
-> More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/powershell>.
+> More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/powershell>.
 
 - Start an interactive shell session:
 

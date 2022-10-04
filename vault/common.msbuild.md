@@ -2,8 +2,8 @@
 id: common.msbuild
 title: Msbuild
 desc: ''
-updated: 1642441815049
-created: 1642441815049
+updated: 1664897374061
+created: 1664897374061
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,7 +15,7 @@ sources:
 # msbuild
 
 > The Microsoft build tool for Visual Studio project solutions.
-> More information: <https://docs.microsoft.com/visualstudio/msbuild>.
+> More information: <https://learn.microsoft.com/visualstudio/msbuild>.
 
 - Build the first project file in the current directory:
 

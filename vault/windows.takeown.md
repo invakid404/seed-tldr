@@ -2,8 +2,8 @@
 id: windows.takeown
 title: Takeown
 desc: ''
-updated: 1642441815129
-created: 1642441815129
+updated: 1664897374267
+created: 1664897374267
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,7 +15,7 @@ sources:
 # takeown
 
 > Take ownership of a file or directory.
-> More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/takeown>.
+> More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/takeown>.
 
 - Take ownership of the specified file:
 

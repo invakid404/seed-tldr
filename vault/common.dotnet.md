@@ -2,8 +2,8 @@
 id: common.dotnet
 title: Dotnet
 desc: ''
-updated: 1642441815011
-created: 1642441815011
+updated: 1664897373986
+created: 1664897373986
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -16,7 +16,7 @@ sources:
 
 > Cross platform .NET command-line tools for .NET Core.
 > Some subcommands such as `dotnet build` have their own usage documentation.
-> More information: <https://docs.microsoft.com/dotnet/core/tools>.
+> More information: <https://learn.microsoft.com/dotnet/core/tools>.
 
 - Initialize a new .NET project:
 

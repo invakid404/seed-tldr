@@ -2,8 +2,8 @@
 id: windows.getmac
 title: Getmac
 desc: ''
-updated: 1642441815128
-created: 1642441815128
+updated: 1664897374262
+created: 1664897374262
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,7 +15,7 @@ sources:
 # getmac
 
 > Display the MAC addresses of a system.
-> More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/getmac>.
+> More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/getmac>.
 
 - Display the MAC addresses for the current system:
 

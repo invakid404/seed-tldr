@@ -2,8 +2,8 @@
 id: windows.attrib
 title: Attrib
 desc: ''
-updated: 1661286116905
-created: 1661286116905
+updated: 1664897374257
+created: 1664897374257
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,7 +15,7 @@ sources:
 # attrib
 
 > Display or change attributes of files or directories.
-> More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/attrib>.
+> More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/attrib>.
 
 - Display all set attributes of files in the current directory:
 

@@ -2,8 +2,8 @@
 id: windows.reg-save
 title: Reg Save
 desc: ''
-updated: 1642441815129
-created: 1642441815129
+updated: 1664897374265
+created: 1664897374265
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,7 +15,7 @@ sources:
 # reg save
 
 > Save a registry key, its sub keys and values to a file.
-> More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/reg-save>.
+> More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/reg-save>.
 
 - Save a registry key, its sub keys and values to a specific file:
 

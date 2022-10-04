@@ -2,8 +2,8 @@
 id: common.az-config
 title: Az Config
 desc: ''
-updated: 1642441814997
-created: 1642441814997
+updated: 1664897373955
+created: 1664897373955
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -16,7 +16,7 @@ sources:
 
 > Manage Azure CLI configuration.
 > Part of `azure-cli`.
-> More information: <https://docs.microsoft.com/cli/azure/config>.
+> More information: <https://learn.microsoft.com/cli/azure/config>.
 
 - Print all configurations:
 

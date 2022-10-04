@@ -2,8 +2,8 @@
 id: windows.systeminfo
 title: Systeminfo
 desc: ''
-updated: 1642441815129
-created: 1642441815129
+updated: 1664897374267
+created: 1664897374267
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,7 +15,7 @@ sources:
 # systeminfo
 
 > Display operating system configuration for a local or remote machine.
-> More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/systeminfo>.
+> More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/systeminfo>.
 
 - Display system configuration for the local machine:
 

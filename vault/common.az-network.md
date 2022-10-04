@@ -2,8 +2,8 @@
 id: common.az-network
 title: Az Network
 desc: ''
-updated: 1642441814997
-created: 1642441814997
+updated: 1664897373955
+created: 1664897373955
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -16,7 +16,7 @@ sources:
 
 > Manage Azure Network resources.
 > Part of `azure-cli`.
-> More information: <https://docs.microsoft.com/cli/azure/network>.
+> More information: <https://learn.microsoft.com/cli/azure/network>.
 
 - List network resources in a region that are used against a subscription quota:
 

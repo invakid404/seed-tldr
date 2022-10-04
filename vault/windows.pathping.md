@@ -2,8 +2,8 @@
 id: windows.pathping
 title: Pathping
 desc: ''
-updated: 1642441815128
-created: 1642441815128
+updated: 1664897374264
+created: 1664897374264
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,7 +15,7 @@ sources:
 # pathping
 
 > A trace route tool combining features of `ping` and `tracert`.
-> More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/pathping>.
+> More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/pathping>.
 
 - Ping and trace the route to a host:
 

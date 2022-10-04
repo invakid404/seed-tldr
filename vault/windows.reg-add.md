@@ -2,8 +2,8 @@
 id: windows.reg-add
 title: Reg Add
 desc: ''
-updated: 1642441815128
-created: 1642441815128
+updated: 1664897374264
+created: 1664897374264
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,7 +15,7 @@ sources:
 # reg add
 
 > Add new keys and their values to the registry.
-> More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/reg-add>.
+> More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/reg-add>.
 
 - Add a new registry key:
 

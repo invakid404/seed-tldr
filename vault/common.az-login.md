@@ -2,8 +2,8 @@
 id: common.az-login
 title: Az Login
 desc: ''
-updated: 1642441814997
-created: 1642441814997
+updated: 1664897373955
+created: 1664897373955
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -16,7 +16,7 @@ sources:
 
 > Log in to Azure.
 > Part of `az`, the command-line client for Microsoft Azure.
-> More information: <https://docs.microsoft.com/cli/azure/reference-index#az_login>.
+> More information: <https://learn.microsoft.com/cli/azure/reference-index#az_login>.
 
 - Log in interactively:
 

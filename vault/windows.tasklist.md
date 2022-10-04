@@ -2,8 +2,8 @@
 id: windows.tasklist
 title: Tasklist
 desc: ''
-updated: 1642441815129
-created: 1642441815129
+updated: 1664897374267
+created: 1664897374267
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,7 +15,7 @@ sources:
 # tasklist
 
 > Display a list of currently running processes on a local or remote machine.
-> More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/tasklist>.
+> More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/tasklist>.
 
 - Display currently running processes:
 

@@ -2,8 +2,8 @@
 id: windows.reg-copy
 title: Reg Copy
 desc: ''
-updated: 1642441815129
-created: 1642441815129
+updated: 1664897374264
+created: 1664897374264
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,7 +15,7 @@ sources:
 # reg copy
 
 > Copy keys and their values in the registry.
-> More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/reg-copy>.
+> More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/reg-copy>.
 
 - Copy a registry key to a new registry location:
 

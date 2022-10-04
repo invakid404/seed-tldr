@@ -2,8 +2,8 @@
 id: windows.get-content
 title: Get Content
 desc: ''
-updated: 1642441815127
-created: 1642441815127
+updated: 1664897374262
+created: 1664897374262
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -16,7 +16,7 @@ sources:
 
 > Get the content of the item at the specified location.
 > This command can only be used through PowerShell.
-> More information: <https://docs.microsoft.com/powershell/module/microsoft.powershell.management/get-content>.
+> More information: <https://learn.microsoft.com/powershell/module/microsoft.powershell.management/get-content>.
 
 - Display the content of a file:
 

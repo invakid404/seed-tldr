@@ -2,8 +2,8 @@
 id: windows.findstr
 title: Findstr
 desc: ''
-updated: 1642441815127
-created: 1642441815127
+updated: 1664897374261
+created: 1664897374261
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,7 +15,7 @@ sources:
 # findstr
 
 > Find specified text within one or more files.
-> More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/findstr>.
+> More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/findstr>.
 
 - Find space-separated string(s) in all files:
 

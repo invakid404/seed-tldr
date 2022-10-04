@@ -2,8 +2,8 @@
 id: common.dotnet-restore
 title: Dotnet Restore
 desc: ''
-updated: 1642441815011
-created: 1642441815011
+updated: 1664897373986
+created: 1664897373986
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,7 +15,7 @@ sources:
 # dotnet restore
 
 > Restores the dependencies and tools of a .NET project.
-> More information: <https://docs.microsoft.com/dotnet/core/tools/dotnet-restore>.
+> More information: <https://learn.microsoft.com/dotnet/core/tools/dotnet-restore>.
 
 - Restore dependencies for a .NET project or solution in the current directory:
 

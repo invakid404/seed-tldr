@@ -2,8 +2,8 @@
 id: windows.reg-unload
 title: Reg Unload
 desc: ''
-updated: 1642441815129
-created: 1642441815129
+updated: 1664897374265
+created: 1664897374265
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,7 +15,7 @@ sources:
 # reg unload
 
 > Remove data from the registry that was loaded using the `reg load` command.
-> More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/reg-unload>.
+> More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/reg-unload>.
 
 - Remove data from the registry for a specified key:
 

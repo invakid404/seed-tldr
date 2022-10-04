@@ -2,8 +2,8 @@
 id: common.az-storage-entity
 title: Az Storage Entity
 desc: ''
-updated: 1642441814997
-created: 1642441814997
+updated: 1664897373956
+created: 1664897373956
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -16,7 +16,7 @@ sources:
 
 > Manage Azure Table storage entities.
 > Part of `azure-cli`.
-> More information: <https://docs.microsoft.com/cli/azure/storage/entity>.
+> More information: <https://learn.microsoft.com/cli/azure/storage/entity>.
 
 - Insert an entity into a table:
 

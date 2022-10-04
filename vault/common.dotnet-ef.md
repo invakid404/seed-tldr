@@ -2,8 +2,8 @@
 id: common.dotnet-ef
 title: Dotnet Ef
 desc: ''
-updated: 1642441815010
-created: 1642441815010
+updated: 1664897373986
+created: 1664897373986
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,7 +15,7 @@ sources:
 # dotnet ef
 
 > Perform design-time development tasks for Entity Framework Core.
-> More information: <https://docs.microsoft.com/ef/core/cli/dotnet>.
+> More information: <https://learn.microsoft.com/ef/core/cli/dotnet>.
 
 - Update the database to a specified migration:
 

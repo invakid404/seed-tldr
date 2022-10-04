@@ -2,8 +2,8 @@
 id: windows.reg-delete
 title: Reg Delete
 desc: ''
-updated: 1642441815129
-created: 1642441815129
+updated: 1664897374265
+created: 1664897374265
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,7 +15,7 @@ sources:
 # reg delete
 
 > Delete keys or their values from the registry.
-> More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/reg-delete>.
+> More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/reg-delete>.
 
 - Delete a specific registry key:
 

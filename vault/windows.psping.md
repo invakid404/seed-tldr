@@ -2,8 +2,8 @@
 id: windows.psping
 title: Psping
 desc: ''
-updated: 1642441815128
-created: 1642441815128
+updated: 1664897374264
+created: 1664897374264
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,7 +15,7 @@ sources:
 # psping
 
 > A ping tool that includes TCP ping, latency and bandwidth measurement.
-> More information: <https://docs.microsoft.com/sysinternals/downloads/psping>.
+> More information: <https://learn.microsoft.com/sysinternals/downloads/psping>.
 
 - Ping a host using ICMP:
 

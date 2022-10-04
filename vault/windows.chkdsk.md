@@ -2,8 +2,8 @@
 id: windows.chkdsk
 title: Chkdsk
 desc: ''
-updated: 1642441815126
-created: 1642441815126
+updated: 1664897374257
+created: 1664897374257
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,7 +15,7 @@ sources:
 # chkdsk
 
 > Check file system and volume metadata for errors.
-> More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/chkdsk>.
+> More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/chkdsk>.
 
 - Specify the drive letter (followed by a colon), mount point, or volume name to check:
 

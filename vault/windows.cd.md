@@ -2,8 +2,8 @@
 id: windows.cd
 title: CD
 desc: ''
-updated: 1660529407145
-created: 1660529407145
+updated: 1664897374257
+created: 1664897374257
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,7 +15,7 @@ sources:
 # cd
 
 > Display the current working directory or move to a different directory.
-> More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/cd>.
+> More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/cd>.
 
 - Display the path of the current directory:
 

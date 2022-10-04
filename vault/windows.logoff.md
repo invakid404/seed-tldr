@@ -2,8 +2,8 @@
 id: windows.logoff
 title: Logoff
 desc: ''
-updated: 1642441815128
-created: 1642441815128
+updated: 1664897374263
+created: 1664897374263
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,7 +15,7 @@ sources:
 # logoff
 
 > Terminate a login session.
-> More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/logoff>.
+> More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/logoff>.
 
 - Terminate the current session:
 

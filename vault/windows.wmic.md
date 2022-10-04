@@ -2,8 +2,8 @@
 id: windows.wmic
 title: Wmic
 desc: ''
-updated: 1642441815130
-created: 1642441815130
+updated: 1664897374269
+created: 1664897374270
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,7 +15,7 @@ sources:
 # wmic
 
 > Interactive shell for detailed information about running processes.
-> More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/wmic>.
+> More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/wmic>.
 
 - Fundamental grammar:
 

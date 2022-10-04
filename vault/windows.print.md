@@ -2,8 +2,8 @@
 id: windows.print
 title: Print
 desc: ''
-updated: 1642441815128
-created: 1642441815128
+updated: 1664897374264
+created: 1664897374264
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,7 +15,7 @@ sources:
 # print
 
 > Print a text file to a printer.
-> More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/print>.
+> More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/print>.
 
 - Print a text file to the default printer:
 

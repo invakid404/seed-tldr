@@ -2,8 +2,8 @@
 id: windows.choice
 title: Choice
 desc: ''
-updated: 1661066358411
-created: 1661066358411
+updated: 1664897374259
+created: 1664897374259
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,7 +15,7 @@ sources:
 # choice
 
 > Prompt user to select a choice and return the selected choice index.
-> More information: <https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/choice>.
+> More information: <https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/choice>.
 
 - Prompt the current user to select a `Y` or `N` choice:
 

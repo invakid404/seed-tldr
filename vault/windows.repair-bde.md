@@ -2,8 +2,8 @@
 id: windows.repair-bde
 title: Repair Bde
 desc: ''
-updated: 1642441815129
-created: 1642441815129
+updated: 1664897374265
+created: 1664897374266
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,7 +15,7 @@ sources:
 # repair-bde
 
 > Attempt to repair or decrypt a damaged BitLocker-encrypted volume.
-> More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/repair-bde>.
+> More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/repair-bde>.
 
 - Attempt to repair a specified volume:
 

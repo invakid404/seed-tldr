@@ -2,8 +2,8 @@
 id: windows.del
 title: Del
 desc: ''
-updated: 1642441815127
-created: 1642441815127
+updated: 1664897374260
+created: 1664897374260
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,7 +15,7 @@ sources:
 # del
 
 > Delete one or more files.
-> More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/del>.
+> More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/del>.
 
 - Delete one or more space-separated files or patterns:
 

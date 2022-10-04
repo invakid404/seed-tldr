@@ -2,8 +2,8 @@
 id: common.csc
 title: Csc
 desc: ''
-updated: 1642441815005
-created: 1642441815005
+updated: 1664897373972
+created: 1664897373972
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,7 +15,7 @@ sources:
 # csc
 
 > The Microsoft C# Compiler.
-> More information: <https://docs.microsoft.com/dotnet/csharp/language-reference/compiler-options/command-line-building-with-csc-exe>.
+> More information: <https://learn.microsoft.com/dotnet/csharp/language-reference/compiler-options/command-line-building-with-csc-exe>.
 
 - Compile one or more C# files to a CIL executable:
 

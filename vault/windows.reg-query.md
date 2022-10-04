@@ -2,8 +2,8 @@
 id: windows.reg-query
 title: Reg Query
 desc: ''
-updated: 1642441815129
-created: 1642441815129
+updated: 1664897374265
+created: 1664897374265
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,7 +15,7 @@ sources:
 # reg query
 
 > Display the values of keys and sub keys in the registry.
-> More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/reg-query>.
+> More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/reg-query>.
 
 - Display all values of a key:
 

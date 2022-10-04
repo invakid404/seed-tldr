@@ -2,8 +2,8 @@
 id: windows.tzutil
 title: Tzutil
 desc: ''
-updated: 1642441815130
-created: 1642441815130
+updated: 1664897374269
+created: 1664897374269
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,7 +15,7 @@ sources:
 # tzutil
 
 > A tool for displaying or configuring the system time zone.
-> More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/tzutil>.
+> More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/tzutil>.
 
 - Get the current time zone:
 

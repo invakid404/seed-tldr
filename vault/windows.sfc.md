@@ -2,8 +2,8 @@
 id: windows.sfc
 title: Sfc
 desc: ''
-updated: 1642441815129
-created: 1642441815129
+updated: 1664897374266
+created: 1664897374266
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,7 +15,7 @@ sources:
 # sfc
 
 > Scans the integrity of Windows system files.
-> More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/sfc>.
+> More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/sfc>.
 
 - Display information about the usage of the command:
 

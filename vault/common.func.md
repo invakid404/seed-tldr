@@ -2,8 +2,8 @@
 id: common.func
 title: Func
 desc: ''
-updated: 1642441815019
-created: 1642441815019
+updated: 1664897373999
+created: 1664897373999
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -16,7 +16,7 @@ sources:
 
 > Azure Functions Core Tools: Develop and test Azure Functions locally.
 > Local functions can connect to live Azure services, and can deploy a function app to an Azure subscription.
-> More information: <https://docs.microsoft.com/azure/azure-functions/functions-run-local>.
+> More information: <https://learn.microsoft.com/azure/azure-functions/functions-run-local>.
 
 - Create a new functions project:
 

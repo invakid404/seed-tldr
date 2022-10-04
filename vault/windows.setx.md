@@ -2,8 +2,8 @@
 id: windows.setx
 title: Setx
 desc: ''
-updated: 1642441815129
-created: 1642441815129
+updated: 1664897374266
+created: 1664897374266
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,7 +15,7 @@ sources:
 # setx
 
 > Sets persistent environment variables.
-> More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/setx>.
+> More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/setx>.
 
 - Set an environment variable for the current user:
 

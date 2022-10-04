@@ -2,8 +2,8 @@
 id: common.pwsh
 title: Pwsh
 desc: ''
-updated: 1642441815063
-created: 1642441815063
+updated: 1664897374103
+created: 1664897374103
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,7 +15,7 @@ sources:
 # pwsh
 
 > PowerShell Core is a cross-platform automation and configuration tool/framework.
-> More information: <https://docs.microsoft.com/powershell/>.
+> More information: <https://learn.microsoft.com/powershell/>.
 
 - Start an instance of PowerShell:
 

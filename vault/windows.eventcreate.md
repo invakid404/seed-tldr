@@ -2,8 +2,8 @@
 id: windows.eventcreate
 title: Eventcreate
 desc: ''
-updated: 1642441815127
-created: 1642441815127
+updated: 1664897374260
+created: 1664897374260
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -16,7 +16,7 @@ sources:
 
 > Create custom entries in the event log.
 > Event IDs can be any number between 1 and 1000.
-> More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/eventcreate>.
+> More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/eventcreate>.
 
 - Create a new event with a given ID (1-1000) in the log:
 

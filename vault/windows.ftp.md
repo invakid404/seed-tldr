@@ -2,8 +2,8 @@
 id: windows.ftp
 title: Ftp
 desc: ''
-updated: 1642441815127
-created: 1642441815127
+updated: 1664897374261
+created: 1664897374261
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,7 +15,7 @@ sources:
 # ftp
 
 > Interactively transfer files between a local and remote FTP server.
-> More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/ftp>.
+> More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/ftp>.
 
 - Connect to a remote FTP server interactively:
 

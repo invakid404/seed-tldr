@@ -2,8 +2,8 @@
 id: windows.robocopy
 title: Robocopy
 desc: ''
-updated: 1642441815129
-created: 1642441815129
+updated: 1664897374266
+created: 1664897374266
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -16,7 +16,7 @@ sources:
 
 > Robust File and Folder Copy.
 > By default files will only be copied if the source and destination have different time stamps or different file sizes.
-> More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/robocopy>.
+> More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/robocopy>.
 
 - Copy all `.jpg` and `.bmp` files from one directory to another:
 

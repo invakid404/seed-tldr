@@ -2,8 +2,8 @@
 id: windows.if
 title: If
 desc: ''
-updated: 1643509837413
-created: 1643509837413
+updated: 1664897374262
+created: 1664897374262
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,7 +15,7 @@ sources:
 # if
 
 > Performs conditional processing in batch scripts.
-> More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/if>.
+> More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/if>.
 
 - Execute the specified commands if the condition is true:
 

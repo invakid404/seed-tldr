@@ -2,8 +2,8 @@
 id: windows.shutdown
 title: Shutdown
 desc: ''
-updated: 1642441815129
-created: 1642441815129
+updated: 1664897374266
+created: 1664897374266
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,7 +15,7 @@ sources:
 # shutdown
 
 > A tool for shutting down, restarting or logging off a machine.
-> More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/shutdown>.
+> More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/shutdown>.
 
 - Shutdown the current machine:
 

@@ -2,8 +2,8 @@
 id: windows.rpcinfo
 title: Rpcinfo
 desc: ''
-updated: 1642441815129
-created: 1642441815129
+updated: 1664897374266
+created: 1664897374266
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,7 +15,7 @@ sources:
 # rpcinfo
 
 > List programs via RPC on remote computers.
-> More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/rpcinfo>.
+> More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/rpcinfo>.
 
 - List all programs registered on the local computer:
 

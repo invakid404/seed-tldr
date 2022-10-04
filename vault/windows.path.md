@@ -2,8 +2,8 @@
 id: windows.path
 title: Path
 desc: ''
-updated: 1642441815128
-created: 1642441815128
+updated: 1664897374263
+created: 1664897374264
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,7 +15,7 @@ sources:
 # path
 
 > Display or set the search path for executable files.
-> More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/path>.
+> More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/path>.
 
 - Display the current path:
 

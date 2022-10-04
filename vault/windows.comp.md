@@ -2,8 +2,8 @@
 id: windows.comp
 title: Comp
 desc: ''
-updated: 1642441815127
-created: 1642441815127
+updated: 1664897374259
+created: 1664897374259
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -16,7 +16,7 @@ sources:
 
 > Compare the contents of two files or sets of files.
 > Use wildcards (\*) to compare sets of files.
-> More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/comp>.
+> More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/comp>.
 
 - Compare files interactively:
 

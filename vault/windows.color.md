@@ -2,8 +2,8 @@
 id: windows.color
 title: Color
 desc: ''
-updated: 1642627008114
-created: 1642627008114
+updated: 1664897374259
+created: 1664897374259
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,7 +15,7 @@ sources:
 # color
 
 > Set the console foreground and background colors.
-> More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/color>.
+> More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/color>.
 
 - Set the console colors to the default values:
 

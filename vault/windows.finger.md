@@ -2,8 +2,8 @@
 id: windows.finger
 title: Finger
 desc: ''
-updated: 1642441815127
-created: 1642441815127
+updated: 1664897374261
+created: 1664897374261
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -16,7 +16,7 @@ sources:
 
 > Return information about one or more users on a specified system.
 > The remote system must be running the Finger service.
-> More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/finger>.
+> More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/finger>.
 
 - Display information about a specific user:
 

@@ -2,8 +2,8 @@
 id: common.az-logout
 title: Az Logout
 desc: ''
-updated: 1642441814997
-created: 1642441814997
+updated: 1664897373955
+created: 1664897373955
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -16,7 +16,7 @@ sources:
 
 > Log out from an Azure subscription.
 > Part of `azure-cli`.
-> More information: <https://docs.microsoft.com/cli/azure/reference-index#az_logout>.
+> More information: <https://learn.microsoft.com/cli/azure/reference-index#az_logout>.
 
 - Log out from the active account:
 

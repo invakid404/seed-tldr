@@ -2,8 +2,8 @@
 id: windows.clip
 title: Clip
 desc: ''
-updated: 1642441815126
-created: 1642441815126
+updated: 1664897374259
+created: 1664897374259
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,7 +15,7 @@ sources:
 # clip
 
 > Copy input content to the Windows clipboard.
-> More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/clip>.
+> More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/clip>.
 
 - Pipe command-line output to the Windows clipboard:
 

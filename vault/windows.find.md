@@ -2,8 +2,8 @@
 id: windows.find
 title: Find
 desc: ''
-updated: 1642441815127
-created: 1642441815127
+updated: 1664897374261
+created: 1664897374261
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,7 +15,7 @@ sources:
 # find
 
 > Find a specified string in one or more files.
-> More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/find>.
+> More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/find>.
 
 - Find lines that contain a specified string:
 

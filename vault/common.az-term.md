@@ -2,8 +2,8 @@
 id: common.az-term
 title: Az Term
 desc: ''
-updated: 1642441814997
-created: 1642441814997
+updated: 1664897373956
+created: 1664897373956
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -16,7 +16,7 @@ sources:
 
 > Manage marketplace agreement with marketplaceordering.
 > Part of `azure-cli`.
-> More information: <https://docs.microsoft.com/cli/azure/term>.
+> More information: <https://learn.microsoft.com/cli/azure/term>.
 
 - Print marketplace terms:
 

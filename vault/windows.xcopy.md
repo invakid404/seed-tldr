@@ -2,8 +2,8 @@
 id: windows.xcopy
 title: Xcopy
 desc: ''
-updated: 1642441815130
-created: 1642441815130
+updated: 1664897374270
+created: 1664897374270
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,7 +15,7 @@ sources:
 # xcopy
 
 > Copy files and directory trees.
-> More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/xcopy>.
+> More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/xcopy>.
 
 - Copy the file(s) to the specified destination:
 

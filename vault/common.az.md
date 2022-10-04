@@ -2,8 +2,8 @@
 id: common.az
 title: Az
 desc: ''
-updated: 1642441814997
-created: 1642441814997
+updated: 1664897373956
+created: 1664897373956
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -16,7 +16,7 @@ sources:
 
 > The official CLI tool for Microsoft Azure.
 > Some subcommands such as `az login` have their own usage documentation.
-> More information: <https://docs.microsoft.com/cli/azure>.
+> More information: <https://learn.microsoft.com/cli/azure>.
 
 - Log in to Azure:
 

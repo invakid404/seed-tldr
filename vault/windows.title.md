@@ -2,8 +2,8 @@
 id: windows.title
 title: Title
 desc: ''
-updated: 1642441815130
-created: 1642441815130
+updated: 1664897374267
+created: 1664897374267
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,7 +15,7 @@ sources:
 # title
 
 > Set the title of the command prompt window.
-> More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/title>.
+> More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/title>.
 
 - Set the title of the current command prompt window:
 

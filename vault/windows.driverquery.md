@@ -2,8 +2,8 @@
 id: windows.driverquery
 title: Driverquery
 desc: ''
-updated: 1642441815127
-created: 1642441815127
+updated: 1664897374260
+created: 1664897374260
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,7 +15,7 @@ sources:
 # driverquery
 
 > Display information about installed device drivers.
-> More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/driverquery>.
+> More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/driverquery>.
 
 - Display a list of all installed device drivers:
 

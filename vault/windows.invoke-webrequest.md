@@ -2,8 +2,8 @@
 id: windows.invoke-webrequest
 title: Invoke Webrequest
 desc: ''
-updated: 1657677698738
-created: 1657677698738
+updated: 1664897374262
+created: 1664897374262
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -16,7 +16,7 @@ sources:
 
 > Performs a HTTP/HTTPS request to the Web.
 > This command can only be used through PowerShell.
-> More information: <https://docs.microsoft.com/powershell/module/microsoft.powershell.utility/invoke-webrequest>.
+> More information: <https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/invoke-webrequest>.
 
 - Download the contents of a URL to a file:
 

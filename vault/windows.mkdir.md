@@ -2,8 +2,8 @@
 id: windows.mkdir
 title: Mkdir
 desc: ''
-updated: 1642441815128
-created: 1642441815128
+updated: 1664897374263
+created: 1664897374263
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,7 +15,7 @@ sources:
 # mkdir
 
 > Creates a directory.
-> More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/mkdir>.
+> More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/mkdir>.
 
 - Create a directory:
 

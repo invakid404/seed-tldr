@@ -2,8 +2,8 @@
 id: windows.nfsstat
 title: Nfsstat
 desc: ''
-updated: 1642441815128
-created: 1642441815128
+updated: 1664897374263
+created: 1664897374263
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,7 +15,7 @@ sources:
 # nfsstat
 
 > Display or reset the number of calls made to the NFS server.
-> More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/nfsstat>.
+> More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/nfsstat>.
 
 - Display the recorded number of calls made to the NFS server:
 

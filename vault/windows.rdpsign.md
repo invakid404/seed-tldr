@@ -2,8 +2,8 @@
 id: windows.rdpsign
 title: Rdpsign
 desc: ''
-updated: 1642441815128
-created: 1642441815128
+updated: 1664897374264
+created: 1664897374264
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,7 +15,7 @@ sources:
 # rdpsign
 
 > A tool for signing Remote Desktop Protocol (RDP) files.
-> More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/rdpsign>.
+> More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/rdpsign>.
 
 - Sign an RDP file:
 
