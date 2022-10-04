@@ -2,8 +2,8 @@
 id: common.smalltalkci
 title: Smalltalkci
 desc: ''
-updated: 1642441815069
-created: 1642441815069
+updated: 1664892072853
+created: 1664892072853
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -35,7 +35,7 @@ sources:
 
 - Specify a custom Smalltalk image and VM:
 
-`smalltalkci --image {{path/to/Smalltalk.image}} -- vm {{path/to/vm}}`
+`smalltalkci --image {{path/to/Smalltalk.image}} --vm {{path/to/vm}}`
 
 - Clean up caches and delete builds:
 
