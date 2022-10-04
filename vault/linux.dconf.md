@@ -2,8 +2,8 @@
 id: linux.dconf
 title: Dconf
 desc: ''
-updated: 1642441815092
-created: 1642441815092
+updated: 1664868765741
+created: 1664868765741
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -14,19 +14,31 @@ sources:
 ---
 # dconf
 
-> Simple tool for manipulating dconf databases.
-> See also `dconf write`.
-> More information: <https://developer.gnome.org/dconf>.
+> Manage dconf databases.
+> See also: `dconf-read`, `dconf-reset`, `dconf-write`, `gsettings`.
+> More information: <https://manned.org/dconf>.
 
-- Print the value of a dconf path:
+- Print a specific key value:
 
-`dconf read {{/example/dconf/path}}`
+`dconf read {{/path/to/key}}`
 
-- List contents of a dconf path:
+- Print a specific path sub-directories and sub-keys:
 
-`dconf list {{/example/dconf/path}}`
+`dconf list {{/path/to/directory/}}`
 
-- Watch for dconf database changes in a path and subpaths:
+- Write a specific key value:
 
-`dconf watch {{/example/dconf/path}}`
+`dconf write {{/path/to/key}} "{{value}}"`
+
+- Reset a specific key value:
+
+`dconf reset {{/path/to/key}}`
+
+- Watch a specific key/directory for changes:
+
+`dconf watch {{/path/to/key|/path/to/directory/}}`
+
+- Dump a specific directory in INI file format:
+
+`dconf dump {{/path/to/directory/}}`
 
