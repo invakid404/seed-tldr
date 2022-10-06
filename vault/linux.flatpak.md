@@ -2,8 +2,8 @@
 id: linux.flatpak
 title: Flatpak
 desc: ''
-updated: 1642441815095
-created: 1642441815095
+updated: 1665032129434
+created: 1665032129434
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -37,13 +37,13 @@ sources:
 
 `flatpak remote-add --if-not-exists {{remote_name}} {{remote_url}}`
 
-- List all configured remote sources:
-
-`flatpak remote-list`
-
 - Remove an installed application:
 
 `flatpak remove {{name}}`
+
+- Remove all unused applications:
+
+`flatpak remove --unused`
 
 - Show information about an installed application:
 
