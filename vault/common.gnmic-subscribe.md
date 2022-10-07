@@ -2,8 +2,8 @@
 id: common.gnmic-subscribe
 title: Gnmic Subscribe
 desc: ''
-updated: 1662059876137
-created: 1662059876137
+updated: 1665115822415
+created: 1665115822415
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -33,7 +33,7 @@ sources:
 
 `gnmic -a {{ip:port}} subscribe --path {{path}} --mode once`
 
-- Subscribe to a target and specify reponse encoding (json_ietf):
+- Subscribe to a target and specify response encoding (json_ietf):
 
 `gnmic -a {{ip:port}} subscribe --path {{path}} --encoding json_ietf`
 

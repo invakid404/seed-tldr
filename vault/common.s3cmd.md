@@ -2,8 +2,8 @@
 id: common.s3cmd
 title: S3cmd
 desc: ''
-updated: 1657434301608
-created: 1657434301608
+updated: 1665115822475
+created: 1665115822475
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -14,7 +14,7 @@ sources:
 ---
 # s3cmd
 
-> Command line tool and client for uploading, retrieveing and managing data in S3 compatible object storage.
+> Command line tool and client for uploading, retrieving and managing data in S3 compatible object storage.
 > More information: <https://s3tools.org/s3cmd>.
 
 - Invoke configuration/reconfiguration tool:
