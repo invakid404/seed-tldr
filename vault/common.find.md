@@ -2,8 +2,8 @@
 id: common.find
 title: Find
 desc: ''
-updated: 1642441815017
-created: 1642441815017
+updated: 1665153517576
+created: 1665153517576
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -33,9 +33,9 @@ sources:
 
 `find {{root_path}} -name '{{*.py}}' -not -path '{{*/site-packages/*}}'`
 
-- Find files matching a given size range:
+- Find files matching a given size range, limiting the recursive depth to "1"::
 
-`find {{root_path}} -size {{+500k}} -size {{-10M}}`
+`find {{root_path}} -maxdepth 1 -size {{+500k}} -size {{-10M}}`
 
 - Run a command for each file (use `{}` within the command to access the filename):
 
