@@ -2,8 +2,8 @@
 id: linux.ffuf
 title: Ffuf
 desc: ''
-updated: 1656591837622
-created: 1656591837622
+updated: 1665264153282
+created: 1665264153282
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -37,7 +37,7 @@ sources:
 
 `ffuf -w {{path/to/postdata.txt}} -X {{POST}} -d "{{username=admin\&password=FUZZ}}" -u {{https://target/login.php}} -fc {{401}}`
 
-- Discover subdomains using a subdoomain list on a target website:
+- Discover subdomains using a subdomain list on a target website:
 
 `ffuf -w {{subdomains.txt}} -u {{https://website.com}} -H "{{Host: FUZZ.website.com}}"`
 

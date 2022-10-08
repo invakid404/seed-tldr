@@ -2,8 +2,8 @@
 id: linux.mdbook
 title: Linux
 desc: ''
-updated: 1642441815103
-created: 1642441815103
+updated: 1665264153295
+created: 1665264153295
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -14,7 +14,7 @@ sources:
 ---
 # mdbook
 
-> Create online books by writing makrdown files.
+> Create online books by writing Markdown files.
 > More information: <https://rust-lang.github.io/mdBook/>.
 
 - Create a mdbook project in the current directory:
