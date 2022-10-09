@@ -2,8 +2,8 @@
 id: linux.qm
 title: Qm
 desc: ''
-updated: 1642441815109
-created: 1642441815109
+updated: 1665354274302
+created: 1665354274302
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -14,7 +14,7 @@ sources:
 ---
 # qm
 
-> Qemu/KVM Virtual Machine Manager.
+> QEMU/KVM Virtual Machine Manager.
 > More information: <https://pve.proxmox.com/pve-docs/qm.1.html>.
 
 - List all virtual machines:
