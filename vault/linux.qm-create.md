@@ -2,8 +2,8 @@
 id: linux.qm-create
 title: Qm Create
 desc: ''
-updated: 1664897374215
-created: 1664897374215
+updated: 1665289458041
+created: 1665289458041
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -33,7 +33,7 @@ sources:
 
 `qm create {{100}} --archive {{path/to/backup_file.tar}} --force 1`
 
-- Specify a script that is executed on specific triggers during machine lifetime:
+- Specify a script that is executed automatically depending on the state of the virtual machine:
 
 `qm create {{100}} --hookscript {{path/to/script.pl}}`
 
