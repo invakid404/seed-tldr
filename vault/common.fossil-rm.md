@@ -2,8 +2,8 @@
 id: common.fossil-rm
 title: Fossil Rm
 desc: ''
-updated: 1664769727593
-created: 1664769727593
+updated: 1665297161230
+created: 1665297161230
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -16,7 +16,7 @@ sources:
 
 > Remove files or directories from Fossil version control.
 > See also `fossil forget`.
-> More information: <https://fossil-scm.org/home/help>.
+> More information: <https://fossil-scm.org/home/help/rm>.
 
 - Remove a file or directory from Fossil version control:
 
