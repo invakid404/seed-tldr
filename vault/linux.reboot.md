@@ -2,8 +2,8 @@
 id: linux.reboot
 title: Reboot
 desc: ''
-updated: 1642441815110
-created: 1642441815110
+updated: 1665368716265
+created: 1665368716265
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,7 +15,7 @@ sources:
 # reboot
 
 > Reboot the system.
-> More information: <https://www.man7.org/linux/man-pages/man8/reboot.8.html>.
+> More information: <https://manned.org/reboot.8>.
 
 - Reboot the system:
 
@@ -31,7 +31,7 @@ sources:
 
 - Reboot immediately without contacting the system manager:
 
-`reboot --force --force`
+`reboot --force`
 
 - Write the wtmp shutdown entry without rebooting the system:
 
