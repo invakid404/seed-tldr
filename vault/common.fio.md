@@ -2,8 +2,8 @@
 id: common.fio
 title: Fio
 desc: ''
-updated: 1664613092131
-created: 1664613092131
+updated: 1665415810121
+created: 1665415810121
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -33,4 +33,8 @@ sources:
 - Test with parameters from a job file:
 
 `sudo fio {{path/to/job_file}}`
+
+- Convert a specific job file to command-line options:
+
+`fio --showcmd {{path/to/job_file}}`
 

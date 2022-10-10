@@ -2,8 +2,8 @@
 id: common.masscan
 title: Masscan
 desc: ''
-updated: 1656620557966
-created: 1656620557966
+updated: 1665415810196
+created: 1665415810196
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -12,7 +12,7 @@ sources:
     url: 'https://github.com/tldr-pages/tldr/blob/master/LICENSE.md'
     license: Creative Commons
 ---
-# Masscan
+# masscan
 
 > Network scanner for scanning as fast as possible.
 > Best run with elevated privileges. Nmap compatibility run `masscan --nmap` to find out more.

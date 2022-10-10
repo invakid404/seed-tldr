@@ -2,8 +2,8 @@
 id: common.steam
 title: Steam
 desc: ''
-updated: 1642441815071
-created: 1642441815071
+updated: 1665415810268
+created: 1665415810268
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,7 +15,7 @@ sources:
 # steam
 
 > Video game platform by Valve.
-> More information: <https://developer.valvesoftware.com/wiki/Command_Line_Options#Steam_.28Windows.29>.
+> More information: <https://developer.valvesoftware.com/wiki/Command_Line_Options>.
 
 - Launch Steam, printing debug messages to stdout:
 
