@@ -2,8 +2,8 @@
 id: osx.security
 title: Security
 desc: ''
-updated: 1658992810360
-created: 1658992810360
+updated: 1665377276312
+created: 1665377276312
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -35,7 +35,7 @@ sources:
 
 - Add a certificate from file to a [k]eychain (if -k isn't specified, the default keychain is used):
 
-`security add-certificates -k {{keychain.name}} {{path/to/cert.pem}}`
+`security add-certificates -k {{file.keychain}} {{path/to/cert.pem}}`
 
 - Add a CA certificate to the per-user Trust Settings:
 
