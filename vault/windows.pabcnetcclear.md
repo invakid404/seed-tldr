@@ -2,8 +2,8 @@
 id: windows.pabcnetcclear
 title: Pabcnetcclear
 desc: ''
-updated: 1656591837684
-created: 1656591837684
+updated: 1665454803510
+created: 1665454803510
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -23,7 +23,7 @@ sources:
 
 - Compile the specified source file into an executable with the specified name:
 
-`pabcnetcclear /Output:{{path/to/file.pas}} {{path/to/source_file.pas}}`
+`pabcnetcclear /Output:{{path/to/file.exe}} {{path/to/source_file.pas}}`
 
 - Compile the specified source file into an executable with the same name along with/without debug information:
 
