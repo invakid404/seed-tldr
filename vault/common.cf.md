@@ -2,8 +2,8 @@
 id: common.cf
 title: Cf
 desc: ''
-updated: 1642441815001
-created: 1642441815001
+updated: 1665484120276
+created: 1665484120276
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -16,6 +16,10 @@ sources:
 
 > Command-line tool to manage apps and services on Cloud Foundry.
 > More information: <https://docs.cloudfoundry.org>.
+
+- Log in to the Cloud Foundry API:
+
+`cf login -a {{api_url}}`
 
 - Push an app using the default settings:
 
