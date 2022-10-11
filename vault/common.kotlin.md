@@ -2,8 +2,8 @@
 id: common.kotlin
 title: Kotlin
 desc: ''
-updated: 1642441815039
-created: 1642441815039
+updated: 1665463523024
+created: 1665463523024
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -14,7 +14,7 @@ sources:
 ---
 # kotlin
 
-> Kotlin Application Launcher.
+> Kotlin application launcher.
 > More information: <https://kotlinlang.org>.
 
 - Run a jar file:

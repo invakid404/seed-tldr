@@ -2,8 +2,8 @@
 id: common.jar
 title: Jar
 desc: ''
-updated: 1642441815036
-created: 1642441815036
+updated: 1665463523016
+created: 1665463523016
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -14,7 +14,7 @@ sources:
 ---
 # jar
 
-> Java Applications/Libraries Packager.
+> Java applications/libraries packager.
 > More information: <https://docs.oracle.com/javase/tutorial/deployment/jar/basicsindex.html>.
 
 - Recursively archive all files in the current directory into a .jar file:

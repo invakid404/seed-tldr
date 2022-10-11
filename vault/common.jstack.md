@@ -2,8 +2,8 @@
 id: common.jstack
 title: Jstack
 desc: ''
-updated: 1642441815037
-created: 1642441815037
+updated: 1665463523020
+created: 1665463523020
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -14,7 +14,7 @@ sources:
 ---
 # jstack
 
-> Java Stack Trace Tool.
+> Java stack trace tool.
 > More information: <https://manned.org/jstack>.
 
 - Print Java stack traces for all threads in a Java process:

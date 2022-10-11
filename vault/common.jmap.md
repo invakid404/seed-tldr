@@ -2,8 +2,8 @@
 id: common.jmap
 title: Jmap
 desc: ''
-updated: 1642441815037
-created: 1642441815037
+updated: 1665463523018
+created: 1665463523018
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -14,7 +14,7 @@ sources:
 ---
 # jmap
 
-> Java Memory Map Tool.
+> Java memory map tool.
 > More information: <https://docs.oracle.com/javase/7/docs/technotes/tools/share/jmap.html>.
 
 - Print shared object mappings for a Java process (output like pmap):

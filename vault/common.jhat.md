@@ -2,8 +2,8 @@
 id: common.jhat
 title: Jhat
 desc: ''
-updated: 1642441815037
-created: 1642441815037
+updated: 1665463523018
+created: 1665463523018
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -14,7 +14,7 @@ sources:
 ---
 # jhat
 
-> Java Heap Analysis Tool.
+> Java heap analysis tool.
 > More information: <https://docs.oracle.com/javase/8/docs/technotes/tools/unix/jhat.html>.
 
 - Analyze a heap dump (from `jmap`), view via HTTP on port 7000:

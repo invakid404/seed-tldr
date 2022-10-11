@@ -2,8 +2,8 @@
 id: common.jarsigner
 title: Jarsigner
 desc: ''
-updated: 1642441815036
-created: 1642441815036
+updated: 1665463523017
+created: 1665463523017
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -14,7 +14,7 @@ sources:
 ---
 # jarsigner
 
-> Sign and verify Java Archive (JAR) files.
+> Sign and verify Java archive (JAR) files.
 > More information: <https://docs.oracle.com/javase/9/tools/jarsigner.htm>.
 
 - Sign a JAR file:
