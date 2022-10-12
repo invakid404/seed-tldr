@@ -2,8 +2,8 @@
 id: linux.broot
 title: Broot
 desc: ''
-updated: 1663217467731
-created: 1663217467731
+updated: 1665585710849
+created: 1665585710849
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -14,30 +14,11 @@ sources:
 ---
 # broot
 
-> A better way to navigate directories.
+> Navigate directory trees interactively.
+> See also: `br`.
 > More information: <https://github.com/Canop/broot>.
 
 - Install or reinstall the `br` shell function:
 
 `broot --install`
-
-- Navigate the current directory:
-
-`br`
-
-- Display the size of files and directories:
-
-`br -s`
-
-- Display permissions:
-
-`br -p`
-
-- Display directories only:
-
-`br -f`
-
-- Display hidden files and directories:
-
-`br -h`
 
