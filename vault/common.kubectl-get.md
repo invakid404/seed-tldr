@@ -2,8 +2,8 @@
 id: common.kubectl-get
 title: Kubectl Get
 desc: ''
-updated: 1642441815039
-created: 1642441815039
+updated: 1665588712619
+created: 1665588712619
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -43,5 +43,5 @@ sources:
 
 - Get Kubernetes objects defined in a YAML manifest:
 
-`kubectl get -f {{path/to/manifest}}.yaml`
+`kubectl get -f {{path/to/manifest.yaml}}`
 

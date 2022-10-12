@@ -2,8 +2,8 @@
 id: common.kubectl-describe
 title: Kubectl Describe
 desc: ''
-updated: 1642441815039
-created: 1642441815039
+updated: 1665588712619
+created: 1665588712619
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -35,5 +35,5 @@ sources:
 
 - Show details of Kubernetes objects defined in a YAML manifest:
 
-`kubectl describe -f {{path/to/manifest}}.yaml`
+`kubectl describe -f {{path/to/manifest.yaml}}`
 
