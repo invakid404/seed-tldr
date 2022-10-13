@@ -2,8 +2,8 @@
 id: common.caddy
 title: Caddy
 desc: ''
-updated: 1642441815000
-created: 1642441815000
+updated: 1665627966079
+created: 1665627966079
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -14,7 +14,7 @@ sources:
 ---
 # caddy
 
-> A powerful, enterprise-ready, open source web server with automatic HTTPS, written in Go.
+> An enterprise-ready open source web server with automatic HTTPS, written in Go.
 > More information: <https://caddyserver.com>.
 
 - Start Caddy in the foreground:
