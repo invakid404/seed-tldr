@@ -2,8 +2,8 @@
 id: linux.esearch
 title: Esearch
 desc: ''
-updated: 1665585710858
-created: 1665585710858
+updated: 1665746545455
+created: 1665746545455
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -22,7 +22,15 @@ sources:
 
 `esearch -db pubmed -query "{{selective serotonin reuptake inhibitor}}"`
 
+- Search the protein database using a query and regexp:
+
+`esearch -db {{protein}} -query {{'Escherichia*'}}`
+
 - Search the nucleotide database for sequences whose metadata contain insulin and rodents:
 
 `esearch -db nuccore -query "{{insulin [PROT] AND rodents [ORGN]}}"`
+
+- Display [h]elp:
+
+`esearch -h`
 
