@@ -2,8 +2,8 @@
 id: windows.winget
 title: Winget
 desc: ''
-updated: 1664897374269
-created: 1664897374269
+updated: 1665899330063
+created: 1665899330063
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -28,4 +28,12 @@ sources:
 - Search for a package:
 
 `winget search {{package}}`
+
+- Upgrade all packages to latest versions:
+
+`winget upgrade --all`
+
+- List all packages installed that can be managed with winget:
+
+`winget list --source winget`
 
