@@ -2,8 +2,8 @@
 id: windows.curl
 title: Curl
 desc: ''
-updated: 1657677698736
-created: 1657677698736
+updated: 1665909064822
+created: 1665909064822
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -23,6 +23,10 @@ sources:
 - View documentation for the original `curl` command:
 
 `tldr curl -p common`
+
+- View documentation for the original `curl` command in older versions of `tldr` command-line client:
+
+`tldr curl -o common`
 
 - View documentation for PowerShell's `Invoke-WebRequest` command:
 

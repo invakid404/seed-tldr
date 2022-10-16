@@ -2,8 +2,8 @@
 id: windows.wget
 title: Wget
 desc: ''
-updated: 1657677698743
-created: 1657677698743
+updated: 1665909064827
+created: 1665909064827
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -23,6 +23,10 @@ sources:
 - View documentation for the original `wget` command:
 
 `tldr wget -p common`
+
+- View documentation for the original `wget` command in older versions of `tldr` command-line client:
+
+`tldr wget -o common`
 
 - View documentation for PowerShell's `Invoke-WebRequest` command:
 
