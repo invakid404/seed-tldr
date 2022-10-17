@@ -2,8 +2,8 @@
 id: common.file
 title: File
 desc: ''
-updated: 1642441815017
-created: 1642441815017
+updated: 1665993078253
+created: 1665993078253
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -33,7 +33,7 @@ sources:
 
 `file -k {{filename}}`
 
-- Determine the mime encoding type of a file:
+- Determine the MIME encoding type of a file:
 
 `file -i {{filename}}`
 
