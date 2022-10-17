@@ -2,8 +2,8 @@
 id: android.screencap
 title: Screencap
 desc: ''
-updated: 1665665734209
-created: 1665665734209
+updated: 1665999629503
+created: 1665999629503
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -20,5 +20,5 @@ sources:
 
 - Take a screenshot:
 
-`adb shell screencap {{path/to/file}}`
+`screencap {{path/to/file}}`
 
