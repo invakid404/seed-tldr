@@ -2,8 +2,8 @@
 id: common.poetry
 title: Poetry
 desc: ''
-updated: 1642441815060
-created: 1642441815060
+updated: 1666025072204
+created: 1666025072204
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,7 +15,7 @@ sources:
 # poetry
 
 > Manage Python packages and dependencies.
-> More information: <https://python-poetry.org/docs>.
+> More information: <https://python-poetry.org/docs/cli/>.
 
 - Create a new Poetry project in the directory with a specific name:
 
@@ -40,4 +40,12 @@ sources:
 - Execute a command inside the project's virtual environment:
 
 `poetry run {{command}}`
+
+- Bump the minor version of the project in `pyproject.toml`:
+
+`poetry version minor`
+
+- List all poetry subcommands:
+
+`poetry list`
 
