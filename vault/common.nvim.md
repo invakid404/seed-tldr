@@ -2,8 +2,8 @@
 id: common.nvim
 title: Nvim
 desc: ''
-updated: 1642441815052
-created: 1642441815052
+updated: 1665983022687
+created: 1665983022687
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,7 +15,7 @@ sources:
 # nvim
 
 > Neovim, a programmer's text editor based on Vim, provides several modes for different kinds of text manipulation.
-> Pressing `i` enters edit mode. `<Esc>` goes back to normal mode, which doesn't allow regular text insertion.
+> Pressing `i` in normal mode enters insert mode. `<Esc>` goes back to normal mode, which doesn't allow regular text insertion.
 > More information: <https://neovim.io>.
 
 - Open a file:
@@ -30,7 +30,7 @@ sources:
 
 `<Esc>{{yy|dd}}`
 
-- Undo the last operation:
+- Enter normal mode and undo the last operation:
 
 `<Esc>u`
 
@@ -42,7 +42,7 @@ sources:
 
 `<Esc>:%s/{{regular_expression}}/{{replacement}}/g<Enter>`
 
-- Save (write) the file, and quit:
+- Enter normal mode and save (write) the file, and quit:
 
 `<Esc>:wq<Enter>`
 
