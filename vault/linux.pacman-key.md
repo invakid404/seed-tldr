@@ -2,8 +2,8 @@
 id: linux.pacman-key
 title: Pacman Key
 desc: ''
-updated: 1642441815106
-created: 1642441815106
+updated: 1666020662855
+created: 1666020662855
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -21,7 +21,7 @@ sources:
 
 `sudo pacman-key --init`
 
-- Add the default ArchLinux keys:
+- Add the default Arch Linux keys:
 
 `sudo pacman-key --populate {{archlinux}}`
 

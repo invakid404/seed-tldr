@@ -2,8 +2,8 @@
 id: linux.pacman-upgrade
 title: Pacman Upgrade
 desc: ''
-updated: 1642441815107
-created: 1642441815107
+updated: 1666020662855
+created: 1666020662855
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -16,10 +16,6 @@ sources:
 
 > Arch Linux package manager utility.
 > More information: <https://man.archlinux.org/man/pacman.8>.
-
-- Display help:
-
-`pacman --upgrade --help`
 
 - Install one or more packages from files:
 
@@ -40,4 +36,8 @@ sources:
 - List packages that would be affected (does not install any packages):
 
 `pacman --query --print {{path/to/package.pkg.tar.zst}}`
+
+- Display help:
+
+`pacman --upgrade --help`
 
