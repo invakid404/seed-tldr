@@ -2,8 +2,8 @@
 id: common.vim
 title: Vim
 desc: ''
-updated: 1642441815080
-created: 1642441815080
+updated: 1666002735453
+created: 1666002735453
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,7 +15,7 @@ sources:
 # vim
 
 > Vim (Vi IMproved), a command-line text editor, provides several modes for different kinds of text manipulation.
-> Pressing `i` enters insert mode. `<Esc>` enters normal mode, which enables the use of Vim commands.
+> Pressing `i` in normal mode enters insert mode. Pressing `<Esc>` goes back to normal mode, which enables the use of Vim commands.
 > More information: <https://www.vim.org>.
 
 - Open a file:
@@ -30,13 +30,13 @@ sources:
 
 `:help<Enter>`
 
-- Save and Quit:
+- Save and quit the current buffer:
 
 `:wq<Enter>`
 
-- Undo the last operation:
+- Enter normal mode and undo the last operation:
 
-`u`
+`<ESC>u`
 
 - Search for a pattern in the file (press `n`/`N` to go to next/previous match):
 
