@@ -2,8 +2,8 @@
 id: common.brew-cask
 title: Brew Cask
 desc: ''
-updated: 1642441814999
-created: 1642441814999
+updated: 1666111238848
+created: 1666111238848
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -12,9 +12,10 @@ sources:
     url: 'https://github.com/tldr-pages/tldr/blob/master/LICENSE.md'
     license: Creative Commons
 ---
-# brew cask
+# brew --cask
 
-> Package manager for macOS applications distributed as binaries.
+> CLI workflow for the administration of macOS applications distributed as binaries.
+> This command was previously called `brew cask`, it has been deprecated in favor of the `brew --cask` flag.
 > More information: <https://github.com/Homebrew/homebrew-cask>.
 
 - Search for formulas and casks:
@@ -23,7 +24,7 @@ sources:
 
 - Install a cask:
 
-`brew cask install {{cask_name}}`
+`brew install --cask {{cask_name}}`
 
 - List all installed casks:
 
@@ -39,13 +40,13 @@ sources:
 
 - Uninstall a cask:
 
-`brew cask uninstall {{cask_name}}`
+`brew uninstall --cask {{cask_name}}`
 
 - Uninstall a cask and remove related settings and files:
 
-`brew cask zap {{cask_name}}`
+`brew zap --cask {{cask_name}}`
 
 - Display information about a given cask:
 
-`brew cask info {{cask_name}}`
+`brew info --cask {{cask_name}}`
 
