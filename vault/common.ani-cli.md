@@ -2,8 +2,8 @@
 id: common.ani-cli
 title: Ani CLI
 desc: ''
-updated: 1657538207418
-created: 1657538207418
+updated: 1666097653199
+created: 1666097653199
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -37,7 +37,7 @@ sources:
 
 `ani-cli -c`
 
-- Update ani-cli:
+- Update `ani-cli`:
 
 `ani-cli -U`
 
