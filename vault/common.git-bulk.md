@@ -2,8 +2,8 @@
 id: common.git-bulk
 title: Git Bulk
 desc: ''
-updated: 1665895276246
-created: 1665895276246
+updated: 1666160235945
+created: 1666160235945
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -17,6 +17,10 @@ sources:
 > Execute operations on multiple Git repositories.
 > Part of `git-extras`.
 > More information: <https://github.com/tj/git-extras/blob/master/Commands.md#git-bulk>.
+
+- Register the current directory as a workspace:
+
+`git bulk --addcurrent {{workspace_name}}`
 
 - Register a workspace for bulk operations:
 
@@ -37,4 +41,12 @@ sources:
 - Run a Git command on the repositories of the current workspace:
 
 `git bulk {{command}} {{command_arguments}}`
+
+- Remove a specific workspace:
+
+`git bulk --removeworkspace {{workspace_name}}`
+
+- Remove all workspaces:
+
+`git bulk --purge`
 
