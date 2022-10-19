@@ -2,8 +2,8 @@
 id: linux.man
 title: Man
 desc: ''
-updated: 1662477799883
-created: 1662477799883
+updated: 1666222250958
+created: 1666222250958
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,7 +15,7 @@ sources:
 # man
 
 > Format and display manual pages.
-> More information: <https://www.man7.org/linux/man-pages/man1/man.1.html>.
+> More information: <https://manned.org/man>.
 
 - Display the man page for a command:
 
