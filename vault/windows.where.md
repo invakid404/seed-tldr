@@ -2,8 +2,8 @@
 id: windows.where
 title: Where
 desc: ''
-updated: 1664897374269
-created: 1664897374269
+updated: 1666197757221
+created: 1666197757221
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -30,7 +30,7 @@ sources:
 
 `where /R {{path/to/directory}} {{file_pattern}}`
 
-- Display only the error code for the location of file pattern:
+- Silently return the error code for the location of the file pattern:
 
 `where /Q {{file_pattern}}`
 

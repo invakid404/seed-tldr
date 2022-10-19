@@ -2,8 +2,8 @@
 id: linux.aspell
 title: Aspell
 desc: ''
-updated: 1642441815088
-created: 1642441815088
+updated: 1666197757150
+created: 1666197757150
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -29,11 +29,11 @@ sources:
 
 `aspell dicts`
 
-- Run aspell with a different language (takes two-letter ISO 639 language code):
+- Run `aspell` with a different language (takes two-letter ISO 639 language code):
 
 `aspell --lang={{cs}}`
 
 - List misspelled words from standard input and ignore words from personal word list:
 
-`cat {{file}} | aspell --personal={{personal-word-list.pws}} {{list}}`
+`cat {{file}} | aspell --personal={{personal-word-list.pws}} list`
 
