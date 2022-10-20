@@ -2,8 +2,8 @@
 id: common.tig
 title: Tig
 desc: ''
-updated: 1642441815075
-created: 1642441815075
+updated: 1666279789162
+created: 1666279789162
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -27,7 +27,7 @@ sources:
 
 - Show the history of specific files or directories:
 
-`tig {{path1 path2 …}}`
+`tig {{path1 path2 ...}}`
 
 - Show the difference between two references (such as branches or tags):
 
