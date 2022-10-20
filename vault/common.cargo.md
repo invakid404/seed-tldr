@@ -2,8 +2,8 @@
 id: common.cargo
 title: Cargo
 desc: ''
-updated: 1662593264222
-created: 1662593264222
+updated: 1666284000336
+created: 1666284000336
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -16,7 +16,7 @@ sources:
 
 > Manage Rust projects and their module dependencies (crates).
 > Some subcommands such as `cargo build` have their own usage documentation.
-> More information: <https://crates.io/>.
+> More information: <https://crates.io>.
 
 - Search for crates:
 

@@ -2,8 +2,8 @@
 id: linux.apk
 title: Apk
 desc: ''
-updated: 1642441815087
-created: 1642441815087
+updated: 1666284000494
+created: 1666284000494
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -29,15 +29,15 @@ sources:
 
 `apk del {{package}}`
 
-- Repair package or upgrade it without modifying main dependencies:
+- Repair a package or upgrade it without modifying main dependencies:
 
 `apk fix {{package}}`
 
-- Search package via keyword:
+- Search for a package via keywords:
 
-`apk search {{keyword}}`
+`apk search {{keywords}}`
 
-- Get info about a specific package:
+- Display information about a specific package:
 
 `apk info {{package}}`
 
