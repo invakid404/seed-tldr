@@ -2,8 +2,8 @@
 id: common.deno
 title: Deno
 desc: ''
-updated: 1642441815007
-created: 1642441815007
+updated: 1666270459453
+created: 1666270459453
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,7 +15,7 @@ sources:
 # deno
 
 > A secure runtime for JavaScript and TypeScript.
-> More information: <https://deno.land/>.
+> More information: <https://deno.land>.
 
 - Run a JavaScript or TypeScript file:
 
