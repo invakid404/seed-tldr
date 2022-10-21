@@ -2,8 +2,8 @@
 id: linux.smbclient
 title: Smbclient
 desc: ''
-updated: 1656591837653
-created: 1656591837653
+updated: 1666317597443
+created: 1666317597443
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -40,4 +40,8 @@ sources:
 - Upload a file to the server:
 
 `smbclient {{//server/share}} --directory {{path/to/directory}} --command "put {{file.txt}}"`
+
+- List the shares from a server anonymously:
+
+`smbclient --list={{server}} --no-pass`
 
