@@ -2,8 +2,8 @@
 id: linux.pacman-upgrade
 title: Pacman Upgrade
 desc: ''
-updated: 1666020662855
-created: 1666020662855
+updated: 1666370345888
+created: 1666370345888
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -35,7 +35,7 @@ sources:
 
 - List packages that would be affected (does not install any packages):
 
-`pacman --query --print {{path/to/package.pkg.tar.zst}}`
+`pacman --upgrade --print {{path/to/package.pkg.tar.zst}}`
 
 - Display help:
 
