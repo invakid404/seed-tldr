@@ -2,8 +2,8 @@
 id: linux.alternatives
 title: Alternatives
 desc: ''
-updated: 1656591837602
-created: 1656591837602
+updated: 1666324627077
+created: 1666324627077
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,6 +15,7 @@ sources:
 # alternatives
 
 > This command is an alias of `update-alternatives`.
+> More information: <https://manned.org/alternatives>.
 
 - View documentation for the original command:
 

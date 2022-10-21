@@ -2,8 +2,8 @@
 id: common.flutter
 title: Flutter
 desc: ''
-updated: 1642441815018
-created: 1642441815018
+updated: 1666324626960
+created: 1666324626960
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -17,9 +17,9 @@ sources:
 > Google's free, open source, and cross-platform mobile app SDK.
 > More information: <https://github.com/flutter/flutter/wiki/The-flutter-tool>.
 
-- Display help about a specific command:
+- Initialize a new Flutter project in a directory of the same name:
 
-`flutter help {{command}}`
+`flutter create {{project_name}}`
 
 - Check if all external tools are correctly installed:
 
@@ -44,4 +44,8 @@ sources:
 - Build a release APK targeting most modern smartphones:
 
 `flutter build apk --target-platform {{android-arm}},{{android-arm64}}`
+
+- Display help about a specific command:
+
+`flutter help {{command}}`
 
