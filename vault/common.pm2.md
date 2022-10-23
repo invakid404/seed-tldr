@@ -2,8 +2,8 @@
 id: common.pm2
 title: Pm2
 desc: ''
-updated: 1642441815060
-created: 1642441815060
+updated: 1666542918098
+created: 1666542918098
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -20,7 +20,7 @@ sources:
 
 - Start a process with a name that can be used for later operations:
 
-`pm2 start {{app.js}} --name {{myapp}}`
+`pm2 start {{app.js}} --name {{application_name}}`
 
 - List processes:
 
@@ -32,11 +32,11 @@ sources:
 
 - Stop a process:
 
-`pm2 stop {{myapp}}`
+`pm2 stop {{application_name}}`
 
 - Restart a process:
 
-`pm2 restart {{myapp}}`
+`pm2 restart {{application_name}}`
 
 - Dump all processes for resurrecting them later:
 
