@@ -2,8 +2,8 @@
 id: common.esbuild
 title: Esbuild
 desc: ''
-updated: 1642441815013
-created: 1642441815013
+updated: 1666616106280
+created: 1666616106280
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -47,5 +47,5 @@ sources:
 
 - Bundle a list of files to an output directory:
 
-`esbuild --bundle --outdir={{path/to/output_directory}} {{path/to/file1}} {{path/to/file2}}`
+`esbuild --bundle --outdir={{path/to/output_directory}} {{path/to/file1 path/to/file2 ...}}`
 
