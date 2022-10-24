@@ -2,8 +2,8 @@
 id: common.lz4
 title: Lz4
 desc: ''
-updated: 1642441815046
-created: 1642441815046
+updated: 1666610758547
+created: 1666610758547
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -35,7 +35,7 @@ sources:
 
 - Decompress and unpack a directory and its contents:
 
-`lz4 -d {{dir.tar.lz4}} | tar -xv`
+`lz4 -dc {{dir.tar.lz4}} | tar -xv`
 
 - Compress a file using the best compression:
 
