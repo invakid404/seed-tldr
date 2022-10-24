@@ -2,8 +2,8 @@
 id: common.find
 title: Find
 desc: ''
-updated: 1665153517576
-created: 1665153517576
+updated: 1666600896443
+created: 1666600896443
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -41,9 +41,9 @@ sources:
 
 `find {{root_path}} -name '{{*.ext}}' -exec {{wc -l {} }}\;`
 
-- Find files modified in the last 7 days and delete them:
+- Find files modified in the last 7 days:
 
-`find {{root_path}} -daystart -mtime -{{7}} -delete`
+`find {{root_path}} -daystart -mtime -{{7}}`
 
 - Find empty (0 byte) files and delete them:
 
