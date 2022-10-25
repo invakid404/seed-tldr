@@ -2,8 +2,8 @@
 id: linux.w
 title: W
 desc: ''
-updated: 1642441815117
-created: 1642441815117
+updated: 1666683911125
+created: 1666683911125
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -23,7 +23,7 @@ sources:
 
 - Display information about a specific user:
 
-`w {{user}}`
+`w {{username}}`
 
 - Display information without including the header:
 
