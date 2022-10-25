@@ -2,8 +2,8 @@
 id: common.hunspell
 title: Hunspell
 desc: ''
-updated: 1642441815034
-created: 1642441815034
+updated: 1666678868388
+created: 1666678868388
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,7 +15,7 @@ sources:
 # hunspell
 
 > Check spelling.
-> More information: <https://hunspell.github.io/>.
+> More information: <https://github.com/hunspell/hunspell>.
 
 - Check the spelling of a file:
 

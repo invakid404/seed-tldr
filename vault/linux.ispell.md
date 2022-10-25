@@ -2,8 +2,8 @@
 id: linux.ispell
 title: Ispell
 desc: ''
-updated: 1656591837629
-created: 1656591837629
+updated: 1666678868493
+created: 1666678868493
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,7 +15,7 @@ sources:
 # ispell
 
 > Interactive spell checking.
-> More information: <https://www.cs.hmc.edu/~geoff/ispell.html>.
+> More information: <https://www.cs.hmc.edu/~geoff/ispell-man.html>.
 
 - Start an interactive session:
 
