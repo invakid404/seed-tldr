@@ -2,8 +2,8 @@
 id: windows.nvm
 title: Nvm
 desc: ''
-updated: 1642441815128
-created: 1642441815128
+updated: 1666696985764
+created: 1666696985764
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -29,6 +29,10 @@ sources:
 - List all available Node.js versions and highlight the default one:
 
 `nvm list`
+
+- List all remote Node.js versions:
+
+`nvm ls-remote`
 
 - Uninstall a given Node.js version:
 
