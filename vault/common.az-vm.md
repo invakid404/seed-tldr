@@ -2,8 +2,8 @@
 id: common.az-vm
 title: Az Vm
 desc: ''
-updated: 1664897373956
-created: 1664897373956
+updated: 1666757584501
+created: 1666757584501
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,16 +15,16 @@ sources:
 # az vm
 
 > Manage virtual machines in Azure.
-> Part of `az`, the command-line client for Microsoft Azure.
+> Part of `azure-cli`.
 > More information: <https://learn.microsoft.com/cli/azure/vm>.
 
 - List details of available Virtual Machines:
 
 `az vm list`
 
-- Create an `UbuntuServer 18.04 LTS` Virtual Machine and generate ssh keys:
+- Create a virtual machine using the default Ubuntu image and generate ssh keys:
 
-`az vm create --resource-group {{rg}} --name {{vm_name}} --image {{Canonical:UbuntuServer:18.04-LTS:latest}} --admin-user {{azureuser}} --generate-ssh-keys`
+`az vm create --resource-group {{rg}} --name {{vm_name}} --image {{UbuntuLTS}} --admin-user {{azureuser}} --generate-ssh-keys`
 
 - Stop a Virtual Machine:
 

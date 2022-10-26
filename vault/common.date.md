@@ -2,8 +2,8 @@
 id: common.date
 title: Date
 desc: ''
-updated: 1666542917998
-created: 1666542917998
+updated: 1666757584521
+created: 1666757584521
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -23,7 +23,7 @@ sources:
 
 - Display the current date in UTC, using the ISO 8601 format:
 
-`date -u +%Y-%m-%dT%H:%M:%SZ`
+`date -u +%Y-%m-%dT%H:%M:%S%Z`
 
 - Display the current date as a Unix timestamp (seconds since the Unix epoch):
 
