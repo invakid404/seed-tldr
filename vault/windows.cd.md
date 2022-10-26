@@ -2,8 +2,8 @@
 id: windows.cd
 title: CD
 desc: ''
-updated: 1664897374257
-created: 1664897374257
+updated: 1666802029904
+created: 1666802029904
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -20,6 +20,10 @@ sources:
 - Display the path of the current directory:
 
 `cd`
+
+- Go to root of current drive:
+
+`cd\`
 
 - Go up to the parent of the current directory:
 
