@@ -2,8 +2,8 @@
 id: common.nohup
 title: Nohup
 desc: ''
-updated: 1642441815051
-created: 1642441815051
+updated: 1666762374557
+created: 1666762374557
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -21,7 +21,7 @@ sources:
 
 `nohup {{command}} {{command_arguments}}`
 
-- Launch nohup in background mode:
+- Launch `nohup` in background mode:
 
 `nohup {{command}} {{command_arguments}} &`
 
