@@ -2,8 +2,8 @@
 id: linux.wipefs
 title: Wipefs
 desc: ''
-updated: 1642441815117
-created: 1642441815117
+updated: 1666750046497
+created: 1666750046497
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -21,9 +21,13 @@ sources:
 
 `sudo wipefs {{/dev/sdX}}`
 
-- Wipe all available signatures for specified device:
+- Wipe all available signature types for a specific device with no recursion into partitions:
 
 `sudo wipefs --all {{/dev/sdX}}`
+
+- Wipe all available signature types for the device and partitions using a glob pattern:
+
+`sudo wipefs --all {{/dev/sdX}}*`
 
 - Perform dry run:
 
