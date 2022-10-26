@@ -2,8 +2,8 @@
 id: common.arduino
 title: Arduino
 desc: ''
-updated: 1642441814995
-created: 1642441814995
+updated: 1666779932262
+created: 1666779932262
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -40,4 +40,12 @@ sources:
 - Save any (changed) preferences to `preferences.txt`:
 
 `arduino --save-prefs`
+
+- Install the latest SAM board:
+
+`arduino --install-boards "{{arduino:sam}}"`
+
+- Install Bridge and Servo libraries:
+
+`arduino --install-library "{{Bridge:1.0.0,Servo:1.2.0}}"`
 

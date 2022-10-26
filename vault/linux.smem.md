@@ -2,8 +2,8 @@
 id: linux.smem
 title: Smem
 desc: ''
-updated: 1658240355811
-created: 1658240355811
+updated: 1666779932594
+created: 1666779932594
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'

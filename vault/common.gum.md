@@ -2,8 +2,8 @@
 id: common.gum
 title: Gum
 desc: ''
-updated: 1659966407884
-created: 1659966407884
+updated: 1666779932371
+created: 1666779932371
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'

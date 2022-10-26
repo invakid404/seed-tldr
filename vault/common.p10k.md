@@ -2,8 +2,8 @@
 id: common.p10k
 title: P10k
 desc: ''
-updated: 1642441815055
-created: 1642441815055
+updated: 1666779932430
+created: 1666779932430
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'

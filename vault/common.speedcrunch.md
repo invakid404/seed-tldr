@@ -2,8 +2,8 @@
 id: common.speedcrunch
 title: Speedcrunch
 desc: ''
-updated: 1656591837571
-created: 1656591837571
+updated: 1666779932475
+created: 1666779932475
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'

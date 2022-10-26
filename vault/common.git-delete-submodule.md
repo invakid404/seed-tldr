@@ -2,8 +2,8 @@
 id: common.git-delete-submodule
 title: Git Delete Submodule
 desc: ''
-updated: 1664692533912
-created: 1664692533912
+updated: 1666779932343
+created: 1666779932343
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'

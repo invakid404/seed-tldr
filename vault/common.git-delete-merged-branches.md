@@ -2,8 +2,8 @@
 id: common.git-delete-merged-branches
 title: Git Delete Merged Branches
 desc: ''
-updated: 1642441815023
-created: 1642441815023
+updated: 1666779932343
+created: 1666779932343
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'

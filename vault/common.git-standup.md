@@ -2,8 +2,8 @@
 id: common.git-standup
 title: Git Standup
 desc: ''
-updated: 1643671112106
-created: 1643671112106
+updated: 1666779932352
+created: 1666779932352
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'

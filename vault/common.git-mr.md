@@ -2,8 +2,8 @@
 id: common.git-mr
 title: Git Mr
 desc: ''
-updated: 1642441815025
-created: 1642441815025
+updated: 1666779932348
+created: 1666779932348
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'

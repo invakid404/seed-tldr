@@ -2,8 +2,8 @@
 id: linux.daemon
 title: Daemon
 desc: ''
-updated: 1661319896192
-created: 1661319896192
+updated: 1666779932538
+created: 1666779932538
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'

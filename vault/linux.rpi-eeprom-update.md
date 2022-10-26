@@ -2,8 +2,8 @@
 id: linux.rpi-eeprom-update
 title: Rpi Eeprom Update
 desc: ''
-updated: 1658320924094
-created: 1658320924094
+updated: 1666779932590
+created: 1666779932590
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'

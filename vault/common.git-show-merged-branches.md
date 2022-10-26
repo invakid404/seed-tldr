@@ -2,8 +2,8 @@
 id: common.git-show-merged-branches
 title: Git Show Merged Branches
 desc: ''
-updated: 1656591837482
-created: 1656591837482
+updated: 1666779932351
+created: 1666779932351
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'

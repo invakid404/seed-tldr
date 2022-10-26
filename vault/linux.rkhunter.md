@@ -2,8 +2,8 @@
 id: linux.rkhunter
 title: Rkhunter
 desc: ''
-updated: 1656591837650
-created: 1656591837650
+updated: 1666779932589
+created: 1666779932589
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'

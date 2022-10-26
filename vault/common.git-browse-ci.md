@@ -2,8 +2,8 @@
 id: common.git-browse-ci
 title: Git Browse CI
 desc: ''
-updated: 1664868765628
-created: 1664868765628
+updated: 1666779932339
+created: 1666779932339
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
