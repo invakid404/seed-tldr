@@ -2,8 +2,8 @@
 id: common.todoman
 title: Todoman
 desc: ''
-updated: 1642441815077
-created: 1642441815077
+updated: 1666952717415
+created: 1666952717415
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -18,7 +18,7 @@ sources:
 > `todoman` is a common name for the command `todo`, but not a command itself.
 > More information: <https://todoman.readthedocs.io/>.
 
-- View documentation for the actual command:
+- View documentation for the original command:
 
 `tldr todo`
 
