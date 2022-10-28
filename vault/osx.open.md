@@ -2,8 +2,8 @@
 id: osx.open
 title: Open
 desc: ''
-updated: 1665899330049
-created: 1665899330049
+updated: 1666977920013
+created: 1666977920013
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -43,5 +43,5 @@ sources:
 
 - Open a [n]ew instance of an application specified via [b]undle identifier:
 
-`open -n -b {{com.domiain.application}}`
+`open -n -b {{com.domain.application}}`
 
