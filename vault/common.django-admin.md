@@ -2,8 +2,8 @@
 id: common.django-admin
 title: Django Admin
 desc: ''
-updated: 1642441815008
-created: 1642441815008
+updated: 1667014857787
+created: 1667014857787
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,7 +15,7 @@ sources:
 # django-admin
 
 > Django’s utility for administrative tasks.
-> More information: <https://docs.djangoproject.com/en/3.0/ref/django-admin/>.
+> More information: <https://docs.djangoproject.com/en/4.1/ref/django-admin/>.
 
 - Create a new Django project:
 
