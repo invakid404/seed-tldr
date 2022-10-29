@@ -2,8 +2,8 @@
 id: common.fdp
 title: Fdp
 desc: ''
-updated: 1642441815017
-created: 1642441815017
+updated: 1667008668275
+created: 1667008668275
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -20,19 +20,19 @@ sources:
 
 - Render a `png` image with a filename based on the input filename and output format (uppercase -O):
 
-`fdp -T {{png}} -O {{path/to/input.gv}}`
+`fdp -T png -O {{path/to/input.gv}}`
 
 - Render a `svg` image with the specified output filename (lowercase -o):
 
-`fdp -T {{svg}} -o {{path/to/image.svg}} {{path/to/input.gv}}`
+`fdp -T svg -o {{path/to/image.svg}} {{path/to/input.gv}}`
 
-- Render the output in `ps`, `pdf`, `svg`, `fig`, `png`, `gif`, `jpg`, `json`, or `dot` format:
+- Render the output in a specific format:
 
-`fdp -T {{format}} -O {{path/to/input.gv}}`
+`fdp -T {{ps|pdf|svg|fig|png|gif|jpg|json|dot}} -O {{path/to/input.gv}}`
 
 - Render a `gif` image using stdin and stdout:
 
-`echo "{{digraph {this -> that} }}" | fdp -T {{gif}} > {{path/to/image.gif}}`
+`echo "{{digraph {this -> that} }}" | fdp -T gif > {{path/to/image.gif}}`
 
 - Display help:
 

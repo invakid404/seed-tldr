@@ -2,8 +2,8 @@
 id: common.fd
 title: Fd
 desc: ''
-updated: 1642441815017
-created: 1642441815017
+updated: 1667008668275
+created: 1667008668275
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -22,23 +22,23 @@ sources:
 
 `fd {{pattern}}`
 
-- Find files that begin with "foo":
+- Find files that begin with `foo`:
 
-`fd {{'^foo'}}`
+`fd '^foo'`
 
 - Find files with a specific extension:
 
-`fd --extension {{txt}}`
+`fd --extension txt`
 
 - Find files in a specific directory:
 
-`fd {{pattern}} {{path/to/directory}}`
+`fd '{{pattern}}' {{path/to/directory}}`
 
 - Include ignored and hidden files in the search:
 
-`fd --hidden --no-ignore {{pattern}}`
+`fd --hidden --no-ignore '{{pattern}}'`
 
 - Execute a command on each search result returned:
 
-`fd {{pattern}} --exec {{command}}`
+`fd '{{pattern}}' --exec {{command}}`
 

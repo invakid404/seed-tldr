@@ -2,8 +2,8 @@
 id: windows.mkdir
 title: Mkdir
 desc: ''
-updated: 1664897374263
-created: 1664897374263
+updated: 1667008668489
+created: 1667008668489
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -19,9 +19,9 @@ sources:
 
 - Create a directory:
 
-`mkdir {{directory_name}}`
+`mkdir {{directory}}`
 
-- Recursively create a nested directory tree:
+- Create a nested directory tree recursively:
 
-`mkdir {{path/to/sub_directory_name}}`
+`mkdir {{path/to/sub_directory}}`
 
