@@ -2,8 +2,8 @@
 id: common.airmon-ng
 title: Airmon Ng
 desc: ''
-updated: 1642441814992
-created: 1642441814992
+updated: 1667133702642
+created: 1667133702642
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,6 +15,7 @@ sources:
 # airmon-ng
 
 > Activate monitor mode on wireless network devices.
+> Part of `aircrack-ng`.
 > More information: <https://www.aircrack-ng.org/doku.php?id=airmon-ng>.
 
 - List wireless devices and their statuses:
