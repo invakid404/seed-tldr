@@ -2,8 +2,8 @@
 id: common.java
 title: Java
 desc: ''
-updated: 1665463523017
-created: 1665463523017
+updated: 1667172278983
+created: 1667172278983
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,7 +15,7 @@ sources:
 # java
 
 > Java application launcher.
-> More information: <https://docs.oracle.com/en/java/javase/17/docs/specs/man/java.html>.
+> More information: <https://docs.oracle.com/en/java/javase/19/docs/specs/man/java.html>.
 
 - Execute a java `.class` file that contains a main method by using just the class name:
 

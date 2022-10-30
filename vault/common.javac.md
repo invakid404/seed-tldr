@@ -2,8 +2,8 @@
 id: common.javac
 title: Javac
 desc: ''
-updated: 1665463523017
-created: 1665463523017
+updated: 1667172278983
+created: 1667172278983
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,7 +15,7 @@ sources:
 # javac
 
 > Java application compiler.
-> More information: <https://docs.oracle.com/en/java/javase/17/docs/specs/man/javac.html>.
+> More information: <https://docs.oracle.com/en/java/javase/19/docs/specs/man/javac.html>.
 
 - Compile a `.java` file:
 
