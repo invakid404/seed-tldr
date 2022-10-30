@@ -2,8 +2,8 @@
 id: common.git-blame
 title: Git Blame
 desc: ''
-updated: 1642441815021
-created: 1642441815021
+updated: 1667107680831
+created: 1667107680831
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -24,4 +24,12 @@ sources:
 - Print file with author email and commit hash on each line:
 
 `git blame -e {{file}}`
+
+- Print file with author name and commit hash on each line at a specific commit:
+
+`git blame {{commit}} {{path/to/file}}`
+
+- Print file with author name and commit hash on each line before a specific commit:
+
+`git blame {{commit}}~ {{path/to/file}}`
 
