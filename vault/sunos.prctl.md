@@ -2,8 +2,8 @@
 id: sunos.prctl
 title: Prctl
 desc: ''
-updated: 1660072904835
-created: 1660072904835
+updated: 1667301578693
+created: 1667301578693
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -19,13 +19,13 @@ sources:
 
 - Examine process limits and permissions:
 
-`prctl {{PID}}`
+`prctl {{pid}}`
 
 - Examine process limits and permissions in machine parsable format:
 
-`prctl -P {{PID}}`
+`prctl -P {{pid}}`
 
 - Get specific limit for a running process:
 
-`prctl -n process.max-file-descriptor {{PID}}`
+`prctl -n process.max-file-descriptor {{pid}}`
 
