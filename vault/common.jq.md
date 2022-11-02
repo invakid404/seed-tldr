@@ -2,8 +2,8 @@
 id: common.jq
 title: Jq
 desc: ''
-updated: 1656591837504
-created: 1656591837504
+updated: 1667367913858
+created: 1667367913858
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -19,7 +19,7 @@ sources:
 
 - Execute a specific expression (print a colored and formatted json):
 
-`{{cat path/to/file.json}} | jq '{{.}}'`
+`{{cat path/to/file.json}} | jq '.'`
 
 - Execute a specific script:
 
@@ -43,5 +43,5 @@ sources:
 
 - Add/remove specific keys:
 
-`{{cat path/to/file.json}} | jq '{{.}} {{+|-}} {{{"key1": "value1", "key2": "value2", ...}}}'`
+`{{cat path/to/file.json}} | jq '. {{+|-}} {{{"key1": "value1", "key2": "value2", ...}}}'`
 
