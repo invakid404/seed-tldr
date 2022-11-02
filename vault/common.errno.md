@@ -2,8 +2,8 @@
 id: common.errno
 title: Errno
 desc: ''
-updated: 1647061311343
-created: 1647061311343
+updated: 1667406929928
+created: 1667406929928
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -25,11 +25,11 @@ sources:
 
 `errno --list`
 
-- Search for code who's description contains all of the given text:
+- Search for code whose description contains all of the given text:
 
 `errno --search {{text}}`
 
-- Search for code who's description contains all of the given text (all locales):
+- Search for code whose description contains all of the given text (all locales):
 
 `errno --search-all-locales {{text}}`
 
