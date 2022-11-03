@@ -2,8 +2,8 @@
 id: common.git-feature
 title: Git Feature
 desc: ''
-updated: 1667397363555
-created: 1667397363555
+updated: 1667440809754
+created: 1667440809754
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -12,7 +12,7 @@ sources:
     url: 'https://github.com/tldr-pages/tldr/blob/master/LICENSE.md'
     license: Creative Commons
 ---
-# git pull
+# git feature
 
 > Create or merge feature branches.
 > Feature branches obey the format feature/<name>.
