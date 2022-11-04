@@ -2,8 +2,8 @@
 id: linux.conky
 title: Conky
 desc: ''
-updated: 1642441815091
-created: 1642441815091
+updated: 1667596754304
+created: 1667596754304
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -35,7 +35,7 @@ sources:
 
 - Align Conky on the desktop:
 
-`conky -a {{{top,bottom,middle}_{left,right,middle}}}`
+`conky -a {{top|bottom|middle}}_{{left|right|middle}}`
 
 - Pause for 5 seconds at startup before launching:
 
