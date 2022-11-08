@@ -2,8 +2,8 @@
 id: common.cut
 title: Cut
 desc: ''
-updated: 1656591837440
-created: 1656591837440
+updated: 1667921008780
+created: 1667921008780
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -23,7 +23,7 @@ sources:
 
 - Print a range of each line with a specific delimiter:
 
-`{{command}} | cut --delimiter="{{,}}" --{{characters}}={{1}}`
+`{{command}} | cut --delimiter="{{,}}" --{{fields}}={{1}}`
 
 - Print a range of each line of the specific file:
 
