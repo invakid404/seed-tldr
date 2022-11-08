@@ -2,8 +2,8 @@
 id: common.stty
 title: Stty
 desc: ''
-updated: 1642441815073
-created: 1642441815073
+updated: 1667882859779
+created: 1667882859779
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -19,7 +19,7 @@ sources:
 
 - Display all settings for the current terminal:
 
-`stty -a`
+`stty --all`
 
 - Set the number of rows:
 
@@ -31,7 +31,7 @@ sources:
 
 - Get the actual transfer speed of a device:
 
-`stty -F {{path/to/device_file}} speed`
+`stty --file {{path/to/device_file}} speed`
 
 - Reset all modes to reasonable values for the current terminal:
 
