@@ -2,8 +2,8 @@
 id: common.gcc
 title: Gcc
 desc: ''
-updated: 1664775910137
-created: 1664775910137
+updated: 1667989444862
+created: 1667989444862
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -21,9 +21,9 @@ sources:
 
 `gcc {{path/to/source1.c path/to/source2.c ...}} -o {{path/to/output_executable}}`
 
-- Show common warnings, debug symbols in output:
+- Show common warnings, debug symbols in output, and optimize without affecting debugging:
 
-`gcc {{path/to/source.c}} -Wall -Og -o {{path/to/output_executable}}`
+`gcc {{path/to/source.c}} -Wall -g -Og -o {{path/to/output_executable}}`
 
 - Include libraries from a different path:
 
