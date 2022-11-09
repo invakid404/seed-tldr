@@ -2,8 +2,8 @@
 id: windows.cipher
 title: Cipher
 desc: ''
-updated: 1664897374259
-created: 1664897374259
+updated: 1667971846607
+created: 1667971846607
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -14,14 +14,18 @@ sources:
 ---
 # cipher
 
-> Encrypt or decrypt files on NTFS drives.
+> Display or alter the encryption of directories and files on NTFS volumes.
 > More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/cipher>.
 
-- Encrypt a file or directory:
+- Display information about a specific encrypted file or directory:
+
+`cipher /c:{{path/to/file_or_directory}}`
+
+- [e]ncrypt a file or directory (files added later to the directory are also encrypted as the directory is marked):
 
 `cipher /e:{{path/to/file_or_directory}}`
 
-- Decrypt a file or directory:
+- [d]ecrypt a file or directory:
 
 `cipher /d:{{path/to/file_or_directory}}`
 
