@@ -2,8 +2,8 @@
 id: windows.scoop
 title: Scoop
 desc: ''
-updated: 1642441815129
-created: 1642441815129
+updated: 1668519436812
+created: 1668519436812
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -27,7 +27,7 @@ sources:
 
 - Update all installed packages:
 
-`scoop update *`
+`scoop update --all`
 
 - List installed packages:
 
@@ -43,5 +43,5 @@ sources:
 
 - Remove old versions of all packages and clear the download cache:
 
-`scoop cleanup -k *`
+`scoop cleanup --cache --all`
 

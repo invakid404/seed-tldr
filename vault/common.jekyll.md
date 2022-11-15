@@ -2,8 +2,8 @@
 id: common.jekyll
 title: Jekyll
 desc: ''
-updated: 1642441815036
-created: 1642441815036
+updated: 1668519436646
+created: 1668519436646
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,7 +15,7 @@ sources:
 # jekyll
 
 > A simple, blog-aware, static site generator.
-> More information: <https://jekyllrb.com>.
+> More information: <https://jekyllrb.com/docs/usage/>.
 
 - Generate a development server that will run at http&#x3A;//localhost:4000/:
 
