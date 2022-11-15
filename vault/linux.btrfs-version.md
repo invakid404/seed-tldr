@@ -2,8 +2,8 @@
 id: linux.btrfs-version
 title: Btrfs Version
 desc: ''
-updated: 1642441815089
-created: 1642441815090
+updated: 1668516075002
+created: 1668516075002
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,7 +15,7 @@ sources:
 # btrfs version
 
 > Display btrfs-progs version.
-> More information: <https://btrfs.wiki.kernel.org/index.php/Manpage/btrfs>.
+> More information: <https://btrfs.readthedocs.io/en/latest/btrfs.html>.
 
 - Display btrfs-progs version:
 

@@ -2,8 +2,8 @@
 id: linux.btrfs-rescue
 title: Btrfs Rescue
 desc: ''
-updated: 1642441815089
-created: 1642441815089
+updated: 1668516075002
+created: 1668516075002
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,7 +15,7 @@ sources:
 # btrfs rescue
 
 > Try to recover a damaged btrfs filesystem.
-> More information: <https://btrfs.wiki.kernel.org/index.php/Manpage/btrfs-rescue>.
+> More information: <https://btrfs.readthedocs.io/en/latest/btrfs-rescue.html>.
 
 - Rebuild the filesystem metadata tree (very slow):
 

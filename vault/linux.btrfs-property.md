@@ -2,8 +2,8 @@
 id: linux.btrfs-property
 title: Btrfs Property
 desc: ''
-updated: 1642441815089
-created: 1642441815089
+updated: 1668516075001
+created: 1668516075001
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,7 +15,7 @@ sources:
 # btrfs property
 
 > Get, set, or list properties for a given btrfs filesystem object (files, directories, subvolumes, filesystems, or devices).
-> More information: <https://btrfs.wiki.kernel.org/index.php/Manpage/btrfs-property>.
+> More information: <https://btrfs.readthedocs.io/en/latest/btrfs-property.html>.
 
 - List available properties (and descriptions) for the given btrfs object:
 

@@ -2,8 +2,8 @@
 id: linux.btrfs-restore
 title: Btrfs Restore
 desc: ''
-updated: 1642441815089
-created: 1642441815089
+updated: 1668516075002
+created: 1668516075002
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,7 +15,7 @@ sources:
 # btrfs restore
 
 > Try to salvage files from a damaged btrfs filesystem.
-> More information: <https://btrfs.wiki.kernel.org/index.php/Manpage/btrfs-restore>.
+> More information: <https://btrfs.readthedocs.io/en/latest/btrfs-restore.html>.
 
 - Restore all files from a btrfs filesystem to a given directory:
 

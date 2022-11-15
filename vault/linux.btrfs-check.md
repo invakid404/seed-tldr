@@ -2,8 +2,8 @@
 id: linux.btrfs-check
 title: Btrfs Check
 desc: ''
-updated: 1642441815089
-created: 1642441815089
+updated: 1668516075001
+created: 1668516075001
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,7 +15,7 @@ sources:
 # btrfs check
 
 > Check or repair a btrfs filesystem.
-> More information: <https://btrfs.wiki.kernel.org/index.php/Manpage/btrfs-check>.
+> More information: <https://btrfs.readthedocs.io/en/latest/btrfs-check.html>.
 
 - Check a btrfs filesystem:
 

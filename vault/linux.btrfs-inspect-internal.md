@@ -2,8 +2,8 @@
 id: linux.btrfs-inspect-internal
 title: Btrfs Inspect Internal
 desc: ''
-updated: 1642441815089
-created: 1642441815089
+updated: 1668516075001
+created: 1668516075001
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,7 +15,7 @@ sources:
 # btrfs inspect-internal
 
 > Query internal information of a btrfs filesystem.
-> More information: <https://btrfs.wiki.kernel.org/index.php/Manpage/btrfs-inspect-internal>.
+> More information: <https://btrfs.readthedocs.io/en/latest/btrfs-inspect-internal.html>.
 
 - Print superblock's information:
 

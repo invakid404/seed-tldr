@@ -2,8 +2,8 @@
 id: linux.btrfs-device
 title: Btrfs Device
 desc: ''
-updated: 1642441815089
-created: 1642441815089
+updated: 1668516075001
+created: 1668516075001
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,7 +15,7 @@ sources:
 # btrfs device
 
 > Manage devices in a btrfs filesystem.
-> More information: <https://btrfs.wiki.kernel.org/index.php/Manpage/btrfs-device>.
+> More information: <https://btrfs.readthedocs.io/en/latest/btrfs-device.html>.
 
 - Add one or more devices to a btrfs filesystem:
 

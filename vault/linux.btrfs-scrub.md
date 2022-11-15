@@ -2,8 +2,8 @@
 id: linux.btrfs-scrub
 title: Btrfs Scrub
 desc: ''
-updated: 1642441815089
-created: 1642441815089
+updated: 1668516075002
+created: 1668516075002
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -16,7 +16,7 @@ sources:
 
 > Scrub btrfs filesystems to verify data integrity.
 > It is recommended to run a scrub once a month.
-> More information: <https://btrfs.wiki.kernel.org/index.php/Manpage/btrfs-scrub>.
+> More information: <https://btrfs.readthedocs.io/en/latest/btrfs-scrub.html>.
 
 - Start a scrub:
 

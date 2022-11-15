@@ -2,8 +2,8 @@
 id: linux.btrfs-subvolume
 title: Btrfs Subvolume
 desc: ''
-updated: 1642441815089
-created: 1642441815089
+updated: 1668516075002
+created: 1668516075002
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,7 +15,7 @@ sources:
 # btrfs subvolume
 
 > Manage btrfs subvolumes and snapshots.
-> More information: <https://btrfs.wiki.kernel.org/index.php/Manpage/btrfs-subvolume>.
+> More information: <https://btrfs.readthedocs.io/en/latest/btrfs-subvolume.html>.
 
 - Create a new empty subvolume:
 
