@@ -2,8 +2,8 @@
 id: common.tput
 title: Tput
 desc: ''
-updated: 1642441815077
-created: 1642441815077
+updated: 1668608359828
+created: 1668608359828
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -19,7 +19,7 @@ sources:
 
 - Move the cursor to a screen location:
 
-`tput cup {{y_coordinate}} {{x_coordinate}}`
+`tput cup {{row}} {{column}}`
 
 - Set foreground (af) or background (ab) color:
 
