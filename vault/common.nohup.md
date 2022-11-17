@@ -2,8 +2,8 @@
 id: common.nohup
 title: Nohup
 desc: ''
-updated: 1666762374557
-created: 1666762374557
+updated: 1668649874271
+created: 1668649874271
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -19,11 +19,11 @@ sources:
 
 - Run a process that can live beyond the terminal:
 
-`nohup {{command}} {{command_arguments}}`
+`nohup {{command}} {{argument1 argument2 ...}}`
 
 - Launch `nohup` in background mode:
 
-`nohup {{command}} {{command_arguments}} &`
+`nohup {{command}} {{argument1 argument2 ...}} &`
 
 - Run a shell script that can live beyond the terminal:
 
@@ -31,5 +31,5 @@ sources:
 
 - Run a process and write the output to a specific file:
 
-`nohup {{command}} {{command_arguments}} > {{path/to/output_file}} &`
+`nohup {{command}} {{argument1 argument2 ...}} > {{path/to/output_file}} &`
 
