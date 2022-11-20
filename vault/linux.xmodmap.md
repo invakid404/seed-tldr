@@ -2,8 +2,8 @@
 id: linux.xmodmap
 title: Xmodmap
 desc: ''
-updated: 1656591837667
-created: 1656591837667
+updated: 1668942963927
+created: 1668942963927
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -23,7 +23,7 @@ sources:
 
 - Reassign a key on the keyboard to another key:
 
-`xmodmap -e 'keycode {{keycode}} = {{keyname}}`
+`xmodmap -e 'keycode {{keycode}} = {{keyname}}'`
 
 - Disable a key on the keyboard:
 
