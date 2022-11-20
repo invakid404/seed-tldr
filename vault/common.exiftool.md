@@ -2,8 +2,8 @@
 id: common.exiftool
 title: Exiftool
 desc: ''
-updated: 1666783178705
-created: 1666783178705
+updated: 1668939690476
+created: 1668939690476
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -24,6 +24,10 @@ sources:
 - Remove all EXIF metadata from the given files:
 
 `exiftool -All= {{file1 file2 ...}}`
+
+- Remove GPS EXIF metadata from given image files:
+
+`exiftool "-gps*=" {{path/to/image1 path/to/image2 ...}}`
 
 - Remove all EXIF metadata from the given image files, then re-add metadata for color and orientation:
 
