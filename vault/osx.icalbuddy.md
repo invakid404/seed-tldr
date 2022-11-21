@@ -2,8 +2,8 @@
 id: osx.icalbuddy
 title: Icalbuddy
 desc: ''
-updated: 1644840636309
-created: 1644840636309
+updated: 1669019235594
+created: 1669019235594
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -19,7 +19,7 @@ sources:
 
 - Show events later today:
 
-`icalBuddy -n eventsToday`
+`icalBuddy --includeOnlyEventsFromNowOn eventsToday`
 
 - Show uncompleted tasks:
 
@@ -27,11 +27,11 @@ sources:
 
 - Show a formatted list separated by calendar for all events today:
 
-`icalBuddy -f -sc eventsToday`
+`icalBuddy --formatOutput --separateByCalendar eventsToday`
 
 - Show tasks for a specified number of days:
 
-`icalBuddy -n "tasksDueBefore:today+{{days}}"`
+`icalBuddy --includeOnlyEventsFromNowOn "tasksDueBefore:today+{{days}}"`
 
 - Show events in a time range:
 
