@@ -2,8 +2,8 @@
 id: common.read
 title: Read
 desc: ''
-updated: 1642441815065
-created: 1642441815065
+updated: 1669202178335
+created: 1669202178335
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -33,7 +33,7 @@ sources:
 
 `read -d {{new_delimiter}} {{variable}}`
 
-- Do not let backslash () act as an escape character:
+- Do not let backslash (\\) act as an escape character:
 
 `read -r {{variable}}`
 
