@@ -1,9 +1,9 @@
 ---
-id: common.killall
+id: linux.killall
 title: Killall
 desc: ''
-updated: 1669310247646
-created: 1669310247646
+updated: 1669310247759
+created: 1669310247759
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -22,9 +22,9 @@ sources:
 
 `killall {{process_name}}`
 
-- [l]ist available signal names (to be used without the 'SIG' prefix):
+- List available signal names (to be used without the 'SIG' prefix):
 
-`killall -l`
+`killall --list`
 
 - Interactively ask for confirmation before termination:
 
