@@ -2,8 +2,8 @@
 id: common.mkvmerge
 title: Mkvmerge
 desc: ''
-updated: 1642441815047
-created: 1642441815047
+updated: 1669254268024
+created: 1669254268024
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -28,4 +28,8 @@ sources:
 - Extract the subtitle from track 3 of a specific file:
 
 `mkvextract tracks {{path/to/file.mkv}} {{3}}:{{path/to/subs.srt}}`
+
+- Add a subtitle track to a file:
+
+`mkvmerge --output {{path/to/output.mkv}} {{path/to/file.mkv}} {{path/to/subs.srt}}`
 
