@@ -2,8 +2,8 @@
 id: common.iverilog
 title: Iverilog
 desc: ''
-updated: 1642441815036
-created: 1642441815036
+updated: 1669562307956
+created: 1669562307956
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -14,26 +14,26 @@ sources:
 ---
 # iverilog
 
-> Preprocesses and compiles Verilog HDL (IEEE-1364) code, into executable programs for simulation.
-> More information: <http://iverilog.icarus.com/>.
+> Preprocesses and compiles Verilog HDL (IEEE-1364) code into executable programs for simulation.
+> More information: <https://github.com/steveicarus/iverilog>.
 
 - Compile a source file into an executable:
 
-`iverilog {{source.v}} -o {{executable}}`
+`iverilog {{path/to/source.v}} -o {{path/to/executable}}`
 
-- Also display all warnings:
+- Compile a source file into an executable while displaying all warnings:
 
-`iverilog {{source.v}} -Wall -o {{executable}}`
+`iverilog {{path/to/source.v}} -Wall -o {{path/to/executable}}`
 
 - Compile and run explicitly using the VVP runtime:
 
-`iverilog -o {{executable}} -tvvp {{source.v}}`
+`iverilog -o {{path/to/executable}} -tvvp {{path/to/source.v}}`
 
 - Compile using Verilog library files from a different path:
 
-`iverilog {{source.v}} -o {{executable}} -I{{path/to/library_directory}}`
+`iverilog {{path/to/source.v}} -o {{path/to/executable}} -I{{path/to/library_directory}}`
 
 - Preprocess Verilog code without compiling:
 
-`iverilog -E {{source.v}}`
+`iverilog -E {{path/to/source.v}}`
 
