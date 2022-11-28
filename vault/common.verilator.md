@@ -2,8 +2,8 @@
 id: common.verilator
 title: Verilator
 desc: ''
-updated: 1669451017752
-created: 1669451017752
+updated: 1669662929061
+created: 1669662929061
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -14,7 +14,7 @@ sources:
 ---
 # verilator
 
-> Converts Verilog and SystemVerilog hardware description language (HDL) designs into a C++ or SystemC model that after compiling can be executed.
+> Converts Verilog and SystemVerilog hardware description language (HDL) design into a C++ or SystemC model to be executed after compiling.
 > More information: <https://veripool.org/guide/latest/>.
 
 - Build a specific C project in the current directory:
