@@ -2,8 +2,8 @@
 id: common.vimdiff
 title: Vimdiff
 desc: ''
-updated: 1662517680793
-created: 1662517680793
+updated: 1669666793422
+created: 1669666793422
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,7 +15,7 @@ sources:
 # vimdiff
 
 > Open up two or more files in vim and show the differences between them.
-> See also `vim`.
+> See also `vim`, `vimtutor`, `nvim`.
 > More information: <https://www.vim.org>.
 
 - Open two files and show the differences:

@@ -2,8 +2,8 @@
 id: common.mount
 title: Mount
 desc: ''
-updated: 1642441815048
-created: 1642441815048
+updated: 1669666793323
+created: 1669666793323
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -24,6 +24,10 @@ sources:
 - Mount a device to a directory:
 
 `mount -t {{filesystem_type}} {{path/to/device_file}} {{path/to/target_directory}}`
+
+- Create a specific directory if it does not exist and mount a device to it:
+
+`mount --mkdir {{path/to/device_file}} {{path/to/target_directory}}`
 
 - Mount a CD-ROM device (with the filetype ISO9660) to `/cdrom` (readonly):
 

@@ -2,8 +2,8 @@
 id: common.nvim
 title: Nvim
 desc: ''
-updated: 1665983022687
-created: 1665983022687
+updated: 1669666793340
+created: 1669666793340
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -16,6 +16,7 @@ sources:
 
 > Neovim, a programmer's text editor based on Vim, provides several modes for different kinds of text manipulation.
 > Pressing `i` in normal mode enters insert mode. `<Esc>` goes back to normal mode, which doesn't allow regular text insertion.
+> See also `vim`, `vimtutor`, `vimdiff`.
 > More information: <https://neovim.io>.
 
 - Open a file:
