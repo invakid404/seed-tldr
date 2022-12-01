@@ -2,8 +2,8 @@
 id: linux.tshark
 title: Tshark
 desc: ''
-updated: 1642441815115
-created: 1642441815115
+updated: 1669864319591
+created: 1669864319591
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -47,5 +47,5 @@ sources:
 
 - Analyze packets from a file:
 
-`tshark -r {{filename}}.pcap`
+`tshark -r {{path/to/file.pcap}}`
 
