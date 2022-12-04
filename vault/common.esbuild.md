@@ -2,8 +2,8 @@
 id: common.esbuild
 title: Esbuild
 desc: ''
-updated: 1666616106280
-created: 1666616106280
+updated: 1670142130905
+created: 1670142130905
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -17,11 +17,11 @@ sources:
 > JavaScript bundler and minifier built for speed.
 > More information: <https://esbuild.github.io/>.
 
-- Bundle a JavaScript application and print to stdout:
+- Bundle a JavaScript application and print to `stdout`:
 
 `esbuild --bundle {{path/to/file.js}}`
 
-- Bundle a JSX application from stdin:
+- Bundle a JSX application from `stdin`:
 
 `esbuild --bundle --outfile={{path/to/out.js}} < {{path/to/file.jsx}}`
 

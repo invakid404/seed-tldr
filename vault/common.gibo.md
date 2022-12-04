@@ -2,8 +2,8 @@
 id: common.gibo
 title: Gibo
 desc: ''
-updated: 1642441815021
-created: 1642441815021
+updated: 1670142130916
+created: 1670142130916
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -21,7 +21,7 @@ sources:
 
 `gibo list`
 
-- Write a boilerplate to stdout:
+- Write a boilerplate to `stdout`:
 
 `gibo dump {{boilerplate}}`
 

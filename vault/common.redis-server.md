@@ -2,8 +2,8 @@
 id: common.redis-server
 title: Redis Server
 desc: ''
-updated: 1642441815065
-created: 1642441815065
+updated: 1670142130999
+created: 1670142130999
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -17,7 +17,7 @@ sources:
 > Persistent key-value database.
 > More information: <https://redis.io>.
 
-- Start Redis server, using the default port (6379), and write logs to stdout:
+- Start Redis server, using the default port (6379), and write logs to `stdout`:
 
 `redis-server`
 

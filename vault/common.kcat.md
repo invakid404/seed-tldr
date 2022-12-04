@@ -2,8 +2,8 @@
 id: common.kcat
 title: Kcat
 desc: ''
-updated: 1665246788321
-created: 1665246788321
+updated: 1670142130953
+created: 1670142130953
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -29,7 +29,7 @@ sources:
 
 `kcat -G {{group_id}} {{topic}} -b {{brokers}}`
 
-- Publish message by reading from stdin:
+- Publish message by reading from `stdin`:
 
 ` echo {{message}} | kcat -P -t {{topic}} -b {{brokers}}`
 

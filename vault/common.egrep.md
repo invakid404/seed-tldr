@@ -2,8 +2,8 @@
 id: common.egrep
 title: Egrep
 desc: ''
-updated: 1642441815012
-created: 1642441815012
+updated: 1670142130904
+created: 1670142130904
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -25,7 +25,7 @@ sources:
 
 `egrep "{{search_pattern}}" {{path/to/file1}} {{path/to/file2}} {{path/to/file3}}`
 
-- Search stdin for a pattern:
+- Search `stdin` for a pattern:
 
 `cat {{path/to/file}} | egrep {{search_pattern}}`
 

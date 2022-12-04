@@ -2,8 +2,8 @@
 id: common.xml-format
 title: Xml Format
 desc: ''
-updated: 1642441815084
-created: 1642441815084
+updated: 1670142131035
+created: 1670142131035
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -29,7 +29,7 @@ sources:
 
 `xml format --recover --noindent {{path/to/malformed.xml|URI}} > {{path/to/recovered.xml}}`
 
-- Format an XML document from stdin, removing the `DOCTYPE` declaration:
+- Format an XML document from `stdin`, removing the `DOCTYPE` declaration:
 
 `cat {{path\to\input.xml}} | xml format --dropdtd > {{path/to/output.xml}}`
 

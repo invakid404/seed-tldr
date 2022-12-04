@@ -2,8 +2,8 @@
 id: linux.chpasswd
 title: Chpasswd
 desc: ''
-updated: 1656591837610
-created: 1656591837610
+updated: 1670142131048
+created: 1670142131048
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -14,7 +14,7 @@ sources:
 ---
 # chpasswd
 
-> Change the passwords for multiple users by using stdin.
+> Change the passwords for multiple users by using `stdin`.
 > More information: <https://manned.org/chpasswd.8>.
 
 - Change the password for a specific user:

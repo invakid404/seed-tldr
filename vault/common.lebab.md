@@ -2,8 +2,8 @@
 id: common.lebab
 title: Lebab
 desc: ''
-updated: 1642441815040
-created: 1642441815040
+updated: 1670142130956
+created: 1670142130956
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -26,7 +26,7 @@ sources:
 
 `lebab --transform {{transformation}}`
 
-- Transpile a file to stdout:
+- Transpile a file to `stdout`:
 
 `lebab {{path/to/input_file}}`
 

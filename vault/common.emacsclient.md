@@ -2,8 +2,8 @@
 id: common.emacsclient
 title: Emacsclient
 desc: ''
-updated: 1642441815013
-created: 1642441815013
+updated: 1670142130905
+created: 1670142130905
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -30,7 +30,7 @@ sources:
 
 `emacsclient --create-frame {{path/to/file}}`
 
-- Evaluate a command, printing the output to stdout, and then quit:
+- Evaluate a command, printing the output to `stdout`, and then quit:
 
 `emacsclient --eval '({{command}})'`
 

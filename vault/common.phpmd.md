@@ -2,8 +2,8 @@
 id: common.phpmd
 title: Phpmd
 desc: ''
-updated: 1642441815057
-created: 1642441815057
+updated: 1670142130986
+created: 1670142130986
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -37,7 +37,7 @@ sources:
 
 `phpmd {{path/to/file_or_directory}} {{xml|text|html}} {{rulesets}} --exclude {{directory_patterns}}`
 
-- Output the results to a file instead of stdout:
+- Output the results to a file instead of `stdout`:
 
 `phpmd {{path/to/file_or_directory}} {{xml|text|html}} {{rulesets}} --reportfile {{path/to/report_file}}`
 

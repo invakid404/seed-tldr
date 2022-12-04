@@ -2,8 +2,8 @@
 id: common.monodevelop
 title: Monodevelop
 desc: ''
-updated: 1642441815048
-created: 1642441815048
+updated: 1670142130964
+created: 1670142130964
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -33,7 +33,7 @@ sources:
 
 `monodevelop --new-window`
 
-- Disable redirection of stdout and stderr to a log file:
+- Disable redirection of `stdout` and `stderr` to a log file:
 
 `monodevelop --no-redirect`
 

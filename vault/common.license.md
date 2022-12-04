@@ -2,8 +2,8 @@
 id: common.license
 title: License
 desc: ''
-updated: 1642441815041
-created: 1642441815041
+updated: 1670142130956
+created: 1670142130956
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -17,7 +17,7 @@ sources:
 > Create license files for open-source projects.
 > More information: <https://nishanths.github.io/license>.
 
-- Print a license to stdout, using the defaults (auto-detected author name, and current year):
+- Print a license to `stdout`, using the defaults (auto-detected author name, and current year):
 
 `license {{license_name}}`
 

@@ -2,8 +2,8 @@
 id: common.tcsh
 title: Tcsh
 desc: ''
-updated: 1656631208072
-created: 1656631208072
+updated: 1670142131015
+created: 1670142131015
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -38,7 +38,7 @@ sources:
 
 `tcsh -n {{path/to/script.tcsh}}`
 
-- Execute specific commands from stdin:
+- Execute specific commands from `stdin`:
 
 `{{echo "echo 'tcsh is executed'"}} | tcsh`
 

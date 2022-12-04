@@ -2,8 +2,8 @@
 id: osx.pbcopy
 title: Pbcopy
 desc: ''
-updated: 1660882076207
-created: 1660882076207
+updated: 1670142131119
+created: 1670142131119
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -14,7 +14,7 @@ sources:
 ---
 # pbcopy
 
-> Copy data from stdin to the clipboard.
+> Copy data from `stdin` to the clipboard.
 > More information: <https://ss64.com/osx/pbcopy.html>.
 
 - Place the contents of a specific file in the clipboard:

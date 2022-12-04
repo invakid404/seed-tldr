@@ -2,8 +2,8 @@
 id: common.react-native
 title: React Native
 desc: ''
-updated: 1642441815065
-created: 1642441815065
+updated: 1670142130998
+created: 1670142130998
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -41,11 +41,11 @@ sources:
 
 `react-native run-android --variant={{release}}`
 
-- Start `logkitty` and print logs to stdout:
+- Start `logkitty` and print logs to `stdout`:
 
 `react-native log-android`
 
-- Start `tail system.log` for an iOS simulator and print logs to stdout:
+- Start `tail system.log` for an iOS simulator and print logs to `stdout`:
 
 `react-native log-ios`
 

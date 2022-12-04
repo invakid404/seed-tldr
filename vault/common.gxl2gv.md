@@ -2,8 +2,8 @@
 id: common.gxl2gv
 title: Gxl2gv
 desc: ''
-updated: 1642441815031
-created: 1642441815031
+updated: 1670142130941
+created: 1670142130941
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -22,7 +22,7 @@ sources:
 
 `gxl2gv -o {{output.gv}} {{input.gxl}}`
 
-- Convert a graph using stdin and stdout:
+- Convert a graph using `stdin` and `stdout`:
 
 `cat {{input.gxl}} | gxl2gv > {{output.gv}}`
 

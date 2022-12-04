@@ -2,8 +2,8 @@
 id: common.perl
 title: Perl
 desc: ''
-updated: 1660311802180
-created: 1660311802180
+updated: 1670142130984
+created: 1670142130984
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -41,11 +41,11 @@ sources:
 
 `perl -p -e 's/{{foo\nbar}}/{{foobar}}/g' {{path/to/input_file}} > {{path/to/output_file}}`
 
-- Run a regular [e]xpression on stdin, printing matching [l]ines:
+- Run a regular [e]xpression on `stdin`, printing matching [l]ines:
 
 `cat {{path/to/file}} | perl -n -l -e 'print if /{{regular_expression}}/'`
 
-- Run a regular [e]xpression on stdin, printing only the first capture group for each matching [l]ine:
+- Run a regular [e]xpression on `stdin`, printing only the first capture group for each matching [l]ine:
 
 `cat {{path/to/file}} | perl -n -l -e 'print $1 if /{{before}}({{regular_expression}}){{after}}/'`
 

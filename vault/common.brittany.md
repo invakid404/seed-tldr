@@ -2,8 +2,8 @@
 id: common.brittany
 title: Brittany
 desc: ''
-updated: 1664702783806
-created: 1664702783806
+updated: 1670142130875
+created: 1670142130875
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -17,7 +17,7 @@ sources:
 > Pretty-print Haskell source files.
 > More information: <https://github.com/lspitzner/brittany#readme>.
 
-- Format a Haskell source file and print the result to stdout:
+- Format a Haskell source file and print the result to `stdout`:
 
 `brittany {{path/to/file.hs}}`
 

@@ -2,8 +2,8 @@
 id: common.envsubst
 title: Envsubst
 desc: ''
-updated: 1642441815013
-created: 1642441815013
+updated: 1670142130905
+created: 1670142130905
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -18,11 +18,11 @@ sources:
 > Variables to be replaced should be in either `${var}` or `$var` format.
 > More information: <https://www.gnu.org/software/gettext/manual/html_node/envsubst-Invocation.html>.
 
-- Replace environment variables in stdin and output to stdout:
+- Replace environment variables in `stdin` and output to `stdout`:
 
 `echo '{{$HOME}}' | envsubst`
 
-- Replace environment variables in an input file and output to stdout:
+- Replace environment variables in an input file and output to `stdout`:
 
 `envsubst < {{path/to/input_file}}`
 

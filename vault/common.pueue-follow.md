@@ -2,8 +2,8 @@
 id: common.pueue-follow
 title: Pueue Follow
 desc: ''
-updated: 1642441815062
-created: 1642441815062
+updated: 1670142130992
+created: 1670142130992
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -18,11 +18,11 @@ sources:
 > See also: `pueue log`.
 > More information: <https://github.com/Nukesor/pueue>.
 
-- Follow the output of a task (stdout + stderr):
+- Follow the output of a task (`stdout` + `stderr`):
 
 `pueue follow {{task_id}}`
 
-- Follow the stderr of a task:
+- Follow the `stderr` of a task:
 
 `pueue follow --err {{task_id}}`
 

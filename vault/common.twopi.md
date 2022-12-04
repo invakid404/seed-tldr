@@ -2,8 +2,8 @@
 id: common.twopi
 title: Twopi
 desc: ''
-updated: 1642441815078
-created: 1642441815078
+updated: 1670142131025
+created: 1670142131025
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -30,7 +30,7 @@ sources:
 
 `twopi -T {{format}} -O {{path/to/input.gv}}`
 
-- Render a `gif` image using stdin and stdout:
+- Render a `gif` image using `stdin` and `stdout`:
 
 `echo "{{digraph {this -> that} }}" | twopi -T {{gif}} > {{path/to/image.gif}}`
 

@@ -2,8 +2,8 @@
 id: common.ajson
 title: Ajson
 desc: ''
-updated: 1642441814992
-created: 1642441814992
+updated: 1670142130863
+created: 1670142130863
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -21,7 +21,7 @@ sources:
 
 `ajson '{{$..json[?(@.path)]}}' {{path/to/file.json}}`
 
-- Read JSON from stdin and execute a specified JSONPath expression:
+- Read JSON from `stdin` and execute a specified JSONPath expression:
 
 `cat {{path/to/file.json}} | ajson '{{$..json[?(@.path)]}}'`
 

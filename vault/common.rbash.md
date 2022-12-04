@@ -2,8 +2,8 @@
 id: common.rbash
 title: Rbash
 desc: ''
-updated: 1642441815064
-created: 1642441815064
+updated: 1670142130998
+created: 1670142130998
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -39,7 +39,7 @@ sources:
 
 `rbash -e {{path/to/script.sh}}`
 
-- Read and execute commands from stdin:
+- Read and execute commands from `stdin`:
 
 `rbash -s`
 

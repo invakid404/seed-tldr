@@ -2,8 +2,8 @@
 id: common.banner
 title: Banner
 desc: ''
-updated: 1646802118613
-created: 1646802118613
+updated: 1670142130873
+created: 1670142130873
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -25,7 +25,7 @@ sources:
 
 `banner -w {{50}} "{{Hello World}}"`
 
-- Read text from stdin:
+- Read text from `stdin`:
 
 `banner`
 

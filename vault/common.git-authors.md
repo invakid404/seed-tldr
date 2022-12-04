@@ -2,8 +2,8 @@
 id: common.git-authors
 title: Git Authors
 desc: ''
-updated: 1642441815021
-created: 1642441815021
+updated: 1670142130917
+created: 1670142130917
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -18,7 +18,7 @@ sources:
 > Part of `git-extras`.
 > More information: <https://github.com/tj/git-extras/blob/master/Commands.md#git-authors>.
 
-- Print a full list of committers to stdout instead of to the `AUTHORS` file:
+- Print a full list of committers to `stdout` instead of to the `AUTHORS` file:
 
 `git authors --list`
 

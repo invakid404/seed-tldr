@@ -2,8 +2,8 @@
 id: common.pest
 title: Pest
 desc: ''
-updated: 1656591837541
-created: 1656591837541
+updated: 1670142130984
+created: 1670142130984
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -29,7 +29,7 @@ sources:
 
 `pest --group {{name}}`
 
-- Run tests and print the coverage report to stdout:
+- Run tests and print the coverage report to `stdout`:
 
 `pest --coverage`
 

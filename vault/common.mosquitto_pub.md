@@ -2,8 +2,8 @@
 id: common.mosquitto_pub
 title: Mosquitto_pub
 desc: ''
-updated: 1642441815048
-created: 1642441815048
+updated: 1670142130965
+created: 1670142130965
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -33,11 +33,11 @@ sources:
 
 `mosquitto_pub -t {{sensors/temperature}} -f {{data.txt}}`
 
-- Send the contents of a file (`data.txt`), by reading from stdin and send the entire input as a message and publish it to `sensors/temperature` topic:
+- Send the contents of a file (`data.txt`), by reading from `stdin` and send the entire input as a message and publish it to `sensors/temperature` topic:
 
 `mosquitto_pub -t {{sensors/temperature}} -s < {{data.txt}}`
 
-- Read newline delimited data from stdin as a message and publish it to `sensors/temperature` topic:
+- Read newline delimited data from `stdin` as a message and publish it to `sensors/temperature` topic:
 
 `{{echo data.txt}} | mosquitto_pub -t {{sensors/temperature}} -l`
 

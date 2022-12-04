@@ -2,8 +2,8 @@
 id: common.sh
 title: Sh
 desc: ''
-updated: 1642441815068
-created: 1642441815068
+updated: 1670142131005
+created: 1670142131005
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -30,7 +30,7 @@ sources:
 
 `sh {{path/to/script.sh}}`
 
-- Read and execute commands from stdin:
+- Read and execute commands from `stdin`:
 
 `sh -s`
 

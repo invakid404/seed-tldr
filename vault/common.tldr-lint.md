@@ -2,8 +2,8 @@
 id: common.tldr-lint
 title: Tldr Lint
 desc: ''
-updated: 1642441815076
-created: 1642441815076
+updated: 1670142131016
+created: 1670142131016
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -21,7 +21,7 @@ sources:
 
 `tldr-lint {{pages_directory}}`
 
-- Format a specific page to stdout:
+- Format a specific page to `stdout`:
 
 `tldr-lint --format {{page.md}}`
 

@@ -2,8 +2,8 @@
 id: common.qutebrowser
 title: Qutebrowser
 desc: ''
-updated: 1642441815064
-created: 1642441815064
+updated: 1670142130996
+created: 1670142130996
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -33,7 +33,7 @@ sources:
 
 `qutebrowser --target {{auto|tab|tab-bg|tab-silent|tab-bg-silent|window|private-window}}`
 
-- Open qutebrowser with a temporary base directory and print logs to stdout as JSON:
+- Open qutebrowser with a temporary base directory and print logs to `stdout` as JSON:
 
 `qutebrowser --temp-basedir --json-logging`
 

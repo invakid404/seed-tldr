@@ -2,8 +2,8 @@
 id: common.uuencode
 title: Uuencode
 desc: ''
-updated: 1642441815079
-created: 1642441815079
+updated: 1670142131027
+created: 1670142131027
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -17,7 +17,7 @@ sources:
 > Encode binary files into ASCII for transport via mediums that only support simple ASCII encoding.
 > More information: <https://manned.org/uuencode>.
 
-- Encode a file and print the result to stdout:
+- Encode a file and print the result to `stdout`:
 
 `uuencode {{path/to/input_file}} {{output_file_name_after_decoding}}`
 

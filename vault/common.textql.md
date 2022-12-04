@@ -2,8 +2,8 @@
 id: common.textql
 title: Textql
 desc: ''
-updated: 1642441815075
-created: 1642441815075
+updated: 1670142131015
+created: 1670142131015
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -17,7 +17,7 @@ sources:
 > Execute SQL against structured text like csv or tsv files.
 > More information: <https://github.com/dinedal/textql>.
 
-- Print the lines in the specified `.csv` file that match a SQL query to stdout:
+- Print the lines in the specified `.csv` file that match a SQL query to `stdout`:
 
 `textql -sql "{{SELECT * FROM filename}}" {{path/to/filename.csv}}`
 
@@ -29,7 +29,7 @@ sources:
 
 `textql -dlm={{delimiter}} -header -sql "{{SELECT * FROM filename}}" {{path/to/filename.csv}}`
 
-- Read data from stdin:
+- Read data from `stdin`:
 
 `cat {{path/to/file}} | textql -sql "{{SELECT * FROM stdin}}"`
 

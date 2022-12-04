@@ -2,8 +2,8 @@
 id: common.tlmgr-key
 title: Tlmgr Key
 desc: ''
-updated: 1657538207552
-created: 1657538207552
+updated: 1670142131021
+created: 1670142131021
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -25,7 +25,7 @@ sources:
 
 `sudo tlmgr key add {{path/to/key.gpg}}`
 
-- Add a key from stdin:
+- Add a key from `stdin`:
 
 `cat {{path/to/key.gpg}} | sudo tlmgr key add -`
 

@@ -2,8 +2,8 @@
 id: common.neato
 title: Neato
 desc: ''
-updated: 1642441815050
-created: 1642441815050
+updated: 1670142130968
+created: 1670142130968
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -30,7 +30,7 @@ sources:
 
 `neato -T {{format}} -O {{path/to/input.gv}}`
 
-- Render a `gif` image using stdin and stdout:
+- Render a `gif` image using `stdin` and `stdout`:
 
 `echo "{{graph {this -- that} }}" | neato -T {{gif}} > {{path/to/image.gif}}`
 

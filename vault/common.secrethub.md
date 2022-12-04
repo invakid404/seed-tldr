@@ -2,8 +2,8 @@
 id: common.secrethub
 title: Secrethub
 desc: ''
-updated: 1642441815068
-created: 1642441815068
+updated: 1670142131004
+created: 1670142131004
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -17,7 +17,7 @@ sources:
 > A tool to keep secrets out of config files.
 > More information: <https://secrethub.io>.
 
-- Print a secret to stdout:
+- Print a secret to `stdout`:
 
 `secrethub read {{path/to/secret}}`
 
@@ -29,7 +29,7 @@ sources:
 
 `secrethub write --clip {{path/to/secret}}`
 
-- Store a value supplied on stdin as a new or updated secret:
+- Store a value supplied on `stdin` as a new or updated secret:
 
 `echo "{{secret_value}}" | secrethub write {{path/to/secret}}`
 

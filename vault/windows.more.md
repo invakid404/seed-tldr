@@ -2,8 +2,8 @@
 id: windows.more
 title: More
 desc: ''
-updated: 1664897374263
-created: 1664897374263
+updated: 1670142131128
+created: 1670142131128
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -14,10 +14,10 @@ sources:
 ---
 # more
 
-> Display paginated output from stdin or a file.
+> Display paginated output from `stdin` or a file.
 > More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/more>.
 
-- Display paginated output from stdin:
+- Display paginated output from `stdin`:
 
 `{{echo test}} | more`
 

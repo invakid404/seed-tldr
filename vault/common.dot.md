@@ -2,8 +2,8 @@
 id: common.dot
 title: Dot
 desc: ''
-updated: 1642441815010
-created: 1642441815010
+updated: 1670142130901
+created: 1670142130901
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -30,7 +30,7 @@ sources:
 
 `dot -T {{format}} -O {{path/to/input.gv}}`
 
-- Render a `gif` image using stdin and stdout:
+- Render a `gif` image using `stdin` and `stdout`:
 
 `echo "{{digraph {this -> that} }}" | dot -T {{gif}} > {{path/to/image.gif}}`
 

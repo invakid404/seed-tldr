@@ -2,8 +2,8 @@
 id: common.xz
 title: Xz
 desc: ''
-updated: 1642441815085
-created: 1642441815085
+updated: 1670142131036
+created: 1670142131036
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -33,7 +33,7 @@ sources:
 
 `xz -d --format={{lzma}} {{file.lzma}}`
 
-- Decompress a file and write to stdout:
+- Decompress a file and write to `stdout`:
 
 `xz -dc {{file.xz}}`
 

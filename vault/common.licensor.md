@@ -2,8 +2,8 @@
 id: common.licensor
 title: Licensor
 desc: ''
-updated: 1658334712145
-created: 1658334712145
+updated: 1670142130956
+created: 1670142130956
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -14,7 +14,7 @@ sources:
 ---
 # licensor
 
-> Write licenses to stdout.
+> Write licenses to `stdout`.
 > More information: <https://github.com/raftario/licensor>.
 
 - Write the MIT license to a file named `LICENSE`:

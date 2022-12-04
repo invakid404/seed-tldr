@@ -2,8 +2,8 @@
 id: linux.xcursorgen
 title: Xcursorgen
 desc: ''
-updated: 1642441815118
-created: 1642441815118
+updated: 1670142131098
+created: 1670142131098
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -26,7 +26,7 @@ sources:
 
 `xcursorgen --prefix {{path/to/image_directory/}} {{path/to/config.cursor}} {{path/to/output_file}}`
 
-- Create an X cursor file using a config file and write the output to stdout:
+- Create an X cursor file using a config file and write the output to `stdout`:
 
 `xcursorgen {{path/to/config.cursor}}`
 

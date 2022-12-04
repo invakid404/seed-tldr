@@ -2,8 +2,8 @@
 id: common.clamdscan
 title: Clamdscan
 desc: ''
-updated: 1642441815002
-created: 1642441815002
+updated: 1670142130888
+created: 1670142130888
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -21,7 +21,7 @@ sources:
 
 `clamdscan {{path/to/file_or_directory}}`
 
-- Scan data from stdin:
+- Scan data from `stdin`:
 
 `{{command}} | clamdscan -`
 

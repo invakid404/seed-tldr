@@ -2,8 +2,8 @@
 id: linux.lslocks
 title: Lslocks
 desc: ''
-updated: 1642441815102
-created: 1642441815102
+updated: 1670142131070
+created: 1670142131070
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -33,7 +33,7 @@ sources:
 
 `lslocks --pid {{PID}}`
 
-- List locks with JSON output to stdout:
+- List locks with JSON output to `stdout`:
 
 `lslocks --json`
 

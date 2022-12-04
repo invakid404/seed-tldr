@@ -2,8 +2,8 @@
 id: osx.cut
 title: Cut
 desc: ''
-updated: 1656591837671
-created: 1656591837671
+updated: 1670142131108
+created: 1670142131108
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -14,7 +14,7 @@ sources:
 ---
 # cut
 
-> Cut out fields from stdin or files.
+> Cut out fields from `stdin` or files.
 > More information: <https://manned.org/man/freebsd-13.0/cut.1>.
 
 - Print a specific character/field range of each line:

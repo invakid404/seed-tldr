@@ -2,8 +2,8 @@
 id: common.llvm-dis
 title: Llvm Dis
 desc: ''
-updated: 1642441815042
-created: 1642441815042
+updated: 1670142130957
+created: 1670142130957
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -17,7 +17,7 @@ sources:
 > Converts LLVM bitcode files into human-readable LLVM Intermediate Representation (IR).
 > More information: <https://www.llvm.org/docs/CommandGuide/llvm-dis.html>.
 
-- Convert a bitcode file as LLVM IR and write the result to stdout:
+- Convert a bitcode file as LLVM IR and write the result to `stdout`:
 
 `llvm-dis {{path/to/input.bc}} -o -`
 

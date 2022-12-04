@@ -2,8 +2,8 @@
 id: common.git-show-index
 title: Git Show Index
 desc: ''
-updated: 1642441815026
-created: 1642441815026
+updated: 1670142130932
+created: 1670142130932
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -17,7 +17,7 @@ sources:
 > Show the packed archive index of a Git repository.
 > More information: <https://git-scm.com/docs/git-show-index>.
 
-- Read an IDX file for a Git packfile and dump its contents to stdout:
+- Read an IDX file for a Git packfile and dump its contents to `stdout`:
 
 `git show-index {{path/to/file.idx}}`
 

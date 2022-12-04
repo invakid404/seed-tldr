@@ -2,8 +2,8 @@
 id: linux.bluetoothd
 title: Bluetoothd
 desc: ''
-updated: 1642441815089
-created: 1642441815089
+updated: 1670142131044
+created: 1670142131044
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -21,7 +21,7 @@ sources:
 
 `bluetoothd`
 
-- Start the daemon, logging to stdout:
+- Start the daemon, logging to `stdout`:
 
 `bluetoothd --nodetach`
 
@@ -29,7 +29,7 @@ sources:
 
 `bluetoothd --configfile {{path/to/file}}`
 
-- Start the daemon with verbose output to stderr:
+- Start the daemon with verbose output to `stderr`:
 
 `bluetoothd --debug`
 

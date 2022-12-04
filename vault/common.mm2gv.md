@@ -2,8 +2,8 @@
 id: common.mm2gv
 title: Mm2gv
 desc: ''
-updated: 1642441815047
-created: 1642441815047
+updated: 1670142130963
+created: 1670142130963
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -22,7 +22,7 @@ sources:
 
 `mm2gv -o {{output.gv}} {{input.mm}}`
 
-- Convert a graph using stdin and stdout:
+- Convert a graph using `stdin` and `stdout`:
 
 `cat {{input.mm}} | mm2gv > {{output.gv}}`
 

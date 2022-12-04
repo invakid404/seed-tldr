@@ -2,8 +2,8 @@
 id: linux.e2image
 title: E2image
 desc: ''
-updated: 1642441815093
-created: 1642441815093
+updated: 1670142131053
+created: 1670142131053
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -21,7 +21,7 @@ sources:
 
 `e2image {{/dev/sdXN}} {{path/to/image_file}}`
 
-- Print metadata located on device to stdout:
+- Print metadata located on device to `stdout`:
 
 `e2image {{/dev/sdXN}} -`
 

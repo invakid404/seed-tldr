@@ -2,8 +2,8 @@
 id: common.openssl-genrsa
 title: Openssl Genrsa
 desc: ''
-updated: 1642441815054
-created: 1642441815054
+updated: 1670142130980
+created: 1670142130980
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -17,7 +17,7 @@ sources:
 > OpenSSL command to generate RSA private keys.
 > More information: <https://www.openssl.org/docs/manmaster/man1/openssl-genrsa.html>.
 
-- Generate an RSA private key of 2048 bits to stdout:
+- Generate an RSA private key of 2048 bits to `stdout`:
 
 `openssl genrsa`
 

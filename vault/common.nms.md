@@ -2,8 +2,8 @@
 id: common.nms
 title: Nms
 desc: ''
-updated: 1642441815051
-created: 1642441815051
+updated: 1670142130970
+created: 1670142130970
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -14,7 +14,7 @@ sources:
 ---
 # nms
 
-> Command-line tool that recreates the famous data decryption effect seen in the 1992 movie Sneakers from stdin.
+> Command-line tool that recreates the famous data decryption effect seen in the 1992 movie Sneakers from `stdin`.
 > More information: <https://github.com/bartobri/no-more-secrets>.
 
 - Decrypt text after a keystroke:

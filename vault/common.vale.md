@@ -2,8 +2,8 @@
 id: common.vale
 title: Vale
 desc: ''
-updated: 1665415810289
-created: 1665415810289
+updated: 1670142131028
+created: 1670142131028
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -33,7 +33,7 @@ sources:
 
 `vale --minAlertLeve={{suggestion|warning|error}} {{file}}`
 
-- Check the style from stdin, specifying markup format:
+- Check the style from `stdin`, specifying markup format:
 
 `cat {{file.md}} | vale --ext=.md`
 

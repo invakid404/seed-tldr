@@ -2,8 +2,8 @@
 id: common.sfdp
 title: Sfdp
 desc: ''
-updated: 1642441815068
-created: 1642441815068
+updated: 1670142131004
+created: 1670142131004
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -30,7 +30,7 @@ sources:
 
 `sfdp -T {{format}} -O {{path/to/input.gv}}`
 
-- Render a `gif` image using stdin and stdout:
+- Render a `gif` image using `stdin` and `stdout`:
 
 `echo "{{digraph {this -> that} }}" | sfdp -T {{gif}} > {{path/to/image.gif}}`
 

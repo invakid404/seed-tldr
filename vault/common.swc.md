@@ -2,8 +2,8 @@
 id: common.swc
 title: Swc
 desc: ''
-updated: 1642441815074
-created: 1642441815074
+updated: 1670142131013
+created: 1670142131013
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -17,7 +17,7 @@ sources:
 > JavaScript and TypeScript compiler written in Rust.
 > More information: <https://swc.rs>.
 
-- Transpile a specified input file and output to stdout:
+- Transpile a specified input file and output to `stdout`:
 
 `swc {{path/to/file}}`
 

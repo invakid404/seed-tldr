@@ -2,8 +2,8 @@
 id: common.fdp
 title: Fdp
 desc: ''
-updated: 1667008668275
-created: 1667008668275
+updated: 1670142130908
+created: 1670142130908
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -30,7 +30,7 @@ sources:
 
 `fdp -T {{ps|pdf|svg|fig|png|gif|jpg|json|dot}} -O {{path/to/input.gv}}`
 
-- Render a `gif` image using stdin and stdout:
+- Render a `gif` image using `stdin` and `stdout`:
 
 `echo "{{digraph {this -> that} }}" | fdp -T gif > {{path/to/image.gif}}`
 

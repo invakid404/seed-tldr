@@ -2,8 +2,8 @@
 id: linux.gcov
 title: Gcov
 desc: ''
-updated: 1642441815096
-created: 1642441815096
+updated: 1670142131057
+created: 1670142131057
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -26,7 +26,7 @@ sources:
 
 `gcov --all-blocks {{path/to/file.cpp}}`
 
-- Write branch frequencies to the output file and print summary information to stdout as a percentage:
+- Write branch frequencies to the output file and print summary information to `stdout` as a percentage:
 
 `gcov --branch-probabilities {{path/to/file.cpp}}`
 

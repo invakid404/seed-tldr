@@ -2,8 +2,8 @@
 id: common.docker-secret
 title: Docker Secret
 desc: ''
-updated: 1642441815009
-created: 1642441815009
+updated: 1670142130899
+created: 1670142130899
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -17,7 +17,7 @@ sources:
 > Manage Docker swarm secrets.
 > More information: <https://docs.docker.com/engine/reference/commandline/secret/>.
 
-- Create a new secret from stdin:
+- Create a new secret from `stdin`:
 
 `{{command}} | docker secret create {{secret_name}} -`
 

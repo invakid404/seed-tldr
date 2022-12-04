@@ -2,8 +2,8 @@
 id: common.http
 title: HTTP
 desc: ''
-updated: 1642441815034
-created: 1642441815034
+updated: 1670142130944
+created: 1670142130944
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -41,7 +41,7 @@ sources:
 
 `http --auth {{username:password}} {{example.org}}`
 
-- Specify raw request body via stdin:
+- Specify raw request body via `stdin`:
 
 `cat {{data.txt}} | http PUT {{example.org}}`
 

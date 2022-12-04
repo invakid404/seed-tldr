@@ -2,8 +2,8 @@
 id: windows.rdpsign
 title: Rdpsign
 desc: ''
-updated: 1664897374264
-created: 1664897374264
+updated: 1670142131129
+created: 1670142131129
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -33,7 +33,7 @@ sources:
 
 `rdpsign {{path/to/file.rdp}} /v`
 
-- Test the signing by displaying the output to stdout without updating the file:
+- Test the signing by displaying the output to `stdout` without updating the file:
 
 `rdpsign {{path/to/file.rdp}} /l`
 

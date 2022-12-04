@@ -2,8 +2,8 @@
 id: common.git-format-patch
 title: Git Format Patch
 desc: ''
-updated: 1642441815024
-created: 1642441815024
+updated: 1670142130921
+created: 1670142130921
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -22,7 +22,7 @@ sources:
 
 `git format-patch {{origin}}`
 
-- Write a `.patch` file for all the commits between 2 revisions to stdout:
+- Write a `.patch` file for all the commits between 2 revisions to `stdout`:
 
 `git format-patch {{revision_1}}..{{revision_2}}`
 

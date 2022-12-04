@@ -2,8 +2,8 @@
 id: common.pngcheck
 title: Pngcheck
 desc: ''
-updated: 1642441815060
-created: 1642441815060
+updated: 1670142130989
+created: 1670142130989
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -29,7 +29,7 @@ sources:
 
 `pngcheck -cvt {{image.png}}`
 
-- Receive an image from stdin and display detailed information:
+- Receive an image from `stdin` and display detailed information:
 
 `cat {{path/to/image.png}} | pngcheck -cvt`
 

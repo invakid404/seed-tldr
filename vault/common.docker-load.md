@@ -2,8 +2,8 @@
 id: common.docker-load
 title: Docker Load
 desc: ''
-updated: 1664769727574
-created: 1664769727574
+updated: 1670142130898
+created: 1670142130898
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -14,10 +14,10 @@ sources:
 ---
 # docker load
 
-> Load Docker images from files or stdin.
+> Load Docker images from files or `stdin`.
 > More information: <https://docs.docker.com/engine/reference/commandline/load/>.
 
-- Load a Docker image from stdin:
+- Load a Docker image from `stdin`:
 
 `docker load < {{path/to/image_file.tar}}`
 

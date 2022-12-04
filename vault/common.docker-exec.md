@@ -2,8 +2,8 @@
 id: common.docker-exec
 title: Docker Exec
 desc: ''
-updated: 1642441815009
-created: 1642441815009
+updated: 1670142130898
+created: 1670142130898
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -29,7 +29,7 @@ sources:
 
 `docker exec --interactive -tty --workdir {{path/to/directory}} {{container_name}} {{command}}`
 
-- Run a command in background on existing container but keep stdin open:
+- Run a command in background on existing container but keep `stdin` open:
 
 `docker exec --interactive --detach {{container_name}} {{command}}`
 

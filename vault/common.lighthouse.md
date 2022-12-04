@@ -2,8 +2,8 @@
 id: common.lighthouse
 title: Lighthouse
 desc: ''
-updated: 1642441815041
-created: 1642441815041
+updated: 1670142130957
+created: 1670142130957
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -29,7 +29,7 @@ sources:
 
 `lighthouse --output {{json}} --output-path {{path/to/file.json}} {{https://example.com}}`
 
-- Generate a report using the browser in headless mode without logging to stdout:
+- Generate a report using the browser in headless mode without logging to `stdout`:
 
 `lighthouse --quiet --chrome-flags="{{--headless}}" {{https://example.com}}`
 

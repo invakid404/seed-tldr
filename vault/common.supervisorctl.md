@@ -2,8 +2,8 @@
 id: common.supervisorctl
 title: Supervisorctl
 desc: ''
-updated: 1642441815074
-created: 1642441815074
+updated: 1670142131013
+created: 1670142131013
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -26,11 +26,11 @@ sources:
 
 `supervisorctl {{start|stop|restart}} {{group_name}}:*`
 
-- Show last 100 **bytes** of process stderr:
+- Show last 100 **bytes** of process `stderr`:
 
 `supervisorctl tail -100 {{process_name}} stderr`
 
-- Keep displaying stdout of a process:
+- Keep displaying `stdout` of a process:
 
 `supervisorctl tail -f {{process_name}} stdout`
 

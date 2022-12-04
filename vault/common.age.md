@@ -2,8 +2,8 @@
 id: common.age
 title: Age
 desc: ''
-updated: 1642441814992
-created: 1642441814992
+updated: 1670142130863
+created: 1670142130863
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -21,7 +21,7 @@ sources:
 
 `age --passphrase --output {{path/to/encrypted_file}} {{path/to/unencrypted_file}}`
 
-- Generate a key pair, saving the private key to an unencrypted file and printing the public key to stdout:
+- Generate a key pair, saving the private key to an unencrypted file and printing the public key to `stdout`:
 
 `age-keygen --output {{path/to/file}}`
 

@@ -2,8 +2,8 @@
 id: common.scrapy
 title: Scrapy
 desc: ''
-updated: 1642441815067
-created: 1642441815067
+updated: 1670142131003
+created: 1670142131003
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -33,7 +33,7 @@ sources:
 
 `scrapy crawl {{spider_name}}`
 
-- Fetch a webpage as Scrapy sees it and print the source to stdout:
+- Fetch a webpage as Scrapy sees it and print the source to `stdout`:
 
 `scrapy fetch {{url}}`
 

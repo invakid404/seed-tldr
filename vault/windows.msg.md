@@ -2,8 +2,8 @@
 id: windows.msg
 title: Msg
 desc: ''
-updated: 1664897374263
-created: 1664897374263
+updated: 1670142131128
+created: 1670142131128
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -21,7 +21,7 @@ sources:
 
 `msg {{username|session_name|session_id}} {{message}}`
 
-- Send a message from stdin:
+- Send a message from `stdin`:
 
 `echo "{{message}}" | msg {{username|session_name|session_id}}`
 

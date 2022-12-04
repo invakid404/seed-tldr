@@ -2,8 +2,8 @@
 id: common.gv2gml
 title: Gv2gml
 desc: ''
-updated: 1642441815031
-created: 1642441815031
+updated: 1670142130940
+created: 1670142130940
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -22,7 +22,7 @@ sources:
 
 `gv2gml -o {{output.gml}} {{input.gv}}`
 
-- Convert a graph using stdin and stdout:
+- Convert a graph using `stdin` and `stdout`:
 
 `cat {{input.gv}} | gv2gml > {{output.gml}}`
 

@@ -2,8 +2,8 @@
 id: common.colorpicker
 title: Colorpicker
 desc: ''
-updated: 1642441815003
-created: 1642441815003
+updated: 1670142130889
+created: 1670142130889
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -18,7 +18,7 @@ sources:
 > Any mouse gesture except left click will exit the program.
 > More information: <https://github.com/ym1234/colorpicker>.
 
-- Launch colorpicker and print the hexadecimal and RGB value of each clicked pixel to stdout:
+- Launch colorpicker and print the hexadecimal and RGB value of each clicked pixel to `stdout`:
 
 `colorpicker`
 

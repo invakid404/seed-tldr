@@ -2,8 +2,8 @@
 id: linux.colrm
 title: Colrm
 desc: ''
-updated: 1642441815091
-created: 1642441815091
+updated: 1670142131048
+created: 1670142131048
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -14,10 +14,10 @@ sources:
 ---
 # colrm
 
-> Remove columns from stdin.
+> Remove columns from `stdin`.
 > More information: <https://manned.org/colrm>.
 
-- Remove first column of stdin:
+- Remove first column of `stdin`:
 
 `colrm {{1 1}}`
 

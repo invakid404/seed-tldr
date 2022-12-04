@@ -2,8 +2,8 @@
 id: common.factor
 title: Factor
 desc: ''
-updated: 1642441815016
-created: 1642441815016
+updated: 1670142130907
+created: 1670142130907
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -21,7 +21,7 @@ sources:
 
 `factor {{number}}`
 
-- Take the input from stdin if no argument is specified:
+- Take the input from `stdin` if no argument is specified:
 
 `echo {{number}} | factor`
 

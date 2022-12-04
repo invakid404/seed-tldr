@@ -2,8 +2,8 @@
 id: common.ganache-cli
 title: Ganache CLI
 desc: ''
-updated: 1642441815019
-created: 1642441815019
+updated: 1670142130912
+created: 1670142130912
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -41,7 +41,7 @@ sources:
 
 `ganache-cli --defaultBalanceEther={{default_balance}}`
 
-- Run Ganache and log all requests to stdout:
+- Run Ganache and log all requests to `stdout`:
 
 `ganache-cli --verbose`
 

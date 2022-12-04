@@ -2,8 +2,8 @@
 id: common.samtools
 title: Samtools
 desc: ''
-updated: 1642441815067
-created: 1642441815067
+updated: 1670142131002
+created: 1670142131002
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -22,7 +22,7 @@ sources:
 
 `samtools view -S -b {{input.sam}} > {{output.bam}}`
 
-- Take input from stdin (-) and print the SAM header and any reads overlapping a specific region to stdout:
+- Take input from `stdin` (-) and print the SAM header and any reads overlapping a specific region to `stdout`:
 
 `{{other_command}} | samtools view -h - chromosome:start-end`
 

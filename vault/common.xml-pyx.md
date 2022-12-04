@@ -2,8 +2,8 @@
 id: common.xml-pyx
 title: Xml Pyx
 desc: ''
-updated: 1642441815084
-created: 1642441815084
+updated: 1670142131035
+created: 1670142131035
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -21,7 +21,7 @@ sources:
 
 `xml pyx {{path/to/input.xml|URI}} > {{path/to/output.pyx}}`
 
-- Convert an XML document from stdin to PYX format:
+- Convert an XML document from `stdin` to PYX format:
 
 `cat {{path/to/input.xml}} | xml pyx > {{path/to/output.pyx}}`
 

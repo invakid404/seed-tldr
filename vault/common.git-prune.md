@@ -2,8 +2,8 @@
 id: common.git-prune
 title: Git Prune
 desc: ''
-updated: 1642441815025
-created: 1642441815025
+updated: 1670142130924
+created: 1670142130924
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -22,7 +22,7 @@ sources:
 
 `git prune --dry-run`
 
-- Prune unreachable objects and display what has been pruned to stdout:
+- Prune unreachable objects and display what has been pruned to `stdout`:
 
 `git prune --verbose`
 

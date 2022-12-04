@@ -2,8 +2,8 @@
 id: common.docker-save
 title: Docker Save
 desc: ''
-updated: 1642441815009
-created: 1642441815009
+updated: 1670142130899
+created: 1670142130899
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -17,7 +17,7 @@ sources:
 > Export one or more docker images to archive.
 > More information: <https://docs.docker.com/engine/reference/commandline/save/>.
 
-- Save an image by redirecting stdout to a tar archive:
+- Save an image by redirecting `stdout` to a tar archive:
 
 `docker save {{image}}:{{tag}} > {{path/to/file.tar}}`
 

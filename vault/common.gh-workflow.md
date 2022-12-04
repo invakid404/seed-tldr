@@ -2,8 +2,8 @@
 id: common.gh-workflow
 title: Gh Workflow
 desc: ''
-updated: 1642441815020
-created: 1642441815020
+updated: 1670142130916
+created: 1670142130916
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -41,7 +41,7 @@ sources:
 
 `gh workflow run {{id|workflow_name|filename.yml}} --raw-field {{param1}}={{value1}} --raw-field {{param2}}={{value2}}`
 
-- Run a manual workflow using a specific branch or tag with JSON parameters from stdin:
+- Run a manual workflow using a specific branch or tag with JSON parameters from `stdin`:
 
 `echo '{{{"param1":"value1", "param2":"value2"}}}' | gh workflow run {{id|workflow_name|filename.yml}} --ref {{branch_or_tag_name}}`
 

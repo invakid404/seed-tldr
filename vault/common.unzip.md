@@ -2,8 +2,8 @@
 id: common.unzip
 title: Unzip
 desc: ''
-updated: 1642441815079
-created: 1642441815079
+updated: 1670142131027
+created: 1670142131027
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -29,7 +29,7 @@ sources:
 
 `unzip -l {{file.zip}}`
 
-- Extract the contents of the file(s) to stdout alongside the extracted file names:
+- Extract the contents of the file(s) to `stdout` alongside the extracted file names:
 
 `unzip -c {{file.zip}}`
 

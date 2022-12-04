@@ -2,8 +2,8 @@
 id: common.parallel
 title: Parallel
 desc: ''
-updated: 1642441815055
-created: 1642441815055
+updated: 1670142130982
+created: 1670142130982
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -21,7 +21,7 @@ sources:
 
 `parallel gzip ::: {{file1}} {{file2}} {{file3}}`
 
-- Read arguments from stdin, run 4 jobs at once:
+- Read arguments from `stdin`, run 4 jobs at once:
 
 `ls *.txt | parallel -j4 gzip`
 
@@ -33,7 +33,7 @@ sources:
 
 `{{args}} | parallel -X {{command}}`
 
-- Break stdin into ~1M blocks, feed each block to stdin of new command:
+- Break `stdin` into ~1M blocks, feed each block to `stdin` of new command:
 
 `cat {{big_file.txt}} | parallel --pipe --block 1M {{command}}`
 

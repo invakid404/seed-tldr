@@ -2,8 +2,8 @@
 id: common.xml-depyx
 title: Xml Depyx
 desc: ''
-updated: 1642441815084
-created: 1642441815084
+updated: 1670142131035
+created: 1670142131035
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -21,7 +21,7 @@ sources:
 
 `xml depyx {{path/to/input.pyx|URI}} > {{path/to/output.xml}}`
 
-- Convert a PYX document from stdin to XML format:
+- Convert a PYX document from `stdin` to XML format:
 
 `cat {{path/to/input.pyx}} | xml depyx > {{path/to/output.xml}}`
 

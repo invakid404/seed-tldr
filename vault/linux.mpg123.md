@@ -2,8 +2,8 @@
 id: linux.mpg123
 title: Mpg123
 desc: ''
-updated: 1642958373757
-created: 1642958373757
+updated: 1670142131074
+created: 1670142131074
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -21,7 +21,7 @@ sources:
 
 `mpg123 {{path/to/file1.mp3 path/to/file2.mp3 ...}}`
 
-- Play the mp3 from stdin:
+- Play the mp3 from `stdin`:
 
 `cat {{file.mp3}} | mpg123 -`
 

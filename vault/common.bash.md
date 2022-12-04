@@ -2,8 +2,8 @@
 id: common.bash
 title: Bash
 desc: ''
-updated: 1660874996983
-created: 1660874996983
+updated: 1670142130873
+created: 1670142130873
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -42,7 +42,7 @@ sources:
 
 `bash -e {{path/to/script.sh}}`
 
-- Execute specific commands from stdin:
+- Execute specific commands from `stdin`:
 
 `{{echo "echo 'bash is executed'"}} | bash`
 

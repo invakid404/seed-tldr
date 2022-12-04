@@ -2,8 +2,8 @@
 id: common.babel
 title: Babel
 desc: ''
-updated: 1642441814998
-created: 1642441814998
+updated: 1670142130872
+created: 1670142130872
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -17,7 +17,7 @@ sources:
 > A transpiler which converts code from JavaScript ES6/ES7 syntax to ES5 syntax.
 > More information: <https://babeljs.io/>.
 
-- Transpile a specified input file and output to stdout:
+- Transpile a specified input file and output to `stdout`:
 
 `babel {{path/to/file}}`
 

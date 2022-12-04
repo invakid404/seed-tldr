@@ -2,8 +2,8 @@
 id: common.logger
 title: Logger
 desc: ''
-updated: 1642441815042
-created: 1642441815042
+updated: 1670142130958
+created: 1670142130958
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -21,7 +21,7 @@ sources:
 
 `logger {{message}}`
 
-- Take input from stdin and log to syslog:
+- Take input from `stdin` and log to syslog:
 
 `echo {{log_entry}} | logger`
 

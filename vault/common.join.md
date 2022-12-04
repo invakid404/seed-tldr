@@ -2,8 +2,8 @@
 id: common.join
 title: Join
 desc: ''
-updated: 1664720595085
-created: 1664720595085
+updated: 1670142130951
+created: 1670142130951
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -33,7 +33,7 @@ sources:
 
 `join -a {{1}} {{file1}} {{file2}}`
 
-- Join a file from stdin:
+- Join a file from `stdin`:
 
 `cat {{path/to/file1}} | join - {{path/to/file2}}`
 

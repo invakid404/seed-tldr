@@ -2,8 +2,8 @@
 id: common.zstd
 title: Zstd
 desc: ''
-updated: 1642441815086
-created: 1642441815086
+updated: 1670142131039
+created: 1670142131039
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -25,7 +25,7 @@ sources:
 
 `zstd -d {{file}}.zst`
 
-- Decompress to stdout:
+- Decompress to `stdout`:
 
 `zstd -dc {{file}}.zst`
 

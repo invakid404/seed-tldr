@@ -2,8 +2,8 @@
 id: common.zek
 title: Zek
 desc: ''
-updated: 1647518525173
-created: 1647518525173
+updated: 1670142131037
+created: 1670142131037
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -17,15 +17,15 @@ sources:
 > Generate a Go struct from XML.
 > More information: <https://github.com/miku/zek>.
 
-- Generate a Go struct from a given XML from stdin and display output on stdout:
+- Generate a Go struct from a given XML from `stdin` and display output on `stdout`:
 
 `cat {{path/to/input.xml}} | zek`
 
-- Generate a Go struct from a given XML from stdin and send output to a file:
+- Generate a Go struct from a given XML from `stdin` and send output to a file:
 
 `curl -s {{https://url/to/xml}} | zek -o {{path/to/output.go}}`
 
-- Generate an example Go program from a given XML from stdin and send output to a file:
+- Generate an example Go program from a given XML from `stdin` and send output to a file:
 
 `cat {{path/to/input.xml}} | zek -p -o {{path/to/output.go}}`
 

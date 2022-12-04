@@ -2,8 +2,8 @@
 id: common.comm
 title: Comm
 desc: ''
-updated: 1642441815003
-created: 1642441815003
+updated: 1670142130890
+created: 1670142130890
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -25,7 +25,7 @@ sources:
 
 `comm -12 {{file1}} {{file2}}`
 
-- Print only lines common to both files, reading one file from stdin:
+- Print only lines common to both files, reading one file from `stdin`:
 
 `cat {{file1}} | comm -12 - {{file2}}`
 

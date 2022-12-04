@@ -2,8 +2,8 @@
 id: common.7z
 title: 7z
 desc: ''
-updated: 1662344731651
-created: 1662344731651
+updated: 1670142130861
+created: 1670142130861
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -33,7 +33,7 @@ sources:
 
 `7z x {{path/to/archive.7z}} -o{{path/to/output}}`
 
-- E[x]tract an archive to stdout:
+- E[x]tract an archive to `stdout`:
 
 `7z x {{path/to/archive.7z}} -so`
 

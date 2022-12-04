@@ -2,8 +2,8 @@
 id: common.prettier
 title: Prettier
 desc: ''
-updated: 1656591837549
-created: 1656591837549
+updated: 1670142130990
+created: 1670142130990
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -17,7 +17,7 @@ sources:
 > An opinionated code formatter for JavaScript, JSON, CSS, YAML, and more.
 > More information: <https://prettier.io/>.
 
-- Format a file and print the result to stdout:
+- Format a file and print the result to `stdout`:
 
 `prettier {{path/to/file}}`
 

@@ -2,8 +2,8 @@
 id: common.alex
 title: Alex
 desc: ''
-updated: 1642441814992
-created: 1642441814992
+updated: 1670142130863
+created: 1670142130863
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -18,7 +18,7 @@ sources:
 > It helps you find gender favouring, polarising, race related, religion inconsiderate, or other unequal phrasing in text.
 > More information: <https://github.com/get-alex/alex>.
 
-- Analyze text from stdin:
+- Analyze text from `stdin`:
 
 `echo {{His network looks good}} | alex --stdin`
 

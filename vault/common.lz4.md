@@ -2,8 +2,8 @@
 id: common.lz4
 title: Lz4
 desc: ''
-updated: 1666610758547
-created: 1666610758547
+updated: 1670142130959
+created: 1670142130959
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -25,7 +25,7 @@ sources:
 
 `lz4 -d {{file.lz4}}`
 
-- Decompress a file and write to stdout:
+- Decompress a file and write to `stdout`:
 
 `lz4 -dc {{file.lz4}}`
 

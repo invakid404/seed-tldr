@@ -2,8 +2,8 @@
 id: linux.dbus-daemon
 title: Dbus Daemon
 desc: ''
-updated: 1642441815091
-created: 1642441815091
+updated: 1670142131050
+created: 1670142131050
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -33,7 +33,7 @@ sources:
 
 `dbus-daemon --address {{address}}`
 
-- Output the process ID to stdout:
+- Output the process ID to `stdout`:
 
 `dbus-daemon --print-pid`
 

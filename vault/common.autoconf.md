@@ -2,8 +2,8 @@
 id: common.autoconf
 title: Autoconf
 desc: ''
-updated: 1663986563249
-created: 1663986563249
+updated: 1670142130867
+created: 1670142130867
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -21,7 +21,7 @@ sources:
 
 `autoconf`
 
-- Generate a configuration script from the specified template; output to stdout:
+- Generate a configuration script from the specified template; output to `stdout`:
 
 `autoconf {{template-file}}`
 

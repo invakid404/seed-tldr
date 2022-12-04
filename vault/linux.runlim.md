@@ -2,8 +2,8 @@
 id: linux.runlim
 title: Runlim
 desc: ''
-updated: 1642441815111
-created: 1642441815111
+updated: 1670142131087
+created: 1670142131087
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -21,7 +21,7 @@ sources:
 
 `runlim {{command}} {{command_arguments}}`
 
-- Log statistics to a file instead of stdout:
+- Log statistics to a file instead of `stdout`:
 
 `runlim --output-file={{path/to/file}} {{command}} {{command_arguments}}`
 

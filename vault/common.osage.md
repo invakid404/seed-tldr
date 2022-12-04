@@ -2,8 +2,8 @@
 id: common.osage
 title: Osage
 desc: ''
-updated: 1642441815054
-created: 1642441815054
+updated: 1670142130981
+created: 1670142130981
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -30,7 +30,7 @@ sources:
 
 `osage -T {{format}} -O {{path/to/input.gv}}`
 
-- Render a `gif` image using stdin and stdout:
+- Render a `gif` image using `stdin` and `stdout`:
 
 `echo "{{digraph {this -> that} }}" | osage -T {{gif}} > {{path/to/image.gif}}`
 

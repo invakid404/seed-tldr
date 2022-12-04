@@ -2,8 +2,8 @@
 id: common.base32
 title: Base32
 desc: ''
-updated: 1642441814998
-created: 1642441814998
+updated: 1670142130873
+created: 1670142130873
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -25,11 +25,11 @@ sources:
 
 `base32 --decode {{filename}}`
 
-- Encode from stdin:
+- Encode from `stdin`:
 
 `{{somecommand}} | base32`
 
-- Decode from stdin:
+- Decode from `stdin`:
 
 `{{somecommand}} | base32 --decode`
 

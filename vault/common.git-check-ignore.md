@@ -2,8 +2,8 @@
 id: common.git-check-ignore
 title: Git Check Ignore
 desc: ''
-updated: 1656591837473
-created: 1656591837473
+updated: 1670142130918
+created: 1670142130918
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -25,7 +25,7 @@ sources:
 
 `git check-ignore {{path/to/file}} {{path/to/directory}}`
 
-- Use pathnames, one per line, from stdin:
+- Use pathnames, one per line, from `stdin`:
 
 `git check-ignore --stdin < {{path/to/file_list}}`
 

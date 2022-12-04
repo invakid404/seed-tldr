@@ -2,8 +2,8 @@
 id: common.docker-start
 title: Docker Start
 desc: ''
-updated: 1642441815009
-created: 1642441815009
+updated: 1670142130899
+created: 1670142130899
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -25,7 +25,7 @@ sources:
 
 `docker start {{container}}`
 
-- Start a container, attaching stdout and stderr and forwarding signals:
+- Start a container, attaching `stdout` and `stderr` and forwarding signals:
 
 `docker start --attach {{container}}`
 

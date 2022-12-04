@@ -2,8 +2,8 @@
 id: common.cut
 title: Cut
 desc: ''
-updated: 1667921008780
-created: 1667921008780
+updated: 1670142130894
+created: 1670142130894
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -14,7 +14,7 @@ sources:
 ---
 # cut
 
-> Cut out fields from stdin or files.
+> Cut out fields from `stdin` or files.
 > More information: <https://www.gnu.org/software/coreutils/cut>.
 
 - Print a specific character/field range of each line:

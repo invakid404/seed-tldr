@@ -2,8 +2,8 @@
 id: common.git-commit-tree
 title: Git Commit Tree
 desc: ''
-updated: 1642441815022
-created: 1642441815022
+updated: 1670142130919
+created: 1670142130919
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -22,7 +22,7 @@ sources:
 
 `git commit-tree {{tree}} -m "{{message}}"`
 
-- Create a commit object reading the message from a file (use `-` for stdin):
+- Create a commit object reading the message from a file (use `-` for `stdin`):
 
 `git commit-tree {{tree}} -F {{path/to/file}}`
 

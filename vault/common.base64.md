@@ -2,8 +2,8 @@
 id: common.base64
 title: Base64
 desc: ''
-updated: 1642441814998
-created: 1642441814998
+updated: 1670142130873
+created: 1670142130873
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -17,19 +17,19 @@ sources:
 > Encode or decode file or standard input to/from Base64, to standard output.
 > More information: <https://www.gnu.org/software/coreutils/base64>.
 
-- Encode the contents of a file as base64 and write the result to stdout:
+- Encode the contents of a file as base64 and write the result to `stdout`:
 
 `base64 {{filename}}`
 
-- Decode the base64 contents of a file and write the result to stdout:
+- Decode the base64 contents of a file and write the result to `stdout`:
 
 `base64 --decode {{filename}}`
 
-- Encode from stdin:
+- Encode from `stdin`:
 
 `{{somecommand}} | base64`
 
-- Decode from stdin:
+- Decode from `stdin`:
 
 `{{somecommand}} | base64 --decode`
 

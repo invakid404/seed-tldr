@@ -2,8 +2,8 @@
 id: common.circo
 title: Circo
 desc: ''
-updated: 1642441815002
-created: 1642441815002
+updated: 1670142130887
+created: 1670142130887
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -30,7 +30,7 @@ sources:
 
 `circo -T {{format}} -O {{path/to/input.gv}}`
 
-- Render a `gif` image using stdin and stdout:
+- Render a `gif` image using `stdin` and `stdout`:
 
 `echo "{{digraph {this -> that} }}" | circo -T {{gif}} > {{path/to/image.gif}}`
 

@@ -2,8 +2,8 @@
 id: common.git-hash-object
 title: Git Hash Object
 desc: ''
-updated: 1666218534037
-created: 1666218534037
+updated: 1670142130922
+created: 1670142130922
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -29,7 +29,7 @@ sources:
 
 `git hash-object -t {{blob|commit|tag|tree}} {{path/to/file}}`
 
-- Compute the object ID from stdin:
+- Compute the object ID from `stdin`:
 
 `cat {{path/to/file}} | git hash-object --stdin`
 

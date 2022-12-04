@@ -2,8 +2,8 @@
 id: common.help2man
 title: Help2man
 desc: ''
-updated: 1642441815032
-created: 1642441815032
+updated: 1670142130942
+created: 1670142130942
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -29,7 +29,7 @@ sources:
 
 `help2man {{executable}} --section {{section}}`
 
-- Output to a file instead of stdout:
+- Output to a file instead of `stdout`:
 
 `help2man {{executable}} --output {{path/to/file}}`
 

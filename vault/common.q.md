@@ -2,8 +2,8 @@
 id: common.q
 title: Q
 desc: ''
-updated: 1642441815063
-created: 1642441815063
+updated: 1670142130995
+created: 1670142130995
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -29,7 +29,7 @@ sources:
 
 `q -d{{delimiter}} -H "SELECT * from {{path/to/file}}"`
 
-- Read data from stdin; '-' in the query represents the data from stdin:
+- Read data from `stdin`; '-' in the query represents the data from `stdin`:
 
 `{{output}} | q "select * from -"`
 

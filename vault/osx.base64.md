@@ -2,8 +2,8 @@
 id: osx.base64
 title: Base64
 desc: ''
-updated: 1644840636306
-created: 1644840636306
+updated: 1670142131106
+created: 1670142131106
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -25,11 +25,11 @@ sources:
 
 `base64 --decode --input={{base64_file}}`
 
-- Encode from stdin:
+- Encode from `stdin`:
 
 `echo -n "{{plain_text}}" | base64`
 
-- Decode from stdin:
+- Decode from `stdin`:
 
 `echo -n {{base64_text}} | base64 --decode`
 

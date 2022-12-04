@@ -2,8 +2,8 @@
 id: common.diffoscope
 title: Diffoscope
 desc: ''
-updated: 1642441815008
-created: 1642441815008
+updated: 1670142130897
+created: 1670142130897
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -25,7 +25,7 @@ sources:
 
 `diffoscope --no-progress {{path/to/file1}} {{path/to/file2}}`
 
-- Compare two files and write an HTML-report to a file (use `-` for stdout):
+- Compare two files and write an HTML-report to a file (use `-` for `stdout`):
 
 `diffoscope --html {{path/to/outfile|-}} {{path/to/file1}} {{path/to/file2}}`
 

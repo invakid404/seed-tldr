@@ -2,8 +2,8 @@
 id: common.patchwork
 title: Patchwork
 desc: ''
-updated: 1642441815055
-created: 1642441815055
+updated: 1670142130983
+created: 1670142130983
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -30,7 +30,7 @@ sources:
 
 `patchwork -T {{format}} -O {{path/to/input.gv}}`
 
-- Render a `gif` image using stdin and stdout:
+- Render a `gif` image using `stdin` and `stdout`:
 
 `echo "{{digraph {this -> that} }}" | patchwork -T {{gif}} > {{path/to/image.gif}}`
 

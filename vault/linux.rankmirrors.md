@@ -2,8 +2,8 @@
 id: linux.rankmirrors
 title: Rankmirrors
 desc: ''
-updated: 1642441815109
-created: 1642441815109
+updated: 1670142131085
+created: 1670142131085
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,7 +15,7 @@ sources:
 # rankmirrors
 
 > Rank a list of Pacman mirrors by connection and opening speed.
-> Writes the new mirrorlist to stdout.
+> Writes the new mirrorlist to `stdout`.
 > More information: <https://wiki.archlinux.org/index.php/mirrors>.
 
 - Rank a mirror list:

@@ -2,8 +2,8 @@
 id: linux.i3status
 title: I3status
 desc: ''
-updated: 1642441815097
-created: 1642441815097
+updated: 1670142131065
+created: 1670142131065
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -18,11 +18,11 @@ sources:
 > This command is usually called from the i3 configuration file.
 > More information: <https://i3wm.org/i3status/manpage.html>.
 
-- Print the status line to stdout periodically, using the default configuration:
+- Print the status line to `stdout` periodically, using the default configuration:
 
 `i3status`
 
-- Print the status line to stdout periodically, using a specific configuration:
+- Print the status line to `stdout` periodically, using a specific configuration:
 
 `i3status -c {{path/to/i3status.conf}}`
 

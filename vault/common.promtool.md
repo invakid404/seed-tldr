@@ -2,8 +2,8 @@
 id: common.promtool
 title: Promtool
 desc: ''
-updated: 1642441815061
-created: 1642441815061
+updated: 1670142130991
+created: 1670142130991
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -25,7 +25,7 @@ sources:
 
 `promtool check rules {{rules_file.yml}}`
 
-- Pass Prometheus metrics over stdin to check them for consistency and correctness:
+- Pass Prometheus metrics over `stdin` to check them for consistency and correctness:
 
 `curl --silent {{http://example.com:9090/metrics/}} | promtool check metrics`
 

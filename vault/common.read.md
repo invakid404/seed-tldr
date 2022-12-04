@@ -2,8 +2,8 @@
 id: common.read
 title: Read
 desc: ''
-updated: 1669202178335
-created: 1669202178335
+updated: 1670142130999
+created: 1670142130999
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -45,7 +45,7 @@ sources:
 
 `read -s {{variable}}`
 
-- Read stdin and perform an action on every line:
+- Read `stdin` and perform an action on every line:
 
 `while read line; do echo "$line"; done`
 

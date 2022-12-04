@@ -2,8 +2,8 @@
 id: common.black
 title: Black
 desc: ''
-updated: 1667172278911
-created: 1667172278911
+updated: 1670142130874
+created: 1670142130874
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -33,7 +33,7 @@ sources:
 
 `black --diff {{path/to/file_or_directory}}`
 
-- Auto-format a file or directory, emitting exclusively error messages to stderr:
+- Auto-format a file or directory, emitting exclusively error messages to `stderr`:
 
 `black --quiet {{path/to/file_or_directory}}`
 

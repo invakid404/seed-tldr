@@ -2,8 +2,8 @@
 id: common.svgr
 title: Svgr
 desc: ''
-updated: 1647198113538
-created: 1647198113538
+updated: 1670142131013
+created: 1670142131013
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -17,15 +17,15 @@ sources:
 > Transform SVGs into React components.
 > More information: <https://react-svgr.com>.
 
-- Transform a SVG file into a React component to stdout:
+- Transform a SVG file into a React component to `stdout`:
 
 `svgr -- {{path/to/file.svg}}`
 
-- Transform a SVG file into a React component using TypeScript to stdout:
+- Transform a SVG file into a React component using TypeScript to `stdout`:
 
 `svgr --typescript -- {{path/to/file.svg}}`
 
-- Transform a SVG file into a React component using JSX transform to stdout:
+- Transform a SVG file into a React component using JSX transform to `stdout`:
 
 `svgr --jsx-runtime automatic -- {{path/to/file.svg}}`
 

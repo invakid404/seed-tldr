@@ -2,8 +2,8 @@
 id: common.cowsay
 title: Cowsay
 desc: ''
-updated: 1642441815004
-created: 1642441815004
+updated: 1670142130892
+created: 1670142130892
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -21,7 +21,7 @@ sources:
 
 `cowsay "{{hello, world}}"`
 
-- Print an ASCII cow saying text from stdin:
+- Print an ASCII cow saying text from `stdin`:
 
 `echo "{{hello, world}}" | cowsay`
 

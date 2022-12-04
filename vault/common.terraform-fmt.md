@@ -2,8 +2,8 @@
 id: common.terraform-fmt
 title: Terraform Fmt
 desc: ''
-updated: 1642441815075
-created: 1642441815075
+updated: 1670142131015
+created: 1670142131015
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -29,7 +29,7 @@ sources:
 
 `terraform fmt -diff`
 
-- Do not list files that were formatted to stdout:
+- Do not list files that were formatted to `stdout`:
 
 `terraform fmt -list=false`
 

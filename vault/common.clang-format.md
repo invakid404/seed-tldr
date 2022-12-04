@@ -2,8 +2,8 @@
 id: common.clang-format
 title: Clang Format
 desc: ''
-updated: 1663609051985
-created: 1663609051985
+updated: 1670142130888
+created: 1670142130888
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -17,7 +17,7 @@ sources:
 > Tool to auto-format C/C++/Java/JavaScript/Objective-C/Protobuf/C# code.
 > More information: <https://clang.llvm.org/docs/ClangFormat.html>.
 
-- Format a file and print the result to stdout:
+- Format a file and print the result to `stdout`:
 
 `clang-format {{path/to/file}}`
 

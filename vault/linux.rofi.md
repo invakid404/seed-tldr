@@ -2,8 +2,8 @@
 id: linux.rofi
 title: Rofi
 desc: ''
-updated: 1642441815110
-created: 1642441815110
+updated: 1670142131086
+created: 1670142131086
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -29,7 +29,7 @@ sources:
 
 `rofi -show window`
 
-- Pipe a list of items to stdin and print the selected item to stdout:
+- Pipe a list of items to `stdin` and print the selected item to `stdout`:
 
 `printf "{{Choice1\nChoice2\nChoice3}}" | rofi -dmenu`
 

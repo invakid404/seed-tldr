@@ -2,8 +2,8 @@
 id: common.gpg
 title: Gpg
 desc: ''
-updated: 1656591837489
-created: 1656591837489
+updated: 1670142130939
+created: 1670142130939
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -34,7 +34,7 @@ sources:
 
 `gpg --symmetric {{doc.txt}}`
 
-- Decrypt `doc.txt.gpg` (output to stdout):
+- Decrypt `doc.txt.gpg` (output to `stdout`):
 
 `gpg --decrypt {{doc.txt.gpg}}`
 
@@ -42,11 +42,11 @@ sources:
 
 `gpg --import {{public.gpg}}`
 
-- Export public key for [alice@example.com](mailto:alice@example.com) (output to stdout):
+- Export public key for [alice@example.com](mailto:alice@example.com) (output to `stdout`):
 
 `gpg --export --armor {{alice@example.com}}`
 
-- Export private key for [alice@example.com](mailto:alice@example.com) (output to stdout):
+- Export private key for [alice@example.com](mailto:alice@example.com) (output to `stdout`):
 
 `gpg --export-secret-keys --armor {{alice@example.com}}`
 

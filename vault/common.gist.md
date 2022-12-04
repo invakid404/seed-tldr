@@ -2,8 +2,8 @@
 id: common.gist
 title: Gist
 desc: ''
-updated: 1642441815021
-created: 1642441815021
+updated: 1670142130916
+created: 1670142130916
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -29,7 +29,7 @@ sources:
 
 `gist --private --description "{{A meaningful description}}" {{file.txt}} `
 
-- Read contents from stdin and create a gist from it:
+- Read contents from `stdin` and create a gist from it:
 
 `{{echo "hello world"}} | gist`
 

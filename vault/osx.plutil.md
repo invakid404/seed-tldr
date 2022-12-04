@@ -2,8 +2,8 @@
 id: osx.plutil
 title: Plutil
 desc: ''
-updated: 1644840636311
-created: 1644840636311
+updated: 1670142131119
+created: 1670142131119
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -33,7 +33,7 @@ sources:
 
 `plutil -convert {{xml1|binary1|json|swift|objc}} {{path/to/file.plist}} -o {{path/to/new_file.plist}}`
 
-- Convert a plist file to a different format, writing to stdout:
+- Convert a plist file to a different format, writing to `stdout`:
 
 `plutil -convert {{xml1|binary1|json|swift|objc}} {{path/to/file.plist}} -o -`
 

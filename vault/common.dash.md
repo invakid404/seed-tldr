@@ -2,8 +2,8 @@
 id: common.dash
 title: Dash
 desc: ''
-updated: 1666470429944
-created: 1666470429944
+updated: 1670142130895
+created: 1670142130895
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -41,7 +41,7 @@ sources:
 
 `dash -e {{path/to/script.sh}}`
 
-- Execute specific commands from stdin:
+- Execute specific commands from `stdin`:
 
 `{{echo "echo 'dash is executed'"}} | dash`
 

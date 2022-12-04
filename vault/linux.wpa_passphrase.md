@@ -2,8 +2,8 @@
 id: linux.wpa_passphrase
 title: Wpa_passphrase
 desc: ''
-updated: 1656591837661
-created: 1656591837661
+updated: 1670142131098
+created: 1670142131098
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -17,7 +17,7 @@ sources:
 > Generate a WPA-PSK key from an ASCII passphrase for a given SSID.
 > More information: <https://manned.org/wpa_passphrase.1>.
 
-- Compute and display the WPA-PSK key for a given SSID reading the passphrase from stdin:
+- Compute and display the WPA-PSK key for a given SSID reading the passphrase from `stdin`:
 
 `wpa_passphrase {{SSID}}`
 

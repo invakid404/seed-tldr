@@ -2,8 +2,8 @@
 id: common.fish
 title: Fish
 desc: ''
-updated: 1656591837465
-created: 1656591837465
+updated: 1670142130909
+created: 1670142130909
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -37,7 +37,7 @@ sources:
 
 `fish --no-execute {{path/to/script.fish}}`
 
-- Execute specific commands from stdin:
+- Execute specific commands from `stdin`:
 
 `{{echo "echo 'fish is executed'"}} | fish`
 

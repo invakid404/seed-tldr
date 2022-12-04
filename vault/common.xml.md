@@ -2,8 +2,8 @@
 id: common.xml
 title: Xml
 desc: ''
-updated: 1642441815084
-created: 1642441815084
+updated: 1670142131035
+created: 1670142131035
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -22,11 +22,11 @@ sources:
 
 `xml --help`
 
-- Execute a subcommand with input from a file or URI, printing to stdout:
+- Execute a subcommand with input from a file or URI, printing to `stdout`:
 
 `xml {{subcommand}} {{options}} {{path/to/input.xml|URI}}`
 
-- Execute a subcommand using stdin and stdout:
+- Execute a subcommand using `stdin` and `stdout`:
 
 `xml {{subcommand}} {{options}}`
 

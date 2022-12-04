@@ -2,8 +2,8 @@
 id: common.grep
 title: Grep
 desc: ''
-updated: 1656591837490
-created: 1656591837490
+updated: 1670142130939
+created: 1670142130939
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -45,7 +45,7 @@ sources:
 
 `grep --only-matching "{{search_pattern}}" {{path/to/file}}`
 
-- Search stdin for lines that do not match a pattern:
+- Search `stdin` for lines that do not match a pattern:
 
 `cat {{path/to/file}} | grep --invert-match "{{search_pattern}}"`
 

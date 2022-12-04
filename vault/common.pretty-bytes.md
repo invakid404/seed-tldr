@@ -2,8 +2,8 @@
 id: common.pretty-bytes
 title: Pretty Bytes
 desc: ''
-updated: 1642441815061
-created: 1642441815061
+updated: 1670142130990
+created: 1670142130990
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -21,7 +21,7 @@ sources:
 
 `pretty-bytes {{1337}}`
 
-- Convert numeric bytes value from stdin to a human-readable string:
+- Convert numeric bytes value from `stdin` to a human-readable string:
 
 `echo {{1337}} | pretty-bytes`
 
