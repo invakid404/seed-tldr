@@ -2,8 +2,8 @@
 id: common.betty
 title: Betty
 desc: ''
-updated: 1642441814999
-created: 1642441814999
+updated: 1670145406918
+created: 1670145406918
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -39,7 +39,7 @@ sources:
 
 - Extract an archive into a directory:
 
-`betty unarchive {{archive.tar.gz}} to {{directory}}`
+`betty unarchive {{archive.tar.gz}} to {{path/to/directory}}`
 
 - Play Spotify:
 

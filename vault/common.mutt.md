@@ -2,8 +2,8 @@
 id: common.mutt
 title: Mutt
 desc: ''
-updated: 1642441815049
-created: 1642441815049
+updated: 1670145407018
+created: 1670145407018
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -31,9 +31,9 @@ sources:
 
 - Specify a file to include as the message body:
 
-`mutt -i {{file}} {{recipient@example.com}}`
+`mutt -i {{path/to/file}} {{recipient@example.com}}`
 
 - Specify a draft file containing the header and the body of the message, in RFC 5322 format:
 
-`mutt -H {{file}} {{recipient@example.com}}`
+`mutt -H {{path/to/file}} {{recipient@example.com}}`
 

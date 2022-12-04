@@ -2,8 +2,8 @@
 id: common.phpunit
 title: Phpunit
 desc: ''
-updated: 1642441815057
-created: 1642441815057
+updated: 1670145407040
+created: 1670145407040
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -31,5 +31,5 @@ sources:
 
 - Run tests and generate a coverage report in HTML:
 
-`phpunit --coverage-html {{directory}}`
+`phpunit --coverage-html {{path/to/directory}}`
 

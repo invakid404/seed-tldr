@@ -2,8 +2,8 @@
 id: common.pushd
 title: Pushd
 desc: ''
-updated: 1642441815062
-created: 1642441815062
+updated: 1670145407048
+created: 1670145407048
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -19,7 +19,7 @@ sources:
 
 - Switch to directory and push it on the stack:
 
-`pushd {{directory}}`
+`pushd {{path/to/directory}}`
 
 - Switch first and second directories on the stack:
 

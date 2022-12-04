@@ -2,8 +2,8 @@
 id: common.ffsend
 title: Ffsend
 desc: ''
-updated: 1642441815017
-created: 1642441815017
+updated: 1670145406953
+created: 1670145406953
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -19,7 +19,7 @@ sources:
 
 - Upload a file:
 
-`ffsend upload {{file}}`
+`ffsend upload {{path/to/file}}`
 
 - Download a file:
 
@@ -27,13 +27,13 @@ sources:
 
 - Upload a file with password:
 
-`ffsend upload {{file}} -p {{password}}`
+`ffsend upload {{path/to/file}} -p {{password}}`
 
 - Download a file protected by password:
 
-`ffsend download {{file}} -p {{password}}`
+`ffsend download {{path/to/file}} -p {{password}}`
 
 - Upload a file and allow 4 downloads:
 
-`ffsend upload {{file}} -d {{4}}`
+`ffsend upload {{path/to/file}} -d {{4}}`
 

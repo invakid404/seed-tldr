@@ -2,8 +2,8 @@
 id: linux.xsel
 title: Xsel
 desc: ''
-updated: 1656591837668
-created: 1656591837668
+updated: 1670145407169
+created: 1670145407169
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -23,7 +23,7 @@ sources:
 
 - Use the contents of a file as input of the clipboard:
 
-`cat {{file}} | xsel -ib`
+`cat {{path/to/file}} | xsel -ib`
 
 - Output the clipboard's contents into the terminal (equivalent to `Ctrl + V`):
 
@@ -31,7 +31,7 @@ sources:
 
 - Output the clipboard's contents into a file:
 
-`xsel -ob > {{file}}`
+`xsel -ob > {{path/to/file}}`
 
 - Clear the clipboard:
 

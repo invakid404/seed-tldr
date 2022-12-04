@@ -2,8 +2,8 @@
 id: common.bat
 title: Bat
 desc: ''
-updated: 1642441814998
-created: 1642441814998
+updated: 1670145406917
+created: 1670145406917
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -20,7 +20,7 @@ sources:
 
 - Print the contents of a file to the standard output:
 
-`bat {{file}}`
+`bat {{path/to/file}}`
 
 - Concatenate several files into the target file:
 
@@ -32,7 +32,7 @@ sources:
 
 - Number all output lines:
 
-`bat -n {{file}}`
+`bat -n {{path/to/file}}`
 
 - Syntax highlight a JSON file:
 

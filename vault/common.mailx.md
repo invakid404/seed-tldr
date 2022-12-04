@@ -2,8 +2,8 @@
 id: common.mailx
 title: Mailx
 desc: ''
-updated: 1642441815046
-created: 1642441815046
+updated: 1670145407011
+created: 1670145407011
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -39,5 +39,5 @@ sources:
 
 - Send mail with an attachment:
 
-`mailx -a {{file}} -s "{{subject}}" {{to_addr}}`
+`mailx -a {{path/to/file}} -s "{{subject}}" {{to_addr}}`
 

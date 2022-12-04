@@ -2,8 +2,8 @@
 id: common.lzop
 title: Lzop
 desc: ''
-updated: 1642441815046
-created: 1642441815046
+updated: 1670145407010
+created: 1670145407010
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -19,13 +19,13 @@ sources:
 
 - Compress a file into a new file with the `.lzo` suffix:
 
-`lzop {{file}}`
+`lzop {{path/to/file}}`
 
 - Decompress a file:
 
-`lzop -d {{file}}.lzo`
+`lzop -d {{path/to/file}}.lzo`
 
 - Compress a file, while specifying the compression level. 0 = Worst, 9 = Best (Default level is 3):
 
-`lzop -{{level}} {{file}}`
+`lzop -{{level}} {{path/to/file}}`
 

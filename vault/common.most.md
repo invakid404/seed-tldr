@@ -2,8 +2,8 @@
 id: common.most
 title: Most
 desc: ''
-updated: 1642441815048
-created: 1642441815048
+updated: 1670145407017
+created: 1670145407017
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -27,7 +27,7 @@ sources:
 
 - Open a file at the first occurrence of "string":
 
-`most {{file}} +/{{string}}`
+`most {{path/to/file}} +/{{string}}`
 
 - Move through opened files:
 

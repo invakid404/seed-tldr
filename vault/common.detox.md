@@ -2,8 +2,8 @@
 id: common.detox
 title: Detox
 desc: ''
-updated: 1642441815007
-created: 1642441815007
+updated: 1670145406940
+created: 1670145406940
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -20,13 +20,13 @@ sources:
 
 - Remove spaces and other undesirable characters from a file's name:
 
-`detox {{file}}`
+`detox {{path/to/file}}`
 
 - Show how detox would rename all the files in a directory tree:
 
-`detox --dry-run -r {{directory}}`
+`detox --dry-run -r {{path/to/directory}}`
 
 - Remove spaces and other undesirable characters from all files in a directory tree:
 
-`detox -r {{directory}}`
+`detox -r {{path/to/directory}}`
 

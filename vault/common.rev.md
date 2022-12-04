@@ -2,8 +2,8 @@
 id: common.rev
 title: Rev
 desc: ''
-updated: 1670142130999
-created: 1670142130999
+updated: 1670145407055
+created: 1670145407055
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -23,5 +23,5 @@ sources:
 
 - Reverse an entire file and print to `stdout`:
 
-`rev {{file}}`
+`rev {{path/to/file}}`
 

@@ -2,8 +2,8 @@
 id: common.nvim
 title: Nvim
 desc: ''
-updated: 1669666793340
-created: 1669666793340
+updated: 1670145407030
+created: 1670145407030
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -21,7 +21,7 @@ sources:
 
 - Open a file:
 
-`nvim {{file}}`
+`nvim {{path/to/file}}`
 
 - Enter text editing mode (insert mode):
 

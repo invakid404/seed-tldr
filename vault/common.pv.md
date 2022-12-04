@@ -2,8 +2,8 @@
 id: common.pv
 title: Pv
 desc: ''
-updated: 1642441815062
-created: 1642441815062
+updated: 1670145407049
+created: 1670145407049
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -19,7 +19,7 @@ sources:
 
 - Print the contents of the file and display a progress bar:
 
-`pv {{file}}`
+`pv {{path/to/file}}`
 
 - Measure the speed and amount of data flow between pipes (`-s` is optional):
 

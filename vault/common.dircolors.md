@@ -2,8 +2,8 @@
 id: common.dircolors
 title: Dircolors
 desc: ''
-updated: 1642441815008
-created: 1642441815008
+updated: 1670145406941
+created: 1670145406941
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -23,7 +23,7 @@ sources:
 
 - Output commands to set LS_COLOR using colors from a file:
 
-`dircolors {{file}}`
+`dircolors {{path/to/file}}`
 
 - Output commands for Bourne shell:
 

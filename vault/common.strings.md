@@ -2,8 +2,8 @@
 id: common.strings
 title: Strings
 desc: ''
-updated: 1642441815073
-created: 1642441815073
+updated: 1670145407069
+created: 1670145407069
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -19,17 +19,17 @@ sources:
 
 - Print all strings in a binary:
 
-`strings {{file}}`
+`strings {{path/to/file}}`
 
 - Limit results to strings at least _length_ characters long:
 
-`strings -n {{length}} {{file}}`
+`strings -n {{length}} {{path/to/file}}`
 
 - Prefix each result with its offset within the file:
 
-`strings -t d {{file}}`
+`strings -t d {{path/to/file}}`
 
 - Prefix each result with its offset within the file in hexadecimal:
 
-`strings -t x {{file}}`
+`strings -t x {{path/to/file}}`
 

@@ -2,8 +2,8 @@
 id: linux.sensible-editor
 title: Sensible Editor
 desc: ''
-updated: 1656591837652
-created: 1656591837652
+updated: 1670145407156
+created: 1670145407156
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -19,15 +19,15 @@ sources:
 
 - Open a file in the default editor:
 
-`sensible-editor {{file}}`
+`sensible-editor {{path/to/file}}`
 
 - Open a file in the default editor, with the cursor at the end of the file:
 
-`sensible-editor + {{file}}`
+`sensible-editor + {{path/to/file}}`
 
 - Open a file in the default editor, with the cursor at the beginning of line 10:
 
-`sensible-editor +10 {{file}}`
+`sensible-editor +10 {{path/to/file}}`
 
 - Open 3 files in vertically split editor windows at the same time:
 

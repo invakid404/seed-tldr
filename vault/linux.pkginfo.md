@@ -2,8 +2,8 @@
 id: linux.pkginfo
 title: Pkginfo
 desc: ''
-updated: 1642441815108
-created: 1642441815108
+updated: 1670145407146
+created: 1670145407146
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -31,5 +31,5 @@ sources:
 
 - Print the footprint of a file:
 
-`pkginfo -f {{file}}`
+`pkginfo -f {{path/to/file}}`
 

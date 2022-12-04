@@ -2,8 +2,8 @@
 id: linux.pridecat
 title: Pridecat
 desc: ''
-updated: 1642441815108
-created: 1642441815108
+updated: 1670145407148
+created: 1670145407148
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -19,19 +19,19 @@ sources:
 
 - Print the contents of a file in pride colors to the standard output:
 
-`pridecat {{file}}`
+`pridecat {{path/to/file}}`
 
 - Print contents of a file in trans colors:
 
-`pridecat {{file}} --{{transgender|trans}}`
+`pridecat {{path/to/file}} --{{transgender|trans}}`
 
 - Alternate between lesbian and bisexual pride flags:
 
-`pridecat {{file}} --lesbian --bi`
+`pridecat {{path/to/file}} --lesbian --bi`
 
 - Print contents of a file with the background colors changed:
 
-`pridecat {{file}} -b`
+`pridecat {{path/to/file}} -b`
 
 - List directory contents in pride flag colors:
 

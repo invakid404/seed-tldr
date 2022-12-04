@@ -2,8 +2,8 @@
 id: common.make
 title: Make
 desc: ''
-updated: 1659035805652
-created: 1659035805652
+updated: 1670145407011
+created: 1670145407011
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -32,11 +32,11 @@ sources:
 
 - Use a specific Makefile:
 
-`make --file {{file}}`
+`make --file {{path/to/file}}`
 
 - Execute make from another directory:
 
-`make --directory {{directory}}`
+`make --directory {{path/to/directory}}`
 
 - Force making of a target, even if source files are unchanged:
 

@@ -2,8 +2,8 @@
 id: osx.look
 title: Look
 desc: ''
-updated: 1644840636309
-created: 1644840636309
+updated: 1670145407189
+created: 1670145407189
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -19,9 +19,9 @@ sources:
 
 - Look for lines which begins with the given prefix:
 
-`look {{prefix}} {{file}}`
+`look {{prefix}} {{path/to/file}}`
 
 - Look for lines ignoring case:
 
-`look --ignore-case {{prefix}} {{file}}`
+`look --ignore-case {{prefix}} {{path/to/file}}`
 

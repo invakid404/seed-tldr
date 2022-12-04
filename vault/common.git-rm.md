@@ -2,8 +2,8 @@
 id: common.git-rm
 title: Git Rm
 desc: ''
-updated: 1642441815026
-created: 1642441815026
+updated: 1670145406972
+created: 1670145406972
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -19,13 +19,13 @@ sources:
 
 - Remove file from repository index and filesystem:
 
-`git rm {{file}}`
+`git rm {{path/to/file}}`
 
 - Remove directory:
 
-`git rm -r {{directory}}`
+`git rm -r {{path/to/directory}}`
 
 - Remove file from repository index but keep it untouched locally:
 
-`git rm --cached {{file}}`
+`git rm --cached {{path/to/file}}`
 

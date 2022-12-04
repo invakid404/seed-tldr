@@ -2,8 +2,8 @@
 id: common.lz4
 title: Lz4
 desc: ''
-updated: 1670142130959
-created: 1670142130959
+updated: 1670145407009
+created: 1670145407009
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -19,7 +19,7 @@ sources:
 
 - Compress a file:
 
-`lz4 {{file}}`
+`lz4 {{path/to/file}}`
 
 - Decompress a file:
 
@@ -39,5 +39,5 @@ sources:
 
 - Compress a file using the best compression:
 
-`lz4 -9 {{file}}`
+`lz4 -9 {{path/to/file}}`
 

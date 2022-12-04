@@ -2,8 +2,8 @@
 id: common.expand
 title: Expand
 desc: ''
-updated: 1642441815016
-created: 1642441815016
+updated: 1670145406951
+created: 1670145406951
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -19,7 +19,7 @@ sources:
 
 - Convert tabs in each file to spaces, writing to standard output:
 
-`expand {{file}}`
+`expand {{path/to/file}}`
 
 - Convert tabs to spaces, reading from standard input:
 
@@ -27,11 +27,11 @@ sources:
 
 - Do not convert tabs after non blanks:
 
-`expand -i {{file}}`
+`expand -i {{path/to/file}}`
 
 - Have tabs a certain number of characters apart, not 8:
 
-`expand -t={{number}} {{file}}`
+`expand -t={{number}} {{path/to/file}}`
 
 - Use a comma separated list of explicit tab positions:
 

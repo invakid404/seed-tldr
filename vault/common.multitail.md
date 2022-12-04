@@ -2,8 +2,8 @@
 id: common.multitail
 title: Multitail
 desc: ''
-updated: 1642441815049
-created: 1642441815049
+updated: 1670145407018
+created: 1670145407018
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -23,7 +23,7 @@ sources:
 
 - Tail all files in a directory in a single stream:
 
-`multitail -Q 1 '{{directory}}/*'`
+`multitail -Q 1 '{{path/to/directory}}/*'`
 
 - Automatically add new files to a window:
 

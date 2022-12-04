@@ -2,8 +2,8 @@
 id: common.goreload
 title: Goreload
 desc: ''
-updated: 1642441815030
-created: 1642441815030
+updated: 1670145406986
+created: 1670145406986
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -19,11 +19,11 @@ sources:
 
 - Set the name of the binary file to watch (defaults to `.goreload`):
 
-`goreload -b {{path/to/binary}} {{file}}.go`
+`goreload -b {{path/to/binary}} {{path/to/file}}.go`
 
 - Set a custom log prefix (defaults to `goreload`):
 
-`goreload --logPrefix {{prefix}} {{file}}.go`
+`goreload --logPrefix {{prefix}} {{path/to/file}}.go`
 
 - Reload whenever any file changes:
 

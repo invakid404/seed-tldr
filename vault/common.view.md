@@ -2,8 +2,8 @@
 id: common.view
 title: View
 desc: ''
-updated: 1646107301991
-created: 1646107301991
+updated: 1670145407088
+created: 1670145407088
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -20,5 +20,5 @@ sources:
 
 - Open a file:
 
-`view {{file}}`
+`view {{path/to/file}}`
 

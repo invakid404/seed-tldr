@@ -2,8 +2,8 @@
 id: common.rapper
 title: Rapper
 desc: ''
-updated: 1642441815064
-created: 1642441815064
+updated: 1670145407052
+created: 1670145407052
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -20,9 +20,9 @@ sources:
 
 - Convert an RDF/XML document to Turtle:
 
-`rapper -i rdfxml -o turtle {{file}}`
+`rapper -i rdfxml -o turtle {{path/to/file}}`
 
 - Count the number of triples in a Turtle file:
 
-`rapper -i turtle -c {{file}}`
+`rapper -i turtle -c {{path/to/file}}`
 

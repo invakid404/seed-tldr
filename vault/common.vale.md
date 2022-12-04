@@ -2,8 +2,8 @@
 id: common.vale
 title: Vale
 desc: ''
-updated: 1670142131028
-created: 1670142131028
+updated: 1670145407086
+created: 1670145407086
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -19,19 +19,19 @@ sources:
 
 - Check the style of a file:
 
-`vale {{file}}`
+`vale {{path/to/file}}`
 
 - Check the style of a file with a specified configuration:
 
-`vale --config='{{path/to/.vale.ini}}' {{file}}`
+`vale --config='{{path/to/.vale.ini}}' {{path/to/file}}`
 
 - Output the results in JSON format:
 
-`vale --output=JSON {{file}}`
+`vale --output=JSON {{path/to/file}}`
 
 - Check style issues at the specific severity and higher:
 
-`vale --minAlertLeve={{suggestion|warning|error}} {{file}}`
+`vale --minAlertLeve={{suggestion|warning|error}} {{path/to/file}}`
 
 - Check the style from `stdin`, specifying markup format:
 

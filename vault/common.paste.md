@@ -2,8 +2,8 @@
 id: common.paste
 title: Paste
 desc: ''
-updated: 1642441815055
-created: 1642441815055
+updated: 1670145407036
+created: 1670145407036
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -19,11 +19,11 @@ sources:
 
 - Join all the lines into a single line, using TAB as delimiter:
 
-`paste -s {{file}}`
+`paste -s {{path/to/file}}`
 
 - Join all the lines into a single line, using the specified delimiter:
 
-`paste -s -d {{delimiter}} {{file}}`
+`paste -s -d {{delimiter}} {{path/to/file}}`
 
 - Merge two files side by side, each in its column, using TAB as delimiter:
 

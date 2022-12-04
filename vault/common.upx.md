@@ -2,8 +2,8 @@
 id: common.upx
 title: Upx
 desc: ''
-updated: 1642441815079
-created: 1642441815079
+updated: 1670145407086
+created: 1670145407086
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -19,11 +19,11 @@ sources:
 
 - Compress executable:
 
-`upx {{file}}`
+`upx {{path/to/file}}`
 
 - Decompress executable:
 
-`upx -d {{file}}`
+`upx -d {{path/to/file}}`
 
 - Detailed help:
 

@@ -2,8 +2,8 @@
 id: common.tsort
 title: Tsort
 desc: ''
-updated: 1642441815078
-created: 1642441815078
+updated: 1670145407083
+created: 1670145407083
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -20,5 +20,5 @@ sources:
 
 - Perform a topological sort consistent with a partial sort per line of input separated by blanks:
 
-`tsort {{file}}`
+`tsort {{path/to/file}}`
 

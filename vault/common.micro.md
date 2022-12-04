@@ -2,8 +2,8 @@
 id: common.micro
 title: Micro
 desc: ''
-updated: 1642441815047
-created: 1642441815047
+updated: 1670145407013
+created: 1670145407013
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -20,7 +20,7 @@ sources:
 
 - Open a file:
 
-`micro {{file}}`
+`micro {{path/to/file}}`
 
 - Save a file:
 

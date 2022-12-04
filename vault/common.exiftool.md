@@ -2,8 +2,8 @@
 id: common.exiftool
 title: Exiftool
 desc: ''
-updated: 1668939690476
-created: 1668939690476
+updated: 1670145406951
+created: 1670145406951
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -19,7 +19,7 @@ sources:
 
 - Print the EXIF metadata for a given file:
 
-`exiftool {{file}}`
+`exiftool {{path/to/file}}`
 
 - Remove all EXIF metadata from the given files:
 

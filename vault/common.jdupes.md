@@ -2,8 +2,8 @@
 id: common.jdupes
 title: Jdupes
 desc: ''
-updated: 1642441815036
-created: 1642441815036
+updated: 1670145406998
+created: 1670145406998
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -19,7 +19,7 @@ sources:
 
 - Search a single directory:
 
-`jdupes {{directory}}`
+`jdupes {{path/to/directory}}`
 
 - Search multiple directories:
 
@@ -27,11 +27,11 @@ sources:
 
 - Search all directories recursively:
 
-`jdupes --recurse {{directory}}`
+`jdupes --recurse {{path/to/directory}}`
 
 - Search directory recursively and let user choose files to preserve:
 
-`jdupes --delete --recurse {{directory}}`
+`jdupes --delete --recurse {{path/to/directory}}`
 
 - Search multiple directories and follow subdirectores under directory2, not directory1:
 

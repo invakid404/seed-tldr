@@ -2,8 +2,8 @@
 id: common.zstd
 title: Zstd
 desc: ''
-updated: 1670142131039
-created: 1670142131039
+updated: 1670145407099
+created: 1670145407099
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -19,21 +19,21 @@ sources:
 
 - Compress a file into a new file with the `.zst` suffix:
 
-`zstd {{file}}`
+`zstd {{path/to/file}}`
 
 - Decompress a file:
 
-`zstd -d {{file}}.zst`
+`zstd -d {{path/to/file}}.zst`
 
 - Decompress to `stdout`:
 
-`zstd -dc {{file}}.zst`
+`zstd -dc {{path/to/file}}.zst`
 
 - Compress a file specifying the compression level, where 1=fastest, 19=slowest and 3=default:
 
-`zstd -{{level}} {{file}}`
+`zstd -{{level}} {{path/to/file}}`
 
 - Unlock higher compression levels (up to 22) using more memory (both for compression and decompression):
 
-`zstd --ultra -{{level}} {{file}}`
+`zstd --ultra -{{level}} {{path/to/file}}`
 

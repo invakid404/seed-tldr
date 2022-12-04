@@ -2,8 +2,8 @@
 id: common.php
 title: PHP
 desc: ''
-updated: 1642441815057
-created: 1642441815057
+updated: 1670145407039
+created: 1670145407039
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -19,11 +19,11 @@ sources:
 
 - Parse and execute a PHP script:
 
-`php {{file}}`
+`php {{path/to/file}}`
 
 - Check syntax on (i.e. lint) a PHP script:
 
-`php -l {{file}}`
+`php -l {{path/to/file}}`
 
 - Run PHP interactively:
 

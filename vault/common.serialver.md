@@ -2,8 +2,8 @@
 id: common.serialver
 title: Serialver
 desc: ''
-updated: 1667133702776
-created: 1667133702776
+updated: 1670145407061
+created: 1670145407061
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -24,7 +24,7 @@ sources:
 
 - Display the serialVersionUID for a colon-separated list of classes and resources:
 
-`serialver -classpath {{directory}} {{classname1:classname2:...}}`
+`serialver -classpath {{path/to/directory}} {{classname1:classname2:...}}`
 
 - Use a specific option from reference page of Java application launcher to the Java Virtual Machine:
 
