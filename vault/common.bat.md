@@ -2,8 +2,8 @@
 id: common.bat
 title: Bat
 desc: ''
-updated: 1670145406917
-created: 1670145406917
+updated: 1670210384626
+created: 1670210384626
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -32,7 +32,7 @@ sources:
 
 - Number all output lines:
 
-`bat -n {{path/to/file}}`
+`bat --number {{path/to/file}}`
 
 - Syntax highlight a JSON file:
 
