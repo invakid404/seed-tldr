@@ -2,8 +2,8 @@
 id: linux.rpm
 title: Rpm
 desc: ''
-updated: 1657430362515
-created: 1657430362515
+updated: 1670203646419
+created: 1670203646419
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,6 +15,7 @@ sources:
 # rpm
 
 > RPM Package Manager.
+> For equivalent commands in other package managers, see <https://wiki.archlinux.org/title/Pacman/Rosetta>.
 > More information: <https://rpm.org/>.
 
 - Show version of httpd package:

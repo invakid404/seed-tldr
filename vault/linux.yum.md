@@ -2,8 +2,8 @@
 id: linux.yum
 title: Yum
 desc: ''
-updated: 1643128140548
-created: 1643128140548
+updated: 1670203646436
+created: 1670203646436
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,6 +15,7 @@ sources:
 # yum
 
 > Package management utility for RHEL, Fedora, and CentOS (for older versions).
+> For equivalent commands in other package managers, see <https://wiki.archlinux.org/title/Pacman/Rosetta>.
 > More information: <https://manned.org/yum>.
 
 - Install a new package:

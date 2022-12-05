@@ -2,8 +2,8 @@
 id: linux.dnf
 title: Dnf
 desc: ''
-updated: 1658078383662
-created: 1658078383662
+updated: 1670203646387
+created: 1670203646387
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,6 +15,7 @@ sources:
 # dnf
 
 > Package management utility for RHEL, Fedora, and CentOS (replaces yum).
+> For equivalent commands in other package managers, see <https://wiki.archlinux.org/title/Pacman/Rosetta>.
 > More information: <https://dnf.readthedocs.io>.
 
 - Upgrade installed packages to the newest available versions:

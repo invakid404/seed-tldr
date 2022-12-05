@@ -2,8 +2,8 @@
 id: linux.zypper
 title: Zypper
 desc: ''
-updated: 1642441815119
-created: 1642441815119
+updated: 1670203646436
+created: 1670203646436
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,6 +15,7 @@ sources:
 # zypper
 
 > SUSE & openSUSE package management utility.
+> For equivalent commands in other package managers, see <https://wiki.archlinux.org/title/Pacman/Rosetta>.
 > More information: <https://en.opensuse.org/SDB:Zypper_manual>.
 
 - Synchronize list of packages and versions available:
