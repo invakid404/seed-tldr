@@ -2,8 +2,8 @@
 id: common.meshlabserver
 title: Meshlabserver
 desc: ''
-updated: 1642441815046
-created: 1642441815046
+updated: 1670310991824
+created: 1670310991824
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -27,7 +27,7 @@ sources:
 
 - Dump a list of all the available processing filters into a file:
 
-`meshlabserver -d {{filename}}`
+`meshlabserver -d {{path/to/file}}`
 
 - Process a 3D file using a filter script created in the MeshLab GUI (Filters > Show current filter script > Save Script):
 

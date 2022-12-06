@@ -2,8 +2,8 @@
 id: common.git-checkout
 title: Git Checkout
 desc: ''
-updated: 1642441815022
-created: 1642441815022
+updated: 1670310991782
+created: 1670310991782
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -43,9 +43,9 @@ sources:
 
 - Discard unstaged changes to a given file:
 
-`git checkout {{filename}}`
+`git checkout {{path/to/file}}`
 
 - Replace a file in the current directory with the version of it committed in a given branch:
 
-`git checkout {{branch_name}} -- {{filename}}`
+`git checkout {{branch_name}} -- {{path/to/file}}`
 

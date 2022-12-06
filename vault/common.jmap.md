@@ -2,8 +2,8 @@
 id: common.jmap
 title: Jmap
 desc: ''
-updated: 1665463523018
-created: 1665463523018
+updated: 1670310991813
+created: 1670310991813
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -31,5 +31,5 @@ sources:
 
 - Dump contents of the heap into a binary file for analysis with jhat:
 
-`jmap -dump:format=b,file={{filename}} {{java_pid}}`
+`jmap -dump:format=b,file={{path/to/file}} {{java_pid}}`
 

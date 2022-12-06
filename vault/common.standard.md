@@ -2,8 +2,8 @@
 id: common.standard
 title: Standard
 desc: ''
-updated: 1642441815071
-created: 1642441815071
+updated: 1670310991872
+created: 1670310991872
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -23,7 +23,7 @@ sources:
 
 - Lint specific JavaScript file(s):
 
-`standard {{path/to/file(s)}}`
+`standard {{path/to/file1 path/to/file2 ...}}`
 
 - Apply automatic fixes during linting:
 

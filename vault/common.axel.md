@@ -2,8 +2,8 @@
 id: common.axel
 title: Axel
 desc: ''
-updated: 1642441814997
-created: 1642441814997
+updated: 1670310991735
+created: 1670310991735
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -24,7 +24,7 @@ sources:
 
 - Download and specify filename:
 
-`axel {{url}} -o {{filename}}`
+`axel {{url}} -o {{path/to/file}}`
 
 - Download with multiple connections:
 

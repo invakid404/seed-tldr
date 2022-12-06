@@ -2,8 +2,8 @@
 id: common.p4
 title: P4
 desc: ''
-updated: 1642441815055
-created: 1642441815055
+updated: 1670310991844
+created: 1670310991844
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -35,7 +35,7 @@ sources:
 
 - Open a file to edit:
 
-`p4 edit -c {{changelist_number}} {{filename}}`
+`p4 edit -c {{changelist_number}} {{path/to/file}}`
 
 - Open a new file to add it to the depot:
 

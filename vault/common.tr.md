@@ -2,8 +2,8 @@
 id: common.tr
 title: Tr
 desc: ''
-updated: 1642441815077
-created: 1642441815077
+updated: 1670310991885
+created: 1670310991885
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -19,7 +19,7 @@ sources:
 
 - Replace all occurrences of a character in a file, and print the result:
 
-`tr {{find_character}} {{replace_character}} < {{filename}}`
+`tr {{find_character}} {{replace_character}} < {{path/to/file}}`
 
 - Replace all occurrences of a character from another command's output:
 
@@ -27,21 +27,21 @@ sources:
 
 - Map each character of the first set to the corresponding character of the second set:
 
-`tr '{{abcd}}' '{{jkmn}}' < {{filename}}`
+`tr '{{abcd}}' '{{jkmn}}' < {{path/to/file}}`
 
 - Delete all occurrences of the specified set of characters from the input:
 
-`tr -d '{{input_characters}}' < {{filename}}`
+`tr -d '{{input_characters}}' < {{path/to/file}}`
 
 - Compress a series of identical characters to a single character:
 
-`tr -s '{{input_characters}}' < {{filename}}`
+`tr -s '{{input_characters}}' < {{path/to/file}}`
 
 - Translate the contents of a file to upper-case:
 
-`tr "[:lower:]" "[:upper:]" < {{filename}}`
+`tr "[:lower:]" "[:upper:]" < {{path/to/file}}`
 
 - Strip out non-printable characters from a file:
 
-`tr -cd "[:print:]" < {{filename}}`
+`tr -cd "[:print:]" < {{path/to/file}}`
 

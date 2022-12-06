@@ -2,8 +2,8 @@
 id: common.ignite
 title: Ignite
 desc: ''
-updated: 1642441815035
-created: 1642441815035
+updated: 1670310991808
+created: 1670310991808
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -23,7 +23,7 @@ sources:
 
 - Generate file from a plugin:
 
-`ignite generate {{plugin_name}} {{filename}}`
+`ignite generate {{plugin_name}} {{path/to/file}}`
 
 - Add an Ignite plugin to the project:
 

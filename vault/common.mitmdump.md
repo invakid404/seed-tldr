@@ -2,8 +2,8 @@
 id: common.mitmdump
 title: Mitmdump
 desc: ''
-updated: 1642441815047
-created: 1642441815047
+updated: 1670310991825
+created: 1670310991825
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -20,7 +20,7 @@ sources:
 
 - Start a proxy and save all output to a file:
 
-`mitmdump -w {{filename}}`
+`mitmdump -w {{path/to/file}}`
 
 - Filter a saved traffic file to just POST requests:
 
@@ -28,5 +28,5 @@ sources:
 
 - Replay a saved traffic file:
 
-`mitmdump -nc {{filename}}`
+`mitmdump -nc {{path/to/file}}`
 

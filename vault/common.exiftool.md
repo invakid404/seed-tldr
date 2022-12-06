@@ -2,8 +2,8 @@
 id: common.exiftool
 title: Exiftool
 desc: ''
-updated: 1670145406951
-created: 1670145406951
+updated: 1670310991770
+created: 1670310991770
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -23,7 +23,7 @@ sources:
 
 - Remove all EXIF metadata from the given files:
 
-`exiftool -All= {{file1 file2 ...}}`
+`exiftool -All= {{path/to/file1 path/to/file2 ...}}`
 
 - Remove GPS EXIF metadata from given image files:
 

@@ -2,8 +2,8 @@
 id: common.sk
 title: Sk
 desc: ''
-updated: 1642441815069
-created: 1642441815069
+updated: 1670310991869
+created: 1670310991869
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -32,5 +32,5 @@ sources:
 
 - Select multiple files with `Shift + Tab` and write to a file:
 
-`find {{path/to/directory}} -type f | sk --multi > {{filename}}`
+`find {{path/to/directory}} -type f | sk --multi > {{path/to/file}}`
 

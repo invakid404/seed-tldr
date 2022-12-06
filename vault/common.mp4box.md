@@ -2,8 +2,8 @@
 id: common.mp4box
 title: Mp4box
 desc: ''
-updated: 1642441815049
-created: 1642441815049
+updated: 1670310991829
+created: 1670310991829
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -19,7 +19,7 @@ sources:
 
 - Display information about an existing MP4 file:
 
-`mp4box -info {{filename}}`
+`mp4box -info {{path/to/file}}`
 
 - Add an SRT subtitle file into an MP4 file:
 

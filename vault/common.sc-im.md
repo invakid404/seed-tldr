@@ -2,8 +2,8 @@
 id: common.sc-im
 title: Sc Im
 desc: ''
-updated: 1642441815067
-created: 1642441815067
+updated: 1670310991865
+created: 1670310991865
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -20,7 +20,7 @@ sources:
 
 - Start SC-IM:
 
-`scim {{filename}}.csv`
+`scim {{path/to/file}}.csv`
 
 - Enter a string into the current cell:
 

@@ -2,8 +2,8 @@
 id: common.fortune
 title: Fortune
 desc: ''
-updated: 1646802118652
-created: 1646802118652
+updated: 1670310991774
+created: 1670310991774
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -39,5 +39,5 @@ sources:
 
 - Print a quotation from one of the database files listed by `fortune -f`:
 
-`fortune {{filename}}`
+`fortune {{path/to/file}}`
 

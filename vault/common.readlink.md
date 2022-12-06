@@ -2,8 +2,8 @@
 id: common.readlink
 title: Readlink
 desc: ''
-updated: 1642441815065
-created: 1642441815065
+updated: 1670310991861
+created: 1670310991861
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -19,9 +19,9 @@ sources:
 
 - Get the actual file to which the symlink points:
 
-`readlink {{filename}}`
+`readlink {{path/to/file}}`
 
 - Get the absolute path to a file:
 
-`readlink -f {{filename}}`
+`readlink -f {{path/to/file}}`
 

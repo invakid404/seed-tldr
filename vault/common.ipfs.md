@@ -2,8 +2,8 @@
 id: common.ipfs
 title: Ipfs
 desc: ''
-updated: 1670145406997
-created: 1670145406997
+updated: 1670310991811
+created: 1670310991811
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -20,7 +20,7 @@ sources:
 
 - Add a file from local to the filesystem, pin it and print the relative hash:
 
-`ipfs add {{filename}}`
+`ipfs add {{path/to/file}}`
 
 - Add a directory and its files recursively from local to the filesystem and print the relative hash:
 
@@ -28,7 +28,7 @@ sources:
 
 - Save a remote file and give it a name but not pin it:
 
-`ipfs get {{hash}} -o {{filename}}`
+`ipfs get {{hash}} -o {{path/to/file}}`
 
 - Pin a remote file locally:
 

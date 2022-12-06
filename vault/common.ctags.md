@@ -2,8 +2,8 @@
 id: common.ctags
 title: Ctags
 desc: ''
-updated: 1664196702928
-created: 1664196702928
+updated: 1670310991757
+created: 1670310991757
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -23,7 +23,7 @@ sources:
 
 - Generate tags for all files in the current directory, and output them to a specific file, overwriting the file if it exists:
 
-`ctags -f {{filename}} *`
+`ctags -f {{path/to/file}} *`
 
 - Generate tags for all files in the current directory and all subdirectories:
 

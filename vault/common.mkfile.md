@@ -2,8 +2,8 @@
 id: common.mkfile
 title: Mkfile
 desc: ''
-updated: 1670130962855
-created: 1670130962855
+updated: 1670310991826
+created: 1670310991826
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -19,11 +19,11 @@ sources:
 
 - Create an empty file of 15 kilobytes:
 
-`mkfile -n {{15k}} {{filename}}`
+`mkfile -n {{15k}} {{path/to/file}}`
 
 - Create a file of a given size and unit (bytes, KB, MB, GB):
 
-`mkfile -n {{size}}{{b|k|m|g}} {{filename}}`
+`mkfile -n {{size}}{{b|k|m|g}} {{path/to/file}}`
 
 - Create two files of 4 megabytes each:
 

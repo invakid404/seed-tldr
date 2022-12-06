@@ -2,8 +2,8 @@
 id: common.espeak
 title: Espeak
 desc: ''
-updated: 1642441815013
-created: 1642441815013
+updated: 1670310991769
+created: 1670310991769
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -23,7 +23,7 @@ sources:
 
 - Speak a file aloud:
 
-`espeak -f {{filename}}`
+`espeak -f {{path/to/file}}`
 
 - Save output to a WAV audio file, rather than speaking it directly:
 

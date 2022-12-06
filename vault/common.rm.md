@@ -2,8 +2,8 @@
 id: common.rm
 title: Rm
 desc: ''
-updated: 1642441815065
-created: 1642441815065
+updated: 1670310991863
+created: 1670310991863
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -31,7 +31,7 @@ sources:
 
 - Interactively remove multiple files, with a prompt before every removal:
 
-`rm -i {{file(s)}}`
+`rm -i {{path/to/file1 path/to/file2 ...}}`
 
 - Remove files in verbose mode, printing a message for each removed file:
 

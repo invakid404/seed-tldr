@@ -2,8 +2,8 @@
 id: common.base64
 title: Base64
 desc: ''
-updated: 1670142130873
-created: 1670142130873
+updated: 1670310991738
+created: 1670310991738
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -19,11 +19,11 @@ sources:
 
 - Encode the contents of a file as base64 and write the result to `stdout`:
 
-`base64 {{filename}}`
+`base64 {{path/to/file}}`
 
 - Decode the base64 contents of a file and write the result to `stdout`:
 
-`base64 --decode {{filename}}`
+`base64 --decode {{path/to/file}}`
 
 - Encode from `stdin`:
 

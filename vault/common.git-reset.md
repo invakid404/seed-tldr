@@ -2,8 +2,8 @@
 id: common.git-reset
 title: Git Reset
 desc: ''
-updated: 1642441815026
-created: 1642441815026
+updated: 1670310991788
+created: 1670310991788
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -24,7 +24,7 @@ sources:
 
 - Unstage specific file(s):
 
-`git reset {{path/to/file(s)}}`
+`git reset {{path/to/file1 path/to/file2 ...}}`
 
 - Interactively unstage portions of a file:
 

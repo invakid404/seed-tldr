@@ -2,8 +2,8 @@
 id: common.mongod
 title: Mongod
 desc: ''
-updated: 1642441815048
-created: 1642441815048
+updated: 1670310991827
+created: 1670310991827
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -19,7 +19,7 @@ sources:
 
 - Specify a config file:
 
-`mongod --config {{filename}}`
+`mongod --config {{path/to/file}}`
 
 - Specify the port to listen on:
 

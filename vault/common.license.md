@@ -2,8 +2,8 @@
 id: common.license
 title: License
 desc: ''
-updated: 1670142130956
-created: 1670142130956
+updated: 1670310991819
+created: 1670310991819
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -23,7 +23,7 @@ sources:
 
 - Generate a license and save it to a file:
 
-`license -o {{filename}} {{license_name}}`
+`license -o {{path/to/file}} {{license_name}}`
 
 - List all available licenses:
 

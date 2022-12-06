@@ -2,8 +2,8 @@
 id: common.tput
 title: Tput
 desc: ''
-updated: 1668608359828
-created: 1668608359828
+updated: 1670310991885
+created: 1670310991885
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -37,7 +37,7 @@ sources:
 
 `tput sgr0`
 
-- Enable / Disable word wrap:
+- Enable or disable word wrap:
 
 `tput {{smam|rmam}}`
 

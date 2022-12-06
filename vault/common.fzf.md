@@ -2,8 +2,8 @@
 id: common.fzf
 title: Fzf
 desc: ''
-updated: 1642441815019
-created: 1642441815019
+updated: 1670310991775
+created: 1670310991775
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -28,7 +28,7 @@ sources:
 
 - Select multiple files with `Shift + Tab` and write to a file:
 
-`find {{path/to/directory}} -type f | fzf --multi > {{filename}}`
+`find {{path/to/directory}} -type f | fzf --multi > {{path/to/file}}`
 
 - Start fzf with a specified query:
 

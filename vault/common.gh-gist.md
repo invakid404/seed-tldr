@@ -2,8 +2,8 @@
 id: common.gh-gist
 title: Gh Gist
 desc: ''
-updated: 1642441815020
-created: 1642441815020
+updated: 1670310991778
+created: 1670310991778
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -23,7 +23,7 @@ sources:
 
 - Create a new Gist with a description:
 
-`gh gist create {{filename}} --desc "{{description}}"`
+`gh gist create {{path/to/file}} --desc "{{description}}"`
 
 - Edit a Gist:
 

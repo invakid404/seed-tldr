@@ -2,8 +2,8 @@
 id: common.tpp
 title: Tpp
 desc: ''
-updated: 1642441815077
-created: 1642441815077
+updated: 1670310991885
+created: 1670310991885
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -19,9 +19,9 @@ sources:
 
 - View a presentation:
 
-`tpp {{filename}}`
+`tpp {{path/to/file}}`
 
 - Output a presentation:
 
-`tpp -t {{type}} -o {{outputname}} {{filename}}`
+`tpp -t {{type}} -o {{path/to/output}} {{path/to/file}}`
 

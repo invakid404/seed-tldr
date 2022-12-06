@@ -2,8 +2,8 @@
 id: common.mupdf
 title: Mupdf
 desc: ''
-updated: 1642441815049
-created: 1642441815049
+updated: 1670310991830
+created: 1670310991830
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -19,23 +19,23 @@ sources:
 
 - Open a PDF on the first page:
 
-`mupdf {{filename}}`
+`mupdf {{path/to/file}}`
 
 - Open a PDF on page 3:
 
-`mupdf {{filename}} {{3}}`
+`mupdf {{path/to/file}} {{3}}`
 
 - Open a password secured PDF:
 
-`mupdf -p {{password}} {{filename}}`
+`mupdf -p {{password}} {{path/to/file}}`
 
 - Open a PDF with an initial zoom level, specified as DPI, of 72:
 
-`mupdf -r {{72}} {{filename}}`
+`mupdf -r {{72}} {{path/to/file}}`
 
 - Open a PDF with inverted color:
 
-`mupdf -I {{filename}}`
+`mupdf -I {{path/to/file}}`
 
 - Open a PDF tinted red #FF0000 (hexadecimal color syntax RRGGBB):
 

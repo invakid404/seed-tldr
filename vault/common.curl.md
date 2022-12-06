@@ -2,8 +2,8 @@
 id: common.curl
 title: Curl
 desc: ''
-updated: 1642441815006
-created: 1642441815006
+updated: 1670310991757
+created: 1670310991757
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -20,7 +20,7 @@ sources:
 
 - Download the contents of a URL to a file:
 
-`curl {{http://example.com}} --output {{filename}}`
+`curl {{http://example.com}} --output {{path/to/file}}`
 
 - Download a file, saving the output under the filename indicated by the URL:
 

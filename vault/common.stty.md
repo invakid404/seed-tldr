@@ -2,8 +2,8 @@
 id: common.stty
 title: Stty
 desc: ''
-updated: 1667882859779
-created: 1667882859779
+updated: 1670310991875
+created: 1670310991875
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -21,13 +21,9 @@ sources:
 
 `stty --all`
 
-- Set the number of rows:
+- Set the number of rows or columns:
 
-`stty rows {{rows}}`
-
-- Set the number of columns:
-
-`stty cols {{cols}}`
+`stty {{rows|cols}} {{count}}`
 
 - Get the actual transfer speed of a device:
 

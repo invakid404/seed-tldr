@@ -2,8 +2,8 @@
 id: common.terminalizer
 title: Terminalizer
 desc: ''
-updated: 1642441815075
-created: 1642441815075
+updated: 1670310991878
+created: 1670310991878
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -23,17 +23,17 @@ sources:
 
 - Record the terminal and create a recording file:
 
-`terminalizer record {{filename}}`
+`terminalizer record {{path/to/file}}`
 
 - Play a recorded file on the terminal:
 
-`terminalizer play {{filename}}`
+`terminalizer play {{path/to/file}}`
 
 - Render a recording file as an animated GIF image:
 
-`terminalizer render {{filename}}`
+`terminalizer render {{path/to/file}}`
 
 - Upload a video to terminalizer.com:
 
-`terminalizer share {{filename}}`
+`terminalizer share {{path/to/file}}`
 
