@@ -2,8 +2,8 @@
 id: linux.procs
 title: Procs
 desc: ''
-updated: 1642441815108
-created: 1642441815108
+updated: 1670394233698
+created: 1670394233698
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -21,19 +21,19 @@ sources:
 
 `procs`
 
-- Show information about processes, if the commands which started them contain `zsh`:
+- List information about processes, if the commands which started them contain `zsh`:
 
 `procs {{zsh}}`
 
-- Show information about all processes sorted by CPU time in [a]scending or [d]escending order:
+- List information about all processes sorted by CPU time in [a]scending or [d]escending order:
 
-`procs {{--sortd|--sorta}} cpu`
+`procs {{--sorta|--sortd}} cpu`
 
-- Show information about processes with either a PID, command, or user containing (`zsh` or `firefox`):
+- List information about processes with either a PID, command, or user containing `41` or `firefox`:
 
 `procs --or {{PID|command|user}} {{41}} {{firefox}}`
 
-- Show information about processes with both PID `41` and a command or user containing `zsh`:
+- List information about processes with both PID `41` and a command or user containing `zsh`:
 
 `procs --and {{41}} {{zsh}}`
 
