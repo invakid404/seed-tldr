@@ -2,8 +2,8 @@
 id: common.gunzip
 title: Gunzip
 desc: ''
-updated: 1642441815031
-created: 1642441815031
+updated: 1670883488735
+created: 1670883488735
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -32,4 +32,8 @@ sources:
 - List the contents of a compressed file:
 
 `gunzip --list {{file.txt.gz}}`
+
+- Decompress an archive from `stdin`:
+
+`cat {{path/to/archive.gz}} | gunzip`
 
