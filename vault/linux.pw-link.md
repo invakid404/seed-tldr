@@ -2,8 +2,8 @@
 id: linux.pw-link
 title: Pw Link
 desc: ''
-updated: 1643509837368
-created: 1643509837368
+updated: 1671203970240
+created: 1671203970240
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -19,7 +19,7 @@ sources:
 
 - List all audio output and input ports:
 
-`pw-link --output --input'`
+`pw-link --output --input`
 
 - Create a link between an output and an input port:
 
