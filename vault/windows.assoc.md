@@ -2,8 +2,8 @@
 id: windows.assoc
 title: Assoc
 desc: ''
-updated: 1664897374257
-created: 1664897374257
+updated: 1671503955972
+created: 1671503955972
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -28,4 +28,8 @@ sources:
 - Set the associated file type for a specific extension:
 
 `assoc .{{txt}}={{txtfile}}`
+
+- View the output of `assoc` one screen at a time:
+
+`assoc | {{more}}`
 
