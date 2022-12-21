@@ -1,9 +1,9 @@
 ---
-id: common.cat
+id: osx.cat
 title: Cat
 desc: ''
-updated: 1671592749299
-created: 1671592749299
+updated: 1671592749501
+created: 1671592749501
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,7 +15,7 @@ sources:
 # cat
 
 > Print and concatenate files.
-> More information: <https://www.gnu.org/software/coreutils/cat>.
+> More information: <https://keith.github.io/xcode-man-pages/cat.1.html>.
 
 - Print the contents of a file to the standard output:
 
@@ -36,4 +36,12 @@ sources:
 - Write `stdin` to a file:
 
 `cat - > {{path/to/file}}`
+
+- Number all output lines:
+
+`cat -n {{path/to/file}}`
+
+- Display non-printable and whitespace characters (with `M-` prefix if non-ASCII):
+
+`cat -v -t -e {{path/to/file}}`
 
