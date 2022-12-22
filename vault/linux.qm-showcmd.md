@@ -2,8 +2,8 @@
 id: linux.qm-showcmd
 title: Qm Showcmd
 desc: ''
-updated: 1671592749480
-created: 1671592749480
+updated: 1671712419445
+created: 1671712419445
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -25,7 +25,7 @@ sources:
 
 `qm showcmd --pretty {{true}} {{vm_id}}`
 
-- Fetch config values from a given snapshot:
+- Fetch config values from a specific snapshot:
 
 `qm showcmd --snapshot {{string}} {{vm_id}}`
 

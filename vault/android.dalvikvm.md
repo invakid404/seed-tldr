@@ -2,8 +2,8 @@
 id: android.dalvikvm
 title: Dalvikvm
 desc: ''
-updated: 1642441814990
-created: 1642441814990
+updated: 1671712419187
+created: 1671712419187
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -17,7 +17,7 @@ sources:
 > Android Java virtual machine.
 > More information: <https://source.android.com/devices/tech/dalvik>.
 
-- Start a Java program:
+- Start a specific Java program:
 
 `dalvikvm -classpath {{path/to/file.jar}} {{classname}}`
 
