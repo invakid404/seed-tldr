@@ -2,8 +2,8 @@
 id: common.nix-collect-garbage
 title: Nix Collect Garbage
 desc: ''
-updated: 1642441815051
-created: 1642441815051
+updated: 1671672264733
+created: 1671672264733
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -28,5 +28,5 @@ sources:
 
 - Delete all store paths older than 30 days:
 
-`sudo nix-collect-garbage --delete-older-than {{30d}}`
+`sudo nix-collect-garbage --delete-older-than 30d`
 

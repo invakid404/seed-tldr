@@ -2,8 +2,8 @@
 id: common.nix-build
 title: Nix Build
 desc: ''
-updated: 1642441815051
-created: 1642441815051
+updated: 1671672264733
+created: 1671672264733
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -19,9 +19,9 @@ sources:
 
 - Build a Nix expression:
 
-`nix-build --attr {{expression_name}}`
+`nix-build '<nixpkgs>' --attr {{firefox}}`
 
 - Build a sandboxed Nix expression (on non-NixOS):
 
-`nix-build --attr {{expression_name}} --option sandbox true`
+`nix-build '<nixpkgs>' --attr {{firefox}} --option sandbox true`
 
