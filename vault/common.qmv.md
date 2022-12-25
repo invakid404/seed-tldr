@@ -2,8 +2,8 @@
 id: common.qmv
 title: Qmv
 desc: ''
-updated: 1642441815063
-created: 1642441815063
+updated: 1671985380048
+created: 1671985380048
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -36,4 +36,8 @@ sources:
 - Move files, but swap the positions of the source and the target filenames in the editor:
 
 `qmv --option swap {{*.jpg}}`
+
+- Rename all files and folders in the current directory, but show only target filenames in the editor (you can think of it as a kind of simple mode):
+
+`qmv --format=do .`
 
