@@ -2,8 +2,8 @@
 id: common.poetry
 title: Poetry
 desc: ''
-updated: 1669115832552
-created: 1669115832552
+updated: 1672139644886
+created: 1672139644886
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -44,8 +44,4 @@ sources:
 - Bump the minor version of the project in `pyproject.toml`:
 
 `poetry version minor`
-
-- List all poetry subcommands:
-
-`poetry list`
 
