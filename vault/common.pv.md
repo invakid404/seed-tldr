@@ -2,8 +2,8 @@
 id: common.pv
 title: Pv
 desc: ''
-updated: 1670145407049
-created: 1670145407049
+updated: 1672355933719
+created: 1672355933719
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -21,9 +21,9 @@ sources:
 
 `pv {{path/to/file}}`
 
-- Measure the speed and amount of data flow between pipes (`-s` is optional):
+- Measure the speed and amount of data flow between pipes (`--size` is optional):
 
-`command1 | pv -s {{expected_amount_of_data_for_eta}} | command2`
+`command1 | pv --size {{expected_amount_of_data_for_eta}} | command2`
 
 - Filter a file, see both progress and amount of output data:
 
@@ -39,5 +39,5 @@ sources:
 
 - Stop reading after reading specified amount of data, rate limit to 1K/s:
 
-`pv -L 1K -S {{maximum_file_size_to_be_read}}`
+`pv -L 1K --stop-at --size {{maximum_file_size_to_be_read}}`
 
