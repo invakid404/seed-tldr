@@ -2,8 +2,8 @@
 id: linux.autorandr
 title: Autorandr
 desc: ''
-updated: 1642441815088
-created: 1642441815088
+updated: 1672363466413
+created: 1672363466413
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -19,17 +19,21 @@ sources:
 
 - Save the current screen layout:
 
-`autorandr -s {{profile_name}}`
+`autorandr --save {{profile_name}}`
 
 - Show the saved profiles:
 
 `autorandr`
 
-- Change the profile:
+- Load the first detected profile:
 
-`autorandr -l {{profile_name}}`
+`autorandr --change`
+
+- Load a specific profile:
+
+`autorandr --load {{profile_name}}`
 
 - Set the default profile:
 
-`autorandr -d {{profile_name}}`
+`autorandr --default {{profile_name}}`
 
