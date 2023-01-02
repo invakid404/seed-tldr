@@ -2,8 +2,8 @@
 id: common.adb-logcat
 title: Adb Logcat
 desc: ''
-updated: 1662067187840
-created: 1662067187840
+updated: 1672679726184
+created: 1672679726184
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -12,7 +12,7 @@ sources:
     url: 'https://github.com/tldr-pages/tldr/blob/master/LICENSE.md'
     license: Creative Commons
 ---
-# adb-logcat
+# adb logcat
 
 > Dump a log of system messages.
 > More information: <https://developer.android.com/studio/command-line/logcat>.
