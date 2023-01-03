@@ -2,8 +2,8 @@
 id: android.settings
 title: Settings
 desc: ''
-updated: 1642441814991
-created: 1642441814991
+updated: 1672766194217
+created: 1672766194217
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -21,11 +21,11 @@ sources:
 
 `settings list {{global}}`
 
-- Get the value of a specific setting:
+- Get a value of a specific setting:
 
 `settings get {{global}} {{airplane_mode_on}}`
 
-- Set the value of a setting:
+- Set a specific value of a setting:
 
 `settings put {{system}} {{screen_brightness}} {{42}}`
 

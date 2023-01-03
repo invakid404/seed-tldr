@@ -2,8 +2,8 @@
 id: linux.acountry
 title: Acountry
 desc: ''
-updated: 1664666874060
-created: 1664666874060
+updated: 1672766194521
+created: 1672766194521
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -17,7 +17,7 @@ sources:
 > Print the country where an IPv4 address or hostname is located.
 > More information: <https://manned.org/acountry>.
 
-- Print the country where an IPv4 address or host is located:
+- Print a country where an IPv4 address or host is located:
 
 `acountry {{example.com}}`
 
