@@ -2,8 +2,8 @@
 id: android.cmd
 title: Cmd
 desc: ''
-updated: 1642441814990
-created: 1642441814990
+updated: 1672830921982
+created: 1672830921982
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -17,15 +17,15 @@ sources:
 > Android service manager.
 > More information: <https://cs.android.com/android/platform/superproject/+/master:frameworks/native/cmds/cmd/>.
 
-- List every running service:
+- [l]ist all running services:
 
 `cmd -l`
 
 - Call a specific service:
 
-`cmd {{alarm}}`
+`cmd {{service}}`
 
-- Call a service with arguments:
+- Call a service with specific arguments:
 
-`cmd {{vibrator}} {{vibrate 300}}`
+`cmd {{service}} {{arg1 arg2 ...}}`
 

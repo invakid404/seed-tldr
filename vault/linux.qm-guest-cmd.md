@@ -2,8 +2,8 @@
 id: linux.qm-guest-cmd
 title: Qm Guest Cmd
 desc: ''
-updated: 1665812998444
-created: 1665812998444
+updated: 1672830922213
+created: 1672830922213
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -19,5 +19,5 @@ sources:
 
 - Execute a specific QEMU Guest Agent command:
 
-`qm guest cmd {{vmid}} {{fsfreeze-freeze|fsfreeze-status|fsfreeze-thaw|fstrim|get-fsinfo|get-host-name|get-memory-block-info|get-memory-blocks|get-osinfo|get-time|get-timezone|get-users|get-vcpus|info|network-get-interfaces|ping|shutdown|suspend-disk|suspend-hybrid|suspend-ram}}`
+`qm guest cmd {{virtual_machine_id}} {{fsfreeze-freeze|fsfreeze-status|fsfreeze-thaw|fstrim|get-fsinfo|...}}`
 
