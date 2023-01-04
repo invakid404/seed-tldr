@@ -2,8 +2,8 @@
 id: common.amass
 title: Amass
 desc: ''
-updated: 1642441814993
-created: 1642441814993
+updated: 1672835658259
+created: 1672835658259
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -18,9 +18,9 @@ sources:
 > Some subcommands such as `amass db` have their own usage documentation.
 > More information: <https://github.com/OWASP/Amass>.
 
-- Check the Amass version:
+- Execute an Amass subcommand:
 
-`amass -version`
+`amass {{subcommand}}`
 
 - Show general help:
 
@@ -30,7 +30,7 @@ sources:
 
 `amass -help {{subcommand}}`
 
-- Execute an Amass subcommand:
+- Display version:
 
-`amass {{subcommand}}`
+`amass -version`
 
