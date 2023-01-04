@@ -2,8 +2,8 @@
 id: common.rustfmt
 title: Rustfmt
 desc: ''
-updated: 1642441815066
-created: 1642441815066
+updated: 1672809374591
+created: 1672809374591
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -19,13 +19,13 @@ sources:
 
 - Format a file, overwriting the original file in-place:
 
-`rustfmt {{source.rs}}`
+`rustfmt {{path/to/source.rs}}`
 
 - Check a file for formatting and display any changes on the console:
 
-`rustfmt --check {{source.rs}}`
+`rustfmt --check {{path/to/source.rs}}`
 
 - Backup any modified files before formatting (the original file is renamed with a `.bk` extension):
 
-`rustfmt --backup {{source.rs}}`
+`rustfmt --backup {{path/to/source.rs}}`
 
