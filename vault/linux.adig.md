@@ -2,8 +2,8 @@
 id: linux.adig
 title: Adig
 desc: ''
-updated: 1664692534026
-created: 1664692534026
+updated: 1673011412883
+created: 1673011412883
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -25,15 +25,15 @@ sources:
 
 `adig -d {{example.com}}`
 
-- Connect to [s]pecified DNS server:
+- Connect to a specific DNS [s]erver:
 
 `adig -s {{1.2.3.4}} {{example.com}}`
 
-- Use specified TCP port to connect to DNS server:
+- Use a specific TCP port to connect to a DNS server:
 
 `adig -T {{port}} {{example.com}}`
 
-- Use specified UDP port to connect to DNS server:
+- Use a specific UDP port to connect to a DNS server:
 
 `adig -U {{port}} {{example.com}}`
 
