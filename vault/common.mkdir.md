@@ -2,8 +2,8 @@
 id: common.mkdir
 title: Mkdir
 desc: ''
-updated: 1670145407014
-created: 1670145407014
+updated: 1673108584878
+created: 1673108584878
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -14,18 +14,18 @@ sources:
 ---
 # mkdir
 
-> Creates a directory.
+> Create directories and set their permissions.
 > More information: <https://www.gnu.org/software/coreutils/mkdir>.
 
-- Create a directory in current directory or given path:
+- Create specific directories:
 
-`mkdir {{path/to/directory}}`
+`mkdir {{path/to/directory1 path/to/directory2 ...}}`
 
-- Create multiple directories in the current directory:
+- Create specific directories and their [p]arents if needed:
 
-`mkdir {{directory_1 directory_2 ...}}`
+`mkdir -p {{path/to/directory1 path/to/directory2 ...}}`
 
-- Create directories recursively (useful for creating nested dirs):
+- Create directories with specific permissions:
 
-`mkdir -p {{path/to/directory}}`
+`mkdir -m {{rwxrw-r--}} {{path/to/directory1 path/to/directory2 ...}}`
 

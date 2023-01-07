@@ -1,9 +1,9 @@
 ---
-id: common.rmdir
+id: linux.rmdir
 title: Rmdir
 desc: ''
-updated: 1673108584915
-created: 1673108584915
+updated: 1673108585002
+created: 1673108585002
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -24,5 +24,5 @@ sources:
 
 - Remove specific nested directories recursively:
 
-`rmdir -p {{path/to/directory1 path/to/directory2 ...}}`
+`rmdir --parents {{path/to/directory1 path/to/directory2 ...}}`
 

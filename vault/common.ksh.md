@@ -2,8 +2,8 @@
 id: common.ksh
 title: Ksh
 desc: ''
-updated: 1642441815039
-created: 1642441815039
+updated: 1673108584868
+created: 1673108584868
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,22 +15,26 @@ sources:
 # ksh
 
 > Korn Shell, a Bash-compatible command-line interpreter.
-> See also `histexpand` for history expansion.
+> See also: `histexpand`.
 > More information: <http://kornshell.com>.
 
 - Start an interactive shell session:
 
 `ksh`
 
-- Execute a command and then exit:
+- Execute specific [c]ommands:
 
-`ksh -c "{{command}}"`
+`ksh -c "{{echo 'ksh is executed'}}"`
 
-- Execute a script:
+- Execute a specific script:
 
 `ksh {{path/to/script.ksh}}`
 
-- Execute a script, printing each command before executing it:
+- Check a specific script for syntax errors without executing it:
+
+`ksh -n {{path/to/script.ksh}}`
+
+- Execute a specific script, printing each command in the script before executing it:
 
 `ksh -x {{path/to/script.ksh}}`
 

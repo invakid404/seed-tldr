@@ -1,9 +1,9 @@
 ---
-id: common.rm
+id: linux.rm
 title: Rm
 desc: ''
-updated: 1673108584915
-created: 1673108584915
+updated: 1673108585002
+created: 1673108585002
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -24,17 +24,17 @@ sources:
 
 - Remove specific files ignoring nonexistent ones:
 
-`rm -f {{path/to/file1 path/to/file2 ...}}`
+`rm --force {{path/to/file1 path/to/file2 ...}}`
 
-- Remove specific files [i]nteractively prompting before each removal:
+- Remove specific files interactively prompting before each removal:
 
-`rm -i {{path/to/file1 path/to/file2 ...}}`
+`rm --interactive {{path/to/file1 path/to/file2 ...}}`
 
 - Remove specific files printing info about each removal:
 
-`rm -v {{path/to/file1 path/to/file2 ...}}`
+`rm --verbose {{path/to/file1 path/to/file2 ...}}`
 
-- Remove specific files and directories [r]ecursively:
+- Remove specific files and directories recursively:
 
-`rm -r {{path/to/file_or_directory1 path/to/file_or_directory2 ...}}`
+`rm --recursive {{path/to/file_or_directory1 path/to/file_or_directory2 ...}}`
 
