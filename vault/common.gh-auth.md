@@ -2,8 +2,8 @@
 id: common.gh-auth
 title: Gh Auth
 desc: ''
-updated: 1642441815019
-created: 1642441815019
+updated: 1673241392778
+created: 1673241392778
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -43,5 +43,5 @@ sources:
 
 - Expand the permission scopes:
 
-`gh auth refresh --scopes {{write:org,read:public_key}}`
+`gh auth refresh --scopes {{repo,admin:repo_hook,admin:org,admin:public_key,admin:org_hook,...}}`
 
