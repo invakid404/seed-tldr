@@ -2,8 +2,8 @@
 id: common.unzip
 title: Unzip
 desc: ''
-updated: 1672442219393
-created: 1672442219393
+updated: 1673392691215
+created: 1673392691215
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -37,4 +37,8 @@ sources:
 - List the contents of a specific archive without extracting them:
 
 `unzip -l {{path/to/archive.zip}}`
+
+- Extract a specific file from an archive:
+
+`unzip -j {{path/to/archive.zip}} {{path/to/file_in_archive1 path/to/file_in_archive2 ...}}`
 

@@ -2,8 +2,8 @@
 id: common.ansible-doc
 title: Ansible Doc
 desc: ''
-updated: 1642441814993
-created: 1642441814993
+updated: 1673392691054
+created: 1673392691054
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -24,7 +24,7 @@ sources:
 
 - List available plugins of a specific type:
 
-`ansible-doc --type {{plugin_type}} --list`
+`ansible-doc --type {{become|cache|callback|cliconf|connection|...}} --list`
 
 - Show information about a specific action plugin (module):
 
@@ -32,7 +32,7 @@ sources:
 
 - Show information about a plugin with a specific type:
 
-`ansible-doc --type {{plugin_type}} {{plugin_name}}`
+`ansible-doc --type {{become|cache|callback|cliconf|connection|...}} {{plugin_name}}`
 
 - Show the playbook snippet for action plugin (modules):
 
