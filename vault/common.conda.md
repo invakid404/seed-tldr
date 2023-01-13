@@ -2,8 +2,8 @@
 id: common.conda
 title: Conda
 desc: ''
-updated: 1642441815004
-created: 1642441815004
+updated: 1673594171234
+created: 1673594171234
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -28,11 +28,11 @@ sources:
 
 - Load an environment:
 
-`conda {{activate environment_name}}`
+`conda activate {{environment_name}}`
 
 - Unload an environment:
 
-`conda {{deactivate}}`
+`conda deactivate`
 
 - Delete an environment (remove all packages):
 
