@@ -2,8 +2,8 @@
 id: linux.whatis
 title: Whatis
 desc: ''
-updated: 1656591837660
-created: 1656591837660
+updated: 1673893294256
+created: 1673893294256
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -32,4 +32,8 @@ sources:
 - Search man page descriptions with a regular expression:
 
 `whatis --regex '{{wish[0-9]\.[0-9]}}'`
+
+- Display descriptions of a specific language (requires `manpage-{{locale}}` package):
+
+`whatis --locale={{en}} {{command}}`
 
