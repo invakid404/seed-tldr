@@ -2,8 +2,8 @@
 id: common.age
 title: Age
 desc: ''
-updated: 1670142130863
-created: 1670142130863
+updated: 1674524045231
+created: 1674524045231
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,7 +15,7 @@ sources:
 # age
 
 > A simple, modern and secure file encryption tool.
-> More information: <https://age-encryption.org>.
+> More information: <https://github.com/FiloSottile/age>.
 
 - Generate an encrypted file that can be decrypted with a passphrase:
 
