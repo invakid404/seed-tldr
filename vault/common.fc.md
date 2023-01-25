@@ -2,8 +2,8 @@
 id: common.fc
 title: Fc
 desc: ''
-updated: 1659591094655
-created: 1659591094655
+updated: 1674620497022
+created: 1674620497022
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -31,7 +31,7 @@ sources:
 
 - List recent commands in reverse order:
 
-`fc -r`
+`fc -l -r`
 
 - List commands in a given interval:
 
