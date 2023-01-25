@@ -2,8 +2,8 @@
 id: common.git-annotate
 title: Git Annotate
 desc: ''
-updated: 1642441815021
-created: 1642441815021
+updated: 1674656199578
+created: 1674656199578
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -26,4 +26,8 @@ sources:
 - Print a file with the author email and commit hash prepended to each line:
 
 `git annotate -e {{path/to/file}}`
+
+- Print only rows that match a regular expression:
+
+`git annotate -L :{{regexp}} {{path/to/file}}`
 
