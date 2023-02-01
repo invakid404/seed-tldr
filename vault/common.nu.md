@@ -2,8 +2,8 @@
 id: common.nu
 title: Nu
 desc: ''
-updated: 1656591837533
-created: 1656591837533
+updated: 1675239808971
+created: 1675239808971
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -32,5 +32,5 @@ sources:
 
 - Execute a specific script with logging:
 
-`nu --loglevel {{error|warn|info|debug|trace}} {{path/to/script.nu}}`
+`nu --log-level {{error|warn|info|debug|trace}} {{path/to/script.nu}}`
 
