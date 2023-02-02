@@ -2,8 +2,8 @@
 id: common.false
 title: 'False'
 desc: ''
-updated: 1642441815016
-created: 1642441815016
+updated: 1675307966320
+created: 1675307966320
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -14,10 +14,10 @@ sources:
 ---
 # false
 
-> Returns an exit code of 1.
+> Returns a non-zero exit code.
 > More information: <https://www.gnu.org/software/coreutils/false>.
 
-- Return an exit code of 1:
+- Return a non-zero exit code:
 
 `false`
 
