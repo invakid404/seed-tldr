@@ -1,9 +1,9 @@
 ---
-id: osx.head
+id: linux.head
 title: Head
 desc: ''
-updated: 1675401413577
-created: 1675401413577
+updated: 1675401413527
+created: 1675401413527
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,7 +15,7 @@ sources:
 # head
 
 > Output the first part of files.
-> More information: <https://keith.github.io/xcode-man-pages/head.1.html>.
+> More information: <https://www.gnu.org/software/coreutils/head>.
 
 - Output the first few lines of a file:
 
