@@ -2,8 +2,8 @@
 id: common.dd
 title: Dd
 desc: ''
-updated: 1672550129071
-created: 1672550129071
+updated: 1675398170619
+created: 1675398170619
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -40,8 +40,4 @@ sources:
 - Restore a drive from an IMG file:
 
 `dd if={{path/to/file.img}} of={{/dev/drive_device}}`
-
-- Check the progress of an ongoing dd operation (run this command from another shell):
-
-`kill -USR1 $(pgrep ^dd)`
 
