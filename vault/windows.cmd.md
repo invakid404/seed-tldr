@@ -2,8 +2,8 @@
 id: windows.cmd
 title: Cmd
 desc: ''
-updated: 1664897374259
-created: 1664897374259
+updated: 1675610208171
+created: 1675610208171
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -21,17 +21,17 @@ sources:
 
 `cmd`
 
-- Execute a [c]ommand:
+- Execute specific [c]ommands:
 
-`cmd /c "{{command}}"`
+`cmd /c {{echo Hello world}}`
 
-- Execute a script:
+- Execute a specific script:
 
-`cmd {{path/to/file.bat}}`
+`cmd {{path/to/script.bat}}`
 
-- Execute a command and then enter an interactive shell:
+- Execute specific commands and then enter an interactive shell:
 
-`cmd /k "{{command}}"`
+`cmd /k {{echo Hello world}}`
 
 - Start an interactive shell session where `echo` is disabled in command output:
 
@@ -45,7 +45,7 @@ sources:
 
 `cmd /e:{{on|off}}`
 
-- Start an interactive shell session with used Unicode encoding:
+- Start an interactive shell session with used [u]nicode encoding:
 
 `cmd /u`
 
