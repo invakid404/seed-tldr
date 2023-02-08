@@ -2,8 +2,8 @@
 id: common.docker-compose
 title: Docker Compose
 desc: ''
-updated: 1662990674727
-created: 1662990674727
+updated: 1675873556975
+created: 1675873556975
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -23,7 +23,7 @@ sources:
 
 - Create and start all containers in the background using a `docker-compose.yml` file from the current directory:
 
-`docker compose up -d`
+`docker compose up --detach`
 
 - Start all containers, rebuild if necessary:
 
