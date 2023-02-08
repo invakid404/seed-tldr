@@ -2,8 +2,8 @@
 id: linux.qm-cloudinit-dump
 title: Qm Cloudinit Dump
 desc: ''
-updated: 1665899330028
-created: 1665899330028
+updated: 1675876629190
+created: 1675876629190
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -19,5 +19,5 @@ sources:
 
 - Generate a cloudinit file for a specific configuration type:
 
-`qm cloudinit dump {{vmid}} {{meta|network|user}}`
+`qm cloudinit dump {{virtual_machine_id}} {{meta|network|user}}`
 
