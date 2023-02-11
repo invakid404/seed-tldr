@@ -2,8 +2,8 @@
 id: linux.wall
 title: Wall
 desc: ''
-updated: 1642441815117
-created: 1642441815117
+updated: 1676139679911
+created: 1676139679911
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -19,7 +19,11 @@ sources:
 
 - Send a message:
 
-`echo "{{message}}" | wall`
+`wall {{message}}`
+
+- Send a message to users that belong to a specific group:
+
+`wall --group {{group_name}} {{message}}`
 
 - Send a message from a file:
 
@@ -27,5 +31,5 @@ sources:
 
 - Send a message with timeout (default 300):
 
-`wall -t {{seconds}} {{file}}`
+`wall --timeout {{seconds}} {{file}}`
 
