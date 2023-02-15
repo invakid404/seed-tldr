@@ -2,8 +2,8 @@
 id: common.git-filter-repo
 title: Git Filter Repo
 desc: ''
-updated: 1642441815024
-created: 1642441815024
+updated: 1676425123893
+created: 1676425123893
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -24,13 +24,13 @@ sources:
 
 - Extract a single folder, keeping history:
 
-`git-filter-repo --path {{path/to/folder}}`
+`git filter-repo --path {{path/to/folder}}`
 
 - Remove a single folder, keeping history:
 
-`git-filter-repo --path {{path/to/folder}} --invert-paths`
+`git filter-repo --path {{path/to/folder}} --invert-paths`
 
 - Move everything from sub-folder one level up:
 
-`git-filter-repo --path-rename {{path/to/folder/:}}`
+`git filter-repo --path-rename {{path/to/folder/:}}`
 
