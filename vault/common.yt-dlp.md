@@ -2,8 +2,8 @@
 id: common.yt-dlp
 title: Yt Dlp
 desc: ''
-updated: 1666211285261
-created: 1666211285261
+updated: 1676810015160
+created: 1676810015160
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -22,19 +22,19 @@ sources:
 
 `yt-dlp "{{https://www.youtube.com/watch?v=oHg5SJYRHA0}}"`
 
+- List the available downloadable formats for a video:
+
+`yt-dlp --list-formats "{{https://www.youtube.com/watch?v=oHg5SJYRHA0}}"`
+
 - Download a video with a defined format, in this case the best mp4 video available (default is "bv\*+ba/b"):
 
 `yt-dlp --format "{{bv*[ext=mp4]+ba[ext=m4a]/b[ext=mp4]}}" "{{https://www.youtube.com/watch?v=oHg5SJYRHA0}}"`
 
-- Extract audio from videos (required ffmpeg or ffprobe):
+- Extract audio from a video (requires ffmpeg or ffprobe):
 
 `yt-dlp --extract-audio "{{https://www.youtube.com/watch?v=oHg5SJYRHA0}}"`
 
-- Specify audio format of extracted audio (the default is "best"):
-
-`yt-dlp --extract-audio --audio-format {{mp3}} "{{https://www.youtube.com/watch?v=oHg5SJYRHA0}}"`
-
-- Specify audio quality of extracted audio (between 0 (best) and 10 (worst), default = 5):
+- Specify audio format and audio quality of extracted audio (between 0 (best) and 10 (worst), default = 5):
 
 `yt-dlp --extract-audio --audio-format {{mp3}} --audio-quality {{0}} "{{https://www.youtube.com/watch?v=oHg5SJYRHA0}}"`
 

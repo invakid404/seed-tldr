@@ -2,8 +2,8 @@
 id: osx.csrutil
 title: Csrutil
 desc: ''
-updated: 1642441815120
-created: 1642441815120
+updated: 1676810015236
+created: 1676810015236
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -35,7 +35,7 @@ sources:
 
 - Add an IPv4 address to the list of allowed NetBoot sources:
 
-`csrutil netboot add {{ip_address}}`
+`csrutil netboot add {{ip}}`
 
 - Reset the System Integrity Protection status and clear the NetBoot list:
 

@@ -2,8 +2,8 @@
 id: linux.lftp
 title: Lftp
 desc: ''
-updated: 1642441815101
-created: 1642441815101
+updated: 1676810015192
+created: 1676810015192
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -19,7 +19,7 @@ sources:
 
 - Connect to an FTP server:
 
-`lftp {{ftp.example.com}}`
+`lftp --user {{username}} {{ftp.example.com}}`
 
 - Download multiple files (glob expression):
 

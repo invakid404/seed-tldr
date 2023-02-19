@@ -2,8 +2,8 @@
 id: common.adb-shell
 title: Adb Shell
 desc: ''
-updated: 1642441814992
-created: 1642441814992
+updated: 1676810014986
+created: 1676810014986
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -17,7 +17,7 @@ sources:
 > Android Debug Bridge Shell: Run remote shell commands on an Android emulator instance or connected Android devices.
 > More information: <https://developer.android.com/studio/command-line/adb>.
 
-- Start a remote interactive shell on the emulator/device:
+- Start a remote interactive shell on the emulator or device:
 
 `adb shell`
 
@@ -41,7 +41,7 @@ sources:
 
 `adb shell pm clear {{package}}`
 
-- Start an activity on emulator/device:
+- Start an activity on emulator or device:
 
 `adb shell am start -n {{package}}/{{activity}}`
 
