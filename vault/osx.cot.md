@@ -2,8 +2,8 @@
 id: osx.cot
 title: Cot
 desc: ''
-updated: 1658421007964
-created: 1658421007964
+updated: 1676812918782
+created: 1676812918782
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -35,5 +35,5 @@ sources:
 
 - Open a specific file with the cursor at a specific line and column:
 
-`cot --line {{line_number}} --column {{column_number}} {{path/to/file}}`
+`cot --line {{1}} --column {{80}} {{path/to/file}}`
 
