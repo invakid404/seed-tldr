@@ -2,8 +2,8 @@
 id: sunos.svccfg
 title: Svccfg
 desc: ''
-updated: 1642441815126
-created: 1642441815126
+updated: 1676877466515
+created: 1676877466515
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -19,13 +19,13 @@ sources:
 
 - Validate configuration file:
 
-`svccfg validate {{smf.xml}}`
+`svccfg validate {{path/to/smf_file.xml}}`
 
 - Export service configurations to file:
 
-`svccfg export {{servicename}} > {{smf.xml}}`
+`svccfg export {{servicename}} > {{path/to/smf_file.xml}}`
 
 - Import/update service configurations from file:
 
-`svccfg import {{smf.xml}}`
+`svccfg import {{path/to/smf_file.xml}}`
 

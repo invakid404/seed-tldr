@@ -2,8 +2,8 @@
 id: osx.ditto
 title: Ditto
 desc: ''
-updated: 1642441815120
-created: 1642441815120
+updated: 1676877466489
+created: 1676877466489
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -19,13 +19,13 @@ sources:
 
 - Overwrite contents of destination directory with contents of source directory:
 
-`ditto {{path/to/source}} {{path/to/destination}}`
+`ditto {{path/to/source_directory}} {{path/to/destination_directory}}`
 
 - Print a line to the Terminal window for every file that's being copied:
 
-`ditto -V {{path/to/source}} {{path/to/destination}}`
+`ditto -V {{path/to/source_directory}} {{path/to/destination_directory}}`
 
 - Copy a given file or directory, while retaining the original file permissions:
 
-`ditto -rsrc {{path/to/source}} {{path/to/destination}}`
+`ditto -rsrc {{path/to/source_directory}} {{path/to/destination_directory}}`
 

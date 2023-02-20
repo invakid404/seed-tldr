@@ -2,8 +2,8 @@
 id: osx.diskutil
 title: Diskutil
 desc: ''
-updated: 1642441815120
-created: 1642441815120
+updated: 1676877466489
+created: 1676877466489
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -23,13 +23,13 @@ sources:
 
 - Repair the filesystem data structures of a volume:
 
-`diskutil repairVolume {{/dev/diskX}}`
+`diskutil repairVolume {{/dev/disk_device}}`
 
 - Unmount a volume:
 
-`diskutil unmountDisk {{/dev/diskX}}`
+`diskutil unmountDisk {{/dev/disk_device}}`
 
 - Eject a CD/DVD (unmount first):
 
-`diskutil eject {{/dev/disk1}}`
+`diskutil eject {{/dev/disk_device1}}`
 

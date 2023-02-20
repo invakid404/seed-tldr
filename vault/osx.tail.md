@@ -2,8 +2,8 @@
 id: osx.tail
 title: Tail
 desc: ''
-updated: 1644066299862
-created: 1644066299862
+updated: 1676877466511
+created: 1676877466511
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -20,15 +20,15 @@ sources:
 
 - Show last 'count' lines in file:
 
-`tail -n {{count}} {{path/to/file}}`
+`tail -n {{8}} {{path/to/file}}`
 
 - Print a file from a specific line number:
 
-`tail -n +{{count}} {{path/to/file}}`
+`tail -n +{{8}} {{path/to/file}}`
 
 - Print a specific count of bytes from the end of a given file:
 
-`tail -c {{count}} {{path/to/file}}`
+`tail -c {{8}} {{path/to/file}}`
 
 - Print the last lines of a given file and keep reading file until `Ctrl + C`:
 
@@ -40,5 +40,5 @@ sources:
 
 - Show last 'count' lines in 'file' and refresh every 'seconds' seconds:
 
-`tail -n {{count}} -s {{seconds}} -f {{path/to/file}}`
+`tail -n {{8}} -s {{10}} -f {{path/to/file}}`
 

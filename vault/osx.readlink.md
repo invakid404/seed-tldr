@@ -2,8 +2,8 @@
 id: osx.readlink
 title: Readlink
 desc: ''
-updated: 1642441815122
-created: 1642441815122
+updated: 1676877466509
+created: 1676877466509
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -19,5 +19,5 @@ sources:
 
 - Print the absolute path which the symlink points to:
 
-`readlink {{path/to/symlink}}`
+`readlink {{path/to/symlink_file}}`
 

@@ -2,8 +2,8 @@
 id: osx.emond
 title: Emond
 desc: ''
-updated: 1644840636308
-created: 1644840636308
+updated: 1676877466490
+created: 1676877466490
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -28,5 +28,5 @@ sources:
 
 - Use a specific configuration file:
 
-`emond -c {{path/to/config}}`
+`emond -c {{path/to/config_file}}`
 

@@ -2,8 +2,8 @@
 id: osx.ftxdiff
 title: Ftxdiff
 desc: ''
-updated: 1671445262375
-created: 1671445262375
+updated: 1676877466490
+created: 1676877466490
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -19,7 +19,7 @@ sources:
 
 - Output differences to a specific text file:
 
-`ftxdiff --output {{path/to/fontdiff.txt}} {{path/to/font1.ttc}} {{path/to/font2.ttc}}`
+`ftxdiff --output {{path/to/fontdiff_file.txt}} {{path/to/font_file1.ttc}} {{path/to/font_file2.ttc}}`
 
 - Include glyph names in output:
 

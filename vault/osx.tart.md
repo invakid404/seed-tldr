@@ -2,8 +2,8 @@
 id: osx.tart
 title: Tart
 desc: ''
-updated: 1671290168964
-created: 1671290168964
+updated: 1676877466511
+created: 1676877466511
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -47,5 +47,5 @@ sources:
 
 - Change a VM's display resolution:
 
-`tart set {{vm-name}} --display {{width}}x{{height}}`
+`tart set {{vm-name}} --display {{640}}x{{400}}`
 

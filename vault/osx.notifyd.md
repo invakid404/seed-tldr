@@ -2,8 +2,8 @@
 id: osx.notifyd
 title: Notifyd
 desc: ''
-updated: 1644840636310
-created: 1644840636310
+updated: 1676877466507
+created: 1676877466507
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -28,5 +28,5 @@ sources:
 
 - Log debug messages to an alternate log file:
 
-`notifyd -d -log_file {{path/to/log}}`
+`notifyd -d -log_file {{path/to/log_file}}`
 

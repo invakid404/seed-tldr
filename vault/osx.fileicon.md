@@ -2,8 +2,8 @@
 id: osx.fileicon
 title: Fileicon
 desc: ''
-updated: 1642441815120
-created: 1642441815120
+updated: 1676877466490
+created: 1676877466490
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -19,7 +19,7 @@ sources:
 
 - Set a custom icon for a specific file or directory:
 
-`fileicon set {{path/to/file_or_directory}} {{path/to/icon.png}}`
+`fileicon set {{path/to/file_or_directory}} {{path/to/icon_file.png}}`
 
 - Remove a custom icon from a specific file or directory:
 

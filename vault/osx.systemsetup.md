@@ -2,8 +2,8 @@
 id: osx.systemsetup
 title: Systemsetup
 desc: ''
-updated: 1645167706226
-created: 1645167706226
+updated: 1676877466511
+created: 1676877466511
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -35,5 +35,5 @@ sources:
 
 - Specify a new startup disk:
 
-`systemsetup -setstartupdisk {{path}}`
+`systemsetup -setstartupdisk {{path/to/directory}}`
 

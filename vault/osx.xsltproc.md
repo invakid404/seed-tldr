@@ -2,8 +2,8 @@
 id: osx.xsltproc
 title: Xsltproc
 desc: ''
-updated: 1644840636314
-created: 1644840636314
+updated: 1676877466514
+created: 1676877466514
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -19,9 +19,9 @@ sources:
 
 - Transform an XML file with a specific XSLT stylesheet:
 
-`xsltproc --output {{output.html}} {{stylesheet.xslt}} {{xmlfile.xml}}`
+`xsltproc --output {{path/to/output_file.html}} {{path/to/stylesheet_file.xslt}} {{path/to/file.xml}}`
 
 - Pass a value to a parameter in the stylesheet:
 
-`xsltproc --output {{output.html}} --stringparam "{{name}}" "{{value}}" {{stylesheet.xslt}} {{xmlfile.xml}}`
+`xsltproc --output {{path/to/output_file.html}} --stringparam "{{name}}" "{{value}}" {{path/to/stylesheet_file.xslt}} {{path/to/xml_file.xml}}`
 

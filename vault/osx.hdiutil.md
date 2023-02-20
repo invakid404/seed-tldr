@@ -2,8 +2,8 @@
 id: osx.hdiutil
 title: Hdiutil
 desc: ''
-updated: 1642441815121
-created: 1642441815121
+updated: 1676877466505
+created: 1676877466505
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -23,7 +23,7 @@ sources:
 
 - Unmount an image:
 
-`hdiutil detach /Volumes/{{volume_name}}`
+`hdiutil detach /Volumes/{{volume_file}}`
 
 - List mounted images:
 

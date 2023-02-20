@@ -2,8 +2,8 @@
 id: osx.wacaw
 title: Wacaw
 desc: ''
-updated: 1666097653449
-created: 1666097653449
+updated: 1676877466513
+created: 1676877466513
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -23,11 +23,11 @@ sources:
 
 - Record a video:
 
-`wacaw --video {{filename}} --duration {{duration_in_seconds}}`
+`wacaw --video {{filename}} --duration {{10}}`
 
 - Take a picture with custom resolution:
 
-`wacaw --width {{width}} --height {{height}} {{filename}}`
+`wacaw --width {{width}} --height {{100}} {{filename}}`
 
 - Copy image just taken to clipboard:
 

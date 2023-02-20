@@ -2,8 +2,8 @@
 id: osx.dhcp6d
 title: Dhcp6d
 desc: ''
-updated: 1664775910443
-created: 1664775910443
+updated: 1676877466489
+created: 1676877466489
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -24,5 +24,5 @@ sources:
 
 - Use a custom configuration:
 
-`dhcp6d {{path/to/config}}`
+`dhcp6d {{path/to/config_file}}`
 

@@ -2,8 +2,8 @@
 id: osx.icalbuddy
 title: Icalbuddy
 desc: ''
-updated: 1669019235594
-created: 1669019235594
+updated: 1676877466505
+created: 1676877466505
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -31,7 +31,7 @@ sources:
 
 - Show tasks for a specified number of days:
 
-`icalBuddy --includeOnlyEventsFromNowOn "tasksDueBefore:today+{{days}}"`
+`icalBuddy --includeOnlyEventsFromNowOn "tasksDueBefore:today+{{8}}"`
 
 - Show events in a time range:
 

@@ -2,8 +2,8 @@
 id: osx.whatis
 title: Whatis
 desc: ''
-updated: 1642441815123
-created: 1642441815123
+updated: 1676877466513
+created: 1676877466513
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -23,5 +23,5 @@ sources:
 
 - Search for information about multiple keywords:
 
-`whatis {{first_keyword}} {{second_keyword}}`
+`whatis {{keyword1}} {{keyword2}}`
 

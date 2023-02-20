@@ -2,8 +2,8 @@
 id: osx.xml2man
 title: Xml2man
 desc: ''
-updated: 1656591837679
-created: 1656591837679
+updated: 1676877466514
+created: 1676877466514
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -19,13 +19,13 @@ sources:
 
 - Compile an MPGL file to a viewable man page:
 
-`xml2man {{path/to/command.mxml}}`
+`xml2man {{path/to/command_file.mxml}}`
 
 - Compile an MPGL file to a specific output file:
 
-`xml2man {{path/to/service.mxml}} {{path/to/service.7}}`
+`xml2man {{path/to/service_file.mxml}} {{path/to/service_file.7}}`
 
 - Compile an MPGL file to a specific output file, overwriting if it already exists:
 
-`xml2man -f {{path/to/function.mxml}} {{path/to/function.3}}`
+`xml2man -f {{path/to/function_file.mxml}} {{path/to/function_file.3}}`
 

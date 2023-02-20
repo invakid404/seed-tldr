@@ -2,8 +2,8 @@
 id: osx.sed
 title: Sed
 desc: ''
-updated: 1670905392705
-created: 1670905392705
+updated: 1676877466510
+created: 1676877466510
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -24,7 +24,7 @@ sources:
 
 - Execute a specific script [f]ile and print the result to `stdout`:
 
-`{{command}} | sed -f {{path/to/script.sed}}`
+`{{command}} | sed -f {{path/to/script_file.sed}}`
 
 - Replace all `apple` (extended regex) occurrences with `APPLE` (extended regex) in all input lines and print the result to `stdout`:
 

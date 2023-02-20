@@ -2,8 +2,8 @@
 id: osx.head
 title: Head
 desc: ''
-updated: 1675401413577
-created: 1675401413577
+updated: 1676877466505
+created: 1676877466505
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -19,17 +19,17 @@ sources:
 
 - Output the first few lines of a file:
 
-`head --lines {{count}} {{path/to/file}}`
+`head --lines {{8}} {{path/to/file}}`
 
 - Output the first few bytes of a file:
 
-`head --bytes {{count}} {{path/to/file}}`
+`head --bytes {{8}} {{path/to/file}}`
 
 - Output everything but the last few lines of a file:
 
-`head --lines -{{count}} {{path/to/file}}`
+`head --lines -{{8}} {{path/to/file}}`
 
 - Output everything but the last few bytes of a file:
 
-`head --bytes -{{count}} {{path/to/file}}`
+`head --bytes -{{8}} {{path/to/file}}`
 

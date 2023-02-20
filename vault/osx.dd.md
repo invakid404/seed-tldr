@@ -2,8 +2,8 @@
 id: osx.dd
 title: Dd
 desc: ''
-updated: 1672550129282
-created: 1672550129282
+updated: 1676877466488
+created: 1676877466488
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -19,11 +19,11 @@ sources:
 
 - Make a bootable USB drive from an isohybrid file (such like `archlinux-xxx.iso`) and show the progress:
 
-`dd if={{path/to/file.iso}} of={{/dev/usb_drive}} status=progress`
+`dd if={{path/to/file.iso}} of={{/dev/usb_device}} status=progress`
 
 - Clone a drive to another drive with 4 MB block, ignore error and show the progress:
 
-`dd if={{/dev/source_drive}} of={{/dev/dest_drive}} bs={{4m}} conv={{noerror}} status=progress`
+`dd if={{/dev/source_device}} of={{/dev/dest_device}} bs={{4m}} conv={{noerror}} status=progress`
 
 - Generate a file of 100 random bytes by using kernel random driver:
 
@@ -31,7 +31,7 @@ sources:
 
 - Benchmark the write performance of a disk:
 
-`dd if=/dev/zero of={{path/to/file_1GB}} bs={{1024}} count={{1000000}}`
+`dd if=/dev/zero of={{path/to/1GB_file}} bs={{1024}} count={{1000000}}`
 
 - Generate a system backup into an IMG file and show the progress:
 

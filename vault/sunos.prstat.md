@@ -2,8 +2,8 @@
 id: sunos.prstat
 title: Prstat
 desc: ''
-updated: 1642441815125
-created: 1642441815125
+updated: 1676877466515
+created: 1676877466515
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -35,5 +35,5 @@ sources:
 
 - Print out a list of top 5 CPU using processes every second:
 
-`prstat -c -n 5 -s cpu 1`
+`prstat -c -n {{5}} -s cpu {{1}}`
 

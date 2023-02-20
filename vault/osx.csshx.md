@@ -2,8 +2,8 @@
 id: osx.csshx
 title: Csshx
 desc: ''
-updated: 1644840636307
-created: 1644840636307
+updated: 1676877466486
+created: 1676877466486
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -23,7 +23,7 @@ sources:
 
 - Connect to multiple hosts with a given SSH key:
 
-`csshX {{user@hostname1}} {{user@hostname2}} --ssh_args "-i {{path/to/ssh_key.pem}}"`
+`csshX {{user@hostname1}} {{user@hostname2}} --ssh_args "-i {{path/to/key_file.pem}}"`
 
 - Connect to a pre-defined cluster from `/etc/clusters`:
 
