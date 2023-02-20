@@ -2,8 +2,8 @@
 id: windows.reg-restore
 title: Reg Restore
 desc: ''
-updated: 1664897374265
-created: 1664897374265
+updated: 1676881477681
+created: 1676881477681
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -20,5 +20,5 @@ sources:
 
 - Overwrite a specified key with data from a backup file:
 
-`reg restore {{key_name}} {{path/to/file}}`
+`reg restore {{key_name}} {{path\to\file}}`
 

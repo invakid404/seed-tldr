@@ -2,8 +2,8 @@
 id: windows.reg-load
 title: Reg Load
 desc: ''
-updated: 1664897374265
-created: 1664897374265
+updated: 1676881477681
+created: 1676881477681
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -20,5 +20,5 @@ sources:
 
 - Load a backup file into the specified key:
 
-`reg load {{key_name}} {{path/to/file}}`
+`reg load {{key_name}} {{path\to\file}}`
 

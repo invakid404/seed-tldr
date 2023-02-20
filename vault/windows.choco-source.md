@@ -2,8 +2,8 @@
 id: windows.choco-source
 title: Choco Source
 desc: ''
-updated: 1642441815126
-created: 1642441815126
+updated: 1676881477676
+created: 1676881477676
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -31,7 +31,7 @@ sources:
 
 - Add a new package source with a client certificate:
 
-`choco source add --name {{name}} --source {{url}} --cert {{path/to/certificate}}`
+`choco source add --name {{name}} --source {{url}} --cert {{path\to\certificate_file}}`
 
 - Enable a package source:
 

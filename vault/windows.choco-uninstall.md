@@ -2,8 +2,8 @@
 id: windows.choco-uninstall
 title: Choco Uninstall
 desc: ''
-updated: 1642441815126
-created: 1642441815126
+updated: 1676881477676
+created: 1676881477676
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -19,7 +19,7 @@ sources:
 
 - Uninstall one or more space-separated packages:
 
-`choco uninstall {{package(s)}}`
+`choco uninstall {{package1 package2 ...}}`
 
 - Uninstall a specific version of a package:
 

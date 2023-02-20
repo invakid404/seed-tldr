@@ -2,8 +2,8 @@
 id: windows.rmdir
 title: Rmdir
 desc: ''
-updated: 1664897374266
-created: 1664897374266
+updated: 1676881477682
+created: 1676881477682
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -19,13 +19,13 @@ sources:
 
 - Remove an empty directory:
 
-`rmdir {{path/to/directory}}`
+`rmdir {{path\to\directory}}`
 
 - Remove a directory and its contents recursively:
 
-`rmdir {{path/to/directory}} /s`
+`rmdir {{path\to\directory}} /s`
 
 - Remove a directory and its contents recursively without prompting:
 
-`rmdir {{path/to/directory}} /s /q`
+`rmdir {{path\to\directory}} /s /q`
 

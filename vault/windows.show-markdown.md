@@ -2,8 +2,8 @@
 id: windows.show-markdown
 title: Show Markdown
 desc: ''
-updated: 1671599771481
-created: 1671599771481
+updated: 1676881477682
+created: 1676881477682
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -20,7 +20,7 @@ sources:
 
 - Render markdown to console from a file:
 
-`Show-Markdown -Path {{path/to/file}}`
+`Show-Markdown -Path {{path\to\file}}`
 
 - Render markdown to console from string:
 
@@ -28,5 +28,5 @@ sources:
 
 - Open Markdown file in a browser:
 
-`Show-Markdown -Path {{path/to/file}} -UseBrowser`
+`Show-Markdown -Path {{path\to\file}} -UseBrowser`
 

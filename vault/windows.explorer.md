@@ -2,8 +2,8 @@
 id: windows.explorer
 title: Explorer
 desc: ''
-updated: 1642441815127
-created: 1642441815127
+updated: 1676881477678
+created: 1676881477678
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -27,5 +27,5 @@ sources:
 
 - Open Windows Explorer in a specific directory:
 
-`explorer {{path/to/directory}}`
+`explorer {{path\to\directory}}`
 

@@ -2,8 +2,8 @@
 id: windows.ftp
 title: Ftp
 desc: ''
-updated: 1664897374261
-created: 1664897374261
+updated: 1676881477678
+created: 1676881477678
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -31,7 +31,7 @@ sources:
 
 - Run a file containing a list of FTP commands:
 
-`ftp -s:{{path/to/file}} {{host}}`
+`ftp -s:{{path\to\file}} {{host}}`
 
 - Download multiple files (glob expression):
 

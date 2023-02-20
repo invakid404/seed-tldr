@@ -2,8 +2,8 @@
 id: windows.get-content
 title: Get Content
 desc: ''
-updated: 1664897374262
-created: 1664897374262
+updated: 1676881477678
+created: 1676881477678
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -20,13 +20,13 @@ sources:
 
 - Display the content of a file:
 
-`Get-Content -Path {{path/to/file}}`
+`Get-Content -Path {{path\to\file}}`
 
 - Display the first few lines of a file:
 
-`Get-Content -Path {{path/to/file}} -TotalCount {{count}}`
+`Get-Content -Path {{path\to\file}} -TotalCount {{10}}`
 
 - Display the content of the file and keep reading from it until `Ctrl + C` is pressed:
 
-`Get-Content -Path {{path/to/file}} -Wait`
+`Get-Content -Path {{path\to\file}} -Wait`
 

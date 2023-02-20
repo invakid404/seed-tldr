@@ -2,8 +2,8 @@
 id: windows.more
 title: More
 desc: ''
-updated: 1670142131128
-created: 1670142131128
+updated: 1676881477679
+created: 1676881477679
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -23,23 +23,23 @@ sources:
 
 - Display paginated output from one or more files:
 
-`more {{path/to/file}}`
+`more {{path\to\file}}`
 
 - Convert tabs to the specified number of spaces:
 
-`more {{path/to/file}} /t{{spaces}}`
+`more {{path\to\file}} /t{{spaces}}`
 
 - Clear the screen before displaying the page:
 
-`more {{path/to/file}} /c`
+`more {{path\to\file}} /c`
 
 - Display the output starting at line 5:
 
-`more {{path/to/file}} +{{5}}`
+`more {{path\to\file}} +{{5}}`
 
 - Enable extended interactive mode (see help for usage):
 
-`more {{path/to/file}} /e`
+`more {{path\to\file}} /e`
 
 - Display full usage information:
 

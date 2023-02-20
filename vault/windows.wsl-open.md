@@ -2,8 +2,8 @@
 id: windows.wsl-open
 title: Wsl Open
 desc: ''
-updated: 1642441815130
-created: 1642441815130
+updated: 1676881477687
+created: 1676881477687
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -27,7 +27,7 @@ sources:
 
 - Open a specific file in the user's default application in Windows:
 
-`wsl-open {{path/to/file}}`
+`wsl-open {{path\to\file}}`
 
 - Set `wsl-open` as the shell's web browser (open links with `wsl-open`):
 

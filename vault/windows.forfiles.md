@@ -2,8 +2,8 @@
 id: windows.forfiles
 title: Forfiles
 desc: ''
-updated: 1664897374261
-created: 1664897374261
+updated: 1676881477678
+created: 1676881477678
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -23,7 +23,7 @@ sources:
 
 - Search for files in a specific directory:
 
-`forfiles /p {{path/to/directory}}`
+`forfiles /p {{path\to\directory}}`
 
 - Run the specified command for each file:
 
@@ -39,5 +39,5 @@ sources:
 
 - Search for files older than 5 days:
 
-`forfiles /d {{+5}}`
+`forfiles /d +{{5}}`
 

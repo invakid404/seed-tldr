@@ -2,8 +2,8 @@
 id: windows.invoke-webrequest
 title: Invoke Webrequest
 desc: ''
-updated: 1664897374262
-created: 1664897374262
+updated: 1676881477679
+created: 1676881477679
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -20,7 +20,7 @@ sources:
 
 - Download the contents of a URL to a file:
 
-`Invoke-WebRequest {{http://example.com}} -OutFile {{filename}}`
+`Invoke-WebRequest {{http://example.com}} -OutFile {{path\to\file}}`
 
 - Send form-encoded data (POST request of type `application/x-www-form-urlencoded`):
 

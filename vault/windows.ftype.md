@@ -2,8 +2,8 @@
 id: windows.ftype
 title: Ftype
 desc: ''
-updated: 1664897374262
-created: 1664897374262
+updated: 1676881477678
+created: 1676881477678
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -27,5 +27,5 @@ sources:
 
 - Set the associated program for a specific file type:
 
-`ftype {{file_type}}="{{path/to/executable_command}}"`
+`ftype {{file_type}}="{{path/to/executable_file}}"`
 

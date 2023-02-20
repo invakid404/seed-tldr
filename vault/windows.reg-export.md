@@ -2,8 +2,8 @@
 id: windows.reg-export
 title: Reg Export
 desc: ''
-updated: 1664897374265
-created: 1664897374265
+updated: 1676881477681
+created: 1676881477681
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -19,9 +19,9 @@ sources:
 
 - Export all sub keys and values of a specific key:
 
-`reg export {{key_name}} {{path/to/file.reg}}`
+`reg export {{key_name}} {{path\to\file.reg}}`
 
 - Force overwriting of an existing file without prompt:
 
-`reg export {{key_name}} {{path/to/file.reg}} /y`
+`reg export {{key_name}} {{path\to\file.reg}} /y`
 

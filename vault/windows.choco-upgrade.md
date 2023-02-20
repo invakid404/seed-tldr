@@ -2,8 +2,8 @@
 id: windows.choco-upgrade
 title: Choco Upgrade
 desc: ''
-updated: 1642441815126
-created: 1642441815126
+updated: 1676881477676
+created: 1676881477676
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -19,7 +19,7 @@ sources:
 
 - Upgrade one or more space-separated packages:
 
-`choco upgrade {{package(s)}}`
+`choco upgrade {{package1 package2 ...}}`
 
 - Upgrade to a specific version of a package:
 
@@ -31,7 +31,7 @@ sources:
 
 - Upgrade all except specified comma-separated packages:
 
-`choco upgrade all --except "{{package(s)}}"`
+`choco upgrade all --except "{{package1 package2 ...}}"`
 
 - Confirm all prompts automatically:
 

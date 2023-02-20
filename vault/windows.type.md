@@ -2,8 +2,8 @@
 id: windows.type
 title: Type
 desc: ''
-updated: 1664897374269
-created: 1664897374269
+updated: 1676881477683
+created: 1676881477683
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -19,5 +19,5 @@ sources:
 
 - Display the contents of a specific file:
 
-`type {{path/to/file}}`
+`type {{path\to\file}}`
 

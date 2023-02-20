@@ -2,8 +2,8 @@
 id: windows.test-json
 title: Test Json
 desc: ''
-updated: 1671599771482
-created: 1671599771482
+updated: 1676881477683
+created: 1676881477683
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -28,5 +28,5 @@ sources:
 
 - Test if a string from stdin matches a specific schema file:
 
-`'{{string}}' | Test-Json -SchemaFile {{path/to/schema.json}}`
+`'{{string}}' | Test-Json -SchemaFile {{path\to\schema_file.json}}`
 

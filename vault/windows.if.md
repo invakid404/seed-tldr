@@ -2,8 +2,8 @@
 id: windows.if
 title: If
 desc: ''
-updated: 1664897374262
-created: 1664897374262
+updated: 1676881477679
+created: 1676881477679
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -31,7 +31,7 @@ sources:
 
 - Check whether `%errorlevel%` is greater than or equal to the specified exit code:
 
-`if errorlevel {{exit_code}} ({{echo Condition is true}})`
+`if errorlevel {{2}} ({{echo Condition is true}})`
 
 - Check whether two strings are equal:
 
@@ -43,5 +43,5 @@ sources:
 
 - Check whether a file exist:
 
-`if exist {{path/to/file}} ({{echo Condition is true}})`
+`if exist {{path\to\file}} ({{echo Condition is true}})`
 

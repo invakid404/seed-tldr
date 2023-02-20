@@ -2,8 +2,8 @@
 id: windows.doskey
 title: Doskey
 desc: ''
-updated: 1664897374260
-created: 1664897374260
+updated: 1676881477677
+created: 1676881477677
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -39,9 +39,9 @@ sources:
 
 - Save macros to a file for portability:
 
-`doskey /macros > {{macinit}}`
+`doskey /macros > {{path\to\macinit_file}}`
 
 - Load macros from a file:
 
-`doskey /macrofile = {{macinit}}`
+`doskey /macrofile = {{path\to\macinit_file}}`
 

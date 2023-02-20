@@ -2,8 +2,8 @@
 id: windows.set-acl
 title: Set Acl
 desc: ''
-updated: 1671599771481
-created: 1671599771481
+updated: 1676881477682
+created: 1676881477682
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -20,9 +20,9 @@ sources:
 
 - Copy a security descriptor from one file to another:
 
-`$OriginAcl = Get-Acl -Path {{path/to/file}}; Set-Acl -Path {{path/to/file}} -AclObject $OriginAcl`
+`$OriginAcl = Get-Acl -Path {{path\to\file}}; Set-Acl -Path {{path\to\file}} -AclObject $OriginAcl`
 
 - Use the pipeline operator to pass a descriptor:
 
-`Get-Acl -Path {{path/to/file}} | Set-Acl -Path {{path/to/file}}`
+`Get-Acl -Path {{path\to\file}} | Set-Acl -Path {{path\to\file}}`
 

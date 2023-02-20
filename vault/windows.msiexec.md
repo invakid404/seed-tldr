@@ -2,8 +2,8 @@
 id: windows.msiexec
 title: Msiexec
 desc: ''
-updated: 1664897374263
-created: 1664897374263
+updated: 1676881477680
+created: 1676881477680
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -19,7 +19,7 @@ sources:
 
 - Install a program from its MSI package:
 
-`msiexec /package {{path/to/file.msi}}`
+`msiexec /package {{path\to\file.msi}}`
 
 - Install a MSI package from a website:
 
@@ -27,9 +27,9 @@ sources:
 
 - Install a MSP patch file:
 
-`msiexec /update {{path/to/file.msp}}`
+`msiexec /update {{path\to\file.msp}}`
 
 - Uninstall a program or patch using their respective MSI or MSP file:
 
-`msiexec /uninstall {{path/to/file}}`
+`msiexec /uninstall {{path\to\file}}`
 

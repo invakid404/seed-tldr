@@ -2,8 +2,8 @@
 id: windows.get-history
 title: Get History
 desc: ''
-updated: 1664897374262
-created: 1664897374262
+updated: 1676881477679
+created: 1676881477679
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -28,5 +28,5 @@ sources:
 
 - Display the last N commands:
 
-`Get-History -Count {{count}}`
+`Get-History -Count {{10}}`
 

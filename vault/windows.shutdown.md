@@ -2,8 +2,8 @@
 id: windows.shutdown
 title: Shutdown
 desc: ''
-updated: 1664897374266
-created: 1664897374266
+updated: 1676881477683
+created: 1676881477683
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -39,7 +39,7 @@ sources:
 
 - Specify a timeout in seconds to wait before shutting down:
 
-`shutdown /s /t {{seconds}}`
+`shutdown /s /t {{8}}`
 
 - Abort a shutdown sequence whose timeout is yet to expire:
 

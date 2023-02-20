@@ -2,8 +2,8 @@
 id: windows.find
 title: Find
 desc: ''
-updated: 1665899330058
-created: 1665899330058
+updated: 1676881477678
+created: 1676881477678
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -19,17 +19,17 @@ sources:
 
 - Find lines that contain a specified string:
 
-`find "{{string}}" {{path/to/file_or_directory}}`
+`find "{{string}}" {{path\to\file_or_directory}}`
 
 - Display lines that do not contain the specified string:
 
-`find "{{string}}" {{path/to/file_or_directory}} /v`
+`find "{{string}}" {{path\to\file_or_directory}} /v`
 
 - Display the count of lines that contain the specified string:
 
-`find "{{string}}" {{path/to/file_or_directory}} /c`
+`find "{{string}}" {{path\to\file_or_directory}} /c`
 
 - Display line numbers with the list of lines:
 
-`find "{{string}}" {{path/to/file_or_directory}} /n`
+`find "{{string}}" {{path\to\file_or_directory}} /n`
 

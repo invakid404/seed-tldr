@@ -2,8 +2,8 @@
 id: windows.tree
 title: Tree
 desc: ''
-updated: 1664897374267
-created: 1664897374267
+updated: 1676881477683
+created: 1676881477683
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -23,13 +23,13 @@ sources:
 
 - Display the tree for a specific directory:
 
-`tree {{path/to/directory}}`
+`tree {{path\to\directory}}`
 
 - Display the tree for a directory including files:
 
-`tree {{path/to/directory}} /f`
+`tree {{path\to\directory}} /f`
 
 - Display the tree using ASCII characters instead of extended characters:
 
-`tree {{path/to/directory}} /a`
+`tree {{path\to\directory}} /a`
 

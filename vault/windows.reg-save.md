@@ -2,8 +2,8 @@
 id: windows.reg-save
 title: Reg Save
 desc: ''
-updated: 1664897374265
-created: 1664897374265
+updated: 1676881477681
+created: 1676881477681
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -19,9 +19,9 @@ sources:
 
 - Save a registry key, its sub keys and values to a specific file:
 
-`reg save {{key_name}} {{path/to/file}}`
+`reg save {{key_name}} {{path\to\file}}`
 
 - Forcefully overwrite an existing file without a prompt:
 
-`reg save {{key_name}} {{path/to/file}} /y`
+`reg save {{key_name}} {{path\to\file}} /y`
 

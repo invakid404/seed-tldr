@@ -2,8 +2,8 @@
 id: windows.get-filehash
 title: Get Filehash
 desc: ''
-updated: 1664897374262
-created: 1664897374262
+updated: 1676881477678
+created: 1676881477678
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -20,9 +20,9 @@ sources:
 
 - Calculate a hash for a specified file using the SHA256 algorithm:
 
-`Get-FileHash {{path/to/file}}`
+`Get-FileHash {{path\to\file}}`
 
 - Calculate a hash for a specified file using a specified algorithm:
 
-`Get-FileHash {{path/to/file}} -Algorithm {{SHA1|SHA384|SHA256|SHA512|MD5}}`
+`Get-FileHash {{path\to\file}} -Algorithm {{SHA1|SHA384|SHA256|SHA512|MD5}}`
 

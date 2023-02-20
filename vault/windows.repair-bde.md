@@ -2,8 +2,8 @@
 id: windows.repair-bde
 title: Repair Bde
 desc: ''
-updated: 1664897374265
-created: 1664897374266
+updated: 1676881477681
+created: 1676881477681
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -27,7 +27,7 @@ sources:
 
 - Attempt to repair a specified volume using the provided recovery key file:
 
-`repair-bde {{C:}} -RecoveryKey {{path/to/file.bek}}`
+`repair-bde {{C:}} -RecoveryKey {{path\to\file.bek}}`
 
 - Attempt to repair a specified volume using the provided numerical recovery password:
 
@@ -39,11 +39,11 @@ sources:
 
 - Attempt to repair a specified volume using the provided key package:
 
-`repair-bde {{C:}} -KeyPackage {{path/to/directory}}`
+`repair-bde {{C:}} -KeyPackage {{path\to\directory}}`
 
 - Log all output to a specific file:
 
-`repair-bde {{C:}} -LogFile {{path/to/file}}`
+`repair-bde {{C:}} -LogFile {{path\to\file}}`
 
 - Display all available options:
 

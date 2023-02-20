@@ -2,8 +2,8 @@
 id: windows.exit
 title: Exit
 desc: ''
-updated: 1664897374260
-created: 1664897374260
+updated: 1676881477677
+created: 1676881477677
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -27,5 +27,5 @@ sources:
 
 - Quit using a specific exit code:
 
-`exit {{exit_code}}`
+`exit {{2}}`
 

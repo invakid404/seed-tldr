@@ -2,8 +2,8 @@
 id: windows.msg
 title: Msg
 desc: ''
-updated: 1670142131128
-created: 1670142131128
+updated: 1676881477679
+created: 1676881477679
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -35,5 +35,5 @@ sources:
 
 - Set a delay in seconds for a message:
 
-`msg /time:{{seconds}}`
+`msg /time:{{10}}`
 

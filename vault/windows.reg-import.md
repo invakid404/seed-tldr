@@ -2,8 +2,8 @@
 id: windows.reg-import
 title: Reg Import
 desc: ''
-updated: 1664897374265
-created: 1664897374265
+updated: 1676881477681
+created: 1676881477681
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -19,5 +19,5 @@ sources:
 
 - Import all keys, subkeys and values from a file:
 
-`reg import {{path/to/file.reg}}`
+`reg import {{path\to\file.reg}}`
 

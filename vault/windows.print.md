@@ -2,8 +2,8 @@
 id: windows.print
 title: Print
 desc: ''
-updated: 1664897374264
-created: 1664897374264
+updated: 1676881477680
+created: 1676881477680
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -19,9 +19,9 @@ sources:
 
 - Print a text file to the default printer:
 
-`print {{path/to/file}}`
+`print {{path\to\file}}`
 
 - Print a text file to a specific printer:
 
-`print /d:{{printer}} {{path/to/file}}`
+`print /d:{{printer}} {{path\to\file}}`
 

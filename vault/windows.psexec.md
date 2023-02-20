@@ -2,8 +2,8 @@
 id: windows.psexec
 title: Psexec
 desc: ''
-updated: 1665246788480
-created: 1665246788480
+updated: 1676881477680
+created: 1676881477680
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -28,7 +28,7 @@ sources:
 
 - Execute a command remotely and output the result to a file:
 
-`psexec \\{{remote_host}} cmd /c {{command}} -an ^>{{path/to/file.txt}}`
+`psexec \\{{remote_host}} cmd /c {{command}} -an ^>{{path\to\file.txt}}`
 
 - Execute a program to interact with users:
 

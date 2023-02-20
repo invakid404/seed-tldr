@@ -2,8 +2,8 @@
 id: windows.tee-object
 title: Tee Object
 desc: ''
-updated: 1671599771482
-created: 1671599771482
+updated: 1676881477683
+created: 1676881477683
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -20,7 +20,7 @@ sources:
 
 - Output processes to a file and to the console:
 
-`Get-Process | Tee-Object -FilePath {{path/to/file}}`
+`Get-Process | Tee-Object -FilePath {{path\to\file}}`
 
 - Output processes to a variable and `Select-Object`:
 

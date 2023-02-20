@@ -2,8 +2,8 @@
 id: windows.choco-pack
 title: Choco Pack
 desc: ''
-updated: 1642441815126
-created: 1642441815126
+updated: 1676881477676
+created: 1676881477676
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -19,13 +19,13 @@ sources:
 
 - Package a NuGet specification to a nupkg file:
 
-`choco pack {{path/to/specification}}`
+`choco pack {{path\to\specification_file}}`
 
 - Package a NuGet specification specifying the version of the resulting file:
 
-`choco pack {{path/to/specification}} --version {{version}}`
+`choco pack {{path\to\specification_file}} --version {{version}}`
 
 - Package a NuGet specification to a specific directory:
 
-`choco pack {{path/to/specification}} --output-directory {{path/to/output_directory}}`
+`choco pack {{path\to\specification_file}} --output-directory {{path\to\output_directory}}`
 

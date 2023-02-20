@@ -2,8 +2,8 @@
 id: windows.measure-object
 title: Measure Object
 desc: ''
-updated: 1671599771478
-created: 1671599771478
+updated: 1676881477679
+created: 1676881477679
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -24,5 +24,5 @@ sources:
 
 - Pipe input to Measure-Command (objects that are piped to `Measure-Command` are available to the script block that is passed to the Expression parameter):
 
-`"One", "Two", "Three", "Four" | Set-Content -Path "{{path/to/file}}"; Get-Content "{{path/to/file}}"; | Measure-Object -Character -Line -Word`
+`"One", "Two", "Three", "Four" | Set-Content -Path "{{path\to\file}}"; Get-Content "{{path\to\file}}"; | Measure-Object -Character -Line -Word`
 

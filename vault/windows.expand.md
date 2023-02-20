@@ -2,8 +2,8 @@
 id: windows.expand
 title: Expand
 desc: ''
-updated: 1664897374260
-created: 1664897374260
+updated: 1676881477678
+created: 1676881477678
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -19,21 +19,21 @@ sources:
 
 - Uncompress a single-file Cabinet file to the specified directory:
 
-`expand {{path/to/file.cab}} {{path/to/directory}}`
+`expand {{path\to\file.cab}} {{path\to\directory}}`
 
 - Display the list of files in a source Cabinet file:
 
-`expand {{path/to/file.cab}} {{path/to/directory}} -d`
+`expand {{path\to\file.cab}} {{path\to\directory}} -d`
 
 - Uncompress all files from the Cabinet file:
 
-`expand {{path/to/file.cab}} {{path/to/directory}} -f:*`
+`expand {{path\to\file.cab}} {{path\to\directory}} -f:*`
 
 - Uncompress a specific file from a Cabinet file:
 
-`expand {{path/to/file.cab}} {{path/to/directory}} -f:{{file}}`
+`expand {{path\to\file.cab}} {{path\to\directory}} -f:{{path\to\file}}`
 
 - Ignore the directory structure when uncompressing, and add them to a single directory:
 
-`expand {{path/to/file.cab}} {{path/to/directory}} -i`
+`expand {{path\to\file.cab}} {{path\to\directory}} -i`
 

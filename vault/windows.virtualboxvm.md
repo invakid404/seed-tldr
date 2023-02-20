@@ -2,8 +2,8 @@
 id: windows.virtualboxvm
 title: Virtualboxvm
 desc: ''
-updated: 1642441815130
-created: 1642441815130
+updated: 1676881477684
+created: 1676881477684
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -27,7 +27,7 @@ sources:
 
 - Mount the specified DVD image file:
 
-`virtualboxvm --startvm {{name|uuid}} --dvd {{path/to/image_file}}`
+`virtualboxvm --startvm {{name|uuid}} --dvd {{path\to\image_file}}`
 
 - Display a command-line window with debug information:
 

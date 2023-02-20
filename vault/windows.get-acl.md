@@ -2,8 +2,8 @@
 id: windows.get-acl
 title: Get Acl
 desc: ''
-updated: 1671599771476
-created: 1671599771476
+updated: 1676881477678
+created: 1676881477678
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -20,7 +20,7 @@ sources:
 
 - Display the ACL for a specific directory:
 
-`Get-Acl {{path/to/directory}}`
+`Get-Acl {{path\to\directory}}`
 
 - Get an ACL for a registry key:
 

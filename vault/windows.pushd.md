@@ -2,8 +2,8 @@
 id: windows.pushd
 title: Pushd
 desc: ''
-updated: 1670145407204
-created: 1670145407204
+updated: 1676881477680
+created: 1676881477680
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -20,5 +20,5 @@ sources:
 
 - Switch to directory and push it on the stack:
 
-`pushd {{path/to/directory}}`
+`pushd {{path\to\directory}}`
 

@@ -2,8 +2,8 @@
 id: windows.cmd
 title: Cmd
 desc: ''
-updated: 1675610208171
-created: 1675610208171
+updated: 1676881477677
+created: 1676881477677
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -27,7 +27,7 @@ sources:
 
 - Execute a specific script:
 
-`cmd {{path/to/script.bat}}`
+`cmd {{path\to\script.bat}}`
 
 - Execute specific commands and then enter an interactive shell:
 

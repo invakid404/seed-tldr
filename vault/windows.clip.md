@@ -2,8 +2,8 @@
 id: windows.clip
 title: Clip
 desc: ''
-updated: 1664897374259
-created: 1664897374259
+updated: 1676881477676
+created: 1676881477676
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -23,7 +23,7 @@ sources:
 
 - Copy the contents of a file to the Windows clipboard:
 
-`clip < {{path/to/file.ext}}`
+`clip < {{path\to\file.ext}}`
 
 - Copy text with a trailing newline to the Windows clipboard:
 

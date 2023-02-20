@@ -2,8 +2,8 @@
 id: windows.resolve-path
 title: Resolve Path
 desc: ''
-updated: 1671599771481
-created: 1671599771481
+updated: 1676881477682
+created: 1676881477682
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -24,9 +24,9 @@ sources:
 
 - Resolve a UNC path:
 
-`Resolve-Path -Path "\\{{hostname}}\{{path/to/file}}"`
+`Resolve-Path -Path "\\{{hostname}}\{{path\to\file}}"`
 
 - Get relative paths:
 
-`Resolve-Path -Path {{path/to/file_or_directory}} -Relative`
+`Resolve-Path -Path {{path\to\file_or_directory}} -Relative`
 

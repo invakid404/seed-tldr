@@ -2,8 +2,8 @@
 id: windows.choco-install
 title: Choco Install
 desc: ''
-updated: 1642441815126
-created: 1642441815126
+updated: 1676881477676
+created: 1676881477676
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -19,15 +19,15 @@ sources:
 
 - Install one or more space-separated packages:
 
-`choco install {{package(s)}}`
+`choco install {{package1 package2 ...}}`
 
 - Install packages from a custom configuration file:
 
-`choco install {{path/to/packages.config}}`
+`choco install {{path\to\packages_file.config}}`
 
 - Install a specific nuspec or nupkg file:
 
-`choco install {{path/to/file}}`
+`choco install {{path\to\file}}`
 
 - Install a specific version of a package:
 

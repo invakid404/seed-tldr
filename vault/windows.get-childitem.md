@@ -2,8 +2,8 @@
 id: windows.get-childitem
 title: Get Childitem
 desc: ''
-updated: 1664897374262
-created: 1664897374262
+updated: 1676881477678
+created: 1676881477678
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -36,5 +36,5 @@ sources:
 
 - List items in a directory other than the current one:
 
-`Get-ChildItem -Path {{path/to/directory}}`
+`Get-ChildItem -Path {{path\to\directory}}`
 

@@ -2,8 +2,8 @@
 id: windows.where
 title: Where
 desc: ''
-updated: 1666197757221
-created: 1666197757221
+updated: 1676881477687
+created: 1676881477687
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -28,7 +28,7 @@ sources:
 
 - Recursively search for file pattern at specified path:
 
-`where /R {{path/to/directory}} {{file_pattern}}`
+`where /R {{path\to\directory}} {{file_pattern}}`
 
 - Silently return the error code for the location of the file pattern:
 
