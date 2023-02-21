@@ -2,8 +2,8 @@
 id: common.tar
 title: Tar
 desc: ''
-updated: 1670145407072
-created: 1670145407072
+updated: 1676963815386
+created: 1676963815386
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -20,33 +20,33 @@ sources:
 
 - [c]reate an archive and write it to a [f]ile:
 
-`tar cf {{target.tar}} {{file1}} {{file2}} {{file3}}`
+`tar cf {{path/to/target.tar}} {{path/to/file1 path/to/file2 ...}}`
 
 - [c]reate a g[z]ipped archive and write it to a [f]ile:
 
-`tar czf {{target.tar.gz}} {{file1}} {{file2}} {{file3}}`
+`tar czf {{path/to/target.tar.gz}} {{path/to/file1 path/to/file2 ...}}`
 
 - [c]reate a g[z]ipped archive from a directory using relative paths:
 
-`tar czf {{target.tar.gz}} --directory={{path/to/directory}} .`
+`tar czf {{path/to/target.tar.gz}} --directory={{path/to/directory}} .`
 
 - E[x]tract a (compressed) archive [f]ile into the current directory [v]erbosely:
 
-`tar xvf {{source.tar[.gz|.bz2|.xz]}}`
+`tar xvf {{path/to/source.tar[.gz|.bz2|.xz]}}`
 
 - E[x]tract a (compressed) archive [f]ile into the target directory:
 
-`tar xf {{source.tar[.gz|.bz2|.xz]}} --directory={{path/to/directory}}`
+`tar xf {{path/to/source.tar[.gz|.bz2|.xz]}} --directory={{path/to/directory}}`
 
 - [c]reate a compressed archive and write it to a [f]ile, using [a]rchive suffix to determine the compression program:
 
-`tar caf {{target.tar.xz}} {{file1}} {{file2}} {{file3}}`
+`tar caf {{path/to/target.tar.xz}} {{path/to/file1 path/to/file2 ...}}`
 
 - Lis[t] the contents of a tar [f]ile [v]erbosely:
 
-`tar tvf {{source.tar}}`
+`tar tvf {{path/to/source.tar}}`
 
 - E[x]tract files matching a pattern from an archive [f]ile:
 
-`tar xf {{source.tar}} --wildcards "{{*.html}}"`
+`tar xf {{path/to/source.tar}} --wildcards "{{*.html}}"`
 
