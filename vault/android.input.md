@@ -2,8 +2,8 @@
 id: android.input
 title: Input
 desc: ''
-updated: 1642441814990
-created: 1642441814990
+updated: 1676956637712
+created: 1676956637712
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -28,7 +28,7 @@ sources:
 
 - Send a single tap to an Android device:
 
-`input tap {{x_pos}} {{y_pos}}`
+`input tap {{x_position}} {{y_position}}`
 
 - Send a swipe gesture to an Android device:
 
@@ -36,5 +36,5 @@ sources:
 
 - Send a long press to an Android device using a swipe gesture:
 
-`input swipe {{x_pos}} {{y_pos}} {{x_pos}} {{y_pos}} {{duration_in_ms}}`
+`input swipe {{x_position}} {{y_position}} {{x_position}} {{y_position}} {{duration_in_ms}}`
 

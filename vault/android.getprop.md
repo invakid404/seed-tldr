@@ -2,8 +2,8 @@
 id: android.getprop
 title: Getprop
 desc: ''
-updated: 1642441814990
-created: 1642441814990
+updated: 1676956637712
+created: 1676956637712
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -23,7 +23,7 @@ sources:
 
 - Display information about a specific property:
 
-`getprop {{prop}}`
+`getprop {{property}}`
 
 - Display the SDK API level:
 
