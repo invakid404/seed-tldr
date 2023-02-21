@@ -2,8 +2,8 @@
 id: common.act
 title: Act
 desc: ''
-updated: 1642441814992
-created: 1642441814992
+updated: 1676953371960
+created: 1676953371960
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -40,4 +40,8 @@ sources:
 - Show verbose logs:
 
 `act -v`
+
+- Run a specific workflow:
+
+`act push -W {{path/to/workflow}}`
 

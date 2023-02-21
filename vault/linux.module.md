@@ -2,8 +2,8 @@
 id: linux.module
 title: Module
 desc: ''
-updated: 1642441815104
-created: 1642441815104
+updated: 1676953372171
+created: 1676953372171
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -40,4 +40,8 @@ sources:
 - Unload all loaded modules:
 
 `module purge`
+
+- Specify user-created modules:
+
+`module use {{path/to/modulefiles}}`
 
