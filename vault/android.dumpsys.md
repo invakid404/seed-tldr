@@ -2,8 +2,8 @@
 id: android.dumpsys
 title: Dumpsys
 desc: ''
-updated: 1642441814990
-created: 1642441814990
+updated: 1677054260935
+created: 1677054260935
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -40,5 +40,5 @@ sources:
 
 - Specify a timeout period in seconds (defaults to 10s):
 
-`dumpsys -t {{seconds}}`
+`dumpsys -t {{8}}`
 
