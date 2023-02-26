@@ -2,8 +2,8 @@
 id: common.gcc
 title: Gcc
 desc: ''
-updated: 1667989444862
-created: 1667989444862
+updated: 1677449830648
+created: 1677449830648
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -17,7 +17,7 @@ sources:
 > Preprocess and compile C and C++ source files, then assemble and link them together.
 > More information: <https://gcc.gnu.org>.
 
-- Compile multiple source files into executable:
+- Compile multiple source files into an executable:
 
 `gcc {{path/to/source1.c path/to/source2.c ...}} -o {{path/to/output_executable}}`
 
