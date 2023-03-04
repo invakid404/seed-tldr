@@ -2,8 +2,8 @@
 id: osx.split
 title: Split
 desc: ''
-updated: 1644840636312
-created: 1644840636312
+updated: 1677921434472
+created: 1677921434472
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -28,4 +28,8 @@ sources:
 - Split a file with 512 bytes in each split (except the last split; use 512k for kilobytes and 512m for megabytes):
 
 `split -b {{512}} {{filename}}`
+
+- Split a file into 5 files. File is split such that each split has same size (except the last split):
+
+`split -n {{5}} {{filename}}`
 
