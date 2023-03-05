@@ -2,8 +2,8 @@
 id: linux.gsettings
 title: Gsettings
 desc: ''
-updated: 1642441815096
-created: 1642441815096
+updated: 1677997332301
+created: 1677997332301
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -23,7 +23,7 @@ sources:
 
 - Print the value of a key or the schema-provided default if the key has not been set in `dconf`:
 
-`gsetings get {{org.example.schema}} {{example-key}}`
+`gsettings get {{org.example.schema}} {{example-key}}`
 
 - Unset a key, so that its schema default value will be used:
 
