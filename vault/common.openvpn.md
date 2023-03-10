@@ -2,8 +2,8 @@
 id: common.openvpn
 title: Openvpn
 desc: ''
-updated: 1642441815054
-created: 1642441815054
+updated: 1678486627191
+created: 1678486627191
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -31,7 +31,7 @@ sources:
 
 - Create a cryptographic key and save it to file:
 
-`openvpn --genkey --secret {{path/to/key}}`
+`openvpn --genkey secret {{path/to/key}}`
 
 - Try to set up a peer-to-peer tunnel on bob.example.com host with a static key:
 
