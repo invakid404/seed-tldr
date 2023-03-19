@@ -2,8 +2,8 @@
 id: linux.distrobox-rm
 title: Distrobox Rm
 desc: ''
-updated: 1642882717682
-created: 1642882717682
+updated: 1679229162643
+created: 1679229162643
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -14,14 +14,15 @@ sources:
 ---
 # distrobox-rm
 
-> Delete Distrobox containers.
-> More information: <https://distrobox.privatedns.org>.
+> Remove a distrobox container.
+> Subcommand of `distrobox`. See also: `tldr distrobox`.
+> More information: <https://distrobox.privatedns.org/usage/distrobox-rm.html>.
 
-- Remove a distrobox:
+- Remove a distrobox container (Tip: Stop the container before removing it):
 
 `distrobox-rm {{container_name}}`
 
-- Remove a distrobox forcefully:
+- Remove a distrobox container forcefully:
 
 `distrobox-rm {{container_name}} --force`
 
