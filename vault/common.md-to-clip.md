@@ -2,8 +2,8 @@
 id: common.md-to-clip
 title: Common
 desc: ''
-updated: 1677674247104
-created: 1677674247104
+updated: 1679595678468
+created: 1679595678468
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -25,6 +25,14 @@ sources:
 - Convert tldr-pages files and save into a specific directory:
 
 `md-to-clip --output-directory {{path/to/directory}} {{path/to/page1.md path/to/page2.md ...}}`
+
+- Convert a tldr-page file to stdout:
+
+`md-to-clip --no-file-save <(echo '{{page-content}}')`
+
+- Convert tldr-pages files while recognizing additional placeholders from a specific config:
+
+`md-to-clip --special-placeholder-config {{path/to/config.yaml}} {{path/to/page1.md path/to/page2.md ...}}`
 
 - Display help:
 
