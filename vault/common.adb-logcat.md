@@ -2,8 +2,8 @@
 id: common.adb-logcat
 title: Adb Logcat
 desc: ''
-updated: 1672679726184
-created: 1672679726184
+updated: 1680390924118
+created: 1680390924118
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -36,6 +36,14 @@ sources:
 - Display logs for all tags with priority level [W]arning and higher:
 
 `adb logcat *:W`
+
+- Display logs for a specific PID:
+
+`adb logcat --pid={{pid}}`
+
+- Display logs for the process of a specific package:
+
+`adb logcat --pid=$(adb shell pidof -s {{package}})`
 
 - Color the log (usually use with filters):
 

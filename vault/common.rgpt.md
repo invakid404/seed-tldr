@@ -2,8 +2,8 @@
 id: common.rgpt
 title: Rgpt
 desc: ''
-updated: 1679296605157
-created: 1679296605157
+updated: 1680390924252
+created: 1680390924252
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -35,7 +35,7 @@ sources:
 
 - Ask GPT to review your code using a specific model:
 
-`rgpt --model {{text-davinci-003}} --i "$(git diff {{path/to/file}})"`
+`rgpt --model {{davinci}} --i "$(git diff {{path/to/file}})"`
 
 - Make `rgpt` use a JSON output:
 
