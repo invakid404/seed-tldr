@@ -2,8 +2,8 @@
 id: common.pwsh
 title: Pwsh
 desc: ''
-updated: 1675099022477
-created: 1675099022477
+updated: 1680423546692
+created: 1680423546692
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -14,27 +14,9 @@ sources:
 ---
 # pwsh
 
-> PowerShell Core is a cross-platform automation and configuration tool/framework.
-> See also: `powershell`.
-> More information: <https://learn.microsoft.com/powershell/>.
+> This command is an alias of `powershell`.
 
-- Start an interactive shell session:
+- View documentation for the original command:
 
-`pwsh`
-
-- Start an interactive shell session without loading startup configs:
-
-`pwsh -NoProfile`
-
-- Execute specific commands:
-
-`pwsh -Command "{{string}}"`
-
-- Execute a specific script:
-
-`pwsh {{path/to/script.ps1}}`
-
-- Start an interactive shell session with a specific execution policy:
-
-`pwsh -ExecutionPolicy {{AllSigned|Bypass|Default|RemoteSigned|Restricted|...}}`
+`tldr powershell`
 
