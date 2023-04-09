@@ -2,8 +2,8 @@
 id: linux.watch
 title: Watch
 desc: ''
-updated: 1642441815117
-created: 1642441815117
+updated: 1681067536173
+created: 1681067536173
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -28,4 +28,8 @@ sources:
 - Monitor "node" processes, refreshing every 3 seconds:
 
 `watch -n {{3}} "{{ps aux | grep node}}"`
+
+- Monitor disk space and if it changes, stop monitoring:
+
+`watch -g {{df}}`
 
