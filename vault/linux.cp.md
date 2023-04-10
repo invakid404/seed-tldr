@@ -2,8 +2,8 @@
 id: linux.cp
 title: Cp
 desc: ''
-updated: 1642441815091
-created: 1642441815091
+updated: 1681107675515
+created: 1681107675515
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -32,6 +32,10 @@ sources:
 - Copy a directory recursively, in verbose mode (shows files as they are copied):
 
 `cp -vr {{path/to/source_directory}} {{path/to/target_directory}}`
+
+- Copy multiple files at once to a directory:
+
+`cp -t {{path/to/destination_directory}} {{path/to/file1 path/to/file2 ...}}`
 
 - Copy text files to another location, in interactive mode (prompts user before overwriting):
 
