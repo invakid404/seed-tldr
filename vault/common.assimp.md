@@ -2,8 +2,8 @@
 id: common.assimp
 title: Assimp
 desc: ''
-updated: 1642441814995
-created: 1642441814995
+updated: 1681146869072
+created: 1681146869072
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -16,7 +16,7 @@ sources:
 
 > Command-line client for the Open Asset Import Library.
 > Supports loading of 40+ 3D file formats, and exporting to several popular 3D formats.
-> More information: <http://www.assimp.org/>.
+> More information: <https://assimp-docs.readthedocs.io/>.
 
 - List all supported import formats:
 

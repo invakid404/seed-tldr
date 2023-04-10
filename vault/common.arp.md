@@ -2,8 +2,8 @@
 id: common.arp
 title: Arp
 desc: ''
-updated: 1642441814995
-created: 1642441814995
+updated: 1681146869072
+created: 1681146869072
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -20,10 +20,6 @@ sources:
 - Show the current ARP table:
 
 `arp -a`
-
-- Clear the entire cache:
-
-`sudo arp -a -d`
 
 - Delete a specific entry:
 
