@@ -2,8 +2,8 @@
 id: common.betty
 title: Betty
 desc: ''
-updated: 1670145406918
-created: 1670145406918
+updated: 1681186805983
+created: 1681186805983
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -21,13 +21,9 @@ sources:
 
 `betty {{what time is it}}`
 
-- Ask Betty version:
-
-`betty version`
-
 - Download a file:
 
-`betty download {{https://example.com/file.png}} to {{file.png}}`
+`betty download {{https://example.com/file.ext}} to {{path/to/output_file.ext}}`
 
 - Compress a file or directory to one of the support archive formats:
 
@@ -37,7 +33,7 @@ sources:
 
 `betty {{unzip}} {{archive.tar.gz}}`
 
-- Extract an archive into a directory:
+- Extract an archive into a specific directory:
 
 `betty unarchive {{archive.tar.gz}} to {{path/to/directory}}`
 
@@ -48,4 +44,8 @@ sources:
 - Drive Betty to madness:
 
 `betty go crazy`
+
+- Display version:
+
+`betty version`
 
