@@ -2,8 +2,8 @@
 id: common.blender
 title: Blender
 desc: ''
-updated: 1670310991739
-created: 1670310991739
+updated: 1681374078791
+created: 1681374078791
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -16,7 +16,7 @@ sources:
 
 > Command-line interface to the Blender 3D computer graphics application.
 > Arguments are executed in the order they are given.
-> More information: <https://manned.org/blender>.
+> More information: <https://docs.blender.org/manual/en/latest/advanced/command_line/arguments.html>.
 
 - Render all frames of an animation in the background, without loading the UI (output is saved to `/tmp`):
 

@@ -2,8 +2,8 @@
 id: common.copyq
 title: Copyq
 desc: ''
-updated: 1642441815004
-created: 1642441815004
+updated: 1681374078799
+created: 1681374078799
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,7 +15,7 @@ sources:
 # copyq
 
 > Clipboard manager with advanced features.
-> More information: <https://hluk.github.io/CopyQ/>.
+> More information: <https://copyq.readthedocs.io/en/latest/command-line.html>.
 
 - Launch CopyQ to store clipboard history:
 
