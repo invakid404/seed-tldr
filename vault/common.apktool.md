@@ -2,8 +2,8 @@
 id: common.apktool
 title: Apktool
 desc: ''
-updated: 1658920673762
-created: 1658920673762
+updated: 1681453285392
+created: 1681453285392
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -19,7 +19,7 @@ sources:
 
 - Decode an APK file:
 
-`apktool d {{file.apk}}`
+`apktool d {{path/to/file.apk}}`
 
 - Build an APK file from a directory:
 
@@ -27,5 +27,5 @@ sources:
 
 - Install and store a framework:
 
-`apktool if {{framework.apk}}`
+`apktool if {{path/to/framework.apk}}`
 

@@ -2,8 +2,8 @@
 id: common.asar
 title: Asar
 desc: ''
-updated: 1642441814995
-created: 1642441814995
+updated: 1681453285394
+created: 1681453285394
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -19,17 +19,17 @@ sources:
 
 - Archive a file or directory:
 
-`asar pack {{path/to/file_or_directory}} {{archived.asar}}`
+`asar pack {{path/to/input_file_or_directory}} {{path/to/output_archive.asar}}`
 
 - Extract an archive:
 
-`asar extract {{archived.asar}}`
+`asar extract {{path/to/archive.asar}}`
 
 - Extract a specific file from an archive:
 
-`asar extract-file {{archived.asar}} {{file}}`
+`asar extract-file {{path/to/archive.asar}} {{file}}`
 
 - List the contents of an archive file:
 
-`asar list {{archived.asar}}`
+`asar list {{path/to/archive.asar}}`
 
