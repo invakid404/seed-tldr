@@ -2,8 +2,8 @@
 id: common.cmake
 title: Cmake
 desc: ''
-updated: 1642441815002
-created: 1642441815002
+updated: 1682058094815
+created: 1682058094815
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -25,6 +25,10 @@ sources:
 
 `cmake {{path/to/project_directory}} -D {{CMAKE_BUILD_TYPE=Release}}`
 
+- Generate a build recipe using `generator_name` as the underlying build system:
+
+`cmake -G {{generator_name}} {{path/to/project_directory}}`
+
 - Use a generated recipe in a given directory to build artifacts:
 
 `cmake --build {{path/to/build_directory}}`
@@ -40,4 +44,8 @@ sources:
 - Run a custom build target:
 
 `cmake --build {{path/to/build_directory}} --target {{target_name}}`
+
+- Display help, obtain a list of generators:
+
+`cmake --help`
 
