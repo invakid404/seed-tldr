@@ -2,8 +2,8 @@
 id: common.brotli
 title: Brotli
 desc: ''
-updated: 1642441814999
-created: 1642441814999
+updated: 1682253030909
+created: 1682253030909
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -19,21 +19,21 @@ sources:
 
 - Compress a file, creating a compressed version next to the file:
 
-`brotli {{file.ext}}`
+`brotli {{path/to/file}}`
 
 - Decompress a file, creating an uncompressed version next to the file:
 
-`brotli -d {{file.ext}}.br`
+`brotli -d {{path/to/file.br}}`
 
 - Compress a file specifying the output filename:
 
-`brotli {{file.ext}} -o {{compressed_file.ext.br}}`
+`brotli {{path/to/file}} -o {{path/to/compressed_output_file.br}}`
 
 - Decompress a Brotli file specifying the output filename:
 
-`brotli -d {{compressed_file.ext.br}} -o {{file.ext}}`
+`brotli -d {{path/to/compressed_file.br}} -o {{path/to/output_file}}`
 
-- Specify the compression level. 1=Fastest (Worst), 11=Slowest (Best):
+- Specify the compression level [1=Fastest (Worst), 11=Slowest (Best)]&#x3A;
 
-`brotli -q {{11}} {{file.ext}} -o {{compressed_file.ext.br}}`
+`brotli -q {{11}} {{path/to/file}} -o {{path/to/compressed_output_file.br}}`
 
