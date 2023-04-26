@@ -2,8 +2,8 @@
 id: common.nix-build
 title: Nix Build
 desc: ''
-updated: 1671672264733
-created: 1671672264733
+updated: 1682500598899
+created: 1682500598899
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,7 +15,8 @@ sources:
 # nix-build
 
 > Build a Nix expression.
-> More information: <https://nixos.org/releases/nix/latest/manual#sec-nix-build>.
+> See also: `tldr nix3 build`.
+> More information: <https://nixos.org/manual/nix/stable/command-ref/nix-build.html>.
 
 - Build a Nix expression:
 

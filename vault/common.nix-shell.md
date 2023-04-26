@@ -2,8 +2,8 @@
 id: common.nix-shell
 title: Nix Shell
 desc: ''
-updated: 1671672264733
-created: 1671672264733
+updated: 1682500598899
+created: 1682500598899
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,7 +15,8 @@ sources:
 # nix-shell
 
 > Start an interactive shell based on a Nix expression.
-> More information: <https://nixos.org/manual/nix/stable/#sec-nix-shell>.
+> See also: `tldr nix3 shell`.
+> More information: <https://nixos.org/manual/nix/stable/command-ref/nix-shell.html>.
 
 - Start with nix expression in `shell.nix` or `default.nix` in the current directory:
 
