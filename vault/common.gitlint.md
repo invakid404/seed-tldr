@@ -2,8 +2,8 @@
 id: common.gitlint
 title: Gitlint
 desc: ''
-updated: 1642441815028
-created: 1642441815028
+updated: 1683040744440
+created: 1683040744440
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -25,7 +25,7 @@ sources:
 
 `gitlint --commits {{single_refspec_argument}}`
 
-- Path to a directory or python module with extra user-defined rules:
+- Path to a directory or Python module with extra user-defined rules:
 
 `gitlint --extra-path {{path/to/directory}}`
 

@@ -2,8 +2,8 @@
 id: common.pystun3
 title: Pystun3
 desc: ''
-updated: 1680196542374
-created: 1680196542374
+updated: 1683040744510
+created: 1683040744510
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -14,7 +14,7 @@ sources:
 ---
 # pystun3
 
-> Classic STUN client written in python.
+> Classic STUN client written in Python.
 > More information: <https://github.com/talkiq/pystun3>.
 
 - Make a STUN request:

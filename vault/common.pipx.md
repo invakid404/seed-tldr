@@ -2,8 +2,8 @@
 id: common.pipx
 title: Pipx
 desc: ''
-updated: 1664983521343
-created: 1664983521343
+updated: 1683040744502
+created: 1683040744502
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -14,7 +14,7 @@ sources:
 ---
 # pipx
 
-> Install and run python applications in isolated environments.
+> Install and run Python applications in isolated environments.
 > More information: <https://github.com/pypa/pipx>.
 
 - Run an app in a temporary virtual environment:

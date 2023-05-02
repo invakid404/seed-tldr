@@ -2,8 +2,8 @@
 id: common.tox
 title: Tox
 desc: ''
-updated: 1642441815077
-created: 1642441815077
+updated: 1683040744540
+created: 1683040744540
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -30,7 +30,7 @@ sources:
 
 `tox --listenvs-all`
 
-- Run tests on a specific environment (e.g. python 3.6):
+- Run tests on a specific environment (e.g. Python 3.6):
 
 `tox -e {{py36}}`
 

@@ -2,8 +2,8 @@
 id: common.chroma
 title: Chroma
 desc: ''
-updated: 1642441815001
-created: 1642441815001
+updated: 1683040744384
+created: 1683040744384
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -17,7 +17,7 @@ sources:
 > Chroma is a general-purpose syntax highlighting library and corresponding command, for Go.
 > More information: <https://github.com/alecthomas/chroma>.
 
-- Highlight a source file with python lexer and output to terminal:
+- Highlight a source file with Python lexer and output to terminal:
 
 `chroma --lexer="{{python}}" {{source_file}}`
 
