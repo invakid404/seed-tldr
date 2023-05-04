@@ -2,8 +2,8 @@
 id: common.gh-release
 title: Gh Release
 desc: ''
-updated: 1642441815020
-created: 1642441815020
+updated: 1683170263097
+created: 1683170263097
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -39,5 +39,5 @@ sources:
 
 - Upload assets to a specific release:
 
-`gh release upload {{tag}} {{path/to/file1}} {{path/to/file2}}`
+`gh release upload {{tag}} {{path/to/file1 path/to/file2 ...}}`
 
