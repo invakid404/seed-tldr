@@ -2,8 +2,8 @@
 id: linux.resolvectl
 title: Resolvectl
 desc: ''
-updated: 1657504907012
-created: 1657504907012
+updated: 1683605969436
+created: 1683605969436
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -14,7 +14,7 @@ sources:
 ---
 # resolvectl
 
-> Resolve domain names, IPV4 and IPv6 addresses, DNS resource records, and services.
+> Resolve domain names, IPv4 and IPv6 addresses, DNS resource records, and services.
 > Introspect and reconfigure the DNS resolver.
 > More information: <https://www.freedesktop.org/software/systemd/man/resolvectl.html>.
 
@@ -26,11 +26,11 @@ sources:
 
 `resolvectl query {{domain1 domain2 ...}}`
 
-- Retrieve the domain of a specified IP:
+- Retrieve the domain of a specified IP address:
 
 `resolvectl query {{ip_address}}`
 
-- Retrieve an MX record of domain:
+- Retrieve an MX record of a domain:
 
 `resolvectl --legend={{no}} --type={{MX}} query {{domain}}`
 
@@ -40,7 +40,7 @@ sources:
 
 - Retrieve the public key from an email address from an OPENPGPKEY DNS record:
 
-`resolvectl opengpg {{email}}`
+`resolvectl openpgp {{email}}`
 
 - Retrieve a TLS key:
 
