@@ -2,8 +2,8 @@
 id: common.gnmic-get
 title: Gnmic Get
 desc: ''
-updated: 1662059876137
-created: 1662059876137
+updated: 1683627474946
+created: 1683627474946
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -29,7 +29,7 @@ sources:
 
 `gnmic -a {{ip:port}} get --prefix {{prefix}} --path {{path1}} --path {{path2}}`
 
-- Query the device state and specify reponse encoding (json_ietf):
+- Query the device state and specify response encoding (json_ietf):
 
 `gnmic -a {{ip:port}} get --path {{path}} --encoding json_ietf`
 

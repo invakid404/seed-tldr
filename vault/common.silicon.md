@@ -2,8 +2,8 @@
 id: common.silicon
 title: Silicon
 desc: ''
-updated: 1661358604551
-created: 1661358604551
+updated: 1683627475016
+created: 1683627475016
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -21,7 +21,7 @@ sources:
 
 `silicon  {{path/to/source_file}} --output {{path/to/output_image}}`
 
-- Generate an image from a source file with a specific programing language syntax highlighting (e.g. `rust`, `py`, `js`, etc.):
+- Generate an image from a source file with a specific programming language syntax highlighting (e.g. `rust`, `py`, `js`, etc.):
 
 `silicon  {{path/to/source_file}} --output {{path/to/output_image}} --language {{language|extension}}`
 
