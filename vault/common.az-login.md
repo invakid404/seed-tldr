@@ -2,8 +2,8 @@
 id: common.az-login
 title: Az Login
 desc: ''
-updated: 1664897373955
-created: 1664897373955
+updated: 1683721913972
+created: 1683721913972
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -24,7 +24,7 @@ sources:
 
 - Log in with a service principal using a client secret:
 
-`az login --service-principal --username {{http://azure-cli-service-principal}} --passsword {{secret}} --tenant {{someone.onmicrosoft.com}}`
+`az login --service-principal --username {{http://azure-cli-service-principal}} --password {{secret}} --tenant {{someone.onmicrosoft.com}}`
 
 - Log in with a service principal using a client certificate:
 
