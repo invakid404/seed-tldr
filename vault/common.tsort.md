@@ -2,8 +2,8 @@
 id: common.tsort
 title: Tsort
 desc: ''
-updated: 1670145407083
-created: 1670145407083
+updated: 1683778758034
+created: 1683778758034
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -21,4 +21,8 @@ sources:
 - Perform a topological sort consistent with a partial sort per line of input separated by blanks:
 
 `tsort {{path/to/file}}`
+
+- Perform a topological sort consistent on strings:
+
+`echo -e "{{UI Backend\nBackend Database\nDocs UI}}" | tsort`
 
