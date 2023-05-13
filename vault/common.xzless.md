@@ -2,8 +2,8 @@
 id: common.xzless
 title: Xzless
 desc: ''
-updated: 1666696985680
-created: 1666696985680
+updated: 1684016073562
+created: 1684016073562
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -18,7 +18,15 @@ sources:
 > See also: `less`.
 > More information: <https://manned.org/xzless>.
 
-- Open a compressed file:
+- View a compressed file:
 
-`xzless {{path/to/archive.xz}}`
+`xzless {{path/to/archive}}`
+
+- View a compressed file and display line numbers:
+
+`xzless --LINE-NUMBERS {{path/to/archive}}`
+
+- View a compressed file and quit if the entire file can be displayed on the first screen:
+
+`xzless --quit-if-one-screen {{path/to/archive}}`
 
