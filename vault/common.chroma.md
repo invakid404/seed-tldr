@@ -2,8 +2,8 @@
 id: common.chroma
 title: Chroma
 desc: ''
-updated: 1683040744384
-created: 1683040744384
+updated: 1684019725041
+created: 1684019725041
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -27,5 +27,5 @@ sources:
 
 - Highlight a source file with the C++ lexer and output to an SVG, using the Monokai style:
 
-`chroma --lexer="{{c++}}" --formatter="{{svg}}" --syle="{{monokai}}" {{source_file}} > {{svg_file}}`
+`chroma --lexer="{{c++}}" --formatter="{{svg}}" --style="{{monokai}}" {{source_file}} > {{svg_file}}`
 
