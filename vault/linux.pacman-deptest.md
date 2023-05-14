@@ -2,8 +2,8 @@
 id: linux.pacman-deptest
 title: Pacman Deptest
 desc: ''
-updated: 1642441815106
-created: 1642441815106
+updated: 1684067360696
+created: 1684067360696
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,6 +15,7 @@ sources:
 # pacman --deptest
 
 > Check each dependency specified and return a list of dependencies that are not currently satisfied on the system.
+> See also: `pacman`.
 > More information: <https://man.archlinux.org/man/pacman.8>.
 
 - Print the package names of the dependencies that aren't installed:

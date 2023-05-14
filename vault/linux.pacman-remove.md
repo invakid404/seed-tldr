@@ -2,8 +2,8 @@
 id: linux.pacman-remove
 title: Pacman Remove
 desc: ''
-updated: 1666020662855
-created: 1666020662855
+updated: 1684067360696
+created: 1684067360696
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,6 +15,7 @@ sources:
 # pacman --remove
 
 > Arch Linux package manager utility.
+> See also: `pacman`.
 > More information: <https://man.archlinux.org/man/pacman.8>.
 
 - Remove a package and its dependencies:

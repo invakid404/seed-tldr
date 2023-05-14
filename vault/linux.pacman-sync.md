@@ -2,8 +2,8 @@
 id: linux.pacman-sync
 title: Pacman Sync
 desc: ''
-updated: 1642441815107
-created: 1642441815107
+updated: 1684067360696
+created: 1684067360696
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,6 +15,7 @@ sources:
 # pacman --sync
 
 > Arch Linux package manager utility.
+> See also: `pacman`.
 > More information: <https://man.archlinux.org/man/pacman.8>.
 
 - Install a new package:

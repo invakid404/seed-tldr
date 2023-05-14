@@ -2,8 +2,8 @@
 id: linux.pacman-files
 title: Pacman Files
 desc: ''
-updated: 1684034192358
-created: 1684034192358
+updated: 1684067360696
+created: 1684067360696
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,7 +15,7 @@ sources:
 # pacman --files
 
 > Arch Linux package manager utility.
-> See also `pkgfile`.
+> See also: `pacman`, `pkgfile`.
 > More information: <https://man.archlinux.org/man/pacman.8>.
 
 - Update the package database:

@@ -2,8 +2,8 @@
 id: linux.pacman-database
 title: Pacman Database
 desc: ''
-updated: 1666020662855
-created: 1666020662855
+updated: 1684067360696
+created: 1684067360696
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -16,6 +16,7 @@ sources:
 
 > Operate on the Arch Linux package database.
 > Modify certain attributes of the installed packages.
+> See also: `pacman`.
 > More information: <https://man.archlinux.org/man/pacman.8>.
 
 - Mark a package as implicitly installed:
