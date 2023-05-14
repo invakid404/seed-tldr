@@ -2,8 +2,8 @@
 id: linux.debuild
 title: Debuild
 desc: ''
-updated: 1642441815092
-created: 1642441815092
+updated: 1684034192329
+created: 1684034192329
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,7 +15,7 @@ sources:
 # debuild
 
 > Tool to build a Debian package from source.
-> More information: <https://manpages.debian.org/debuild>.
+> More information: <https://manpages.debian.org/latest/devscripts/debuild.1.en.html>.
 
 - Build the package in the current directory:
 

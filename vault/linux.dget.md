@@ -2,8 +2,8 @@
 id: linux.dget
 title: Dget
 desc: ''
-updated: 1642441815092
-created: 1642441815092
+updated: 1684034192329
+created: 1684034192329
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,7 +15,7 @@ sources:
 # dget
 
 > Download Debian packages.
-> More information: <https://manpages.debian.org/dget>.
+> More information: <https://manpages.debian.org/latest/devscripts/dget.1.en.html>.
 
 - Download a binary package:
 

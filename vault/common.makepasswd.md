@@ -2,8 +2,8 @@
 id: common.makepasswd
 title: Makepasswd
 desc: ''
-updated: 1642441815046
-created: 1642441815046
+updated: 1684034192218
+created: 1684034192218
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,7 +15,7 @@ sources:
 # makepasswd
 
 > Generate and encrypt passwords.
-> More information: <https://manpages.debian.org/stretch/makepasswd/makepasswd.1.en.html>.
+> More information: <https://manpages.debian.org/latest/makepasswd/makepasswd.1.en.html>.
 
 - Generate a random password (8 to 10 characters long, containing letters and numbers):
 

@@ -2,8 +2,8 @@
 id: linux.arithmetic
 title: Arithmetic
 desc: ''
-updated: 1642441815088
-created: 1642441815088
+updated: 1684034192313
+created: 1684034192313
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,7 +15,7 @@ sources:
 # arithmetic
 
 > Quiz on simple arithmetic problems.
-> More information: <https://manpages.debian.org/bsdgames/arithmetic.6.en.html>.
+> More information: <https://manpages.debian.org/latest/bsdgames/arithmetic.6.en.html>.
 
 - Start an arithmetic quiz:
 

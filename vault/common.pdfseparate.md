@@ -2,8 +2,8 @@
 id: common.pdfseparate
 title: Pdfseparate
 desc: ''
-updated: 1642441815056
-created: 1642441815056
+updated: 1684034192244
+created: 1684034192244
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,7 +15,7 @@ sources:
 # pdfseparate
 
 > Portable Document Format (PDF) file page extractor.
-> More information: <https://manpages.debian.org/unstable/poppler-utils/pdfseparate.1.en.html>.
+> More information: <https://manpages.debian.org/latest/poppler-utils/pdfseparate.1.en.html>.
 
 - Extract pages from PDF file and make a separate PDF file for each page:
 

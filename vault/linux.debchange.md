@@ -2,8 +2,8 @@
 id: linux.debchange
 title: Debchange
 desc: ''
-updated: 1642441815092
-created: 1642441815092
+updated: 1684034192328
+created: 1684034192328
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,7 +15,7 @@ sources:
 # debchange
 
 > Tool for maintenance of the debian/changelog file in a Debian source package.
-> More information: <https://manpages.debian.org/debchange>.
+> More information: <https://manpages.debian.org/latest/devscripts/debchange.1.en.html>.
 
 - Add a new version for a non-maintainer upload to the changelog:
 
