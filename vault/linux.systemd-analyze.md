@@ -2,8 +2,8 @@
 id: linux.systemd-analyze
 title: Systemd Analyze
 desc: ''
-updated: 1642441815114
-created: 1642441815114
+updated: 1684243185996
+created: 1684243185996
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -16,9 +16,9 @@ sources:
 
 > Analyze and debug system manager.
 > Show timing details about the boot process of units (services, mount points, devices, sockets).
-> More information: <https://manned.org/systemd-analyze>.
+> More information: <https://www.freedesktop.org/software/systemd/man/systemd-analyze.html>.
 
-- List time of each unit to start up:
+- List all running units, ordered by the time they took to initialize:
 
 `systemd-analyze blame`
 

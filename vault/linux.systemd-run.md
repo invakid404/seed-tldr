@@ -2,8 +2,8 @@
 id: linux.systemd-run
 title: Systemd Run
 desc: ''
-updated: 1682101234337
-created: 1682101234337
+updated: 1684243185997
+created: 1684243185997
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -39,13 +39,13 @@ sources:
 
 - Share the terminal with the program (allowing interactive input/output) and make sure the execution details remain after the program exits:
 
-`systemd-run  --remain-after-exit --pty {{executable}}`
+`systemd-run --remain-after-exit --pty {{command}}`
 
 - Set properties (e.g. CPUQuota, MemoryMax) of the process and wait until it exits:
 
-`systemd-run --property MemoryMax={{memory_in_bytes}} --property CPUQuota={{percentage_of_CPU_time}}% --wait {{executable}}`
+`systemd-run --property MemoryMax={{memory_in_bytes}} --property CPUQuota={{percentage_of_CPU_time}}% --wait {{command}}`
 
 - Use the program in a shell pipeline:
 
-`{{executable1}} | systemd-run --pipe {{executable2}} | {{executable3}}`
+`{{command1}} | systemd-run --pipe {{command2}} | {{command3}}`
 
