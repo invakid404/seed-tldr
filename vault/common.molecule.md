@@ -2,8 +2,8 @@
 id: common.molecule
 title: Molecule
 desc: ''
-updated: 1642441815048
-created: 1642441815048
+updated: 1684257255204
+created: 1684257255204
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -32,6 +32,10 @@ sources:
 - Configure the instance:
 
 `molecule converge`
+
+- List scenarios of the instance:
+
+`molecule matrix converge`
 
 - Log in into the instance:
 
