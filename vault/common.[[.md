@@ -2,8 +2,8 @@
 id: 'common.[['
 title: '[['
 desc: ''
-updated: 1642441814991
-created: 1642441814991
+updated: 1684268209401
+created: 1684268209401
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,7 +15,7 @@ sources:
 # \[\[
 
 > Check file types and compare values.
-> Returns 0 if the condition evaluates to true, 1 if it evaluates to false.
+> Returns a status of 0 if the condition evaluates to true, 1 if it evaluates to false.
 > More information: <https://www.gnu.org/software/bash/manual/bash.html#index-_005b_005b>.
 
 - Test if a given variable is equal/not equal to the specified string:
