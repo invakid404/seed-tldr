@@ -1,6 +1,6 @@
 ---
-id: common.lua
-title: Lua
+id: common.luajit
+title: Luajit
 desc: ''
 updated: 1684318662315
 created: 1684318662315
@@ -12,20 +12,21 @@ sources:
     url: 'https://github.com/tldr-pages/tldr/blob/master/LICENSE.md'
     license: Creative Commons
 ---
-# lua
+# luajit
 
-> A powerful, light-weight embeddable programming language.
-> More information: <https://www.lua.org>.
+> A just-in-time compiler (JIT) for the Lua programming language.
+> See also: `lua`.
+> More information: <https://luajit.org/luajit.html>.
 
 - Start an interactive Lua shell:
 
-`lua`
+`luajit`
 
 - Execute a Lua script:
 
-`lua {{path/to/script.lua}} {{--optional-argument}}`
+`luajit {{path/to/script.lua}} {{--optional-argument}}`
 
 - Execute a Lua expression:
 
-`lua -e '{{print("Hello World")}}'`
+`luajit -e '{{print("Hello World")}}'`
 
