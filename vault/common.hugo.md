@@ -2,8 +2,8 @@
 id: common.hugo
 title: Hugo
 desc: ''
-updated: 1670310991807
-created: 1670310991807
+updated: 1684383586654
+created: 1684383586654
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -27,7 +27,7 @@ sources:
 
 - Create a new page:
 
-`hugo new {{section_name}}/{{path/to/file}}`
+`hugo new {{section_name}}/{{page_name}}`
 
 - Build a site to the `./public/` directory:
 

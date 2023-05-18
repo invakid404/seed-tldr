@@ -2,8 +2,8 @@
 id: common.ssh-keygen
 title: Ssh Keygen
 desc: ''
-updated: 1642441815071
-created: 1642441815071
+updated: 1684383586767
+created: 1684383586767
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -21,13 +21,9 @@ sources:
 
 `ssh-keygen`
 
-- Specify file in which to save the key:
+- Generate an ed25519 key with 100 key derivation function rounds and save the key to a specific file:
 
-`ssh-keygen -f {{~/.ssh/filename}}`
-
-- Generate an ed25519 key with 100 key derivation function rounds:
-
-`ssh-keygen -t {{ed25519}} -a {{100}}`
+`ssh-keygen -t {{ed25519}} -a {{100}} -f {{~/.ssh/filename}}`
 
 - Generate an RSA 4096-bit key with email as a comment:
 
@@ -48,4 +44,8 @@ sources:
 - Change the type of the key format (for example from OPENSSH format to PEM), the file will be rewritten in-place:
 
 `ssh-keygen -p -N "" -m {{PEM}} -f {{~/.ssh/OpenSSH_private_key}}`
+
+- Retrieve public key from secret key:
+
+`ssh-keygen -y -f {{~/.ssh/OpenSSH_private_key}}`
 
