@@ -2,8 +2,8 @@
 id: common.7zr
 title: 7zr
 desc: ''
-updated: 1670142130861
-created: 1670142130861
+updated: 1684372830843
+created: 1684372830843
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -24,7 +24,7 @@ sources:
 
 - Encrypt an existing archive (including file names):
 
-`7zr a {{path/to/encrypted.7z}} -p{{password}} -mhe=on {{path/to/archive.7z}}`
+`7zr a {{path/to/encrypted.7z}} -p{{password}} -mhe={{on}} {{path/to/archive.7z}}`
 
 - E[x]tract an archive preserving the original directory structure:
 
