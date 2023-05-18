@@ -2,8 +2,8 @@
 id: linux.unix2mac
 title: Unix2mac
 desc: ''
-updated: 1656620558084
-created: 1656620558084
+updated: 1684394078589
+created: 1684394078589
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -20,9 +20,9 @@ sources:
 
 - Change the line endings of a file:
 
-`unix2mac {{filename}}`
+`unix2mac {{path/to/file}}`
 
 - Create a copy with macOS-style line endings:
 
-`unix2mac -n {{filename}} {{new_filename}}`
+`unix2mac -n {{path/to/unix_file}} {{path/to/mac_file}}`
 

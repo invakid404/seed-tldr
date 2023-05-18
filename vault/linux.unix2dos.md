@@ -2,8 +2,8 @@
 id: linux.unix2dos
 title: Unix2dos
 desc: ''
-updated: 1656620558084
-created: 1656620558084
+updated: 1684394078589
+created: 1684394078589
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -20,9 +20,9 @@ sources:
 
 - Change the line endings of a file:
 
-`unix2dos {{filename}}`
+`unix2dos {{path/to/file}}`
 
 - Create a copy with DOS-style line endings:
 
-`unix2dos -n {{filename}} {{new_filename}}`
+`unix2dos -n {{path/to/unix_file}} {{path/to/dos_file}}`
 
