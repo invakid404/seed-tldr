@@ -2,8 +2,8 @@
 id: common.7zr
 title: 7zr
 desc: ''
-updated: 1684372830843
-created: 1684372830843
+updated: 1684413160651
+created: 1684413160651
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -16,7 +16,7 @@ sources:
 
 > File archiver with a high compression ratio.
 > Similar to `7z` except that it only supports `.7z` files.
-> More information: <https://www.7-zip.org>.
+> More information: <https://manned.org/7zr>.
 
 - [a]rchive a file or directory:
 

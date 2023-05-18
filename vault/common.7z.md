@@ -2,8 +2,8 @@
 id: common.7z
 title: 7z
 desc: ''
-updated: 1670142130861
-created: 1670142130861
+updated: 1684413160651
+created: 1684413160651
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,7 +15,7 @@ sources:
 # 7z
 
 > File archiver with a high compression ratio.
-> More information: <https://www.7-zip.org>.
+> More information: <https://manned.org/7z>.
 
 - [a]dd a file or directory to a new or existing archive:
 
