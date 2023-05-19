@@ -2,8 +2,8 @@
 id: common.git-merge
 title: Git Merge
 desc: ''
-updated: 1642441815025
-created: 1642441815025
+updated: 1684469981502
+created: 1684469981502
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -23,7 +23,7 @@ sources:
 
 - Edit the merge message:
 
-`git merge -e {{branch_name}}`
+`git merge --edit {{branch_name}}`
 
 - Merge a branch and create a merge commit:
 
@@ -32,4 +32,8 @@ sources:
 - Abort a merge in case of conflicts:
 
 `git merge --abort`
+
+- Merge using a specific strategy:
+
+`git merge --strategy {{strategy}} --strategy-option {{strategy_option}} {{branch_name}}`
 

@@ -2,8 +2,8 @@
 id: common.eslint
 title: Eslint
 desc: ''
-updated: 1642441815013
-created: 1642441815013
+updated: 1684469981468
+created: 1684469981468
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -23,7 +23,7 @@ sources:
 
 - Lint on a given set of files:
 
-`eslint {{filename}}.js {{filename1}}.js`
+`eslint {{path/to/file1.js path/to/file2.js ...}}`
 
 - Fix lint issues:
 
@@ -31,5 +31,5 @@ sources:
 
 - Lint with config:
 
-`eslint -c {{path/to/config_file}} {{app/src}}`
+`eslint -c {{path/to/config_file}} {{path/to/source}}`
 
