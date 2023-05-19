@@ -2,8 +2,8 @@
 id: common.md5sum
 title: Common
 desc: ''
-updated: 1682922104038
-created: 1682922104038
+updated: 1684491440536
+created: 1684491440536
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -17,19 +17,19 @@ sources:
 > Calculate MD5 cryptographic checksums.
 > More information: <https://www.gnu.org/software/coreutils/md5sum>.
 
-- Calculate the MD5 checksum for a file:
+- Calculate the MD5 checksum for one or more files:
 
-`md5sum {{path/to/file}}`
+`md5sum {{path/to/file1 path/to/file2 ...}}`
 
-- Calculate MD5 checksums for multiple files:
+- Calculate and save the list of MD5 checksums to a file:
 
-`md5sum {{path/to/file1}} {{path/to/file2}}`
+`md5sum {{path/to/file1 path/to/file2 ...}} > {{path/to/file.md5}}`
 
 - Calculate an MD5 checksum from `stdin`:
 
-`{{some_command}}" | md5sum`
+`{{some_command}} | md5sum`
 
-- Read a file of MD5SUMs and verify all files have matching checksums:
+- Read a file of MD5 sums and filenames and verify all files have matching checksums:
 
 `md5sum --check {{path/to/file.md5}}`
 
@@ -37,7 +37,7 @@ sources:
 
 `md5sum --check --quiet {{path/to/file.md5}}`
 
-- Only show a message for files for which verification fails, ignoring missing files:
+- Only show a message when verification fails, ignoring missing files:
 
 `md5sum --ignore-missing --check --quiet {{path/to/file.md5}}`
 

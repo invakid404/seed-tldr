@@ -2,8 +2,8 @@
 id: common.b2sum
 title: B2sum
 desc: ''
-updated: 1670142130872
-created: 1670142130872
+updated: 1684491440440
+created: 1684491440440
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -17,15 +17,15 @@ sources:
 > Calculate BLAKE2 cryptographic checksums.
 > More information: <https://www.gnu.org/software/coreutils/b2sum>.
 
-- Calculate the BLAKE2 checksum for a file:
+- Calculate the BLAKE2 checksum for one or more files:
 
-`b2sum {{path/to/file}}`
+`b2sum {{path/to/file1 path/to/file2 ...}}`
 
-- Calculate BLAKE2 checksums for multiple files:
+- Calculate and save the list of BLAKE2 checksums to a file:
 
-`b2sum {{path/to/file1}} {{path/to/file2}}`
+`b2sum {{path/to/file1 path/to/file2 ...}} > {{path/to/file.b2}}`
 
-- Calculate the BLAKE2 checksum from `stdin`:
+- Calculate a BLAKE2 checksum from `stdin`:
 
 `{{some_command}} | b2sum`
 
@@ -37,7 +37,7 @@ sources:
 
 `b2sum --check --quiet {{path/to/file.b2}}`
 
-- Only show a message for files for which verification fails, ignoring missing files:
+- Only show a message when verification fails, ignoring missing files:
 
 `b2sum --ignore-missing --check --quiet {{path/to/file.b2}}`
 
