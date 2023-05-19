@@ -2,8 +2,8 @@
 id: common.exiftool
 title: Exiftool
 desc: ''
-updated: 1670310991770
-created: 1670310991770
+updated: 1684520364193
+created: 1684520364193
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -31,7 +31,7 @@ sources:
 
 - Remove all EXIF metadata from the given image files, then re-add metadata for color and orientation:
 
-`exiftool -All= -tagsfromfile @ -colorspacetags -orientation {{image1 image2 ...}}`
+`exiftool -All= -tagsfromfile @ -colorspacetags -orientation {{path/to/image1 path/to/image2 ...}}`
 
 - Move the date at which all photos in a directory were taken 1 hour forward:
 

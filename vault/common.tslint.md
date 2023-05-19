@@ -2,8 +2,8 @@
 id: common.tslint
 title: Tslint
 desc: ''
-updated: 1642441815078
-created: 1642441815078
+updated: 1684520364312
+created: 1684520364312
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -23,7 +23,7 @@ sources:
 
 - Lint on a given set of files:
 
-`tslint {{filename}}.js {{filename1}}.js`
+`tslint {{path/to/file1.js path/to/file2.js ...}}`
 
 - Fix lint issues:
 
