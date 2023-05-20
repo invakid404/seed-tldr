@@ -2,8 +2,8 @@
 id: common.vifm
 title: Vifm
 desc: ''
-updated: 1656591837588
-created: 1656591837588
+updated: 1684552599933
+created: 1684552599933
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -23,5 +23,5 @@ sources:
 
 - Open specified directories on left or right plane:
 
-`vifm {{path/to/directory_1}} {{path/to/directory_2}}`
+`vifm {{path/to/directory1 path/to/directory2 ...}}`
 
