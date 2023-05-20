@@ -2,8 +2,8 @@
 id: common.curl
 title: Curl
 desc: ''
-updated: 1670310991757
-created: 1670310991757
+updated: 1684549900060
+created: 1684549900060
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -16,7 +16,7 @@ sources:
 
 > Transfers data from or to a server.
 > Supports most protocols, including HTTP, FTP, and POP3.
-> More information: <https://curl.se>.
+> More information: <https://curl.se/docs/manpage.html>.
 
 - Download the contents of a URL to a file:
 

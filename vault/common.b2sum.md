@@ -2,8 +2,8 @@
 id: common.b2sum
 title: B2sum
 desc: ''
-updated: 1684491440440
-created: 1684491440440
+updated: 1684549900046
+created: 1684549900046
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -27,7 +27,7 @@ sources:
 
 - Calculate a BLAKE2 checksum from `stdin`:
 
-`{{some_command}} | b2sum`
+`{{command}} | b2sum`
 
 - Read a file of BLAKE2 sums and filenames and verify all files have matching checksums:
 

@@ -2,8 +2,8 @@
 id: common.sha256sum
 title: Sha256sum
 desc: ''
-updated: 1684491440586
-created: 1684491440586
+updated: 1684549900169
+created: 1684549900169
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -27,7 +27,7 @@ sources:
 
 - Calculate a SHA256 checksum from `stdin`:
 
-`{{some_command}} | sha256sum`
+`{{command}} | sha256sum`
 
 - Read a file of SHA256 sums and filenames and verify all files have matching checksums:
 

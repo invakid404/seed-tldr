@@ -2,8 +2,8 @@
 id: common.shasum
 title: Shasum
 desc: ''
-updated: 1684491440587
-created: 1684491440587
+updated: 1684549900169
+created: 1684549900169
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -31,7 +31,7 @@ sources:
 
 - Calculate a SHA1 checksum from `stdin`:
 
-`{{some_command}} | shasum`
+`{{command}} | shasum`
 
 - Calculate and save the list of SHA256 checksums to a file:
 

@@ -2,8 +2,8 @@
 id: common.b3sum
 title: B3sum
 desc: ''
-updated: 1684491440441
-created: 1684491440441
+updated: 1684549900046
+created: 1684549900046
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -27,7 +27,7 @@ sources:
 
 - Calculate a BLAKE3 checksum from `stdin`:
 
-`{{some_command}} | b3sum`
+`{{command}} | b3sum`
 
 - Read a file of BLAKE3 sums and filenames and verify all files have matching checksums:
 

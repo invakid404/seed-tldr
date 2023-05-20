@@ -2,8 +2,8 @@
 id: common.md5sum
 title: Common
 desc: ''
-updated: 1684491440536
-created: 1684491440536
+updated: 1684549900128
+created: 1684549900128
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -27,7 +27,7 @@ sources:
 
 - Calculate an MD5 checksum from `stdin`:
 
-`{{some_command}} | md5sum`
+`{{command}} | md5sum`
 
 - Read a file of MD5 sums and filenames and verify all files have matching checksums:
 

@@ -2,8 +2,8 @@
 id: linux.mimetype
 title: Mimetype
 desc: ''
-updated: 1670142131073
-created: 1670142131073
+updated: 1684549900230
+created: 1684549900230
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -31,7 +31,7 @@ sources:
 
 - Determine the MIME type of `stdin` (does not check a filename):
 
-`{{some_command}} | mimetype --stdin`
+`{{command}} | mimetype --stdin`
 
 - Display debug information about how the MIME type was determined:
 

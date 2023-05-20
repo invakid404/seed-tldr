@@ -2,8 +2,8 @@
 id: common.sha224sum
 title: Sha224sum
 desc: ''
-updated: 1684491440586
-created: 1684491440586
+updated: 1684549900169
+created: 1684549900169
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -27,7 +27,7 @@ sources:
 
 - Calculate a SHA224 checksum from `stdin`:
 
-`{{some_command}} | sha224sum`
+`{{command}} | sha224sum`
 
 - Read a file of SHA224 sums and filenames and verify all files have matching checksums:
 
