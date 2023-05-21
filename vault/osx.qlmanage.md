@@ -2,8 +2,8 @@
 id: osx.qlmanage
 title: Qlmanage
 desc: ''
-updated: 1644840636311
-created: 1644840636311
+updated: 1684646071602
+created: 1684646071602
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -19,7 +19,7 @@ sources:
 
 - Display QuickLook for one or multiple files:
 
-`qlmanage -p {{filename}} {{filename2}}`
+`qlmanage -p {{path/to/file1 path/to/file2 ...}}`
 
 - Compute 300px wide PNG thumbnails of all JPEGs in the current directory and put them in a directory:
 
