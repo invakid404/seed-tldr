@@ -2,8 +2,8 @@
 id: common.apg
 title: Apg
 desc: ''
-updated: 1642441814994
-created: 1642441814994
+updated: 1684746997312
+created: 1684746997312
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -35,5 +35,5 @@ sources:
 
 - Create a password that doesn't appear in a dictionary (the dictionary file has to be provided):
 
-`apg -r {{dictionary_file}}`
+`apg -r {{path/to/dictionary_file}}`
 
