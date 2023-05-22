@@ -2,8 +2,8 @@
 id: common.mitmproxy
 title: Mitmproxy
 desc: ''
-updated: 1642441815047
-created: 1642441815047
+updated: 1684723125615
+created: 1684723125615
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,13 +15,18 @@ sources:
 # mitmproxy
 
 > An interactive man-in-the-middle HTTP proxy.
-> More information: <https://mitmproxy.org>.
+> See also: `mitmweb`.
+> More information: <https://docs.mitmproxy.org/stable/concepts-options>.
 
-- Start mitmproxy with default settings:
+- Start `mitmproxy` with default settings:
 
 `mitmproxy`
 
-- Start mitmproxy bound to custom address and port:
+- Start `mitmproxy` bound to a custom address and port:
 
-`mitmproxy -b {{ip_address}} -p {{port}}`
+`mitmproxy --listen-host {{ip_address}} --listen-port {{port}}`
+
+- Start `mitmproxy` using a script to process traffic:
+
+`mitmproxy --scripts {{path/to/script.py}}`
 
