@@ -2,8 +2,8 @@
 id: common.eslint
 title: Eslint
 desc: ''
-updated: 1684469981468
-created: 1684469981468
+updated: 1684822864523
+created: 1684822864523
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -17,11 +17,11 @@ sources:
 > A pluggable linting utility for JavaScript and JSX.
 > More information: <https://eslint.org>.
 
-- Create ESLint config:
+- Create the ESLint config file:
 
 `eslint --init`
 
-- Lint on a given set of files:
+- Lint one or more files:
 
 `eslint {{path/to/file1.js path/to/file2.js ...}}`
 
@@ -29,7 +29,7 @@ sources:
 
 `eslint --fix`
 
-- Lint with config:
+- Lint using the specified config:
 
-`eslint -c {{path/to/config_file}} {{path/to/source}}`
+`eslint -c {{path/to/config_file}} {{path/to/file1.js path/to/file2.js}}`
 
