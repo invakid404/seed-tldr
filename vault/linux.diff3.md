@@ -2,8 +2,8 @@
 id: linux.diff3
 title: Diff3
 desc: ''
-updated: 1642441815092
-created: 1642441815092
+updated: 1684901961504
+created: 1684901961504
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -19,9 +19,9 @@ sources:
 
 - Compare files:
 
-`diff3 {{file1}} {{file2}} {{file3}}`
+`diff3 {{path/to/file1}} {{path/to/file2}} {{path/to/file3}}`
 
 - Show all changes, outlining conflicts:
 
-`diff3 --show-all {{file1}} {{file2}} {{file3}}`
+`diff3 --show-all {{path/to/file1}} {{path/to/file2}} {{path/to/file3}}`
 
