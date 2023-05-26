@@ -2,8 +2,8 @@
 id: linux.pacman
 title: Pacman
 desc: ''
-updated: 1684235622562
-created: 1684235622562
+updated: 1685092557795
+created: 1685092557795
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,7 +15,7 @@ sources:
 # pacman
 
 > Arch Linux package manager utility.
-> See also: `pacman-database`, `pacman-deptest`, `pacman-files`, `pacman-key`,  `pacman-mirrors`, `pacman-query`, `pacman-remove`, `pacman-sync`, `pacman-upgrade`.
+> See also: `pacman-database`, `pacman-deptest`, `pacman-files`, `pacman-key`, `pacman-mirrors`, `pacman-query`, `pacman-remove`, `pacman-sync`, `pacman-upgrade`.
 > For equivalent commands in other package managers, see <https://wiki.archlinux.org/title/Pacman/Rosetta>.
 > More information: <https://man.archlinux.org/man/pacman.8>.
 
