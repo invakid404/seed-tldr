@@ -2,8 +2,8 @@
 id: linux.zathura
 title: Zathura
 desc: ''
-updated: 1642441815119
-created: 1642441815119
+updated: 1685473997521
+created: 1685473997521
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -14,7 +14,7 @@ sources:
 ---
 # zathura
 
-> A vim-like modal document viewer, with an integrated command line.
+> A vim-like modal document viewer, with an integrated command-line.
 > Make sure a backend is installed (poppler, PostScript, or DjVu).
 > More information: <https://pwmt.org/projects/zathura/>.
 

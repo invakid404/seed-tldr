@@ -2,8 +2,8 @@
 id: linux.toolbox
 title: Toolbox
 desc: ''
-updated: 1660355524661
-created: 1660355524661
+updated: 1685473997508
+created: 1685473997508
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -14,7 +14,7 @@ sources:
 ---
 # toolbox
 
-> Tool for containerized command line environments on Linux.
+> Tool for containerized command-line environments on Linux.
 > Some subcommands such as `toolbox create` have their own usage documentation.
 > More information: <https://manned.org/toolbox.1>.
 

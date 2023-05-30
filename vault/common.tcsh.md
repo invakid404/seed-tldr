@@ -2,8 +2,8 @@
 id: common.tcsh
 title: Tcsh
 desc: ''
-updated: 1670142131015
-created: 1670142131015
+updated: 1685473997362
+created: 1685473997362
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -14,7 +14,7 @@ sources:
 ---
 # tcsh
 
-> C shell with file name completion and command line editing.
+> C shell with file name completion and command-line editing.
 > See also: `csh`.
 > More information: <https://manned.org/tcsh>.
 

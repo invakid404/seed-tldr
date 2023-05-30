@@ -2,8 +2,8 @@
 id: windows.diskpart
 title: Diskpart
 desc: ''
-updated: 1664897374260
-created: 1664897374260
+updated: 1685473997565
+created: 1685473997565
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -17,7 +17,7 @@ sources:
 > Disk, volume and partition manager.
 > More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/diskpart>.
 
-- Run diskpart by itself in an administrative command prompt to enter its command line:
+- Run diskpart by itself in an administrative command prompt to enter its command-line:
 
 `diskpart`
 

@@ -2,8 +2,8 @@
 id: linux.mpicc
 title: Mpicc
 desc: ''
-updated: 1681355859567
-created: 1681355859567
+updated: 1685473997462
+created: 1685473997462
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,7 +15,7 @@ sources:
 # mpicc
 
 > Open MPI C wrapper compiler.
-> The wrappers are simply thin shells on top of a C compiler, they add the relevant compiler and linker flags to the command line that are necessary to compile/link Open MPI programs, and then invoke the underlying C compiler to actually perform the command.
+> The wrappers are simply thin shells on top of a C compiler, they add the relevant compiler and linker flags to the command-line that are necessary to compile/link Open MPI programs, and then invoke the underlying C compiler to actually perform the command.
 > More information: <https://www.mpich.org/static/docs/latest/www1/mpicc.html>.
 
 - Compile a source code file into an object file:

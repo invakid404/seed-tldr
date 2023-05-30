@@ -2,8 +2,8 @@
 id: linux.xset
 title: Xset
 desc: ''
-updated: 1642574149134
-created: 1642574149134
+updated: 1685473997520
+created: 1685473997520
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -20,6 +20,10 @@ sources:
 - Disable the screensaver:
 
 `xset s off`
+
+- Disable the bell sound:
+
+`xset b off`
 
 - Set the screensaver to start after 60 minutes of inactivity:
 

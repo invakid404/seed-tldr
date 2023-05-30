@@ -2,8 +2,8 @@
 id: common.yolo
 title: Yolo
 desc: ''
-updated: 1673893294193
-created: 1673893294193
+updated: 1685473997393
+created: 1685473997393
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -14,7 +14,7 @@ sources:
 ---
 # yolo
 
-> The YOLO command line interface lets you simply train, validate or infer models on various tasks and versions.
+> The YOLO command-line interface lets you simply train, validate or infer models on various tasks and versions.
 > More information: <https://docs.ultralytics.com/cli/>.
 
 - Create a copy of the default configuration in your current working directory:

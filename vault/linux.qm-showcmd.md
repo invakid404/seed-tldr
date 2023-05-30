@@ -2,8 +2,8 @@
 id: linux.qm-showcmd
 title: Qm Showcmd
 desc: ''
-updated: 1671712419445
-created: 1671712419445
+updated: 1685473997486
+created: 1685473997486
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -14,10 +14,10 @@ sources:
 ---
 # qm showcmd
 
-> Show command line which is used to start the VM (debug info).
+> Show command-line which is used to start the VM (debug info).
 > More information: <https://pve.proxmox.com/pve-docs/qm.1.html>.
 
-- Show command line for a specific virtual machine:
+- Show command-line for a specific virtual machine:
 
 `qm showcmd {{vm_id}}`
 

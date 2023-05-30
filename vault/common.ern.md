@@ -2,8 +2,8 @@
 id: common.ern
 title: Ern
 desc: ''
-updated: 1658986102375
-created: 1658986102375
+updated: 1685473997182
+created: 1685473997182
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -14,7 +14,7 @@ sources:
 ---
 # ern
 
-> Electrode Native platform command line client.
+> Electrode Native platform command-line client.
 > More information: <https://native.electrode.io/reference/index-6>.
 
 - Create a new `ern` application (`MiniApp`):

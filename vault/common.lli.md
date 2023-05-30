@@ -2,8 +2,8 @@
 id: common.lli
 title: Lli
 desc: ''
-updated: 1642441815041
-created: 1642441815041
+updated: 1685473997267
+created: 1685473997267
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -21,7 +21,7 @@ sources:
 
 `lli {{path/to/file.ll}}`
 
-- Execute with command line arguments:
+- Execute with command-line arguments:
 
 `lli {{path/to/file.ll}} {{argument1 argument2 ...}}`
 

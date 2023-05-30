@@ -2,8 +2,8 @@
 id: common.vifm
 title: Vifm
 desc: ''
-updated: 1684552599933
-created: 1684552599933
+updated: 1685473997378
+created: 1685473997378
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -14,7 +14,7 @@ sources:
 ---
 # vifm
 
-> Vifm (VI File Manager) is a command line file manager.
+> Vifm (VI File Manager) is a command-line file manager.
 > More information: <https://github.com/vifm/vifm>.
 
 - Open the current directory:

@@ -2,8 +2,8 @@
 id: linux.goobook
 title: Goobook
 desc: ''
-updated: 1666946094727
-created: 1666946094727
+updated: 1685473997437
+created: 1685473997437
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -14,7 +14,7 @@ sources:
 ---
 # goobook
 
-> Access Google contacts from `mutt` or the command line.
+> Access Google contacts from `mutt` or the command-line.
 > More information: <https://manned.org/goobook>.
 
 - Allow `goobook` to access Google contacts using OAuth2:

@@ -2,8 +2,8 @@
 id: linux.getopt
 title: Getopt
 desc: ''
-updated: 1642441815096
-created: 1642441815096
+updated: 1685473997436
+created: 1685473997436
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -14,7 +14,7 @@ sources:
 ---
 # getopt
 
-> Parse command line arguments.
+> Parse command-line arguments.
 > More information: <https://www.gnu.org/software/libc/manual/html_node/Getopt.html>.
 
 - Parse optional `verbose`/`version` flags with shorthands:

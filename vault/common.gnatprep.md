@@ -2,8 +2,8 @@
 id: common.gnatprep
 title: Gnatprep
 desc: ''
-updated: 1665354274156
-created: 1665354274156
+updated: 1685473997231
+created: 1685473997231
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -21,7 +21,7 @@ sources:
 
 `gnatprep {{source_file}} {{target_file}} {{definitions_file}}`
 
-- Specify symbol values in the command line:
+- Specify symbol values in the command-line:
 
 `gnatprep -D{{name}}={{value}} {{source_file}} {{target_file}}`
 

@@ -2,8 +2,8 @@
 id: common.cs-complete-dep
 title: Cs Complete Dep
 desc: ''
-updated: 1673284741484
-created: 1673284741484
+updated: 1685473997160
+created: 1685473997160
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -14,7 +14,7 @@ sources:
 ---
 # cs complete dep
 
-> Allows the developer to search for libraries without searching directly on the web but from the command line.
+> Allows the developer to search for libraries without searching directly on the web but from the command-line.
 > More information: <https://get-coursier.io/docs/cli-complete>.
 
 - Print which artifacts are published under a specific Maven group identifier:

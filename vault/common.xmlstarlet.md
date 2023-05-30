@@ -2,8 +2,8 @@
 id: common.xmlstarlet
 title: Xmlstarlet
 desc: ''
-updated: 1684257255274
-created: 1684257255274
+updated: 1685473997390
+created: 1685473997390
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -14,7 +14,7 @@ sources:
 ---
 # xmlstarlet
 
-> A commandline XML/XSLT toolkit.
+> A command-line XML/XSLT toolkit.
 > Note: You will likely need to know XPath: <https://developer.mozilla.org/en-US/docs/Web/XPath>.
 > More information: <https://xmlstar.sourceforge.net/docs.php>.
 

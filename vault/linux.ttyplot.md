@@ -2,8 +2,8 @@
 id: linux.ttyplot
 title: Ttyplot
 desc: ''
-updated: 1670142131093
-created: 1670142131093
+updated: 1685473997509
+created: 1685473997509
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -14,7 +14,7 @@ sources:
 ---
 # ttyplot
 
-> A realtime plotting utility for the command line with data input from `stdin`.
+> A realtime plotting utility for the command-line with data input from `stdin`.
 > More information: <https://github.com/tenox7/ttyplot>.
 
 - Plot the values `1`, `2` and `3` (`cat` prevents ttyplot to exit):

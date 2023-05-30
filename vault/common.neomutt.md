@@ -2,8 +2,8 @@
 id: common.neomutt
 title: Neomutt
 desc: ''
-updated: 1642441815050
-created: 1642441815050
+updated: 1685473997290
+created: 1685473997290
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -14,7 +14,7 @@ sources:
 ---
 # neomutt
 
-> NeoMutt command line email client.
+> NeoMutt command-line email client.
 > More information: <https://neomutt.org>.
 
 - Open the specified mailbox:

@@ -2,8 +2,8 @@
 id: common.clifm
 title: Clifm
 desc: ''
-updated: 1642512518977
-created: 1642512518977
+updated: 1685473997153
+created: 1685473997153
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -14,7 +14,7 @@ sources:
 ---
 # clifm
 
-> The command line file manager.
+> The command-line file manager.
 > More information: <https://github.com/leo-arch/clifm>.
 
 - Start CliFM:

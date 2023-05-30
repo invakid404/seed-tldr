@@ -2,8 +2,8 @@
 id: common.u3d
 title: U3d
 desc: ''
-updated: 1642441815078
-created: 1642441815078
+updated: 1685473997374
+created: 1685473997374
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -14,7 +14,7 @@ sources:
 ---
 # u3d
 
-> Set of tools to interact with Unity from command line.
+> Set of tools to interact with Unity from command-line.
 > More information: <https://github.com/DragonBox/u3d>.
 
 - Open project from the current directory in correct Unity version:

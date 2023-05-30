@@ -2,8 +2,8 @@
 id: common.tcc
 title: Tcc
 desc: ''
-updated: 1680390924270
-created: 1680390924270
+updated: 1685473997362
+created: 1685473997362
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -14,7 +14,7 @@ sources:
 ---
 # tcc
 
-> A tiny C compiler that can run C source files as scripts and otherwise has command line options similar to `gcc`.
+> A tiny C compiler that can run C source files as scripts and otherwise has command-line options similar to `gcc`.
 > More information: <https://bellard.org/tcc/tcc-doc.html>.
 
 - Compile and link 2 source files to generate an executable:

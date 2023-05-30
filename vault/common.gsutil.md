@@ -2,8 +2,8 @@
 id: common.gsutil
 title: Gsutil
 desc: ''
-updated: 1664080017048
-created: 1664080017048
+updated: 1685473997239
+created: 1685473997239
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -14,7 +14,7 @@ sources:
 ---
 # gsutil
 
-> The gsutil CLI lets you access Google Cloud Storage from the command line.
+> The gsutil CLI lets you access Google Cloud Storage from the command-line.
 > You can use gsutil to do a wide range of bucket and object management tasks.
 > More information: <https://cloud.google.com/storage/docs/gsutil>.
 

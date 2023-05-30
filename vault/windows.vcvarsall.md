@@ -2,8 +2,8 @@
 id: windows.vcvarsall
 title: Vcvarsall
 desc: ''
-updated: 1664897374269
-created: 1664897374269
+updated: 1685473997576
+created: 1685473997576
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -14,7 +14,7 @@ sources:
 ---
 # vcvarsall
 
-> Setup the environment variables required for using the Microsoft Visual Studio tools from the command line.
+> Setup the environment variables required for using the Microsoft Visual Studio tools from the command-line.
 > The path of `vcvarsall` for a certain Visual Studio installation can be found using `vswhere`.
 > More information: <https://learn.microsoft.com/cpp/build/building-on-the-command-line>.
 

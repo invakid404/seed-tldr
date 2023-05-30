@@ -2,8 +2,8 @@
 id: common.tailscale-up
 title: Tailscale Up
 desc: ''
-updated: 1642441815074
-created: 1642441815074
+updated: 1685473997361
+created: 1685473997361
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,7 +15,7 @@ sources:
 # tailscale up
 
 > Connects the client to the Tailscale network.
-> In version 1.8 and above, command line arguments are stored and reused until they're overwritten or `--reset` is called.
+> In version 1.8 and above, command-line arguments are stored and reused until they're overwritten or `--reset` is called.
 > More information: <https://tailscale.com/kb/admin/>.
 
 - Connect to Tailscale:
