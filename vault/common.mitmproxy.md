@@ -2,8 +2,8 @@
 id: common.mitmproxy
 title: Mitmproxy
 desc: ''
-updated: 1684723125615
-created: 1684723125615
+updated: 1685798278874
+created: 1685798278874
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -29,4 +29,8 @@ sources:
 - Start `mitmproxy` using a script to process traffic:
 
 `mitmproxy --scripts {{path/to/script.py}}`
+
+- Export the logs with SSL/TLS master keys to external programs (wireshark, etc.):
+
+`SSLKEYLOGFILE="{{path/to/file}}" mitmproxy`
 
