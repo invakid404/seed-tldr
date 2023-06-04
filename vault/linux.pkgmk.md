@@ -2,8 +2,8 @@
 id: linux.pkgmk
 title: Pkgmk
 desc: ''
-updated: 1656591837643
-created: 1656591837643
+updated: 1685843802283
+created: 1685843802283
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,7 +15,7 @@ sources:
 # pkgmk
 
 > Make a binary package for use with pkgadd on CRUX.
-> More information: <https://docs.oracle.com/cd/E19683-01/816-0210/6m6nb7mha/index.html>.
+> More information: <https://docs.oracle.com/cd/E88353_01/html/E37839/pkgmk-1.html>.
 
 - Make and download a package:
 

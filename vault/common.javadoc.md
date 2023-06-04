@@ -2,8 +2,8 @@
 id: common.javadoc
 title: Javadoc
 desc: ''
-updated: 1667172278983
-created: 1667172278983
+updated: 1685843802152
+created: 1685843802152
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,7 +15,7 @@ sources:
 # javadoc
 
 > Generate Java API documentation in HTML format from source code.
-> More information: <https://docs.oracle.com/en/java/javase/19/docs/specs/man/javadoc.html>.
+> More information: <https://docs.oracle.com/en/java/javase/20/docs/specs/man/javadoc.html>.
 
 - Generate documentation for Java source code and save the result in a directory:
 

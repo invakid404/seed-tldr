@@ -2,8 +2,8 @@
 id: common.jdeps
 title: Jdeps
 desc: ''
-updated: 1665419892001
-created: 1665419892001
+updated: 1685843802152
+created: 1685843802152
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,7 +15,7 @@ sources:
 # jdeps
 
 > Java class dependency analyzer.
-> More information: <https://docs.oracle.com/en/java/javase/18/docs/specs/man/jdeps.html>.
+> More information: <https://docs.oracle.com/en/java/javase/20/docs/specs/man/jdeps.html>.
 
 - Analyze the dependencies of a `.jar` or `.class` file:
 

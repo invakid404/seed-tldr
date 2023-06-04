@@ -2,8 +2,8 @@
 id: common.jps
 title: Jps
 desc: ''
-updated: 1665463523019
-created: 1665463523019
+updated: 1685843802154
+created: 1685843802154
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,7 +15,7 @@ sources:
 # jps
 
 > Show JVM process status of current user.
-> More information: <https://docs.oracle.com/en/java/javase/11/tools/jps.html>.
+> More information: <https://docs.oracle.com/en/java/javase/20/docs/specs/man/jps.html>.
 
 - List all JVM processes:
 

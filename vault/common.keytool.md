@@ -2,8 +2,8 @@
 id: common.keytool
 title: Keytool
 desc: ''
-updated: 1676960612402
-created: 1676960612402
+updated: 1685843802156
+created: 1685843802156
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,7 +15,7 @@ sources:
 # keytool
 
 > Keytool is a certificate management utility included with Java.
-> More information: <https://docs.oracle.com/en/java/javase/19/docs/specs/man/keytool.html>.
+> More information: <https://docs.oracle.com/en/java/javase/20/docs/specs/man/keytool.html>.
 
 - Create a keystore:
 

@@ -2,8 +2,8 @@
 id: common.serialver
 title: Serialver
 desc: ''
-updated: 1670145407061
-created: 1670145407061
+updated: 1685843802210
+created: 1685843802210
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -16,7 +16,7 @@ sources:
 
 > Returns the serialVersionUID of classes.
 > It does not set a security manager by default.
-> More information: <https://docs.oracle.com/en/java/javase/19/docs/specs/man/serialver.html>.
+> More information: <https://docs.oracle.com/en/java/javase/20/docs/specs/man/serialver.html>.
 
 - Display the serialVersionUID of a class:
 
