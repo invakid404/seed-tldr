@@ -2,8 +2,8 @@
 id: common.minifab
 title: Minifab
 desc: ''
-updated: 1642441815047
-created: 1642441815047
+updated: 1685974490773
+created: 1685974490773
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -47,5 +47,5 @@ sources:
 
 - Quickly run an application:
 
-`minifab apprun -l {{app_programming_langauge}}`
+`minifab apprun -l {{app_programming_language}}`
 
