@@ -2,8 +2,8 @@
 id: linux.tc
 title: Tc
 desc: ''
-updated: 1665410658219
-created: 1665410658219
+updated: 1685982092932
+created: 1685982092932
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -31,7 +31,7 @@ sources:
 
 - Limit bandwidth, burst rate and max latency:
 
-`tc qdisc add dev eth0 root tbf rate {{max_bandwith_mb}}mbit burst {{max_burst_rate_kb}}kbit latency {{max_latency_before_drop_ms}}ms`
+`tc qdisc add dev eth0 root tbf rate {{max_bandwidth_mb}}mbit burst {{max_burst_rate_kb}}kbit latency {{max_latency_before_drop_ms}}ms`
 
 - Show active traffic control policies:
 
