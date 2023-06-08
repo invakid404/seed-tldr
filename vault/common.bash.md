@@ -2,8 +2,8 @@
 id: common.bash
 title: Bash
 desc: ''
-updated: 1670142130873
-created: 1670142130873
+updated: 1686237395786
+created: 1686237395786
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -45,4 +45,8 @@ sources:
 - Execute specific commands from `stdin`:
 
 `{{echo "echo 'bash is executed'"}} | bash`
+
+- Start a [r]estricted shell session:
+
+`bash -r`
 
