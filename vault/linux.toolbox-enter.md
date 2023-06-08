@@ -2,8 +2,8 @@
 id: linux.toolbox-enter
 title: Toolbox Enter
 desc: ''
-updated: 1659687976651
-created: 1659687976651
+updated: 1686244500730
+created: 1686244500730
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -26,7 +26,7 @@ sources:
 
 `toolbox enter --release {{release}}`
 
-- Enter a toolbox container using the default image for Fedora 36:
+- Enter a toolbox container using the default image for Fedora 38:
 
-`toolbox enter --distro {{fedora}} --release {{f36}}`
+`toolbox enter --distro {{fedora}} --release {{f38}}`
 

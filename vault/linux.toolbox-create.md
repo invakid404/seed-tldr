@@ -2,8 +2,8 @@
 id: linux.toolbox-create
 title: Toolbox Create
 desc: ''
-updated: 1659687976651
-created: 1659687976651
+updated: 1686244500730
+created: 1686244500730
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -31,9 +31,9 @@ sources:
 
 - Create a `toolbox` container from a custom Fedora image:
 
-`toolbox create --image {{registry.fedoraproject.org/fedora-toolbox:36}}`
+`toolbox create --image {{registry.fedoraproject.org/fedora-toolbox:38}}`
 
-- Create a `toolbox` container using the default image for Fedora 36:
+- Create a `toolbox` container using the default image for Fedora 38:
 
-`toolbox create --distro {{fedora}} --release {{f36}}`
+`toolbox create --distro {{fedora}} --release {{f38}}`
 

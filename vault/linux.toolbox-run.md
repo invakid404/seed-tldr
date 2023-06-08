@@ -2,8 +2,8 @@
 id: linux.toolbox-run
 title: Toolbox Run
 desc: ''
-updated: 1659687976652
-created: 1659687976652
+updated: 1686244500731
+created: 1686244500731
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -26,7 +26,7 @@ sources:
 
 `toolbox run --distro {{distribution}} --release {{release}} {{command}}`
 
-- Run `emacs` inside a `toolbox` container using the default image for Fedora 36:
+- Run `emacs` inside a `toolbox` container using the default image for Fedora 38:
 
-`toolbox run --distro {{fedora}} --release {{f36}} {{emacs}}`
+`toolbox run --distro {{fedora}} --release {{f38}} {{emacs}}`
 
