@@ -2,8 +2,8 @@
 id: osx.xcrun
 title: Xcrun
 desc: ''
-updated: 1642441815124
-created: 1642441815124
+updated: 1686414018958
+created: 1686414018958
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -33,11 +33,11 @@ sources:
 
 `xcrun --toolchain {{name}}`
 
-- Display help:
-
-`xcrun --help`
-
 - Display version:
 
 `xcrun --version`
+
+- Display help:
+
+`xcrun --help`
 
