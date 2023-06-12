@@ -2,8 +2,8 @@
 id: common.git-config
 title: Git Config
 desc: ''
-updated: 1660615699728
-created: 1660615699728
+updated: 1686579312343
+created: 1686579312343
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -22,7 +22,7 @@ sources:
 
 `git config --list --local`
 
-- List only global configuration entries (stored in `~/.gitconfig`):
+- List only global configuration entries (stored in `~/.gitconfig` by default or in `$XDG_CONFIG_HOME/git/config` if such a file exists):
 
 `git config --list --global`
 
