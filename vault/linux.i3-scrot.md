@@ -2,8 +2,8 @@
 id: linux.i3-scrot
 title: I3 Scrot
 desc: ''
-updated: 1642441815097
-created: 1642441815097
+updated: 1686586872369
+created: 1686586872369
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -40,7 +40,7 @@ sources:
 
 - Capture a screenshot of a specific selection and copy it to the clipboard:
 
-`i3-scrot --select-to-clibpoard`
+`i3-scrot --select-to-clipboard`
 
 - Capture a screenshot of the active window after a delay of 5 seconds:
 
