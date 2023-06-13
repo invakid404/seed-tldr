@@ -2,8 +2,8 @@
 id: common.clj
 title: Clj
 desc: ''
-updated: 1642441815002
-created: 1642441815002
+updated: 1686680394341
+created: 1686680394341
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -30,7 +30,7 @@ sources:
 
 `clj -M -m {{namespace}} {{args}}`
 
-- Prepare a project by resolving dependencies, downloading libraries, and making / caching classpaths:
+- Prepare a project by resolving dependencies, downloading libraries, and making/caching classpaths:
 
 `clj -P`
 

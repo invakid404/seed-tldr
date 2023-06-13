@@ -2,8 +2,8 @@
 id: linux.ip
 title: Ip
 desc: ''
-updated: 1642441815099
-created: 1642441815099
+updated: 1686680394512
+created: 1686680394512
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -14,7 +14,7 @@ sources:
 ---
 # ip
 
-> Show / manipulate routing, devices, policy routing and tunnels.
+> Show/manipulate routing, devices, policy routing and tunnels.
 > Some subcommands such as `ip address` have their own usage documentation.
 > More information: <https://www.man7.org/linux/man-pages/man8/ip.8.html>.
 

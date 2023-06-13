@@ -2,8 +2,8 @@
 id: common.ern
 title: Ern
 desc: ''
-updated: 1685473997182
-created: 1685473997182
+updated: 1686680394357
+created: 1686680394357
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -21,7 +21,7 @@ sources:
 
 `ern create-miniapp {{application_name}}`
 
-- Run one or more `MiniApps` in the iOS / Android Runner application:
+- Run one or more `MiniApps` in the iOS/Android Runner application:
 
 `ern run-{{ios|android}}`
 

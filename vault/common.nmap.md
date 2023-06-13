@@ -2,8 +2,8 @@
 id: common.nmap
 title: Nmap
 desc: ''
-updated: 1656591837531
-created: 1656591837531
+updated: 1686680394425
+created: 1686680394425
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -14,7 +14,7 @@ sources:
 ---
 # nmap
 
-> Network exploration tool and security / port scanner.
+> Network exploration tool and security/port scanner.
 > Some features only activate when Nmap is run with root privileges.
 > More information: <https://nmap.org>.
 

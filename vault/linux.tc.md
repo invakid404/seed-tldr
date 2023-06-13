@@ -2,8 +2,8 @@
 id: linux.tc
 title: Tc
 desc: ''
-updated: 1685982092932
-created: 1685982092932
+updated: 1686680394543
+created: 1686680394543
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -14,7 +14,7 @@ sources:
 ---
 # tc
 
-> Show / manipulate traffic control settings.
+> Show/manipulate traffic control settings.
 > More information: <https://manned.org/tc>.
 
 - Add constant network delay to outbound packages:

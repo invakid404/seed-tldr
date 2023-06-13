@@ -2,8 +2,8 @@
 id: common.deemix
 title: Deemix
 desc: ''
-updated: 1642441815007
-created: 1642441815007
+updated: 1686680394348
+created: 1686680394348
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -22,7 +22,7 @@ sources:
 
 `deemix {{https://www.deezer.com/us/track/00000000}}`
 
-- Download track / playlist at a specific bitrate:
+- Download track/playlist at a specific bitrate:
 
 `deemix --bitrate {{FLAC|MP3}} {{url}}`
 

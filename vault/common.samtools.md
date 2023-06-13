@@ -2,8 +2,8 @@
 id: common.samtools
 title: Samtools
 desc: ''
-updated: 1670142131002
-created: 1670142131002
+updated: 1686680394451
+created: 1686680394451
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -38,7 +38,7 @@ sources:
 
 `samtools flagstat {{sorted_input}}`
 
-- Count alignments to each index (chromosome / contig):
+- Count alignments to each index (chromosome/contig):
 
 `samtools idxstats {{sorted_indexed_input}}`
 

@@ -2,8 +2,8 @@
 id: common.pastel
 title: Pastel
 desc: ''
-updated: 1642441815055
-created: 1642441815055
+updated: 1686680394432
+created: 1686680394432
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -33,7 +33,7 @@ sources:
 
 `pastel distinct {{8}}`
 
-- Get a list of all X11 / CSS color names:
+- Get a list of all X11/CSS color names:
 
 `pastel list`
 

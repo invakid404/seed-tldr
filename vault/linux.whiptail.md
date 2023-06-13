@@ -2,8 +2,8 @@
 id: linux.whiptail
 title: Whiptail
 desc: ''
-updated: 1642441815117
-created: 1642441815117
+updated: 1686680394549
+created: 1686680394549
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -25,7 +25,7 @@ sources:
 
 `whiptail --title "{{title}}" --yesno "{{message}}" {{height_in_chars}} {{width_in_chars}}`
 
-- Customise the text on the yes / no buttons:
+- Customise the text on the yes/no buttons:
 
 `whiptail --title "{{title}}" --yes-button "{{text}}" --no-button "{{text}}" --yesno "{{message}}" {{height_in_chars}} {{width_in_chars}}`
 

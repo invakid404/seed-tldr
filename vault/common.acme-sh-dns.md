@@ -2,8 +2,8 @@
 id: common.acme-sh-dns
 title: Acme Sh DNS
 desc: ''
-updated: 1642441814991
-created: 1642441814991
+updated: 1686680394315
+created: 1686680394315
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -29,7 +29,7 @@ sources:
 
 `acme.sh --issue --dns {{dns_cf}} --domain {{example.com}} --challenge-alias {{alias-for-example-validation.com}}`
 
-- Issue a certificate while disabling automatic Cloudflare / Google DNS polling after the DNS record is added by specifying a custom wait time in seconds:
+- Issue a certificate while disabling automatic Cloudflare/Google DNS polling after the DNS record is added by specifying a custom wait time in seconds:
 
 `acme.sh --issue --dns {{dns_namecheap}} --domain {{example.com}} --dnssleep {{300}}`
 

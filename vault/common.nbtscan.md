@@ -2,8 +2,8 @@
 id: common.nbtscan
 title: Nbtscan
 desc: ''
-updated: 1642441815050
-created: 1642441815050
+updated: 1686680394422
+created: 1686680394422
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -33,7 +33,7 @@ sources:
 
 `nbtscan -e {{192.168.0.1/24}}`
 
-- Read IP addresses / networks to scan from a file:
+- Read IP addresses/networks to scan from a file:
 
 `nbtscan -f {{path/to/file.txt}}`
 

@@ -2,8 +2,8 @@
 id: common.less
 title: Less
 desc: ''
-updated: 1642441815041
-created: 1642441815041
+updated: 1686680394407
+created: 1686680394407
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -21,11 +21,11 @@ sources:
 
 `less {{source_file}}`
 
-- Page down / up:
+- Page down/up:
 
 `<Space> (down), b (up)`
 
-- Go to end / start of file:
+- Go to end/start of file:
 
 `G (end), g (start)`
 
