@@ -2,8 +2,8 @@
 id: common.coproc
 title: Coproc
 desc: ''
-updated: 1671445262159
-created: 1671445262159
+updated: 1686759714003
+created: 1686759714003
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -35,7 +35,7 @@ sources:
 
 - Create a coprocess which repeatedly reads `stdin` and runs some commands on the input:
 
-`coproc {{name}} {  while read line; do {{command1; command2; ...}}; done }`
+`coproc {{name}} { while read line; do {{command1; command2; ...}}; done }`
 
 - Create and use a coprocess running `bc`:
 

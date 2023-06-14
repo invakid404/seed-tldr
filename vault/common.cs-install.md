@@ -2,8 +2,8 @@
 id: common.cs-install
 title: Cs Install
 desc: ''
-updated: 1673284741484
-created: 1673284741484
+updated: 1686759714005
+created: 1686759714005
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -14,7 +14,7 @@ sources:
 ---
 # cs install
 
-> Install an application in the installation directory onfigured when installing `cs`  (to enable the binary to be loaded add to your `.bash_profile` the `$ eval "$(cs install --env)"` command).
+> Install an application in the installation directory onfigured when installing `cs` (to enable the binary to be loaded add to your `.bash_profile` the `$ eval "$(cs install --env)"` command).
 > More information: <https://get-coursier.io/docs/cli-install>.
 
 - Install a specific application:

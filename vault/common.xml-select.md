@@ -2,8 +2,8 @@
 id: common.xml-select
 title: Xml Select
 desc: ''
-updated: 1642441815084
-created: 1642441815084
+updated: 1686759714141
+created: 1686759714141
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -22,7 +22,7 @@ sources:
 
 `xml select --template --match "{{XPATH1}}" --value-of "{{XPATH2}}" {{path/to/input.xml|URI}}`
 
-- Match  "XPATH1" and print the value of "XPATH2" as text with new-lines:
+- Match "XPATH1" and print the value of "XPATH2" as text with new-lines:
 
 `xml select --text --template --match "{{XPATH1}}" --value-of "{{XPATH2}}" --nl {{path/to/input.xml|URI}}`
 

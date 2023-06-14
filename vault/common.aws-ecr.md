@@ -2,8 +2,8 @@
 id: common.aws-ecr
 title: Aws Ecr
 desc: ''
-updated: 1642441814996
-created: 1642441814996
+updated: 1686759713983
+created: 1686759713983
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -39,7 +39,7 @@ sources:
 
 - Delete an image from a repository:
 
-`aws ecr batch-delete-image  --repository-name {{repository}} --image-ids imageTag={{latest}}`
+`aws ecr batch-delete-image --repository-name {{repository}} --image-ids imageTag={{latest}}`
 
 - Delete a repository:
 

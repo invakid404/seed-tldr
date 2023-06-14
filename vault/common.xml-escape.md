@@ -2,8 +2,8 @@
 id: common.xml-escape
 title: Xml Escape
 desc: ''
-updated: 1670142131035
-created: 1670142131035
+updated: 1686759714141
+created: 1686759714141
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -23,7 +23,7 @@ sources:
 
 - Escape special XML characters from `stdin`:
 
-`echo  "{{<a1>}}" | xml escape`
+`echo "{{<a1>}}" | xml escape`
 
 - Display help for the `escape` subcommand:
 

@@ -2,8 +2,8 @@
 id: linux.qtile
 title: Qtile
 desc: ''
-updated: 1666961421271
-created: 1666961421271
+updated: 1686759714194
+created: 1686759714194
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -21,7 +21,7 @@ sources:
 
 `qtile start`
 
-- Check the configuration file for any compilation errors (default location is  `~/.config/qtile/config.py`):
+- Check the configuration file for any compilation errors (default location is `~/.config/qtile/config.py`):
 
 `qtile check`
 

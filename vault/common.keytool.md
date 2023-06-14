@@ -2,8 +2,8 @@
 id: common.keytool
 title: Keytool
 desc: ''
-updated: 1685843802156
-created: 1685843802156
+updated: 1686759714063
+created: 1686759714063
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -27,5 +27,5 @@ sources:
 
 - Change a key's password inside a specific keystore:
 
-`keytool -keypasswd  -alias {{key_name}} -keystore {{path/to/file.keystore}}`
+`keytool -keypasswd -alias {{key_name}} -keystore {{path/to/file.keystore}}`
 

@@ -2,8 +2,8 @@
 id: common.aws-route53
 title: Aws Route53
 desc: ''
-updated: 1665484120265
-created: 1665484120265
+updated: 1686759713984
+created: 1686759713984
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -35,5 +35,5 @@ sources:
 
 - Test DNS resolving by Amazon servers of a given zone:
 
-`aws route53 test-dns-answer --hosted-zone-id {{zone_id}}  --record-name {{name}} --record-type {{type}}`
+`aws route53 test-dns-answer --hosted-zone-id {{zone_id}} --record-name {{name}} --record-type {{type}}`
 

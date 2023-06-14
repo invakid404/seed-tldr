@@ -2,8 +2,8 @@
 id: common.xml-unescape
 title: Xml Unescape
 desc: ''
-updated: 1670142131035
-created: 1670142131035
+updated: 1686759714141
+created: 1686759714141
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -23,7 +23,7 @@ sources:
 
 - Unescape special XML characters from `stdin`:
 
-`echo  "{{&lt;a1&gt;}}" | xml unescape`
+`echo "{{&lt;a1&gt;}}" | xml unescape`
 
 - Display help for the `unescape` subcommand:
 
