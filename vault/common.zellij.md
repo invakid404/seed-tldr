@@ -2,8 +2,8 @@
 id: common.zellij
 title: Zellij
 desc: ''
-updated: 1642441815086
-created: 1642441815086
+updated: 1686856324014
+created: 1686856324014
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -36,5 +36,5 @@ sources:
 
 - Detach from the current session (inside a zellij session):
 
-`Ctrl + N, D`
+`Ctrl + O, D`
 
