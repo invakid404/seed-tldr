@@ -2,8 +2,8 @@
 id: common.age
 title: Age
 desc: ''
-updated: 1674524045231
-created: 1674524045231
+updated: 1687018788287
+created: 1687018788287
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -29,7 +29,7 @@ sources:
 
 `age --recipient {{public_key_1}} --recipient {{public_key_2}} {{path/to/unencrypted_file}} --output {{path/to/encrypted_file}}`
 
-- Encrypt a file with one or more public keys that are specified in a recipients file:
+- Encrypt a file to one or more recipients with their public keys specified in a file (one per line):
 
 `age --recipients-file {{path/to/recipients_file}} {{path/to/unencrypted_file}} --output {{path/to/encrypted_file}}`
 
