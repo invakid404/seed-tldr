@@ -2,8 +2,8 @@
 id: linux.pacman
 title: Pacman
 desc: ''
-updated: 1685092557795
-created: 1685092557795
+updated: 1687198849119
+created: 1687198849119
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -31,9 +31,9 @@ sources:
 
 `sudo pacman -Rs {{package_name}}`
 
-- Search the package database for a regular expression or keyword:
+- Search the database for packages containing a specific file:
 
-`pacman -Ss "{{search_pattern}}"`
+`pacman -F "{{file_name}}"`
 
 - List installed packages and versions:
 
