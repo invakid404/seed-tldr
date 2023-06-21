@@ -2,8 +2,8 @@
 id: common.mods
 title: Mods
 desc: ''
-updated: 1687234783135
-created: 1687234783135
+updated: 1687321161794
+created: 1687321161794
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -31,7 +31,7 @@ sources:
 
 - Ask for help with your documentation, in markdown format:
 
-`mods --format "{{write a new section to this readme for a feature that sends you a free rabbit if you hit r}} < {{README.md}}"`
+`mods --format "{{write a new section to this readme for a feature that sends you a free rabbit if you hit r}}" < {{README.md}}`
 
 - Organize your videos, in markdown format:
 
