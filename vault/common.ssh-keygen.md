@@ -2,8 +2,8 @@
 id: common.ssh-keygen
 title: Ssh Keygen
 desc: ''
-updated: 1684383586767
-created: 1684383586767
+updated: 1687501477666
+created: 1687501477666
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -21,13 +21,13 @@ sources:
 
 `ssh-keygen`
 
-- Generate an ed25519 key with 100 key derivation function rounds and save the key to a specific file:
+- Generate an ed25519 key with 32 key derivation function rounds and save the key to a specific file:
 
-`ssh-keygen -t {{ed25519}} -a {{100}} -f {{~/.ssh/filename}}`
+`ssh-keygen -t {{ed25519}} -a {{32}} -f {{~/.ssh/filename}}`
 
 - Generate an RSA 4096-bit key with email as a comment:
 
-`ssh-keygen -t {{dsa|ecdsa|ed25519|rsa}} -b {{4096}} -C "{{comment|email}}"`
+`ssh-keygen -t {{rsa}} -b {{4096}} -C "{{comment|email}}"`
 
 - Remove the keys of a host from the known_hosts file (useful when a known host has a new key):
 
