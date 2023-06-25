@@ -2,8 +2,8 @@
 id: osx.valet
 title: Valet
 desc: ''
-updated: 1642441815123
-created: 1642441815123
+updated: 1687658311682
+created: 1687658311682
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,7 +15,7 @@ sources:
 # valet
 
 > A Laravel development environment that allows hosting sites via local tunnels on `http://<example>.test`.
-> More information: <https://laravel.com/docs/8.x/valet>.
+> More information: <https://laravel.com/docs/valet>.
 
 - Start the valet daemon:
 
@@ -31,7 +31,7 @@ sources:
 
 - Serve a single site instead of an entire directory:
 
-`valet link app-name`
+`valet link {{application_name}}`
 
 - Share a project via an Ngrok tunnel:
 
