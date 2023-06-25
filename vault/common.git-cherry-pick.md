@@ -2,8 +2,8 @@
 id: common.git-cherry-pick
 title: Git Cherry Pick
 desc: ''
-updated: 1642441815022
-created: 1642441815022
+updated: 1687699446679
+created: 1687699446679
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -32,5 +32,5 @@ sources:
 
 - Add the changes of a commit to the working directory, without creating a commit:
 
-`git cherry-pick -n {{commit}}`
+`git cherry-pick --no-commit {{commit}}`
 
