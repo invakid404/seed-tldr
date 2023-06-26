@@ -2,8 +2,8 @@
 id: common.mc
 title: Mc
 desc: ''
-updated: 1642441815046
-created: 1642441815046
+updated: 1687806886197
+created: 1687806886197
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -18,11 +18,11 @@ sources:
 > Navigate the directory structure using the arrow keys, the mouse or by typing the commands into the terminal.
 > More information: <https://midnight-commander.org>.
 
-- Start `mc`:
+- Start Midnight Commander:
 
 `mc`
 
-- Start `mc` in black and white:
+- Start Midnight Commander in black and white:
 
 `mc -b`
 

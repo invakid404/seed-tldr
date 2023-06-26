@@ -2,8 +2,8 @@
 id: common.weechat
 title: Weechat
 desc: ''
-updated: 1687778152121
-created: 1687778152121
+updated: 1687806886262
+created: 1687806886262
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -17,7 +17,7 @@ sources:
 > Command-line internet relay chat client with various features.
 > More information: <https://weechat.org/doc>.
 
-- Start `weechat`:
+- Start WeeChat:
 
 `weechat`
 
