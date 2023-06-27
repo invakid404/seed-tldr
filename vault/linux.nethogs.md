@@ -2,8 +2,8 @@
 id: linux.nethogs
 title: Nethogs
 desc: ''
-updated: 1642441815105
-created: 1642441815105
+updated: 1687904232972
+created: 1687904232972
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -17,7 +17,7 @@ sources:
 > Monitor bandwidth usage per process.
 > More information: <https://github.com/raboof/nethogs>.
 
-- Start nethogs as root (default device is eth0):
+- Start NetHogs as root (default device is `eth0`):
 
 `sudo nethogs`
 

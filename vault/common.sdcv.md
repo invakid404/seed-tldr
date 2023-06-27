@@ -2,8 +2,8 @@
 id: common.sdcv
 title: Sdcv
 desc: ''
-updated: 1642441815067
-created: 1642441815067
+updated: 1687904232905
+created: 1687904232905
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -18,7 +18,7 @@ sources:
 > Dictionaries are provided separately from the client.
 > More information: <https://manned.org/sdcv>.
 
-- Start sdcv interactively:
+- Start `sdcv` interactively:
 
 `sdcv`
 

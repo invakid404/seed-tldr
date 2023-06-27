@@ -2,8 +2,8 @@
 id: linux.chronyc
 title: Chronyc
 desc: ''
-updated: 1642441815090
-created: 1642441815090
+updated: 1687904232947
+created: 1687904232947
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -17,7 +17,7 @@ sources:
 > Query the Chrony NTP daemon.
 > More information: <https://chrony.tuxfamily.org/doc/4.0/chronyc.html>.
 
-- Start chronyc in interactive mode:
+- Start `chronyc` in interactive mode:
 
 `chronyc`
 

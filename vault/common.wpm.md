@@ -2,8 +2,8 @@
 id: common.wpm
 title: Wpm
 desc: ''
-updated: 1647226935562
-created: 1647226935562
+updated: 1687904232929
+created: 1687904232929
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -17,15 +17,15 @@ sources:
 > Typeracer-like console app for measuring your WPM.
 > More information: <https://github.com/cslarsen/wpm>.
 
-- Start the program:
+- Start `wpm`:
 
 `wpm`
 
-- Start wpm with short texts:
+- Start `wpm` with short texts:
 
 `wpm --short`
 
-- Start wpm using a specific text file:
+- Start `wpm` using a specific text file:
 
 `wpm --load {{path/to/file.txt}}`
 
@@ -37,7 +37,7 @@ sources:
 
 `wpm --stats`
 
-- Start wpm with monochrome colors:
+- Start `wpm` with monochrome colors:
 
 `wpm --monochrome`
 

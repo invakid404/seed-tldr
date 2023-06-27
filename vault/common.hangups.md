@@ -2,8 +2,8 @@
 id: common.hangups
 title: Hangups
 desc: ''
-updated: 1642441815032
-created: 1642441815032
+updated: 1687904232841
+created: 1687904232841
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -17,7 +17,7 @@ sources:
 > Third party command-line client for Google Hangouts.
 > More information: <https://github.com/tdryer/hangups>.
 
-- Start hangups:
+- Start `hangups`:
 
 `hangups`
 

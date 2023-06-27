@@ -2,8 +2,8 @@
 id: linux.nmon
 title: Nmon
 desc: ''
-updated: 1656591837639
-created: 1656591837639
+updated: 1687904232973
+created: 1687904232973
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -17,7 +17,7 @@ sources:
 > A system administrator, tuner, and benchmark tool.
 > More information: <https://manned.org/nmon>.
 
-- Start nmon:
+- Start `nmon`:
 
 `nmon`
 

@@ -2,8 +2,8 @@
 id: linux.bpytop
 title: Bpytop
 desc: ''
-updated: 1642441815089
-created: 1642441815089
+updated: 1687904232944
+created: 1687904232944
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -17,7 +17,7 @@ sources:
 > Display dynamic real-time information about running processes with graphs. Similar to `gtop` and `htop`.
 > More information: <https://github.com/aristocratos/bpytop>.
 
-- Start bpytop:
+- Start `bpytop`:
 
 `bpytop`
 

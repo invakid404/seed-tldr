@@ -2,8 +2,8 @@
 id: common.wuzz
 title: Wuzz
 desc: ''
-updated: 1642441815083
-created: 1642441815083
+updated: 1687904232930
+created: 1687904232930
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -17,7 +17,7 @@ sources:
 > Tool to interactively inspect HTTP requests and responses.
 > More information: <https://github.com/asciimoo/wuzz>.
 
-- Start wuzz:
+- Start `wuzz`:
 
 `wuzz`
 

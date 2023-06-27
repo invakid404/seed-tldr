@@ -2,8 +2,8 @@
 id: common.htop
 title: Htop
 desc: ''
-updated: 1656796630687
-created: 1656796630687
+updated: 1687904232844
+created: 1687904232844
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -17,11 +17,11 @@ sources:
 > Display dynamic real-time information about running processes. An enhanced version of `top`.
 > More information: <https://htop.dev/>.
 
-- Start htop:
+- Start `htop`:
 
 `htop`
 
-- Start htop displaying processes owned by a specific user:
+- Start `htop` displaying processes owned by a specific user:
 
 `htop --user {{username}}`
 

@@ -2,8 +2,8 @@
 id: linux.collectd
 title: Collectd
 desc: ''
-updated: 1642441815091
-created: 1642441815091
+updated: 1687904232948
+created: 1687904232948
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -29,7 +29,7 @@ sources:
 
 `collectd -T`
 
-- Start collectd:
+- Start `collectd`:
 
 `collectd`
 

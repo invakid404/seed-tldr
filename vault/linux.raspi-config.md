@@ -2,8 +2,8 @@
 id: linux.raspi-config
 title: Raspi Config
 desc: ''
-updated: 1642441815109
-created: 1642441815109
+updated: 1687904232984
+created: 1687904232984
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -17,7 +17,7 @@ sources:
 > An `ncurses` terminal GUI to config a Raspberry Pi.
 > More information: <https://www.raspberrypi.org/documentation/computers/configuration.html>.
 
-- Start raspi-config:
+- Start `raspi-config`:
 
 `sudo raspi-config`
 

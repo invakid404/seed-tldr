@@ -2,8 +2,8 @@
 id: linux.engrampa
 title: Engrampa
 desc: ''
-updated: 1656591837620
-created: 1656591837620
+updated: 1687904232954
+created: 1687904232954
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -18,7 +18,7 @@ sources:
 > See also: `zip`, `tar`.
 > More information: <https://github.com/mate-desktop/engrampa>.
 
-- Start engrampa:
+- Start Engrampa:
 
 `engrampa`
 

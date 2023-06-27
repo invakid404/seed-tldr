@@ -2,8 +2,8 @@
 id: common.newsboat
 title: Newsboat
 desc: ''
-updated: 1642441815050
-created: 1642441815050
+updated: 1687904232872
+created: 1687904232872
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -25,7 +25,7 @@ sources:
 
 `echo {{http://example.com/path/to/feed}} >> "${HOME}/.newsboat/urls"`
 
-- Start newsboat and refresh all feeds on startup:
+- Start Newsboat and refresh all feeds on startup:
 
 `newsboat -r`
 

@@ -2,8 +2,8 @@
 id: common.gdb
 title: Gdb
 desc: ''
-updated: 1642441815019
-created: 1642441815019
+updated: 1687904232820
+created: 1687904232820
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -33,7 +33,7 @@ sources:
 
 `gdb -ex "{{commands}}" {{executable}}`
 
-- Start gdb and pass arguments to the executable:
+- Start `gdb` and pass arguments to the executable:
 
 `gdb --args {{executable}} {{argument1}} {{argument2}}`
 

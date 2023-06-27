@@ -2,8 +2,8 @@
 id: common.speedcrunch
 title: Speedcrunch
 desc: ''
-updated: 1666779932475
-created: 1666779932475
+updated: 1687904232909
+created: 1687904232909
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -17,7 +17,7 @@ sources:
 > A high-precision scientific calculator.
 > More information: <https://www.speedcrunch.org>.
 
-- Start speedcrunch:
+- Start SpeedCrunch:
 
 `speedcrunch`
 

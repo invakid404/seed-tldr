@@ -2,8 +2,8 @@
 id: common.telnet
 title: Telnet
 desc: ''
-updated: 1642441815075
-created: 1642441815075
+updated: 1687904232915
+created: 1687904232915
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -33,7 +33,7 @@ sources:
 
 `Ctrl + ]`
 
-- Start telnet with "x" as the session termination character:
+- Start `telnet` with "x" as the session termination character:
 
 `telnet -e {{x}} {{ip_address}} {{port}}`
 

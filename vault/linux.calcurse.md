@@ -2,8 +2,8 @@
 id: linux.calcurse
 title: Calcurse
 desc: ''
-updated: 1642441815090
-created: 1642441815090
+updated: 1687904232946
+created: 1687904232946
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -17,7 +17,7 @@ sources:
 > A text-based calendar and scheduling application for the command-line.
 > More information: <https://calcurse.org>.
 
-- Start calcurse on interactive mode:
+- Start `calcurse` on interactive mode:
 
 `calcurse`
 

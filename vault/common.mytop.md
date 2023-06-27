@@ -2,8 +2,8 @@
 id: common.mytop
 title: Mytop
 desc: ''
-updated: 1642441815050
-created: 1642441815050
+updated: 1687904232871
+created: 1687904232871
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -17,7 +17,7 @@ sources:
 > Display MySQL server performance info like `top`.
 > More information: <http://jeremy.zawodny.com/mysql/mytop/mytop.html>.
 
-- Start mytop:
+- Start `mytop`:
 
 `mytop`
 

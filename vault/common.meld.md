@@ -2,8 +2,8 @@
 id: common.meld
 title: Meld
 desc: ''
-updated: 1642441815046
-created: 1642441815046
+updated: 1687904232864
+created: 1687904232864
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -17,7 +17,7 @@ sources:
 > Graphical diffing and merging tool.
 > More information: <https://meldmerge.org/>.
 
-- Start meld:
+- Start `meld`:
 
 `meld`
 

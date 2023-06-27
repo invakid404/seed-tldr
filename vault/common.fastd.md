@@ -2,8 +2,8 @@
 id: common.fastd
 title: Fastd
 desc: ''
-updated: 1678684633356
-created: 1678684633356
+updated: 1687904232809
+created: 1687904232809
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -18,7 +18,7 @@ sources:
 > Works on Layer 2 or Layer 3, supports different encryption methods, used by Freifunk.
 > More information: <https://fastd.readthedocs.io/en/stable/>.
 
-- Start fastd with a specific configuration file:
+- Start `fastd` with a specific configuration file:
 
 `fastd --config {{path/to/fastd.conf}}`
 

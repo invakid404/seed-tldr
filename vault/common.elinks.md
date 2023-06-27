@@ -2,8 +2,8 @@
 id: common.elinks
 title: Elinks
 desc: ''
-updated: 1642441815012
-created: 1642441815012
+updated: 1687904232806
+created: 1687904232806
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -14,10 +14,10 @@ sources:
 ---
 # elinks
 
-> A text based browser similar to lynx.
+> A text based browser similar to `lynx`.
 > More information: <http://elinks.or.cz>.
 
-- Start elinks:
+- Start ELinks:
 
 `elinks`
 

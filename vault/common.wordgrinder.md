@@ -2,8 +2,8 @@
 id: common.wordgrinder
 title: Wordgrinder
 desc: ''
-updated: 1642441815083
-created: 1642441815083
+updated: 1687904232929
+created: 1687904232929
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -17,7 +17,7 @@ sources:
 > Command-line word processor.
 > More information: <https://cowlark.com/wordgrinder>.
 
-- Start wordgrinder (loads a blank document by default):
+- Start WordGrinder (loads a blank document by default):
 
 `wordgrinder`
 

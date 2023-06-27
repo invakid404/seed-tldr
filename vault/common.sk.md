@@ -2,8 +2,8 @@
 id: common.sk
 title: Sk
 desc: ''
-updated: 1670310991869
-created: 1670310991869
+updated: 1687904232907
+created: 1687904232907
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -18,15 +18,15 @@ sources:
 > Similar to `fzf`.
 > More information: <https://github.com/lotabout/skim>.
 
-- Start skim on all files in the specified directory:
+- Start `skim` on all files in the specified directory:
 
 `find {{path/to/directory}} -type f | sk`
 
-- Start skim for running processes:
+- Start `skim` for running processes:
 
 `ps aux | sk`
 
-- Start skim with a specified query:
+- Start `skim` with a specified query:
 
 `sk --query "{{query}}"`
 

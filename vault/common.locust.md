@@ -2,8 +2,8 @@
 id: common.locust
 title: Locust
 desc: ''
-updated: 1642441815042
-created: 1642441815042
+updated: 1687904232860
+created: 1687904232860
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -29,15 +29,15 @@ sources:
 
 `locust --no-web --clients={{100}} --hatch-rate={{1}} --host={{http://example.com}}`
 
-- Start locust in master mode:
+- Start Locust in master mode:
 
 `locust --master --host={{http://example.com}}`
 
-- Connect locust slave to master:
+- Connect Locust slave to master:
 
 `locust --slave --host={{http://example.com}}`
 
-- Connect locust slave to master on a different machine:
+- Connect Locust slave to master on a different machine:
 
 `locust --slave --master-host={{master_hostname}} --host={{http://example.com}}`
 

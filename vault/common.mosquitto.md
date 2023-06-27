@@ -2,8 +2,8 @@
 id: common.mosquitto
 title: Mosquitto
 desc: ''
-updated: 1642441815048
-created: 1642441815048
+updated: 1687904232867
+created: 1687904232867
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -17,7 +17,7 @@ sources:
 > An MQTT broker.
 > More information: <https://mosquitto.org/>.
 
-- Start mosquitto:
+- Start Mosquitto:
 
 `mosquitto`
 

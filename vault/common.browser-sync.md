@@ -2,8 +2,8 @@
 id: common.browser-sync
 title: Browser Sync
 desc: ''
-updated: 1642441814999
-created: 1642441814999
+updated: 1687904232784
+created: 1687904232784
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -29,7 +29,7 @@ sources:
 
 `browser-sync init`
 
-- Start browser-sync from config file:
+- Start Browsersync from config file:
 
 `browser-sync start --config {{config_file}}`
 

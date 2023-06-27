@@ -2,8 +2,8 @@
 id: common.khal
 title: Khal
 desc: ''
-updated: 1642441815038
-created: 1642441815038
+updated: 1687904232852
+created: 1687904232852
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -17,7 +17,7 @@ sources:
 > A text-based calendar and scheduling application for the command-line.
 > More information: <https://lostpackets.de/khal>.
 
-- Start khal on interactive mode:
+- Start Khal on interactive mode:
 
 `ikhal`
 

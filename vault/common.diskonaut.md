@@ -2,8 +2,8 @@
 id: common.diskonaut
 title: Diskonaut
 desc: ''
-updated: 1642441815008
-created: 1642441815008
+updated: 1687904232799
+created: 1687904232799
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -17,11 +17,11 @@ sources:
 > Terminal disk space navigator, written in Rust.
 > More information: <https://github.com/imsnif/diskonaut>.
 
-- Start diskonaut in the current directory:
+- Start `diskonaut` in the current directory:
 
 `diskonaut`
 
-- Start diskonaut in a specific directory:
+- Start `diskonaut` in a specific directory:
 
 `diskonaut {{path/to/directory}}`
 

@@ -2,8 +2,8 @@
 id: common.beanstalkd
 title: Beanstalkd
 desc: ''
-updated: 1642441814998
-created: 1642441814998
+updated: 1687904232782
+created: 1687904232782
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -17,11 +17,11 @@ sources:
 > A simple and generic work-queue server.
 > More information: <https://beanstalkd.github.io/>.
 
-- Start beanstalkd, listening on port 11300:
+- Start Beanstalk, listening on port 11300:
 
 `beanstalkd`
 
-- Start beanstalkd listening on a custom port and address:
+- Start Beanstalk listening on a custom port and address:
 
 `beanstalkd -l {{ip_address}} -p {{port_number}}`
 

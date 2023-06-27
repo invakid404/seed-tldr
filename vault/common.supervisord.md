@@ -2,8 +2,8 @@
 id: common.supervisord
 title: Supervisord
 desc: ''
-updated: 1642441815074
-created: 1642441815074
+updated: 1687904232913
+created: 1687904232913
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -18,7 +18,7 @@ sources:
 > Supervisord is the server part of supervisor; it is primarily managed via a configuration file.
 > More information: <http://supervisord.org>.
 
-- Start supervisord with specified configuration file:
+- Start `supervisord` with specified configuration file:
 
 `supervisord -c {{path/to/file}}`
 

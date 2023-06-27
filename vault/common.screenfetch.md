@@ -2,8 +2,8 @@
 id: common.screenfetch
 title: Screenfetch
 desc: ''
-updated: 1642441815067
-created: 1642441815067
+updated: 1687904232904
+created: 1687904232904
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -17,7 +17,7 @@ sources:
 > Display system information.
 > More information: <https://github.com/KittyKatt/screenFetch>.
 
-- Start screenfetch:
+- Start `screenfetch`:
 
 `screenfetch`
 
