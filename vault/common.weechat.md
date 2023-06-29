@@ -2,8 +2,8 @@
 id: common.weechat
 title: Weechat
 desc: ''
-updated: 1687806886262
-created: 1687806886262
+updated: 1688055807893
+created: 1688055807893
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -33,7 +33,7 @@ sources:
 
 `weechat --no-connect`
 
-- Write default terminal colors to stdout:
+- Write default terminal colors to `stdout`:
 
 `weechat --colors`
 
