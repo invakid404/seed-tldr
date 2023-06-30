@@ -2,8 +2,8 @@
 id: linux.archlinux-java
 title: Archlinux Java
 desc: ''
-updated: 1642441815088
-created: 1642441815088
+updated: 1688106199607
+created: 1688106199607
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -14,12 +14,16 @@ sources:
 ---
 # archlinux-java
 
-> A helper script that provides functionalities for Java environments.
-> More information: <https://github.com/michaellass/archlinux-java-run>.
+> Switch between installed Java environments.
+> More information: <https://wiki.archlinux.org/title/Java#Switching_between_JVM>.
 
 - List installed Java environments:
 
 `archlinux-java status`
+
+- Return the short name of the current default Java environment:
+
+`archlinux-java get`
 
 - Set the default Java environment:
 
@@ -29,7 +33,7 @@ sources:
 
 `archlinux-java unset`
 
-- Set the default Java environment automatically:
+- Fix an invalid/broken default Java environment configuration:
 
 `archlinux-java fix`
 
