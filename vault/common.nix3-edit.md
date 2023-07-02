@@ -2,8 +2,8 @@
 id: common.nix3-edit
 title: Nix3 Edit
 desc: ''
-updated: 1682500598900
-created: 1682500598900
+updated: 1688304044929
+created: 1688304044929
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -21,7 +21,7 @@ sources:
 
 `nix edit {{nixpkgs#pkg}}`
 
-- Dump the source of a package to stdout:
+- Dump the source of a package to `stdout`:
 
 `EDITOR=cat nix edit {{nixpkgs#pkg}}`
 

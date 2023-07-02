@@ -2,8 +2,8 @@
 id: windows.select-string
 title: Select String
 desc: ''
-updated: 1676881477682
-created: 1676881477682
+updated: 1688304045098
+created: 1688304045098
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -35,7 +35,7 @@ sources:
 
 `Select-String --Context {{2,3}} "{{search_pattern}}" {{path\to\file}}`
 
-- Search stdin for lines that do not match a pattern:
+- Search `stdin` for lines that do not match a pattern:
 
 `Get-Content {{path\to\file}} | Select-String --NotMatch "{{search_pattern}}"`
 

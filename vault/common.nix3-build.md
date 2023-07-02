@@ -2,8 +2,8 @@
 id: common.nix3-build
 title: Nix3 Build
 desc: ''
-updated: 1682500598900
-created: 1682500598900
+updated: 1688304044929
+created: 1688304044929
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -30,7 +30,7 @@ sources:
 
 `nix build {{./path/to/directory}}`
 
-- Build a package without making the `result` symlink, instead printing the store path to the stdout:
+- Build a package without making the `result` symlink, instead printing the store path to the `stdout`:
 
 `nix build --no-link --print-out-paths`
 

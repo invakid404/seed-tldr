@@ -2,8 +2,8 @@
 id: common.prqlc
 title: Prqlc
 desc: ''
-updated: 1679415594214
-created: 1679415594214
+updated: 1688304044947
+created: 1688304044947
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -22,7 +22,7 @@ sources:
 
 `prqlc compile`
 
-- Compile a specific `.prql` file to stdout:
+- Compile a specific `.prql` file to `stdout`:
 
 `prqlc compile {{path/to/file.prql}}`
 

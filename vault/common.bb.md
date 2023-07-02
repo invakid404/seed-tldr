@@ -2,8 +2,8 @@
 id: common.bb
 title: Bb
 desc: ''
-updated: 1668736550447
-created: 1668736550447
+updated: 1688304044834
+created: 1688304044834
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -25,11 +25,11 @@ sources:
 
 `bb -f {{path/to/script.clj}}`
 
-- Bind input to a sequence of lines from stdin:
+- Bind input to a sequence of lines from `stdin`:
 
 `printf "first\nsecond" | bb -i "(map clojure.string/capitalize *input*)"`
 
-- Bind input to a sequence of EDN(Extensible Data Notation) values from stdin:
+- Bind input to a sequence of EDN(Extensible Data Notation) values from `stdin`:
 
 `echo "{:key 'val}" | bb -I "(:key (first *input*))"`
 

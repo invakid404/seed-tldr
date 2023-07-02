@@ -2,8 +2,8 @@
 id: common.xmlstarlet
 title: Xmlstarlet
 desc: ''
-updated: 1685473997390
-created: 1685473997390
+updated: 1688304044991
+created: 1688304044991
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -18,11 +18,11 @@ sources:
 > Note: You will likely need to know XPath: <https://developer.mozilla.org/en-US/docs/Web/XPath>.
 > More information: <https://xmlstar.sourceforge.net/docs.php>.
 
-- Format an XML document and print to stdout:
+- Format an XML document and print to `stdout`:
 
 `xmlstarlet format {{path/to/file.xml}}`
 
-- XML document can also be piped from stdin:
+- XML document can also be piped from `stdin`:
 
 `{{cat path/to/file.xml}} | xmlstarlet format`
 
@@ -30,7 +30,7 @@ sources:
 
 `xmlstarlet select --template --copy-of {{xpath}} {{path/to/file.xml}}`
 
-- Insert an attribute to all matching nodes, and print to stdout (source file is unchanged):
+- Insert an attribute to all matching nodes, and print to `stdout` (source file is unchanged):
 
 `xmlstarlet edit --insert {{xpath}} --type attr --name {{attribute_name}} --value {{attribute_value}} {{path/to/file.xml}}`
 

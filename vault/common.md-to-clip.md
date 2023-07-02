@@ -2,8 +2,8 @@
 id: common.md-to-clip
 title: Common
 desc: ''
-updated: 1679595678468
-created: 1679595678468
+updated: 1688304044920
+created: 1688304044920
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -26,7 +26,7 @@ sources:
 
 `md-to-clip --output-directory {{path/to/directory}} {{path/to/page1.md path/to/page2.md ...}}`
 
-- Convert a tldr-page file to stdout:
+- Convert a tldr-page file to `stdout`:
 
 `md-to-clip --no-file-save <(echo '{{page-content}}')`
 

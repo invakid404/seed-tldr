@@ -2,8 +2,8 @@
 id: common.zsh
 title: Zsh
 desc: ''
-updated: 1673108584953
-created: 1673108584953
+updated: 1688304044998
+created: 1688304044998
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -34,7 +34,7 @@ sources:
 
 `zsh --no-exec {{path/to/script.zsh}}`
 
-- Execute specific commands from stdin:
+- Execute specific commands from `stdin`:
 
 `{{echo Hello world}} | zsh`
 

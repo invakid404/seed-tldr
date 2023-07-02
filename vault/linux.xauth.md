@@ -2,8 +2,8 @@
 id: linux.xauth
 title: Xauth
 desc: ''
-updated: 1667802489697
-created: 1667802489697
+updated: 1688304045063
+created: 1688304045063
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -37,7 +37,7 @@ sources:
 
 `xauth remove {{display_name}}`
 
-- Print the authorization entry for the current display to stdout:
+- Print the authorization entry for the current display to `stdout`:
 
 `xauth extract - $DISPLAY`
 

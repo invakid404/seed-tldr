@@ -2,8 +2,8 @@
 id: linux.goobook
 title: Goobook
 desc: ''
-updated: 1685473997437
-created: 1685473997437
+updated: 1688304045019
+created: 1688304045019
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -21,7 +21,7 @@ sources:
 
 `goobook authenticate`
 
-- Dump all contacts to XML (stdout):
+- Dump all contacts to XML (`stdout`):
 
 `goobook dump_contacts`
 
