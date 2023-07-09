@@ -2,8 +2,8 @@
 id: linux.fold
 title: Fold
 desc: ''
-updated: 1684073630502
-created: 1684073630502
+updated: 1688890860461
+created: 1688890860461
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -12,10 +12,10 @@ sources:
     url: 'https://github.com/tldr-pages/tldr/blob/master/LICENSE.md'
     license: Creative Commons
 ---
-# Fold
+# fold
 
 > Folds long lines for fixed-width output devices.
-> More information: <https://manned.org/fold>.
+> More information: <https://gnu.org/software/coreutils/fold>.
 
 - Fold lines in a fixed width:
 
