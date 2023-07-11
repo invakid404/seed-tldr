@@ -2,8 +2,8 @@
 id: common.bgpgrep
 title: Bgpgrep
 desc: ''
-updated: 1687508576516
-created: 1687508576516
+updated: 1689056620373
+created: 1689056620373
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -16,7 +16,7 @@ sources:
 
 > Filter and print BGP data within MRT dumps.
 > Can read files compressed with gzip, bzip2 and xz.
-> More information: <https://gitea.it/1414codeforge/ubgpsuite>.
+> More information: <https://codeberg.org/1414codeforge/ubgpsuite>.
 
 - Output all routes:
 

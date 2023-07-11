@@ -2,8 +2,8 @@
 id: common.whisper
 title: Whisper
 desc: ''
-updated: 1678116051457
-created: 1678116051457
+updated: 1689056620522
+created: 1689056620522
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -23,7 +23,7 @@ sources:
 
 - Convert an audio file specifying the output format of the converted file:
 
-`whisper {{path/to/audio.mp3}} --output-format {{txt}}`
+`whisper {{path/to/audio.mp3}} --output_format {{txt}}`
 
 - Convert an audio file using a specific model for conversion:
 
