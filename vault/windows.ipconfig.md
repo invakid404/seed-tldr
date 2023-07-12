@@ -2,8 +2,8 @@
 id: windows.ipconfig
 title: Ipconfig
 desc: ''
-updated: 1664897374262
-created: 1664897374262
+updated: 1689168470234
+created: 1689168470234
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -33,7 +33,11 @@ sources:
 
 `ipconfig /release {{adapter}}`
 
-- Remove all data from the DNS cache:
+- Show the local DNS cache:
+
+`ipconfig /displaydns`
+
+- Remove all data from the local DNS cache:
 
 `ipconfig /flushdns`
 
