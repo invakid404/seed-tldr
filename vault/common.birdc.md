@@ -2,8 +2,8 @@
 id: common.birdc
 title: Birdc
 desc: ''
-updated: 1679293423525
-created: 1679293423525
+updated: 1689255122129
+created: 1689255122129
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -18,7 +18,7 @@ sources:
 > Command tool to retrieve information like routes from bird and perform configurations during runtime.
 > More information: <https://bird.network.cz/>.
 
-- Open the remote control console::
+- Open the remote control console:
 
 `birdc`
 
@@ -30,7 +30,7 @@ sources:
 
 `birdc show status`
 
-- Show all active protocols:
+- Show all configured protocols:
 
 `birdc show protocols`
 

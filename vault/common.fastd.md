@@ -2,8 +2,8 @@
 id: common.fastd
 title: Fastd
 desc: ''
-updated: 1687904232809
-created: 1687904232809
+updated: 1689255122155
+created: 1689255122155
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -38,7 +38,7 @@ sources:
 
 `fastd --show-key --config {{path/to/fastd.conf}}`
 
-- Show the current version::
+- Show the current version:
 
 `fastd -v`
 
