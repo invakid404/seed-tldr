@@ -2,8 +2,8 @@
 id: common.particle
 title: Particle
 desc: ''
-updated: 1642441815055
-created: 1642441815055
+updated: 1689531679679
+created: 1689531679679
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -14,7 +14,7 @@ sources:
 ---
 # particle
 
-> A command-line tool for interacting with Particle devices.
+> Interact with Particle devices.
 > More information: <https://docs.particle.io/tutorials/developer-tools/cli>.
 
 - Log in or create an account for the Particle CLI:

@@ -2,8 +2,8 @@
 id: common.spicetify
 title: Spicetify
 desc: ''
-updated: 1665415810265
-created: 1665415810265
+updated: 1689531679725
+created: 1689531679725
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -14,7 +14,7 @@ sources:
 ---
 # spicetify
 
-> A CLI utility to customize the Spotify client UI and functionality.
+> Customize the Spotify client UI and functionality.
 > More information: <https://spicetify.app>.
 
 - Generate a configuration file on very first run and display help:

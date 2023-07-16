@@ -2,8 +2,8 @@
 id: linux.kscreen-doctor
 title: Kscreen Doctor
 desc: ''
-updated: 1642441815100
-created: 1642441815100
+updated: 1689531679814
+created: 1689531679814
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -14,7 +14,7 @@ sources:
 ---
 # kscreen-doctor
 
-> Change and manipulate the screen setup from the command-line.
+> Change and manipulate the screen setup.
 > More information: <https://invent.kde.org/plasma/libkscreen>.
 
 - Show display output information:

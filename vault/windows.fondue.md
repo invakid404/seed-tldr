@@ -2,8 +2,8 @@
 id: windows.fondue
 title: Fondue
 desc: ''
-updated: 1664897374261
-created: 1664897374261
+updated: 1689531679921
+created: 1689531679921
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -14,7 +14,7 @@ sources:
 ---
 # fondue
 
-> A command-line installer for optional Windows features.
+> Install optional Windows features.
 > More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/fondue>.
 
 - Enable a specific Windows feature:

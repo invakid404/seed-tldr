@@ -2,8 +2,8 @@
 id: common.kcadm-sh
 title: Kcadm Sh
 desc: ''
-updated: 1666779932389
-created: 1666779932389
+updated: 1689531679631
+created: 1689531679631
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -14,7 +14,7 @@ sources:
 ---
 # kcadm.sh
 
-> Perform administration tasks from the command-line interface (CLI).
+> Perform administration tasks.
 > More information: <https://www.keycloak.org/docs/latest/server_admin/#admin-cli>.
 
 - Start an authenticated session:

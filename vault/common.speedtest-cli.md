@@ -2,8 +2,8 @@
 id: common.speedtest-cli
 title: Speedtest CLI
 desc: ''
-updated: 1642441815070
-created: 1642441815070
+updated: 1689531679725
+created: 1689531679725
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -14,7 +14,7 @@ sources:
 ---
 # speedtest-cli
 
-> Unofficial command-line interface for testing internet bandwidth using <https://speedtest.net.>
+> Test internet bandwidth using <https://speedtest.net>.
 > See also `speedtest` for the official CLI.
 > More information: <https://github.com/sivel/speedtest-cli>.
 

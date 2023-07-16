@@ -2,8 +2,8 @@
 id: common.surfraw
 title: Surfraw
 desc: ''
-updated: 1642441815074
-created: 1642441815074
+updated: 1689531679731
+created: 1689531679731
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -14,7 +14,7 @@ sources:
 ---
 # surfraw
 
-> CLI to query a variety of web search engines.
+> Query a variety of web search engines.
 > Consists of a collection of elvi, each of which knows how to search a specific website.
 > More information: <http://surfraw.org>.
 

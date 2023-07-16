@@ -2,8 +2,8 @@
 id: common.railway
 title: Railway
 desc: ''
-updated: 1685473997331
-created: 1685473997331
+updated: 1689531679703
+created: 1689531679703
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -14,7 +14,7 @@ sources:
 ---
 # railway
 
-> Connect code to a Railway project from the command-line.
+> Connect code to a Railway project.
 > More information: <https://railway.app/>.
 
 - Login to a Railway account:
@@ -25,7 +25,7 @@ sources:
 
 `railway link {{projectId}}`
 
-- Create a new project directly from the command-line:
+- Create a new project:
 
 `railway init`
 

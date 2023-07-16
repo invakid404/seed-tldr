@@ -2,8 +2,8 @@
 id: common.emulator
 title: Emulator
 desc: ''
-updated: 1642441815013
-created: 1642441815013
+updated: 1689531679553
+created: 1689531679553
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -14,12 +14,8 @@ sources:
 ---
 # emulator
 
-> Manager Android emulators from the command-line.
+> Manage Android emulators.
 > More information: <https://developer.android.com/studio/run/emulator-commandline>.
-
-- Display the help:
-
-`emulator -help`
 
 - Start an Android emulator device:
 
@@ -48,4 +44,8 @@ sources:
 - Start an emulator with a given SD card partition image file:
 
 `emulator -avd {{name}} -sdcard {{path/to/sdcard.img}}`
+
+- Display help:
+
+`emulator -help`
 

@@ -2,8 +2,8 @@
 id: common.rg
 title: Rg
 desc: ''
-updated: 1676963815370
-created: 1676963815370
+updated: 1689531679707
+created: 1689531679707
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -14,7 +14,7 @@ sources:
 ---
 # rg
 
-> Ripgrep is a recursive line-oriented CLI search tool.
+> Ripgrep is a recursive line-oriented search tool.
 > Aims to be a faster alternative to `grep`.
 > More information: <https://github.com/BurntSushi/ripgrep>.
 

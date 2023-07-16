@@ -2,8 +2,8 @@
 id: osx.osascript
 title: Osascript
 desc: ''
-updated: 1644840636310
-created: 1644840636310
+updated: 1689531679907
+created: 1689531679907
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -14,7 +14,7 @@ sources:
 ---
 # osascript
 
-> Run AppleScript or JavaScript for Automation (JXA) from the command-line.
+> Run AppleScript or JavaScript for Automation (JXA).
 > More information: <https://ss64.com/osx/osascript.html>.
 
 - Run an AppleScript command:

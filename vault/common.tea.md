@@ -2,8 +2,8 @@
 id: common.tea
 title: Tea
 desc: ''
-updated: 1642441815075
-created: 1642441815075
+updated: 1689531679734
+created: 1689531679734
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -14,7 +14,7 @@ sources:
 ---
 # tea
 
-> A command-line tool to interact with Gitea servers.
+> Interact with Gitea servers.
 > More information: <https://gitea.com/gitea/tea>.
 
 - Log into a Gitea server:

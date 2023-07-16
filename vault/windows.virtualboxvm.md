@@ -2,8 +2,8 @@
 id: windows.virtualboxvm
 title: Virtualboxvm
 desc: ''
-updated: 1676881477684
-created: 1676881477684
+updated: 1689531679931
+created: 1689531679931
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -14,7 +14,7 @@ sources:
 ---
 # virtualboxvm
 
-> The VirtualBox virtual machine management CLI.
+> Manage VirtualBox virtual machines.
 > More information: <https://www.virtualbox.org>.
 
 - Start a virtual machine:

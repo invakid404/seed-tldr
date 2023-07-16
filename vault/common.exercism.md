@@ -2,8 +2,8 @@
 id: common.exercism
 title: Exercism
 desc: ''
-updated: 1642441815014
-created: 1642441815014
+updated: 1689531679556
+created: 1689531679556
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -14,7 +14,7 @@ sources:
 ---
 # exercism
 
-> Download and solve problems from the command-line.
+> Download and solve problems.
 > More information: <https://exercism.org/docs/using/solving-exercises/working-locally>.
 
 - Configure the application token and the preferred workspace for Exercism:

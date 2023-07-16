@@ -2,8 +2,8 @@
 id: common.gh-secret-set
 title: Gh Secret Set
 desc: ''
-updated: 1685473997208
-created: 1685473997208
+updated: 1689531679579
+created: 1689531679579
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -14,7 +14,7 @@ sources:
 ---
 # gh secret set
 
-> Create or update GitHub secrets from the command-line.
+> Create or update GitHub secrets.
 > More information: <https://cli.github.com/manual/gh_secret_set>.
 
 - Set a secret for the current repository (user will be prompted for the value):

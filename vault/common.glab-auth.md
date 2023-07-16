@@ -2,8 +2,8 @@
 id: common.glab-auth
 title: Glab Auth
 desc: ''
-updated: 1644066299711
-created: 1644066299711
+updated: 1689531679601
+created: 1689531679601
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -14,7 +14,7 @@ sources:
 ---
 # glab auth
 
-> Authenticate with a GitLab host from the command-line.
+> Authenticate with a GitLab host.
 > More information: <https://glab.readthedocs.io/en/latest/auth>.
 
 - Log in with interactive prompt:

@@ -2,8 +2,8 @@
 id: common.glab-mr
 title: Glab Mr
 desc: ''
-updated: 1656591837486
-created: 1656591837486
+updated: 1689531679601
+created: 1689531679601
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -14,7 +14,7 @@ sources:
 ---
 # glab mr
 
-> Manage GitLab merge requests from the command-line.
+> Manage GitLab merge requests.
 > Some subcommands such as `glab mr create` have their own usage documentation.
 > More information: <https://glab.readthedocs.io/en/latest/mr>.
 

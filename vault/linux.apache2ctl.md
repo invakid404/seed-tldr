@@ -2,8 +2,8 @@
 id: linux.apache2ctl
 title: Apache2ctl
 desc: ''
-updated: 1642441815087
-created: 1642441815087
+updated: 1689531679771
+created: 1689531679771
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -14,7 +14,7 @@ sources:
 ---
 # apache2ctl
 
-> The CLI tool to administrate HTTP web server Apache.
+> Administrate the Apache HTTP web server.
 > This command comes with Debian based OSes, for RHEL based ones see `httpd`.
 > More information: <https://manpages.debian.org/latest/apache2/apache2ctl.8.en.html>.
 

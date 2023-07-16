@@ -2,8 +2,8 @@
 id: common.krunvm
 title: Krunvm
 desc: ''
-updated: 1670599066249
-created: 1670599066249
+updated: 1689531679634
+created: 1689531679634
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -14,7 +14,7 @@ sources:
 ---
 # krunvm
 
-> CLI-based utility for creating MicroVMs from OCI images.
+> Create MicroVMs from OCI images.
 > More information: <https://github.com/containers/krunvm>.
 
 - Create MicroVM based on Fedora:

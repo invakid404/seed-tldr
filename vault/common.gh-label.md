@@ -2,8 +2,8 @@
 id: common.gh-label
 title: Gh Label
 desc: ''
-updated: 1664856731267
-created: 1664856731267
+updated: 1689531679578
+created: 1689531679578
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -14,7 +14,7 @@ sources:
 ---
 # gh label
 
-> Work with GitHub labels on the command-line.
+> Work with GitHub labels.
 > More information: <https://cli.github.com/manual/gh_label>.
 
 - List labels for the repository in the current directory:

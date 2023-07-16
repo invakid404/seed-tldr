@@ -2,8 +2,8 @@
 id: common.mktorrent
 title: Mktorrent
 desc: ''
-updated: 1642441815047
-created: 1642441815047
+updated: 1689531679654
+created: 1689531679654
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -14,7 +14,7 @@ sources:
 ---
 # mktorrent
 
-> A CLI utility to create BitTorrent metainfo files.
+> Create BitTorrent metainfo files.
 > More information: <https://github.com/Rudde/mktorrent>.
 
 - Create a torrent with 2^21 KB as the piece size:

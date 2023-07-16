@@ -2,8 +2,8 @@
 id: common.cheat
 title: Cheat
 desc: ''
-updated: 1642441815001
-created: 1642441815001
+updated: 1689531679522
+created: 1689531679522
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -14,7 +14,7 @@ sources:
 ---
 # cheat
 
-> Create and view interactive cheat sheets on the command-line.
+> Create and view interactive cheat sheets.
 > More information: <https://github.com/cheat/cheat>.
 
 - Show example usage of a command:

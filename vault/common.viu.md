@@ -2,8 +2,8 @@
 id: common.viu
 title: Viu
 desc: ''
-updated: 1642441815082
-created: 1642441815082
+updated: 1689531679753
+created: 1689531679753
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -14,7 +14,7 @@ sources:
 ---
 # viu
 
-> A small command-line application to view images from the terminal.
+> View images on the terminal.
 > More information: <https://github.com/atanunq/viu>.
 
 - Render an image or animated GIF:

@@ -2,8 +2,8 @@
 id: common.vault
 title: Vault
 desc: ''
-updated: 1642441815079
-created: 1642441815079
+updated: 1689531679748
+created: 1689531679748
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -14,7 +14,7 @@ sources:
 ---
 # vault
 
-> A CLI to interact with HashiCorp Vault.
+> Interact with HashiCorp Vault.
 > More information: <https://www.vaultproject.io/docs/commands>.
 
 - Connect to a Vault server and initialize a new encrypted data store:

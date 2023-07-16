@@ -2,8 +2,8 @@
 id: common.gh-pr-create
 title: Gh Pr Create
 desc: ''
-updated: 1656591837470
-created: 1656591837470
+updated: 1689531679578
+created: 1689531679578
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -14,7 +14,7 @@ sources:
 ---
 # gh pr create
 
-> Manage GitHub pull requests from the command-line.
+> Manage GitHub pull requests.
 > More information: <https://cli.github.com/manual/gh_pr_create>.
 
 - Interactively create a pull request:

@@ -2,8 +2,8 @@
 id: common.lspath
 title: Lspath
 desc: ''
-updated: 1669778834257
-created: 1669778834257
+updated: 1689531679646
+created: 1689531679646
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -14,14 +14,14 @@ sources:
 ---
 # lspath
 
-> CLI app to list the contents of the PATH environment variable, with optional paging.
+> List the contents of the `PATH` environment variable, with optional paging.
 > More information: <https://github.com/clementi/lspath>.
 
-- Print the contents of the system PATH variable, with one element per line:
+- Print the contents of the system `PATH` variable, with one element per line:
 
 `lspath`
 
-- Print the current contents of the system PATH variable, with one element per line, with the output paged:
+- Print the current contents of the system `PATH` variable, with one element per line, with the output paged:
 
 `lspath --page`
 

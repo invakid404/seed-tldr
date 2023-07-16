@@ -2,8 +2,8 @@
 id: windows.winget
 title: Winget
 desc: ''
-updated: 1686248376823
-created: 1686248376823
+updated: 1689531679932
+created: 1689531679932
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -14,7 +14,7 @@ sources:
 ---
 # winget
 
-> Windows Package Manager CLI.
+> Windows Package Manager.
 > More information: <https://learn.microsoft.com/windows/package-manager/winget>.
 
 - Install a package:

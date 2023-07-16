@@ -2,8 +2,8 @@
 id: common.kops
 title: Kops
 desc: ''
-updated: 1642441815039
-created: 1642441815039
+updated: 1689531679633
+created: 1689531679633
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -14,7 +14,7 @@ sources:
 ---
 # kops
 
-> Create, destroy, upgrade and maintain Kubernetes clusters from the command-line.
+> Create, destroy, upgrade and maintain Kubernetes clusters.
 > More information: <https://github.com/kubernetes/kops/>.
 
 - Create a cluster from the configuration specification:

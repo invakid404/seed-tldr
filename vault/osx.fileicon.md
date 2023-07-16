@@ -2,8 +2,8 @@
 id: osx.fileicon
 title: Fileicon
 desc: ''
-updated: 1676877466490
-created: 1676877466490
+updated: 1689531679886
+created: 1689531679886
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -14,7 +14,7 @@ sources:
 ---
 # fileicon
 
-> A macOS CLI to manage custom file and folder icons.
+> Manage custom file and folder icons.
 > More information: <https://github.com/mklement0/fileicon>.
 
 - Set a custom icon for a specific file or directory:

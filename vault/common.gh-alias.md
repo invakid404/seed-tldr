@@ -2,8 +2,8 @@
 id: common.gh-alias
 title: Gh Alias
 desc: ''
-updated: 1642441815019
-created: 1642441815019
+updated: 1689531679576
+created: 1689531679576
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -14,7 +14,7 @@ sources:
 ---
 # gh alias
 
-> Manage GitHub CLI command aliases from the command-line.
+> Manage GitHub CLI command aliases.
 > More information: <https://cli.github.com/manual/gh_alias>.
 
 - Display the subcommand help:

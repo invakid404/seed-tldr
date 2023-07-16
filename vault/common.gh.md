@@ -2,8 +2,8 @@
 id: common.gh
 title: Gh
 desc: ''
-updated: 1656591837471
-created: 1656591837471
+updated: 1689531679579
+created: 1689531679579
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -14,7 +14,7 @@ sources:
 ---
 # gh
 
-> Work seamlessly with GitHub from the command-line.
+> Work seamlessly with GitHub.
 > Some subcommands such as `gh config` have their own usage documentation.
 > More information: <https://cli.github.com/>.
 

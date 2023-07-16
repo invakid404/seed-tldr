@@ -2,8 +2,8 @@
 id: common.gh-issue
 title: Gh Issue
 desc: ''
-updated: 1656591837470
-created: 1656591837470
+updated: 1689531679578
+created: 1689531679578
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -14,7 +14,7 @@ sources:
 ---
 # gh issue
 
-> Manage GitHub issues from the command-line.
+> Manage GitHub issues.
 > More information: <https://cli.github.com/manual/gh_issue>.
 
 - Display a specific issue:

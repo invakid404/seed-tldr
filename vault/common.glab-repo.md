@@ -2,8 +2,8 @@
 id: common.glab-repo
 title: Glab Repo
 desc: ''
-updated: 1656591837486
-created: 1656591837486
+updated: 1689531679601
+created: 1689531679601
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -14,7 +14,7 @@ sources:
 ---
 # glab repo
 
-> Work with GitLab repositories on the command-line.
+> Work with GitLab repositories.
 > More information: <https://glab.readthedocs.io/en/latest/repo/index.html#synopsis>.
 
 - Create a new repository (if the repository name is not set, the default name will be the name of the current directory):

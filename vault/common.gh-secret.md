@@ -2,8 +2,8 @@
 id: common.gh-secret
 title: Gh Secret
 desc: ''
-updated: 1642441815020
-created: 1642441815020
+updated: 1689531679579
+created: 1689531679579
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -14,7 +14,7 @@ sources:
 ---
 # gh secret
 
-> Manage GitHub secrets from the command-line.
+> Manage GitHub secrets.
 > More information: <https://cli.github.com/manual/gh_secret>.
 
 - List secret keys for the current repository:

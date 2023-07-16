@@ -2,8 +2,8 @@
 id: common.rclone
 title: Rclone
 desc: ''
-updated: 1642441815065
-created: 1642441815065
+updated: 1689531679704
+created: 1689531679704
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -14,7 +14,7 @@ sources:
 ---
 # rclone
 
-> CLI program to copy/sync/move files and directories to and from many cloud services.
+> Copy, synchronize or move files and directories to and from many cloud services.
 > More information: <https://rclone.org>.
 
 - List contents of a directory on an rclone remote:

@@ -2,8 +2,8 @@
 id: common.ldapsearch
 title: Ldapsearch
 desc: ''
-updated: 1642441815040
-created: 1642441815040
+updated: 1689531679637
+created: 1689531679637
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -14,7 +14,7 @@ sources:
 ---
 # ldapsearch
 
-> CLI utility for querying an LDAP directory.
+> Query an LDAP directory.
 > More information: <https://docs.ldap.com/ldap-sdk/docs/tool-usages/ldapsearch.html>.
 
 - Query an LDAP server for all items that are a member of the given group and return the object's displayName value:

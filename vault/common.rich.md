@@ -2,8 +2,8 @@
 id: common.rich
 title: Rich
 desc: ''
-updated: 1656591837559
-created: 1656591837559
+updated: 1689531679707
+created: 1689531679707
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -14,7 +14,7 @@ sources:
 ---
 # rich
 
-> Rich CLI is a toolbox for fancy output in the terminal.
+> A toolbox for fancy output in the terminal.
 > More information: <https://github.com/Textualize/rich-cli>.
 
 - Display a file with syntax highlighting:

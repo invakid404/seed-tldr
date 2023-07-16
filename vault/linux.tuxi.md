@@ -2,8 +2,8 @@
 id: linux.tuxi
 title: Tuxi
 desc: ''
-updated: 1642441815115
-created: 1642441815115
+updated: 1689531679867
+created: 1689531679867
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -14,7 +14,7 @@ sources:
 ---
 # tuxi
 
-> A CLI tool that scrapes Google search results and SERPs that provides instant and concise answers.
+> Scrape Google search results and SERPs and provide instant and concise answers.
 > More information: <https://github.com/Bugswriter/tuxi>.
 
 - Make a search using Google:

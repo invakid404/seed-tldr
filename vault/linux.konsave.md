@@ -2,8 +2,8 @@
 id: linux.konsave
 title: Konsave
 desc: ''
-updated: 1675289854590
-created: 1675289854590
+updated: 1689531679813
+created: 1689531679813
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -14,7 +14,7 @@ sources:
 ---
 # konsave
 
-> A CLI program that lets you save and apply your Linux customizations with just one command.
+> Save and apply your Linux customizations with just one command.
 > More information: <https://github.com/Prayag2/konsave>.
 
 - Save the current configuration as a profile:

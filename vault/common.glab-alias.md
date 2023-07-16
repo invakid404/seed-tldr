@@ -2,8 +2,8 @@
 id: common.glab-alias
 title: Glab Alias
 desc: ''
-updated: 1656591837485
-created: 1656591837485
+updated: 1689531679601
+created: 1689531679601
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -14,7 +14,7 @@ sources:
 ---
 # glab alias
 
-> Manage GitLab CLI command aliases from the command-line.
+> Manage GitLab CLI command aliases.
 > More information: <https://glab.readthedocs.io/en/latest/alias>.
 
 - Display the subcommand help:

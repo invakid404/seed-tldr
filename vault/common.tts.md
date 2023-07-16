@@ -2,8 +2,8 @@
 id: common.tts
 title: Tts
 desc: ''
-updated: 1685473997372
-created: 1685473997372
+updated: 1689531679744
+created: 1689531679744
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -14,7 +14,7 @@ sources:
 ---
 # tts
 
-> Synthesize speech on the command-line.
+> Synthesize speech.
 > More information: <https://github.com/coqui-ai/TTS#command-line-tts>.
 
 - Run text-to-speech with the default models, writing the output to "tts_output.wav":

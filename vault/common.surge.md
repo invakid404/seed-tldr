@@ -2,8 +2,8 @@
 id: common.surge
 title: Surge
 desc: ''
-updated: 1642441815074
-created: 1642441815074
+updated: 1689531679731
+created: 1689531679731
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -14,7 +14,7 @@ sources:
 ---
 # surge
 
-> Simple command-line web publishing.
+> Simple web publishing.
 > More information: <https://surge.sh>.
 
 - Upload a new site to surge.sh:

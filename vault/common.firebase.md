@@ -2,8 +2,8 @@
 id: common.firebase
 title: Firebase
 desc: ''
-updated: 1642441815017
-created: 1642441815017
+updated: 1689531679561
+created: 1689531679561
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -14,7 +14,7 @@ sources:
 ---
 # firebase
 
-> Test, manage, and deploy Firebase projects from the command-line.
+> Test, manage, and deploy Firebase projects.
 > More information: <https://github.com/firebase/firebase-tools>.
 
 - Log in to <https://console.firebase.google.com>:

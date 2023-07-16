@@ -2,8 +2,8 @@
 id: common.whisper
 title: Whisper
 desc: ''
-updated: 1689056620522
-created: 1689056620522
+updated: 1689531679757
+created: 1689531679757
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -14,7 +14,7 @@ sources:
 ---
 # whisper
 
-> CLI tool to convert audio files to txt,vtt,srt,tsv,json.
+> Convert audio files to `txt`, `vtt`, `srt`, `tsv` and `json`.
 > More information: <https://github.com/openai/whisper>.
 
 - Convert a specific audio file to all of the given file formats:

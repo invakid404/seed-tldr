@@ -2,8 +2,8 @@
 id: common.magento
 title: Magento
 desc: ''
-updated: 1642441815046
-created: 1642441815046
+updated: 1689531679649
+created: 1689531679649
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -14,7 +14,7 @@ sources:
 ---
 # magento
 
-> A CLI for managing the Magento PHP framework.
+> Manage the Magento PHP framework.
 > More information: <https://magento.com>.
 
 - Enable one or more space-separated modules:

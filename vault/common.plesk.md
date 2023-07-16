@@ -2,8 +2,8 @@
 id: common.plesk
 title: Plesk
 desc: ''
-updated: 1642441815060
-created: 1642441815060
+updated: 1689531679690
+created: 1689531679690
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -14,7 +14,7 @@ sources:
 ---
 # plesk
 
-> Plesk hosting control panel CLI interface.
+> Plesk hosting control panel.
 > More information: <https://docs.plesk.com>.
 
 - Generate an auto login link for the admin user and print it:

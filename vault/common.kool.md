@@ -2,8 +2,8 @@
 id: common.kool
 title: Kool
 desc: ''
-updated: 1664762512945
-created: 1664762512945
+updated: 1689531679633
+created: 1689531679633
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -14,7 +14,7 @@ sources:
 ---
 # kool
 
-> Build software development environments from the command-line.
+> Build software development environments.
 > More information: <https://kool.dev/docs/>.
 
 - Create a project using a specific preset:

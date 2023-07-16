@@ -2,8 +2,8 @@
 id: linux.udisksctl
 title: Udisksctl
 desc: ''
-updated: 1642441815115
-created: 1642441815115
+updated: 1689531679868
+created: 1689531679868
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -14,7 +14,7 @@ sources:
 ---
 # udisksctl
 
-> A command-line program used to interact with the udisksd daemon process.
+> Interact with `udisksd` to query and manipulate storage devices.
 > More information: <http://storaged.org/doc/udisks2-api/latest/udisksctl.1.html>.
 
 - Show high-level information about disk drives and block devices:

@@ -2,8 +2,8 @@
 id: linux.light
 title: Light
 desc: ''
-updated: 1642441815101
-created: 1642441815101
+updated: 1689531679816
+created: 1689531679816
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -14,7 +14,7 @@ sources:
 ---
 # light
 
-> CLI to control the backlight of your screen.
+> Control the backlight of your screen.
 > More information: <https://manned.org/light>.
 
 - Get the current backlight value in percent:

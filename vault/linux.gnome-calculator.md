@@ -2,8 +2,8 @@
 id: linux.gnome-calculator
 title: Gnome Calculator
 desc: ''
-updated: 1656591837625
-created: 1656591837625
+updated: 1689531679805
+created: 1689531679805
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -21,7 +21,7 @@ sources:
 
 `gnome-calculator`
 
-- Solve the specified equation on the command-line without launching the desktop application:
+- Solve the specified equation without launching the desktop application:
 
 `gnome-calculator --solve {{2^5 * 2 + 5}}`
 

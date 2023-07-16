@@ -2,8 +2,8 @@
 id: common.transmission-create
 title: Transmission Create
 desc: ''
-updated: 1642441815077
-created: 1642441815077
+updated: 1689531679741
+created: 1689531679741
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -14,7 +14,7 @@ sources:
 ---
 # transmission-create
 
-> A CLI utility to create BitTorrent .torrent files.
+> Create BitTorrent `.torrent` files.
 > More information: <https://manned.org/transmission-create>.
 
 - Create a torrent with 2048 KB as the piece size:

@@ -2,8 +2,8 @@
 id: common.dep
 title: Dep
 desc: ''
-updated: 1642441815007
-created: 1642441815007
+updated: 1689531679538
+created: 1689531679538
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -14,7 +14,7 @@ sources:
 ---
 # dep
 
-> A CLI tool for deployment of PHP applications.
+> Deploy PHP applications.
 > Note: The Go command `dep` with the same name is deprecated and archived.
 > More information: <https://deployer.org>.
 

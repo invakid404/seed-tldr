@@ -2,8 +2,8 @@
 id: common.gh-gist
 title: Gh Gist
 desc: ''
-updated: 1683044482748
-created: 1683044482748
+updated: 1689531679577
+created: 1689531679577
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -14,7 +14,7 @@ sources:
 ---
 # gh gist
 
-> Work with GitHub Gists on the command-line.
+> Work with GitHub Gists.
 > More information: <https://cli.github.com/manual/gh_gist>.
 
 - Create a new Gist from a space-separated list of files:

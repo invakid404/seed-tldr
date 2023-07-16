@@ -2,8 +2,8 @@
 id: linux.larasail
 title: Larasail
 desc: ''
-updated: 1642441815101
-created: 1642441815101
+updated: 1689531679815
+created: 1689531679815
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -14,7 +14,7 @@ sources:
 ---
 # larasail
 
-> A CLI tool for managing Laravel on Digital Ocean servers.
+> Manage Laravel on Digital Ocean servers.
 > More information: <https://github.com/thedevdojo/larasail>.
 
 - Set up the server with Laravel dependencies using the default PHP version:

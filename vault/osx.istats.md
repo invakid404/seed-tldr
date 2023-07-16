@@ -2,8 +2,8 @@
 id: osx.istats
 title: Istats
 desc: ''
-updated: 1642441815121
-created: 1642441815121
+updated: 1689531679900
+created: 1689531679900
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -14,7 +14,7 @@ sources:
 ---
 # istats
 
-> CLI tool that shows statistics such as CPU temperature, fan speeds and battery status.
+> Show various statistics such as the CPU temperature, fan speeds and battery status.
 > More information: <https://github.com/Chris911/iStats>.
 
 - Show all the stats:

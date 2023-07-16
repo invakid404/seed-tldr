@@ -2,8 +2,8 @@
 id: linux.bluetoothctl
 title: Bluetoothctl
 desc: ''
-updated: 1643828695832
-created: 1643828695832
+updated: 1689531679781
+created: 1689531679781
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -14,7 +14,7 @@ sources:
 ---
 # bluetoothctl
 
-> Manage Bluetooth devices from the command-line.
+> Manage Bluetooth devices.
 > More information: <https://bitbucket.org/serkanp/bluetoothctl>.
 
 - Enter the `bluetoothctl` shell:

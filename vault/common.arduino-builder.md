@@ -2,8 +2,8 @@
 id: common.arduino-builder
 title: Arduino Builder
 desc: ''
-updated: 1670224629630
-created: 1670224629630
+updated: 1689531679490
+created: 1689531679490
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -14,7 +14,7 @@ sources:
 ---
 # arduino-builder
 
-> A command-line tool for compiling arduino sketches.
+> Compile arduino sketches.
 > DEPRECATION WARNING: This tool is being phased out in favor of `arduino`.
 > More information: <https://github.com/arduino/arduino-builder>.
 

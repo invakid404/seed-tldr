@@ -2,8 +2,8 @@
 id: windows.choco
 title: Choco
 desc: ''
-updated: 1642441815126
-created: 1642441815126
+updated: 1689531679918
+created: 1689531679918
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -14,11 +14,11 @@ sources:
 ---
 # choco
 
-> A command-line interface for the Chocolatey package manager.
+> The Chocolatey package manager.
 > Some subcommands such as `choco install` have their own usage documentation.
 > More information: <https://chocolatey.org>.
 
-- Execute Chocolatey command:
+- Execute a Chocolatey command:
 
 `choco {{command}}`
 

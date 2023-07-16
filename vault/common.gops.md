@@ -2,8 +2,8 @@
 id: common.gops
 title: Gops
 desc: ''
-updated: 1642441815030
-created: 1642441815030
+updated: 1689531679607
+created: 1689531679607
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -14,7 +14,7 @@ sources:
 ---
 # gops
 
-> CLI tool which lists and diagnoses Go processes currently running on your system.
+> List and diagnose Go processes currently running on your system.
 > More information: <https://github.com/google/gops>.
 
 - Print all go processes running locally:

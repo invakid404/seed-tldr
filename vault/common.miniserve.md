@@ -2,8 +2,8 @@
 id: common.miniserve
 title: Miniserve
 desc: ''
-updated: 1642441815047
-created: 1642441815047
+updated: 1689531679653
+created: 1689531679653
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -14,7 +14,7 @@ sources:
 ---
 # miniserve
 
-> Simple HTTP file server CLI.
+> Simple HTTP file server.
 > More information: <https://github.com/svenstaro/miniserve>.
 
 - Serve a directory:

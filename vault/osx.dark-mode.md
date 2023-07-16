@@ -2,8 +2,8 @@
 id: osx.dark-mode
 title: Dark Mode
 desc: ''
-updated: 1642441815120
-created: 1642441815120
+updated: 1689531679884
+created: 1689531679884
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -14,7 +14,7 @@ sources:
 ---
 # dark-mode
 
-> Control macOS dark mode from the command-line.
+> Control macOS dark mode.
 > More information: <https://github.com/sindresorhus/dark-mode>.
 
 - Toggle dark mode (turn it on if it's currently off, off if it's currently on):

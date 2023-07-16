@@ -2,8 +2,8 @@
 id: common.composer-require-checker
 title: Composer Require Checker
 desc: ''
-updated: 1656591837436
-created: 1656591837436
+updated: 1689531679528
+created: 1689531679528
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -14,7 +14,7 @@ sources:
 ---
 # composer-require-checker
 
-> A CLI tool to analyze Composer dependencies for soft dependencies.
+> Analyze Composer dependencies for soft dependencies.
 > More information: <https://github.com/maglnet/ComposerRequireChecker>.
 
 - Analyze a Composer JSON file:

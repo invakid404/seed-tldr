@@ -2,8 +2,8 @@
 id: common.gitlab-ctl
 title: GitLab Ctl
 desc: ''
-updated: 1642441815028
-created: 1642441815028
+updated: 1689531679600
+created: 1689531679600
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -14,7 +14,7 @@ sources:
 ---
 # gitlab-ctl
 
-> CLI tool for managing the GitLab omnibus.
+> Manage the GitLab omnibus.
 > More information: <https://docs.gitlab.com/omnibus/maintenance/>.
 
 - Display the status of every service:

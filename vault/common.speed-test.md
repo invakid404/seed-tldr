@@ -2,8 +2,8 @@
 id: common.speed-test
 title: Speed Test
 desc: ''
-updated: 1642441815070
-created: 1642441815070
+updated: 1689531679724
+created: 1689531679724
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -14,7 +14,7 @@ sources:
 ---
 # speed-test
 
-> Test your internet connection speed and ping using speedtest.net from the CLI.
+> Test your internet connection speed and ping using <https://speedtest.net>.
 > More information: <https://github.com/sindresorhus/speed-test>.
 
 - Test your internet connection and ping speed:

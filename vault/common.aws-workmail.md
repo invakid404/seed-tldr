@@ -2,8 +2,8 @@
 id: common.aws-workmail
 title: Aws Workmail
 desc: ''
-updated: 1665938055547
-created: 1665938055547
+updated: 1689531679506
+created: 1689531679506
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -14,7 +14,7 @@ sources:
 ---
 # aws workmail
 
-> Manage Amazon WorkMail using the CLI.
+> Manage Amazon WorkMail.
 > More information: <https://awscli.amazonaws.com/v2/documentation/api/latest/reference/workmail/index.html>.
 
 - List all WorkMail organizations:

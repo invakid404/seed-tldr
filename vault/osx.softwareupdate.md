@@ -2,8 +2,8 @@
 id: osx.softwareupdate
 title: Softwareupdate
 desc: ''
-updated: 1644840636312
-created: 1644840636312
+updated: 1689531679910
+created: 1689531679910
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -14,7 +14,7 @@ sources:
 ---
 # softwareupdate
 
-> A tool for updating macOS App Store apps via the command-line.
+> Update macOS App Store apps.
 > More information: <https://ss64.com/osx/softwareupdate.html>.
 
 - List all available updates:

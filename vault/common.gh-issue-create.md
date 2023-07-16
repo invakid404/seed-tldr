@@ -2,8 +2,8 @@
 id: common.gh-issue-create
 title: Gh Issue Create
 desc: ''
-updated: 1642441815020
-created: 1642441815020
+updated: 1689531679578
+created: 1689531679578
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -14,7 +14,7 @@ sources:
 ---
 # gh issue create
 
-> Create GitHub issues on a repository from the command-line.
+> Create GitHub issues on a repository.
 > More information: <https://cli.github.com/manual/gh_issue_create>.
 
 - Create a new issue against the current repository interactively:

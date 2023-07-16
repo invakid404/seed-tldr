@@ -2,8 +2,8 @@
 id: common.hg
 title: Hg
 desc: ''
-updated: 1642441815033
-created: 1642441815033
+updated: 1689531679615
+created: 1689531679615
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -14,11 +14,11 @@ sources:
 ---
 # hg
 
-> A command-line interface for Mercurial, a distributed source control management system.
+> Mercurial - a distributed source control management system.
 > Some subcommands such as `hg commit` have their own usage documentation.
 > More information: <https://www.mercurial-scm.org>.
 
-- Execute Mercurial command:
+- Execute a Mercurial command:
 
 `hg {{command}}`
 

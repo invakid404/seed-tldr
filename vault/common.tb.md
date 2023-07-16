@@ -2,8 +2,8 @@
 id: common.tb
 title: Tb
 desc: ''
-updated: 1642441815075
-created: 1642441815075
+updated: 1689531679734
+created: 1689531679734
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -14,7 +14,7 @@ sources:
 ---
 # tb
 
-> CLI for managing tasks and notes across multiple boards.
+> Manage tasks and notes across multiple boards.
 > More information: <https://github.com/klaussinani/taskbook>.
 
 - Add a new task to a board:

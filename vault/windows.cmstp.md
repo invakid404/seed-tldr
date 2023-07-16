@@ -2,8 +2,8 @@
 id: windows.cmstp
 title: Cmstp
 desc: ''
-updated: 1676881477677
-created: 1676881477677
+updated: 1689531679919
+created: 1689531679919
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -14,7 +14,7 @@ sources:
 ---
 # cmstp
 
-> A command-line tool for managing connection service profiles.
+> Manage connection service profiles.
 > More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/cmstp>.
 
 - Install a specific profile:

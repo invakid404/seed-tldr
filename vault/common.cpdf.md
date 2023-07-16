@@ -2,8 +2,8 @@
 id: common.cpdf
 title: Cpdf
 desc: ''
-updated: 1642441815004
-created: 1642441815004
+updated: 1689531679530
+created: 1689531679530
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -14,7 +14,7 @@ sources:
 ---
 # cpdf
 
-> CLI to manipulate existing PDF files in a variety of ways.
+> Manipulate PDF files.
 > More information: <https://www.coherentpdf.com/cpdfmanual/cpdfmanual.html>.
 
 - Select pages 1, 2, 3 and 6 from a source document and write those to a destination document:

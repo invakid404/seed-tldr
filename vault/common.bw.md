@@ -2,8 +2,8 @@
 id: common.bw
 title: Bw
 desc: ''
-updated: 1642441815000
-created: 1642441815000
+updated: 1689531679517
+created: 1689531679517
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -14,7 +14,7 @@ sources:
 ---
 # bw
 
-> A CLI to access and manage a Bitwarden vault.
+> Access and manage a Bitwarden vault.
 > More information: <https://help.bitwarden.com/article/cli/>.
 
 - Log in to a Bitwarden user account:

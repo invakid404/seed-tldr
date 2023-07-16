@@ -2,8 +2,8 @@
 id: common.knife
 title: Knife
 desc: ''
-updated: 1642441815039
-created: 1642441815039
+updated: 1689531679633
+created: 1689531679633
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -14,7 +14,7 @@ sources:
 ---
 # knife
 
-> CLI for interacting with a Chef server from a local Chef repo.
+> Interact with a Chef server from a local Chef repo.
 > More information: <https://docs.chef.io/knife.html>.
 
 - Bootstrap a new node:

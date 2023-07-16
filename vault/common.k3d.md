@@ -2,8 +2,8 @@
 id: common.k3d
 title: K3d
 desc: ''
-updated: 1669234795370
-created: 1669234795370
+updated: 1689531679630
+created: 1689531679630
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -14,7 +14,7 @@ sources:
 ---
 # k3d
 
-> Wrapper CLI to easily create k3s clusters inside Docker.
+> A wrapper to easily create k3s clusters inside Docker.
 > More information: <https://k3d.io>.
 
 - Create a cluster:

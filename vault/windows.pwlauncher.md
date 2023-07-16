@@ -2,8 +2,8 @@
 id: windows.pwlauncher
 title: Pwlauncher
 desc: ''
-updated: 1664897374264
-created: 1664897374264
+updated: 1689531679925
+created: 1689531679925
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -14,7 +14,7 @@ sources:
 ---
 # pwlauncher
 
-> A command-line tool for managing the Windows To Go startup options.
+> Manage the Windows To Go startup options.
 > More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/pwlauncher>.
 
 - Display the current Windows To Go status:

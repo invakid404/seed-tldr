@@ -2,8 +2,8 @@
 id: common.fastlane
 title: Fastlane
 desc: ''
-updated: 1642441815016
-created: 1642441815017
+updated: 1689531679558
+created: 1689531679558
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -14,7 +14,7 @@ sources:
 ---
 # fastlane
 
-> Build and release mobile applications from the command-line.
+> Build and release mobile applications.
 > More information: <https://docs.fastlane.tools/actions/>.
 
 - Build and sign the iOS application in the current directory:

@@ -2,8 +2,8 @@
 id: common.neofetch
 title: Neofetch
 desc: ''
-updated: 1642441815050
-created: 1642441815050
+updated: 1689531679663
+created: 1689531679663
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -14,7 +14,7 @@ sources:
 ---
 # neofetch
 
-> CLI tool to display information about your operating system, software and hardware.
+> Display information about your operating system, software and hardware.
 > More information: <https://github.com/dylanaraps/neofetch>.
 
 - Return the default config, and create it if it's the first time the program runs:

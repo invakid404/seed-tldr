@@ -2,8 +2,8 @@
 id: common.multipass
 title: Multipass
 desc: ''
-updated: 1642441815049
-created: 1642441815049
+updated: 1689531679660
+created: 1689531679660
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -14,7 +14,7 @@ sources:
 ---
 # multipass
 
-> CLI to manage Ubuntu virtual machines using native hypervisors.
+> Manage Ubuntu virtual machines using native hypervisors.
 > More information: <https://multipass.run/>.
 
 - List the aliases that can be used to launch an instance:

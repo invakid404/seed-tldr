@@ -2,8 +2,8 @@
 id: windows.scoop
 title: Scoop
 desc: ''
-updated: 1668519436812
-created: 1668519436812
+updated: 1689531679927
+created: 1689531679927
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -14,7 +14,7 @@ sources:
 ---
 # scoop
 
-> A command-line installer for Windows.
+> The Scoop package manager.
 > More information: <https://scoop.sh>.
 
 - Install a package:

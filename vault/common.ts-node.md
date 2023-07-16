@@ -2,8 +2,8 @@
 id: common.ts-node
 title: TS Node
 desc: ''
-updated: 1643828695796
-created: 1643828695796
+updated: 1689531679743
+created: 1689531679743
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -25,7 +25,7 @@ sources:
 
 `ts-node --skip-project {{path/to/file.ts}}`
 
-- Evaluate TypeScript code passed as a literal on the command-line:
+- Evaluate TypeScript code passed as a literal:
 
 `ts-node --eval '{{console.log("Hello World")}}'`
 

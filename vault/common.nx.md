@@ -2,8 +2,8 @@
 id: common.nx
 title: Nx
 desc: ''
-updated: 1642441815052
-created: 1642441815052
+updated: 1689531679672
+created: 1689531679672
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -14,7 +14,7 @@ sources:
 ---
 # nx
 
-> CLI utility for managing `nx` workspaces.
+> Manage `nx` workspaces.
 > More information: <https://nx.dev/l/r/getting-started/nx-cli>.
 
 - Build a specific project:

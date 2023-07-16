@@ -2,8 +2,8 @@
 id: common.gh-auth
 title: Gh Auth
 desc: ''
-updated: 1673241392778
-created: 1673241392778
+updated: 1689531679577
+created: 1689531679577
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -14,7 +14,7 @@ sources:
 ---
 # gh auth
 
-> Authenticate with a GitHub host from the command-line.
+> Authenticate with a GitHub host.
 > More information: <https://cli.github.com/manual/gh_auth>.
 
 - Log in with interactive prompt:

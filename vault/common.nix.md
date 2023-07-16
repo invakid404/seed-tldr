@@ -2,8 +2,8 @@
 id: common.nix
 title: Nix
 desc: ''
-updated: 1682500598900
-created: 1682500598900
+updated: 1689531679666
+created: 1689531679666
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -14,8 +14,8 @@ sources:
 ---
 # nix
 
-> Powerful package manager that makes package management reliable, reproducible, and declarative.
-> The `nix` command-line utility is experimental and requires enabling experimental features. For a classic, stable interface, see `tldr nix classic`.
+> A powerful package manager that makes package management reliable, reproducible, and declarative.
+> `nix` is experimental and requires enabling experimental features. For a classic, stable interface, see `tldr nix classic`.
 > Some `nix` subcommands such as `build`, `develop`, `flake`, `registry`, `profile`, `search`, `repl`, `store`, `edit`, `why-depends` etc. have their own usage documentation, accessible via `tldr nix3 subcommand`.
 > More information: <https://nixos.org/manual/nix>.
 

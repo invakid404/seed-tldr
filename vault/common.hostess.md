@@ -2,8 +2,8 @@
 id: common.hostess
 title: Hostess
 desc: ''
-updated: 1642441815033
-created: 1642441815033
+updated: 1689531679616
+created: 1689531679616
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -14,7 +14,7 @@ sources:
 ---
 # hostess
 
-> An idempotent command-line utility for managing the `/etc/hosts` file.
+> Manage the `/etc/hosts` file.
 > More information: <https://github.com/cbednarski/hostess>.
 
 - List domains, target IP addresses and on/off status:

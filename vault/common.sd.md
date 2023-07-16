@@ -2,8 +2,8 @@
 id: common.sd
 title: Sd
 desc: ''
-updated: 1671024339839
-created: 1671024339839
+updated: 1689531679717
+created: 1689531679717
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -14,7 +14,7 @@ sources:
 ---
 # sd
 
-> Intuitive find & replace CLI.
+> Intuitive find and replace.
 > More information: <https://github.com/chmln/sd>.
 
 - Trim some whitespace using a regular expression (output stream: `stdout`):

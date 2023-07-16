@@ -2,8 +2,8 @@
 id: linux.protonvpn-cli
 title: Protonvpn CLI
 desc: ''
-updated: 1642441815109
-created: 1642441815109
+updated: 1689531679843
+created: 1689531679843
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -14,7 +14,7 @@ sources:
 ---
 # protonvpn-cli
 
-> Official client for ProtonVPN service from the command-line.
+> Official ProtonVPN client.
 > More information: <https://github.com/ProtonVPN/linux-cli>.
 
 - Log in to the ProtonVPN account:

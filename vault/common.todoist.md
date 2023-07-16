@@ -2,8 +2,8 @@
 id: common.todoist
 title: Todoist
 desc: ''
-updated: 1642441815077
-created: 1642441815077
+updated: 1689531679740
+created: 1689531679740
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -14,7 +14,7 @@ sources:
 ---
 # todoist
 
-> Access Todoist from the command-line.
+> Access <https://todoist.com> from the command-line.
 > More information: <https://github.com/sachaos/todoist>.
 
 - Add a task:

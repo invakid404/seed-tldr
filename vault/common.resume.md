@@ -2,8 +2,8 @@
 id: common.resume
 title: Resume
 desc: ''
-updated: 1642441815065
-created: 1642441815065
+updated: 1689531679706
+created: 1689531679706
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -14,7 +14,7 @@ sources:
 ---
 # resume
 
-> CLI tool to easily setup a new resume.
+> Easily setup a new resume.
 > More information: <https://github.com/jsonresume/resume-cli>.
 
 - Create a new `resume.json` file in the current working directory:

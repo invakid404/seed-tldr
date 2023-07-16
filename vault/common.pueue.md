@@ -2,8 +2,8 @@
 id: common.pueue
 title: Pueue
 desc: ''
-updated: 1642441815062
-created: 1642441815062
+updated: 1689531679697
+created: 1689531679697
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -14,7 +14,7 @@ sources:
 ---
 # pueue
 
-> Pueue is a command-line task management tool for sequential and parallel execution of long-running tasks.
+> A task management tool for sequential and parallel execution of long-running tasks.
 > Some subcommands such as `pueue add` have their own usage documentation.
 > More information: <https://github.com/Nukesor/pueue>.
 

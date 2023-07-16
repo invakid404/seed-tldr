@@ -2,8 +2,8 @@
 id: common.grex
 title: Grex
 desc: ''
-updated: 1642441815031
-created: 1642441815031
+updated: 1689531679609
+created: 1689531679609
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -14,7 +14,7 @@ sources:
 ---
 # grex
 
-> Simple command-line tool to generate regular expressions.
+> Generate regular expressions.
 > More information: <https://github.com/pemistahl/grex>.
 
 - Generate a simple regular expression:

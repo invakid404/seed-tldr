@@ -2,8 +2,8 @@
 id: common.glab-release
 title: Glab Release
 desc: ''
-updated: 1642574148922
-created: 1642574148922
+updated: 1689531679601
+created: 1689531679601
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -14,7 +14,7 @@ sources:
 ---
 # glab release
 
-> Manage GitLab releases from the command-line.
+> Manage GitLab releases.
 > More information: <https://glab.readthedocs.io/en/latest/release>.
 
 - List releases in a Gitlab repository, limited to 30 items:

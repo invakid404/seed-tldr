@@ -2,8 +2,8 @@
 id: common.x_x
 title: X_x
 desc: ''
-updated: 1642441815083
-created: 1642441815083
+updated: 1689531679759
+created: 1689531679759
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -14,7 +14,7 @@ sources:
 ---
 # x_x
 
-> View Excel and CSV files from the command-line.
+> View Excel and CSV files.
 > More information: <https://github.com/kristianperkins/x_x>.
 
 - View an XLSX or CSV file:

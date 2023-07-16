@@ -2,8 +2,8 @@
 id: linux.nmcli
 title: Nmcli
 desc: ''
-updated: 1647072116405
-created: 1647072116405
+updated: 1689531679830
+created: 1689531679830
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -14,7 +14,7 @@ sources:
 ---
 # nmcli
 
-> A command-line tool for controlling NetworkManager.
+> Manage the network configuration using NetworkManager.
 > Some subcommands such as `nmcli monitor` have their own usage documentation.
 > More information: <https://networkmanager.dev/docs/api/latest/nmcli.html>.
 

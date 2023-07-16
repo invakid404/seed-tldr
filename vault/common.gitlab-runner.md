@@ -2,8 +2,8 @@
 id: common.gitlab-runner
 title: GitLab Runner
 desc: ''
-updated: 1642441815028
-created: 1642441815028
+updated: 1689531679600
+created: 1689531679600
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -14,7 +14,7 @@ sources:
 ---
 # gitlab-runner
 
-> CLI tool for managing GitLab runners.
+> Manage GitLab runners.
 > More information: <https://docs.gitlab.com/runner/>.
 
 - Register a runner:

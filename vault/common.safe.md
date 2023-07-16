@@ -2,8 +2,8 @@
 id: common.safe
 title: Safe
 desc: ''
-updated: 1642441815066
-created: 1642441815066
+updated: 1689531679715
+created: 1689531679715
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -14,7 +14,7 @@ sources:
 ---
 # safe
 
-> A CLI to interact with HashiCorp Vault.
+> Interact with HashiCorp Vault.
 > More information: <https://github.com/starkandwayne/safe>.
 
 - Add a safe target:

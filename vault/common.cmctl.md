@@ -2,8 +2,8 @@
 id: common.cmctl
 title: Cmctl
 desc: ''
-updated: 1658369051012
-created: 1658369051012
+updated: 1689531679526
+created: 1689531679526
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -14,7 +14,7 @@ sources:
 ---
 # cmctl
 
-> A CLI tool that can help you to manage cert-manager resources inside your cluster.
+> Manage cert-manager resources inside your cluster.
 > Check cert signing status, approve/deny requests, and issue new certificate requests.
 > More information: <https://cert-manager.io/docs/usage/cmctl/>.
 

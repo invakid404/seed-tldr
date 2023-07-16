@@ -2,8 +2,8 @@
 id: windows.bleachbit_console
 title: Bleachbit_console
 desc: ''
-updated: 1680312136000
-created: 1680312136000
+updated: 1689531679916
+created: 1689531679916
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -14,8 +14,7 @@ sources:
 ---
 # bleachbit_console
 
-> The Bleachbit command-line interface (CLI) allows users to automate the process of cleaning junk files on their system.
-> It can be run with various command-line arguments to perform different clean-up operations.
+> Clean junk files on the filesystem.
 > More information: <https://docs.bleachbit.org/doc/command-line-interface.html>.
 
 - Perform the clean-up operation and delete files:

@@ -2,8 +2,8 @@
 id: common.gitlab
 title: GitLab
 desc: ''
-updated: 1642441815028
-created: 1642441815028
+updated: 1689531679600
+created: 1689531679600
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -14,7 +14,7 @@ sources:
 ---
 # gitlab
 
-> Ruby wrapper and CLI for the GitLab API.
+> Ruby wrapper for the GitLab API.
 > Some subcommands such as `gitlab ctl` have their own usage documentation.
 > More information: <https://narkoz.github.io/gitlab/>.
 

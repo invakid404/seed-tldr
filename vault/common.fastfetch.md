@@ -2,8 +2,8 @@
 id: common.fastfetch
 title: Fastfetch
 desc: ''
-updated: 1664955321017
-created: 1664955321017
+updated: 1689531679558
+created: 1689531679558
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -14,7 +14,7 @@ sources:
 ---
 # fastfetch
 
-> A CLI tool to display information about your operating system, software and hardware.
+> Display information about your operating system, software and hardware.
 > More information: <https://github.com/LinusDierheimer/fastfetch>.
 
 - Display system information:

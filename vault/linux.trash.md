@@ -2,8 +2,8 @@
 id: linux.trash
 title: Trash
 desc: ''
-updated: 1686680394545
-created: 1686680394545
+updated: 1689531679867
+created: 1689531679867
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -14,7 +14,7 @@ sources:
 ---
 # trash
 
-> A CLI for managing the trashcan/recycling bin.
+> Manage the trashcan/recycling bin.
 > More information: <https://github.com/andreafrancia/trash-cli>.
 
 - Delete a file and send it to the trash:

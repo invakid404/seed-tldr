@@ -2,8 +2,8 @@
 id: common.kube-capacity
 title: Kube Capacity
 desc: ''
-updated: 1642441815039
-created: 1642441815039
+updated: 1689531679634
+created: 1689531679634
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -14,7 +14,7 @@ sources:
 ---
 # kube-capacity
 
-> A simple CLI that provides an overview of the resource requests, limits, and utilization in a Kubernetes cluster.
+> Provide an overview of resource requests, limits, and utilization in a Kubernetes cluster.
 > Combine the best parts of `kubectl top` and `kubectl describe` into a CLI focused on cluster resources.
 > More information: <https://github.com/robscott/kube-capacity>.
 

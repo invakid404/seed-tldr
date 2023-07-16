@@ -2,8 +2,8 @@
 id: common.glab-issue
 title: Glab Issue
 desc: ''
-updated: 1656591837485
-created: 1656591837485
+updated: 1689531679601
+created: 1689531679601
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -14,7 +14,7 @@ sources:
 ---
 # glab issue
 
-> Manage GitLab issues from the command-line.
+> Manage GitLab issues.
 > More information: <https://glab.readthedocs.io/en/latest/issue>.
 
 - Display a specific issue:

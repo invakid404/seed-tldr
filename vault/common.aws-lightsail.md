@@ -2,8 +2,8 @@
 id: common.aws-lightsail
 title: Aws Lightsail
 desc: ''
-updated: 1665487347019
-created: 1665487347019
+updated: 1689531679495
+created: 1689531679495
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -14,7 +14,7 @@ sources:
 ---
 # aws lightsail
 
-> Manage Amazon Lightsail resources using the CLI.
+> Manage Amazon Lightsail resources.
 > More information: <https://awscli.amazonaws.com/v2/documentation/api/latest/reference/lightsail/index.html>.
 
 - List all virtual private servers, or instances:

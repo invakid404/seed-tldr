@@ -2,8 +2,8 @@
 id: common.grpcurl
 title: Grpcurl
 desc: ''
-updated: 1642441815031
-created: 1642441815031
+updated: 1689531679609
+created: 1689531679609
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -14,7 +14,8 @@ sources:
 ---
 # grpcurl
 
-> Like cURL, but for gRPC: CLI tool for interacting with gRPC servers.
+> Interact with gRPC servers.
+> Like `curl`, but for gRPC.
 > More information: <https://github.com/fullstorydev/grpcurl>.
 
 - Send an empty request:

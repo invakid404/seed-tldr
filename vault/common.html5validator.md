@@ -2,8 +2,8 @@
 id: common.html5validator
 title: Html5validator
 desc: ''
-updated: 1642441815033
-created: 1642441815033
+updated: 1689531679617
+created: 1689531679617
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -14,7 +14,7 @@ sources:
 ---
 # html5validator
 
-> A command-line tool for testing HTML5 validity.
+> Validate HTML5.
 > More information: <https://github.com/svenkreiss/html5validator>.
 
 - Validate a specific file:
