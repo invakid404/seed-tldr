@@ -2,8 +2,8 @@
 id: common.xzdiff
 title: Xzdiff
 desc: ''
-updated: 1665492808856
-created: 1665492808856
+updated: 1689488527910
+created: 1689488527910
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -14,8 +14,8 @@ sources:
 ---
 # xzdiff
 
-> Invokes the diff command on files compressed with xz, lzma, gzip, bzip2, lzop, or zstd.
-> All options specified are passed directly to diff.
+> Invokes `diff` on files compressed with `xz`, `lzma`, `gzip`, `bzip2`, `lzop`, or `zstd`.
+> All options specified are passed directly to `diff`.
 > More information: <https://manned.org/xzdiff>.
 
 - Compare files:
@@ -37,8 +37,4 @@ sources:
 - Compare files using paginated results:
 
 `xzdiff --paginate {{path/to/file1}} {{path/to/file2}}`
-
-- Compare directories recursively (shows names for differing files/directories as well as changes made to files):
-
-`diff --recursive {{path/to/file1}} {{path/to/file2}}`
 

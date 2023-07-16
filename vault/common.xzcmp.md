@@ -2,8 +2,8 @@
 id: common.xzcmp
 title: Xzcmp
 desc: ''
-updated: 1672658077196
-created: 1672658077196
+updated: 1689488527910
+created: 1689488527910
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -14,7 +14,8 @@ sources:
 ---
 # xzcmp
 
-> Compare compressed files.
+> Invokes `cmp` on files compressed with `xz`, `lzma`, `gzip`, `bzip2`, `lzop`, or `zstd`.
+> All options specified are passed directly to `cmp`.
 > More information: <https://manned.org/xzcmp>.
 
 - Compare two specific files:

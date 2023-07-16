@@ -2,8 +2,8 @@
 id: common.xzgrep
 title: Xzgrep
 desc: ''
-updated: 1680387271203
-created: 1680387271203
+updated: 1689488527910
+created: 1689488527910
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -14,21 +14,21 @@ sources:
 ---
 # xzgrep
 
-> Search possibly compressed files with xz, lzma, gzip, bzip2, lzop, or zstd for regular expressions.
+> Search files possibly compressed with `xz`, `lzma`, `gzip`, `bzip2`, `lzop`, or `zstd` using regular expressions.
 > See also: `grep`.
-> More information: <https://manned.org/xzgrep.1>.
+> More information: <https://manned.org/xzgrep>.
 
 - Search for a pattern within a file:
 
-`xzgrep "{{search_pattern}}" {{path/to/compressed/file}}`
+`xzgrep "{{search_pattern}}" {{path/to/file}}`
 
 - Search for an exact string (disables regular expressions):
 
-`xzgrep --fixed-strings "{{exact_string}}" {{path/to/compressed/file}}`
+`xzgrep --fixed-strings "{{exact_string}}" {{path/to/file}}`
 
 - Search for a pattern in all files showing line numbers of matches:
 
-`xzgrep --line-number "{{search_pattern}}" {{path/to/compressed/file}}`
+`xzgrep --line-number "{{search_pattern}}" {{path/to/file}}`
 
 - Use extended regular expressions (supports `?`, `+`, `{}`, `()` and `|`), in case-insensitive mode:
 
