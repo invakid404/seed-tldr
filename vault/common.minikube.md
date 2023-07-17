@@ -2,8 +2,8 @@
 id: common.minikube
 title: Minikube
 desc: ''
-updated: 1642441815047
-created: 1642441815047
+updated: 1689600500910
+created: 1689600500910
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -40,4 +40,8 @@ sources:
 - Delete the cluster:
 
 `minikube delete`
+
+- Connect to LoadBalancer services:
+
+`minikube tunnel`
 
