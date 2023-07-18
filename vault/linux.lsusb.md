@@ -2,8 +2,8 @@
 id: linux.lsusb
 title: Lsusb
 desc: ''
-updated: 1642441815102
-created: 1642441815102
+updated: 1689654011786
+created: 1689654011786
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -31,7 +31,7 @@ sources:
 
 - List detailed information about a USB device:
 
-`lsusb -D {{device}}`
+`lsusb --verbose -s {{bus}}:{{device number}}`
 
 - List devices with a specified vendor and product ID only:
 
