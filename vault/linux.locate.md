@@ -2,8 +2,8 @@
 id: linux.locate
 title: Locate
 desc: ''
-updated: 1642441815101
-created: 1642441815101
+updated: 1689747680630
+created: 1689747680630
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -23,7 +23,7 @@ sources:
 
 - Look for a file by its exact filename (a pattern containing no globbing characters is interpreted as `*pattern*`):
 
-`locate */{{filename}}`
+`locate '*/{{filename}}'`
 
 - Recompute the database. You need to do it if you want to find recently added files:
 
