@@ -2,8 +2,8 @@
 id: common.supervisorctl
 title: Supervisorctl
 desc: ''
-updated: 1670142131013
-created: 1670142131013
+updated: 1689790810328
+created: 1689790810328
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -17,6 +17,10 @@ sources:
 > Supervisor is a client/server system that allows its users to control a number of processes on UNIX-like operating systems.
 > Supervisorctl is the command-line client piece of the supervisor which provides a shell-like interface.
 > More information: <http://supervisord.org>.
+
+- Show the status of a process (or all processes if `process_name` is not specified):
+
+`supervisorctl status {{process_name}}`
 
 - Start/stop/restart a process:
 
