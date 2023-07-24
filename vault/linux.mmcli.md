@@ -2,8 +2,8 @@
 id: linux.mmcli
 title: Mmcli
 desc: ''
-updated: 1642441815104
-created: 1642441815104
+updated: 1690222936960
+created: 1690222936960
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -16,6 +16,18 @@ sources:
 
 > Control and monitor the ModemManager.
 > More information: <https://www.freedesktop.org/software/ModemManager/man/latest/mmcli.1.html>.
+
+- List available modems:
+
+`mmcli --list-modems`
+
+- Print information about a modem:
+
+`mmcli --modem={{modem}}`
+
+- Enable a modem:
+
+`mmcli --modem={{modem}} --enable`
 
 - List SMS messages available on the modem:
 

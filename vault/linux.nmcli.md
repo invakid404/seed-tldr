@@ -2,8 +2,8 @@
 id: linux.nmcli
 title: Nmcli
 desc: ''
-updated: 1689531679830
-created: 1689531679830
+updated: 1690222936964
+created: 1690222936964
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -17,6 +17,14 @@ sources:
 > Manage the network configuration using NetworkManager.
 > Some subcommands such as `nmcli monitor` have their own usage documentation.
 > More information: <https://networkmanager.dev/docs/api/latest/nmcli.html>.
+
+- List all available wifi networks:
+
+`nmcli device wifi`
+
+- Connect to a wifi network:
+
+`nmcli dev wifi connect {{SSID}}`
 
 - Run an `nmcli` subcommand:
 
