@@ -2,8 +2,8 @@
 id: common.echo
 title: Echo
 desc: ''
-updated: 1642441815012
-created: 1642441815012
+updated: 1690309172066
+created: 1690309172066
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -36,4 +36,8 @@ sources:
 - Enable interpretation of backslash escapes (special characters):
 
 `echo -e "{{Column 1\tColumn 2}}"`
+
+- Print the exit status of the last executed command (Note: In Windows Command Prompt and PowerShell the equivalent commands are `echo %errorlevel%` and `$lastexitcode` respectively):
+
+`echo $?`
 
