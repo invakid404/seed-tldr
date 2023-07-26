@@ -2,8 +2,8 @@
 id: linux.pw-play
 title: Pw Play
 desc: ''
-updated: 1642441815109
-created: 1642441815109
+updated: 1690348479734
+created: 1690348479734
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -16,10 +16,6 @@ sources:
 
 > Shorthand tool for pw-cat --playback.
 > More information: <https://fedoraproject.org/wiki/QA:Testcase_PipeWire_PipeWire_CLI>.
-
-- List all available playback targets:
-
-`pw-play --list-targets`
 
 - Play a wav sound file over the default target:
 
