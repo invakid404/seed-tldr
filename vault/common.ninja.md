@@ -2,8 +2,8 @@
 id: common.ninja
 title: Ninja
 desc: ''
-updated: 1642441815051
-created: 1642441815051
+updated: 1690442074064
+created: 1690442074064
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -20,6 +20,10 @@ sources:
 - Build in the current directory:
 
 `ninja`
+
+- Build in the current directory, executing 4 jobs at a time in parallel:
+
+`ninja -j {{4}}`
 
 - Build a program in a given directory:
 
