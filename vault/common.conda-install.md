@@ -1,0 +1,51 @@
+---
+id: common.conda-install
+title: Conda Install
+desc: ''
+updated: 1690723056461
+created: 1690723056461
+stub: false
+isDir: false
+gitNotePath: 'pages/{{ noteHiearchy }}.md'
+sources:
+  - name: tldr-pages
+    url: 'https://github.com/tldr-pages/tldr/blob/master/LICENSE.md'
+    license: Creative Commons
+---
+# conda install
+
+> Install packages into an existing conda environment.
+> More information: <https://docs.conda.io/projects/conda/en/latest/commands/install.html>.
+
+- Install a single package into the currently active conda environment:
+
+`conda install {{package}}`
+
+- Install a single package into the currently active conda environment using channel conda-forge:
+
+`conda install -c conda-forge {{package}}`
+
+- Install a single package into the currently active conda environment using channel conda-forge and ignoring other channels:
+
+`conda install -c conda-forge --override-channels {{package}}`
+
+- Install multiple packages:
+
+`conda install {{package1 package2 ...}}`
+
+- Install a specific version of a package:
+
+`conda install {{package}}={{version}}`
+
+- Install a package into a specific environment:
+
+`conda install --name {{environment}} {{package}}`
+
+- Update a package in the current environment:
+
+`conda install --upgrade {{package}}`
+
+- Install a package and agree to the transactions without prompting:
+
+`conda install --yes {{package}}`
+

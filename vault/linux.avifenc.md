@@ -2,8 +2,8 @@
 id: linux.avifenc
 title: Avifenc
 desc: ''
-updated: 1642574149063
-created: 1642574149063
+updated: 1690723056705
+created: 1690723056705
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -19,9 +19,9 @@ sources:
 
 - Convert a specific PNG image to AVIF:
 
-`avifenc {{path/to/image.png}} {{path/to/image.avif}}`
+`avifenc {{path/to/input.png}} {{path/to/output.avif}}`
 
-- Encode with a specific speed, where 0=slowest, 10=fastest, and 6=default:
+- Encode with a specific speed (6=default, 0=slowest and 10=fastest):
 
-`avifenc --speed {{2}} {{path/to/image.png}} {{path/to/image.avif}}`
+`avifenc --speed {{2}} {{path/to/input.png}} {{path/to/output.avif}}`
 
