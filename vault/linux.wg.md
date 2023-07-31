@@ -2,8 +2,8 @@
 id: linux.wg
 title: Wg
 desc: ''
-updated: 1642441815117
-created: 1642441815117
+updated: 1690773385515
+created: 1690773385515
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -19,7 +19,7 @@ sources:
 
 - Check status of currently active interfaces:
 
-`wg`
+`sudo wg`
 
 - Generate a new private key:
 
@@ -35,5 +35,5 @@ sources:
 
 - Show the current configuration of a wireguard interface:
 
-`wg showconf {{wg0}}`
+`sudo wg showconf {{wg0}}`
 
