@@ -2,8 +2,8 @@
 id: linux.nmcli-radio
 title: Nmcli Radio
 desc: ''
-updated: 1659184494743
-created: 1659184494743
+updated: 1690957227195
+created: 1690957227195
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -14,31 +14,31 @@ sources:
 ---
 # nmcli radio
 
-> Show radio switches status or enable and disable switches.
+> Show the status of radio switches or enable/disable them using NetworkManager.
 > This subcommand can also be called with `nmcli r`.
 > More information: <https://networkmanager.dev/docs/api/latest/nmcli.html>.
 
-- Show status of Wi-Fi in NetworkManager:
+- Show status of Wi-Fi:
 
 `nmcli radio wifi`
 
-- Turn Wi-Fi on or off in NetworkManager:
+- Turn Wi-Fi on or off:
 
 `nmcli radio wifi {{on|off}}`
 
-- Show status of WWAN in NetworkManager:
+- Show status of WWAN:
 
 `nmcli radio wwan`
 
-- Turn WWAN on or off in NetworkManager:
+- Turn WWAN on or off:
 
 `nmcli radio wwan {{on|off}}`
 
-- Show status of both switches in NetworkManager:
+- Show status of both switches:
 
 `nmcli radio all`
 
-- Turn both switches on or off in NetworkManager:
+- Turn both switches on or off:
 
 `nmcli radio all {{on|off}}`
 
