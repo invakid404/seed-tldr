@@ -2,8 +2,8 @@
 id: common.case
 title: Case
 desc: ''
-updated: 1642441815001
-created: 1642441815001
+updated: 1691133249105
+created: 1691133249105
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -14,8 +14,8 @@ sources:
 ---
 # case
 
-> Branch based on the value of an expression.
-> More information: <https://manned.org/case>.
+> Bash builtin construct for creating multi-choice conditional statements.
+> More information: <https://www.gnu.org/software/bash/manual/bash.html#index-case>.
 
 - Match a variable against string literals to decide which command to run:
 
