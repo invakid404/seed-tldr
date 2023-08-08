@@ -2,8 +2,8 @@
 id: common.while
 title: While
 desc: ''
-updated: 1670142131033
-created: 1670142131033
+updated: 1691493169340
+created: 1691493169340
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,7 +15,7 @@ sources:
 # while
 
 > Simple shell loop.
-> More information: <https://manned.org/while>.
+> More information: <https://pubs.opengroup.org/onlinepubs/9699919799/utilities/V3_chap02.html#tag_18_09_04_09>.
 
 - Read `stdin` and perform an action on every line:
 
