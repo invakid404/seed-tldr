@@ -2,8 +2,8 @@
 id: common.age
 title: Age
 desc: ''
-updated: 1687619892268
-created: 1687619892268
+updated: 1691590574725
+created: 1691590574725
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,19 +15,16 @@ sources:
 # age
 
 > A simple, modern and secure file encryption tool.
+> See `age-keygen` for how to generate key pairs.
 > More information: <https://github.com/FiloSottile/age>.
 
 - Generate an encrypted file that can be decrypted with a passphrase:
 
 `age --passphrase --output {{path/to/encrypted_file}} {{path/to/unencrypted_file}}`
 
-- Generate a key pair, saving the private key to an unencrypted file and printing the public key to `stdout`:
+- Encrypt a file with one or more public keys entered as literals (repeat the `--recipient` flag to specify multiple public keys):
 
-`age-keygen --output {{path/to/file}}`
-
-- Encrypt a file with one or more public keys that are entered as literals:
-
-`age --recipient {{public_key_1}} --recipient {{public_key_2}} --output {{path/to/encrypted_file}} {{path/to/unencrypted_file}}`
+`age --recipient {{public_key}} --output {{path/to/encrypted_file}} {{path/to/unencrypted_file}}`
 
 - Encrypt a file to one or more recipients with their public keys specified in a file (one per line):
 

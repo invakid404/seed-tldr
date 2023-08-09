@@ -2,8 +2,8 @@
 id: common.popd
 title: Popd
 desc: ''
-updated: 1656591837549
-created: 1656591837549
+updated: 1691590574888
+created: 1691590574888
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -29,4 +29,8 @@ sources:
 - Remove the Nth directory (starting from zero to the right from the list printed with `dirs`):
 
 `popd -N`
+
+- Remove the 1st directory (starting from zero to the left from the list printed with `dirs`):
+
+`popd -n`
 

@@ -2,8 +2,8 @@
 id: common.pushd
 title: Pushd
 desc: ''
-updated: 1670145407048
-created: 1670145407048
+updated: 1691590574893
+created: 1691590574893
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -16,6 +16,7 @@ sources:
 
 > Place a directory on a stack so it can be accessed later.
 > See also `popd` to switch back to original directory and `dirs` to display directory stack contents.
+> More information: <https://www.gnu.org/software/bash/manual/html_node/Directory-Stack-Builtins.html>.
 
 - Switch to directory and push it on the stack:
 
@@ -28,4 +29,8 @@ sources:
 - Rotate stack by making the 5th element the top of the stack:
 
 `pushd +4`
+
+- Rotate the stack 4 times to the left (the current directory stays at the top by replacing the 5th element):
+
+`pushd -n +4`
 
