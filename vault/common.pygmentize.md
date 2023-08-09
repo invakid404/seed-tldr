@@ -2,8 +2,8 @@
 id: common.pygmentize
 title: Pygmentize
 desc: ''
-updated: 1642441815063
-created: 1642441815063
+updated: 1691562059065
+created: 1691562059065
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -17,7 +17,7 @@ sources:
 > Python-based syntax highlighter.
 > More information: <https://pygments.org/docs/cmdline/>.
 
-- Highlight file syntax and print to standard output (language is inferred from the file extension):
+- Highlight file syntax and print to `stdout` (language is inferred from the file extension):
 
 `pygmentize {{file.py}}`
 

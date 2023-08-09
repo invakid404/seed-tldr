@@ -2,8 +2,8 @@
 id: common.gnomon
 title: Gnomon
 desc: ''
-updated: 1670142130936
-created: 1670142130936
+updated: 1691562058994
+created: 1691562058994
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -17,7 +17,7 @@ sources:
 > Utility to annotate console logging statements with timestamps and find slow processes.
 > More information: <https://github.com/paypal/gnomon>.
 
-- Use UNIX (or DOS) pipes to pipe the `stdout` of any command through gnomon:
+- Use UNIX (or DOS) pipes to pipe `stdout` of any command through gnomon:
 
 `{{npm test}} | gnomon`
 

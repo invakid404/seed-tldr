@@ -2,8 +2,8 @@
 id: linux.cat
 title: Cat
 desc: ''
-updated: 1671592749446
-created: 1671592749446
+updated: 1691562059132
+created: 1691562059132
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -17,7 +17,7 @@ sources:
 > Print and concatenate files.
 > More information: <https://www.gnu.org/software/coreutils/cat>.
 
-- Print the contents of a file to the standard output:
+- Print the contents of a file to `stdout`:
 
 `cat {{path/to/file}}`
 

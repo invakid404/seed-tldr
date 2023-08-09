@@ -2,8 +2,8 @@
 id: common.sops
 title: Sops
 desc: ''
-updated: 1642441815069
-created: 1642441815069
+updated: 1691562059084
+created: 1691562059084
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -22,7 +22,7 @@ sources:
 
 `sops -e {{path/to/myfile.json}} > {{path/to/myfile.enc.json}}`
 
-- Decrypt a file to the standard output:
+- Decrypt a file to `stdout`:
 
 `sops -d {{path/to/myfile.enc.json}}`
 

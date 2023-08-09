@@ -2,8 +2,8 @@
 id: common.bat
 title: Bat
 desc: ''
-updated: 1670210384626
-created: 1670210384626
+updated: 1691562058924
+created: 1691562058924
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -18,7 +18,7 @@ sources:
 > A `cat` clone with syntax highlighting and Git integration.
 > More information: <https://github.com/sharkdp/bat>.
 
-- Print the contents of a file to the standard output:
+- Print the contents of a file to `stdout`:
 
 `bat {{path/to/file}}`
 

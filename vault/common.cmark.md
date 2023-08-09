@@ -2,8 +2,8 @@
 id: common.cmark
 title: Cmark
 desc: ''
-updated: 1642441815002
-created: 1642441815002
+updated: 1691562058935
+created: 1691562058935
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -21,7 +21,7 @@ sources:
 
 `cmark --to html {{filename.md}}`
 
-- Convert data from standard input to LaTeX:
+- Convert data from `stdin` to LaTeX:
 
 `cmark --to latex`
 

@@ -2,8 +2,8 @@
 id: common.stdbuf
 title: Stdbuf
 desc: ''
-updated: 1642441815071
-created: 1642441815071
+updated: 1691562059088
+created: 1691562059088
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -17,15 +17,15 @@ sources:
 > Run a command with modified buffering operations for its standard streams.
 > More information: <https://www.gnu.org/software/coreutils/stdbuf>.
 
-- Change the standard input buffer size to 512 KiB:
+- Change `stdin` buffer size to 512 KiB:
 
 `stdbuf --input={{512K}} {{command}}`
 
-- Change the standard output buffer to line-buffered:
+- Change `stdout` buffer to line-buffered:
 
 `stdbuf --output={{L}} {{command}}`
 
-- Change the standard error buffer to unbuffered:
+- Change `stderr` buffer to unbuffered:
 
 `stdbuf --error={{0}} {{command}}`
 

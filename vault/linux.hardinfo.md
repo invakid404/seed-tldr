@@ -2,8 +2,8 @@
 id: linux.hardinfo
 title: Hardinfo
 desc: ''
-updated: 1687904232960
-created: 1687904232960
+updated: 1691562059149
+created: 1691562059149
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -21,7 +21,7 @@ sources:
 
 `hardinfo`
 
-- Print report to standard output:
+- Print report to `stdout`:
 
 `hardinfo -r`
 

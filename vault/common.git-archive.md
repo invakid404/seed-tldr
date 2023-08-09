@@ -2,8 +2,8 @@
 id: common.git-archive
 title: Git Archive
 desc: ''
-updated: 1642441815021
-created: 1642441815021
+updated: 1691562058978
+created: 1691562058978
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -17,11 +17,11 @@ sources:
 > Create an archive of files from a named tree.
 > More information: <https://git-scm.com/docs/git-archive>.
 
-- Create a tar archive from the contents of the current HEAD and print it to standard output:
+- Create a tar archive from the contents of the current HEAD and print it to `stdout`:
 
 `git archive --verbose HEAD`
 
-- Create a zip archive from the current HEAD and print it to standard output:
+- Create a zip archive from the current HEAD and print it to `stdout`:
 
 `git archive --verbose --format=zip HEAD`
 

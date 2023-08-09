@@ -2,8 +2,8 @@
 id: common.pueue-follow
 title: Pueue Follow
 desc: ''
-updated: 1670142130992
-created: 1670142130992
+updated: 1691562059062
+created: 1691562059062
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -22,7 +22,7 @@ sources:
 
 `pueue follow {{task_id}}`
 
-- Follow the `stderr` of a task:
+- Follow `stderr` of a task:
 
 `pueue follow --err {{task_id}}`
 

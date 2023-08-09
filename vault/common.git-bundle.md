@@ -2,8 +2,8 @@
 id: common.git-bundle
 title: Git Bundle
 desc: ''
-updated: 1642441815022
-created: 1642441815022
+updated: 1691562058978
+created: 1691562058978
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -37,7 +37,7 @@ sources:
 
 `git bundle verify {{path/to/file.bundle}}`
 
-- Print to the standard output the list of references contained in a bundle:
+- Print to `stdout` the list of references contained in a bundle:
 
 `git bundle unbundle {{path/to/file.bundle}}`
 

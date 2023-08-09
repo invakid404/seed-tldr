@@ -2,8 +2,8 @@
 id: linux.utmpdump
 title: Utmpdump
 desc: ''
-updated: 1656591837658
-created: 1656591837658
+updated: 1691562059197
+created: 1691562059197
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -17,7 +17,7 @@ sources:
 > Dump and load btmp, utmp and wtmp accounting files.
 > More information: <https://manned.org/utmpdump>.
 
-- Dump the `/var/log/wtmp` file to the standard output as plain text:
+- Dump the `/var/log/wtmp` file to `stdout` as plain text:
 
 `utmpdump {{/var/log/wtmp}}`
 

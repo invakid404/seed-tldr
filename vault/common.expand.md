@@ -2,8 +2,8 @@
 id: common.expand
 title: Expand
 desc: ''
-updated: 1670145406951
-created: 1670145406951
+updated: 1691562058957
+created: 1691562058957
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -17,11 +17,11 @@ sources:
 > Convert tabs to spaces.
 > More information: <https://www.gnu.org/software/coreutils/expand>.
 
-- Convert tabs in each file to spaces, writing to standard output:
+- Convert tabs in each file to spaces, writing to `stdout`:
 
 `expand {{path/to/file}}`
 
-- Convert tabs to spaces, reading from standard input:
+- Convert tabs to spaces, reading from `stdin`:
 
 `expand`
 

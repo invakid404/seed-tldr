@@ -2,8 +2,8 @@
 id: linux.keyctl
 title: Keyctl
 desc: ''
-updated: 1642441815100
-created: 1642441815100
+updated: 1691562059153
+created: 1691562059153
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -29,7 +29,7 @@ sources:
 
 `keyctl add {{type_keyring}} {{key_name}} {{key_value}} {{target_keyring}}`
 
-- Store a key with its value from standard input:
+- Store a key with its value from `stdin`:
 
 `echo -n {{key_value}} | keyctl padd {{type_keyring}} {{key_name}} {{target_keyring}}`
 

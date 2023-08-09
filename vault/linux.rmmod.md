@@ -2,8 +2,8 @@
 id: linux.rmmod
 title: Rmmod
 desc: ''
-updated: 1656591837650
-created: 1656591837650
+updated: 1691562059184
+created: 1691562059184
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -25,7 +25,7 @@ sources:
 
 `sudo rmmod --verbose {{module_name}}`
 
-- Remove a module from the kernel and send errors to syslog instead of standard error:
+- Remove a module from the kernel and send errors to syslog instead of `stderr`:
 
 `sudo rmmod --syslog {{module_name}}`
 

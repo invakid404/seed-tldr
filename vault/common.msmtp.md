@@ -2,8 +2,8 @@
 id: common.msmtp
 title: Msmtp
 desc: ''
-updated: 1642441815049
-created: 1642441815049
+updated: 1691562059035
+created: 1691562059035
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,7 +15,7 @@ sources:
 # msmtp
 
 > An SMTP client.
-> It reads text from standard input and sends it to an SMTP server.
+> It reads text from `stdin` and sends it to an SMTP server.
 > More information: <https://marlam.de/msmtp>.
 
 - Send an email using the default account configured in `~/.msmtprc`:

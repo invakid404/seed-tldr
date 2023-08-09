@@ -2,8 +2,8 @@
 id: common.git-stripspace
 title: Git Stripspace
 desc: ''
-updated: 1642441815027
-created: 1642441815027
+updated: 1691562058989
+created: 1691562058989
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -14,7 +14,7 @@ sources:
 ---
 # git stripspace
 
-> Read text (e.g. commit messages, notes, tags, and branch descriptions) from the standard input and clean it into the manner used by Git.
+> Read text (e.g. commit messages, notes, tags, and branch descriptions) from `stdin` and clean it into the manner used by Git.
 > More information: <https://git-scm.com/docs/git-stripspace>.
 
 - Trim whitespace from a file:

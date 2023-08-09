@@ -2,8 +2,8 @@
 id: common.bison
 title: Bison
 desc: ''
-updated: 1642441814999
-created: 1642441814999
+updated: 1691562058926
+created: 1691562058926
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -21,7 +21,7 @@ sources:
 
 `bison {{path/to/file.y}}`
 
-- Compile in debug mode, which causes the resulting parser to write additional information to the standard output:
+- Compile in debug mode, which causes the resulting parser to write additional information to `stdout`:
 
 `bison --debug {{path/to/file.y}}`
 

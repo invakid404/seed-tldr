@@ -2,8 +2,8 @@
 id: common.ts
 title: TS
 desc: ''
-updated: 1684549900183
-created: 1684549900183
+updated: 1691562059099
+created: 1691562059099
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -14,7 +14,7 @@ sources:
 ---
 # ts
 
-> Add timestamps to every line from standard input.
+> Add timestamps to every line from `stdin`.
 > More information: <https://joeyh.name/code/moreutils/>.
 
 - Add a timestamp to the beginning of each line:

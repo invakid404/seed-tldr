@@ -2,8 +2,8 @@
 id: common.basenc
 title: Basenc
 desc: ''
-updated: 1683599668517
-created: 1683599668517
+updated: 1691562058924
+created: 1691562058924
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -14,7 +14,7 @@ sources:
 ---
 # basenc
 
-> Encode or decode file or standard input using a specified encoding, to standard output.
+> Encode or decode file or `stdin` using a specified encoding, to `stdout`.
 > More information: <https://www.gnu.org/software/coreutils/basenc>.
 
 - Encode a file with base64 encoding:

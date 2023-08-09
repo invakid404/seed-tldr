@@ -2,8 +2,8 @@
 id: common.goimports
 title: Goimports
 desc: ''
-updated: 1670145406986
-created: 1670145406986
+updated: 1691562058996
+created: 1691562058996
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -21,7 +21,7 @@ sources:
 
 `goimports {{path/to/file}}.go`
 
-- Write the result back to the source file instead of the standard output:
+- Write the result back to the source file instead of `stdout`:
 
 `goimports -w {{path/to/file}}.go`
 

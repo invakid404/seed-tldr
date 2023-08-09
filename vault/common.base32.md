@@ -2,8 +2,8 @@
 id: common.base32
 title: Base32
 desc: ''
-updated: 1670310991737
-created: 1670310991737
+updated: 1691562058924
+created: 1691562058924
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -14,7 +14,7 @@ sources:
 ---
 # base32
 
-> Encode or decode file or standard input to/from Base32, to standard output.
+> Encode or decode file or `stdin` to/from Base32, to `stdout`.
 > More information: <https://www.gnu.org/software/coreutils/base32>.
 
 - Encode a file:

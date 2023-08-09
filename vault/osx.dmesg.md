@@ -2,8 +2,8 @@
 id: osx.dmesg
 title: Dmesg
 desc: ''
-updated: 1644840636308
-created: 1644840636308
+updated: 1691562059208
+created: 1691562059208
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -14,7 +14,7 @@ sources:
 ---
 # dmesg
 
-> Write the kernel messages to standard output.
+> Write the kernel messages to `stdout`.
 > More information: <https://www.manpagez.com/man/8/dmesg/>.
 
 - Show kernel messages:

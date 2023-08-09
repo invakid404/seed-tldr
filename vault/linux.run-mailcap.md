@@ -2,8 +2,8 @@
 id: linux.run-mailcap
 title: Run Mailcap
 desc: ''
-updated: 1656591837650
-created: 1656591837650
+updated: 1691562059185
+created: 1691562059185
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -30,7 +30,7 @@ sources:
 
 `run-mailcap --action=ACTION --debug {{filename}}`
 
-- Ignore any "copiousoutput" directive and forward output to standard output:
+- Ignore any "copiousoutput" directive and forward output to `stdout`:
 
 `run-mailcap --action=ACTION --nopager {{filename}}`
 

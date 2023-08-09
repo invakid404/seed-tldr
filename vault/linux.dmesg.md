@@ -2,8 +2,8 @@
 id: linux.dmesg
 title: Dmesg
 desc: ''
-updated: 1642441815092
-created: 1642441815092
+updated: 1691562059139
+created: 1691562059139
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -14,7 +14,7 @@ sources:
 ---
 # dmesg
 
-> Write the kernel messages to standard output.
+> Write the kernel messages to `stdout`.
 > More information: <https://manned.org/dmesg>.
 
 - Show kernel messages:

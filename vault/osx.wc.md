@@ -2,8 +2,8 @@
 id: osx.wc
 title: Wc
 desc: ''
-updated: 1644840636314
-created: 1644840636314
+updated: 1691562059232
+created: 1691562059232
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -33,7 +33,7 @@ sources:
 
 `wc -m {{path/to/file}}`
 
-- Use standard input to count lines, words and characters (bytes) in that order:
+- Use `stdin` to count lines, words and characters (bytes) in that order:
 
 `{{find .}} | wc`
 

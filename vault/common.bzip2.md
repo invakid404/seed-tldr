@@ -2,8 +2,8 @@
 id: common.bzip2
 title: Bzip2
 desc: ''
-updated: 1671445262146
-created: 1671445262146
+updated: 1691562058929
+created: 1691562058929
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -25,7 +25,7 @@ sources:
 
 `bzip2 -d {{path/to/compressed_file.bz2}}`
 
-- Decompress a file to standard output:
+- Decompress a file to `stdout`:
 
 `bzip2 -dc {{path/to/compressed_file.bz2}}`
 

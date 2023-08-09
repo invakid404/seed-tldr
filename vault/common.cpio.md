@@ -2,8 +2,8 @@
 id: common.cpio
 title: Cpio
 desc: ''
-updated: 1642441815004
-created: 1642441815004
+updated: 1691562058938
+created: 1691562058938
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -18,7 +18,7 @@ sources:
 > Supports the following archive formats: cpio's custom binary, old ASCII, new ASCII, crc, HPUX binary, HPUX old ASCII, old tar, and POSIX.1 tar.
 > More information: <https://www.gnu.org/software/cpio>.
 
-- Take a list of file names from standard input and add them [o]nto an archive in cpio's binary format:
+- Take a list of file names from `stdin` and add them [o]nto an archive in cpio's binary format:
 
 `echo "{{file1}} {{file2}} {{file3}}" | cpio -o > {{archive.cpio}}`
 

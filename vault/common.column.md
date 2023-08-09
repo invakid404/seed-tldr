@@ -2,8 +2,8 @@
 id: common.column
 title: Column
 desc: ''
-updated: 1642441815003
-created: 1642441815003
+updated: 1691562058936
+created: 1691562058936
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -14,7 +14,7 @@ sources:
 ---
 # column
 
-> Format standard input or a file into multiple columns.
+> Format `stdin` or a file into multiple columns.
 > Columns are filled before rows; the default separator is a whitespace.
 > More information: <https://manned.org/column>.
 

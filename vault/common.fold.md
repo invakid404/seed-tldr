@@ -2,8 +2,8 @@
 id: common.fold
 title: Fold
 desc: ''
-updated: 1688890860310
-created: 1688890860310
+updated: 1691562058969
+created: 1691562058969
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -14,7 +14,7 @@ sources:
 ---
 # fold
 
-> Wraps each line in an input file to fit a specified width and prints it to the standard output.
+> Wrap each line in an input file to fit a specified width and print it to `stdout`.
 > More information: <https://manned.org/fold.1p>.
 
 - Wrap each line to default width (80 characters):

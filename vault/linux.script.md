@@ -2,8 +2,8 @@
 id: linux.script
 title: Script
 desc: ''
-updated: 1656591837651
-created: 1656591837651
+updated: 1691562059186
+created: 1691562059186
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -29,7 +29,7 @@ sources:
 
 `script -a {{path/to/session.out}}`
 
-- Record timing information (data is outputted to the standard error):
+- Record timing information (data is outputted to `stderr`):
 
 `script -t 2> {{path/to/timingfile}}`
 

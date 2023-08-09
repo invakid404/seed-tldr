@@ -2,8 +2,8 @@
 id: common.hashid
 title: Hashid
 desc: ''
-updated: 1642441815032
-created: 1642441815032
+updated: 1691562059000
+created: 1691562059000
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -17,7 +17,7 @@ sources:
 > Python3 program that identifies data and password hashes.
 > More information: <https://github.com/psypanda/hashID>.
 
-- Identify hashes from standard input (through typing, copying and pasting, or piping the hash into the program):
+- Identify hashes from `stdin` (through typing, copying and pasting, or piping the hash into the program):
 
 `hashid`
 
@@ -37,7 +37,7 @@ sources:
 
 `hashid --mode --john {{hash}}`
 
-- Save output to a file instead of printing to standard output:
+- Save output to a file instead of printing to `stdout`:
 
 `hashid --outfile {{path/to/output.txt}} {{hash}}`
 

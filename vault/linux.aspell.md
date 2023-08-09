@@ -2,8 +2,8 @@
 id: linux.aspell
 title: Aspell
 desc: ''
-updated: 1670145407103
-created: 1670145407103
+updated: 1691562059127
+created: 1691562059127
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -21,7 +21,7 @@ sources:
 
 `aspell check {{path/to/file}}`
 
-- List misspelled words from standard input:
+- List misspelled words from `stdin`:
 
 `cat {{path/to/file}} | aspell list`
 
@@ -33,7 +33,7 @@ sources:
 
 `aspell --lang={{cs}}`
 
-- List misspelled words from standard input and ignore words from personal word list:
+- List misspelled words from `stdin` and ignore words from personal word list:
 
 `cat {{path/to/file}} | aspell --personal={{personal-word-list.pws}} list`
 

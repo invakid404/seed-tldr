@@ -2,8 +2,8 @@
 id: common.unexpand
 title: Unexpand
 desc: ''
-updated: 1670145407085
-created: 1670145407085
+updated: 1691562059101
+created: 1691562059101
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -17,11 +17,11 @@ sources:
 > Convert spaces to tabs.
 > More information: <https://www.gnu.org/software/coreutils/unexpand>.
 
-- Convert blanks in each file to tabs, writing to standard output:
+- Convert blanks in each file to tabs, writing to `stdout`:
 
 `unexpand {{path/to/file}}`
 
-- Convert blanks to tabs, reading from standard output:
+- Convert blanks to tabs, reading from `stdout`:
 
 `unexpand`
 

@@ -2,8 +2,8 @@
 id: common.carbon-now
 title: Carbon Now
 desc: ''
-updated: 1670145406921
-created: 1670145406921
+updated: 1691562058930
+created: 1691562058930
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -25,7 +25,7 @@ sources:
 
 `carbon-now --from-clipboard`
 
-- Create an image from standard input using default settings:
+- Create an image from `stdin` using default settings:
 
 `{{input}} | carbon-now`
 

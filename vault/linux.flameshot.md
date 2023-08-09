@@ -2,8 +2,8 @@
 id: linux.flameshot
 title: Flameshot
 desc: ''
-updated: 1659406908478
-created: 1659406908478
+updated: 1691562059144
+created: 1691562059144
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -38,7 +38,7 @@ sources:
 
 `flameshot screen --number {{2}}`
 
-- Create a screenshot and print it to the standard output:
+- Create a screenshot and print it to `stdout`:
 
 `flameshot gui --raw`
 

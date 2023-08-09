@@ -2,8 +2,8 @@
 id: linux.pridecat
 title: Pridecat
 desc: ''
-updated: 1670145407148
-created: 1670145407148
+updated: 1691562059175
+created: 1691562059175
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -17,7 +17,7 @@ sources:
 > Like cat but more colorful :).
 > More information: <https://github.com/lunasorcery/pridecat>.
 
-- Print the contents of a file in pride colors to the standard output:
+- Print the contents of a file in pride colors to `stdout`:
 
 `pridecat {{path/to/file}}`
 

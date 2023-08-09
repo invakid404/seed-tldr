@@ -2,8 +2,8 @@
 id: linux.logsave
 title: Logsave
 desc: ''
-updated: 1642441815101
-created: 1642441815101
+updated: 1691562059156
+created: 1691562059156
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -21,7 +21,7 @@ sources:
 
 `logsave {{path/to/logfile}} {{command}}`
 
-- Take input from standard input and save it in a log file:
+- Take input from `stdin` and save it in a log file:
 
 `logsave {{logfile}} -`
 

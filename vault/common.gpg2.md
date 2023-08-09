@@ -2,8 +2,8 @@
 id: common.gpg2
 title: Gpg2
 desc: ''
-updated: 1642441815030
-created: 1642441815030
+updated: 1691562058997
+created: 1691562058997
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -30,7 +30,7 @@ sources:
 
 `gpg2 --symmetric {{path/to/doc.txt}}`
 
-- Decrypt a specified file, writing the result to the standard output:
+- Decrypt a specified file, writing the result to `stdout`:
 
 `gpg2 --decrypt {{path/to/doc.txt.gpg}}`
 
@@ -38,11 +38,11 @@ sources:
 
 `gpg2 --import {{path/to/public_key.gpg}}`
 
-- Export the public key of a specified email address to the standard output:
+- Export the public key of a specified email address to `stdout`:
 
 `gpg2 --export --armor {{alice@example.com}}`
 
-- Export the private key with a specified email address to the standard output:
+- Export the private key with a specified email address to `stdout`:
 
 `gpg2 --export-secret-keys --armor {{alice@example.com}}`
 

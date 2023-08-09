@@ -2,8 +2,8 @@
 id: linux.slop
 title: Slop
 desc: ''
-updated: 1642441815113
-created: 1642441815113
+updated: 1691562059188
+created: 1691562059188
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -17,7 +17,7 @@ sources:
 > Get a selection of the screen.
 > More information: <https://github.com/naelstrof/slop>.
 
-- Wait for the user to make a selection and output its geometry to standard output:
+- Wait for the user to make a selection and output its geometry to `stdout`:
 
 `slop`
 

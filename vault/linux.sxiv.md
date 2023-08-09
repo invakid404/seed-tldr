@@ -2,8 +2,8 @@
 id: linux.sxiv
 title: Sxiv
 desc: ''
-updated: 1642441815114
-created: 1642441815114
+updated: 1691562059191
+created: 1691562059191
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -25,7 +25,7 @@ sources:
 
 `sxiv -f {{path/to/file}}`
 
-- Open a newline-separated list of images, reading filenames from standard input:
+- Open a newline-separated list of images, reading filenames from `stdin`:
 
 `echo {{path/to/file}} | sxiv -i`
 
