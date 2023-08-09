@@ -2,8 +2,8 @@
 id: osx.md5
 title: Osx
 desc: ''
-updated: 1644840636309
-created: 1644840636309
+updated: 1691594336085
+created: 1691594336085
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -19,15 +19,15 @@ sources:
 
 - Calculate the MD5 checksum for a file:
 
-`md5 {{filename}}`
+`md5 {{path/to/file}}`
 
 - Calculate MD5 checksums for multiple files:
 
-`md5 {{filename1}} {{filename2}}`
+`md5 {{path/to/file1 path/to/file2 ...}}`
 
 - Output only the md5 checksum (no filename):
 
-`md5 -q {{filename}}`
+`md5 -q {{path/to/file}}`
 
 - Print a checksum of the given string:
 

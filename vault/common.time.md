@@ -2,8 +2,8 @@
 id: common.time
 title: Time
 desc: ''
-updated: 1642441815075
-created: 1642441815075
+updated: 1691594335980
+created: 1691594335980
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -14,10 +14,11 @@ sources:
 ---
 # time
 
-> See how long a command takes.
+> Measure how long a command took to run.
+> Note: `time` can either exist as a shell builtin, a standalone program or both.
 > More information: <https://manned.org/time>.
 
-- Time "ls":
+- Run the `command` and print the time measurements to `stdout`:
 
-`time ls`
+`time {{command}}`
 

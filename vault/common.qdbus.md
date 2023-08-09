@@ -2,8 +2,8 @@
 id: common.qdbus
 title: Qdbus
 desc: ''
-updated: 1642441815063
-created: 1642441815063
+updated: 1691594335961
+created: 1691594335961
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -45,7 +45,7 @@ sources:
 
 `qdbus {{org.kde.kglobalaccel}} {{/component/kmix}} {{invokeShortcut}} "{{increase_volume}}"`
 
-- Display help:
+- Gracefully log out and then do nothing, reboot or shut down:
 
-`qdbus --help`
+`qdbus {{org.kde.Shutdown}} {{/Shutdown}} {{logout|logoutAndReboot|logoutAndShutdown}}`
 
