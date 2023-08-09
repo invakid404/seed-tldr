@@ -2,8 +2,8 @@
 id: common.ruby
 title: Ruby
 desc: ''
-updated: 1687544520344
-created: 1687544520344
+updated: 1691565334435
+created: 1691565334435
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,11 +15,8 @@ sources:
 # ruby
 
 > Ruby programming language interpreter.
+> See also: `gem`, `bundler`, `rake`, `irb`.
 > More information: <https://www.ruby-lang.org>.
-
-- Start a REPL (interactive shell):
-
-`irb`
 
 - Execute a Ruby script:
 

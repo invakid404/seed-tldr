@@ -2,8 +2,8 @@
 id: common.gem
 title: Gem
 desc: ''
-updated: 1642441815019
-created: 1642441815019
+updated: 1691565334289
+created: 1691565334289
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -14,8 +14,8 @@ sources:
 ---
 # gem
 
-> Interact with the package manager for the Ruby programming language.
-> More information: <https://rubygems.org>.
+> A package manager for the Ruby programming language.
+> More information: <https://guides.rubygems.org>.
 
 - Search for remote gem(s) and show all available versions:
 
@@ -23,19 +23,19 @@ sources:
 
 - Install the latest version of a gem:
 
-`gem install {{gemname}}`
+`gem install {{gem_name}}`
 
-- Install specific version of a gem:
+- Install a specific version of a gem:
 
-`gem install {{gemname}} --version {{1.0.0}}`
+`gem install {{gem_name}} --version {{1.0.0}}`
 
 - Install the latest matching (SemVer) version of a gem:
 
-`gem install {{gemname}} --version '~> {{1.0}}'`
+`gem install {{gem_name}} --version '~> {{1.0}}'`
 
 - Update a gem:
 
-`gem update {{gemname}}`
+`gem update {{gem_name}}`
 
 - List all local gems:
 
@@ -43,9 +43,9 @@ sources:
 
 - Uninstall a gem:
 
-`gem uninstall {{gemname}}`
+`gem uninstall {{gem_name}}`
 
-- Uninstall specific version of a gem:
+- Uninstall a specific version of a gem:
 
-`gem uninstall {{gemname}} --version {{1.0.0}}`
+`gem uninstall {{gem_name}} --version {{1.0.0}}`
 
