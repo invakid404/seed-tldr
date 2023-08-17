@@ -2,8 +2,8 @@
 id: common.ffprobe
 title: Ffprobe
 desc: ''
-updated: 1642441815017
-created: 1642441815017
+updated: 1692285332187
+created: 1692285332187
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -19,7 +19,7 @@ sources:
 
 - Display all available stream info for a media file:
 
-`ffprobe -v error -show_entries {{input.mp4}}`
+`ffprobe -v error -show_streams {{input.mp4}}`
 
 - Display media duration:
 
