@@ -2,8 +2,8 @@
 id: linux.powertop
 title: Powertop
 desc: ''
-updated: 1642441815108
-created: 1642441815108
+updated: 1692289227400
+created: 1692289227400
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -28,4 +28,8 @@ sources:
 - Tune to optimal settings:
 
 `sudo powertop --auto-tune`
+
+- Generate a report for a specified number of seconds (instead of 20 by default):
+
+`sudo powertop --time={{5}}`
 
