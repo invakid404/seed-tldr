@@ -2,8 +2,8 @@
 id: linux.mkswap
 title: Mkswap
 desc: ''
-updated: 1642441815104
-created: 1642441815104
+updated: 1692418659680
+created: 1692418659680
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -14,22 +14,19 @@ sources:
 ---
 # mkswap
 
-> Sets up a Linux swap area on a device or in a file.
+> Set up a Linux swap area on a device or in a file.
+> Note: `path/to/file` can either point to a regular file or a swap partition.
 > More information: <https://manned.org/mkswap>.
 
-- Setup a given partition as swap area:
-
-`sudo mkswap {{/dev/sdb7}}`
-
-- Use a given file as swap area:
+- Set up a given swap area:
 
 `sudo mkswap {{path/to/file}}`
 
 - Check a partition for bad blocks before creating the swap area:
 
-`sudo mkswap -c {{/dev/sdb7}}`
+`sudo mkswap -c {{path/to/file}}`
 
-- Specify a label for the file (to allow `swapon` to use the label):
+- Specify a label for the partition (to allow `swapon` to use the label):
 
-`sudo mkswap -L {{swap1}} {{path/to/file}}`
+`sudo mkswap -L {{label}} {{/dev/sda1}}`
 
