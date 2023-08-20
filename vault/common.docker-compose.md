@@ -2,8 +2,8 @@
 id: common.docker-compose
 title: Docker Compose
 desc: ''
-updated: 1675873556975
-created: 1675873556975
+updated: 1692548305001
+created: 1692548305001
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -29,9 +29,9 @@ sources:
 
 `docker compose up --build`
 
-- Start all containers using an alternate compose file:
+- Start all containers by specifying a project name and using an alternate compose file:
 
-`docker compose --file {{path/to/file}} up`
+`docker compose -p {{project_name}} --file {{path/to/file}} up`
 
 - Stop all running containers:
 
