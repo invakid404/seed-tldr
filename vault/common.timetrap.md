@@ -2,8 +2,8 @@
 id: common.timetrap
 title: Timetrap
 desc: ''
-updated: 1642441815076
-created: 1642441815076
+updated: 1692544445571
+created: 1692544445571
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -28,4 +28,8 @@ sources:
 - Display the current timesheet:
 
 `timetrap display`
+
+- Edit the last entry's end time:
+
+`timetrap edit --end {{time}}`
 

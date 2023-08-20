@@ -2,8 +2,8 @@
 id: common.watchexec
 title: Watchexec
 desc: ''
-updated: 1642441815082
-created: 1642441815082
+updated: 1692544445585
+created: 1692544445585
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -31,5 +31,5 @@ sources:
 
 - Call/restart `my_server` when any file in the current directory change, sending `SIGKILL` to stop the child process:
 
-`watchexec --restart --signal {{SIGKILL}} {{my_server}}`
+`watchexec --restart --stop-signal {{SIGKILL}} {{my_server}}`
 
