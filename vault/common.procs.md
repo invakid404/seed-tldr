@@ -2,8 +2,8 @@
 id: common.procs
 title: Procs
 desc: ''
-updated: 1680390924243
-created: 1680390924243
+updated: 1692774849933
+created: 1692774849933
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -20,6 +20,10 @@ sources:
 - List all processes showing the PID, user, CPU usage, memory usage, and the command which started them:
 
 `procs`
+
+- List all processes as a tree:
+
+`procs --tree`
 
 - List information about processes, if the commands which started them contain `zsh`:
 
