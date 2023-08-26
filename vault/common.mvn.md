@@ -2,8 +2,8 @@
 id: common.mvn
 title: Mvn
 desc: ''
-updated: 1642441815049
-created: 1642441815049
+updated: 1693069969965
+created: 1693069969965
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -44,7 +44,7 @@ sources:
 
 - Clean and then package the code with a given build profile:
 
-`mvn clean -P{{profile}} package`
+`mvn clean -P {{profile}} package`
 
 - Run a class with a main method:
 
