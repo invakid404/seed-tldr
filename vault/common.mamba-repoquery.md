@@ -2,8 +2,8 @@
 id: common.mamba-repoquery
 title: Mamba Repoquery
 desc: ''
-updated: 1666197757077
-created: 1666197757077
+updated: 1693073888517
+created: 1693073888517
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -19,7 +19,7 @@ sources:
 
 - Search for all available versions of a particular package:
 
-`mamba repoquery search {{package_name}}`
+`mamba repoquery search {{package}}`
 
 - Search for all packages satisfying specific constraints:
 

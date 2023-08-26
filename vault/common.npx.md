@@ -2,8 +2,8 @@
 id: common.npx
 title: Npx
 desc: ''
-updated: 1680959849796
-created: 1680959849796
+updated: 1693073888532
+created: 1693073888532
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -19,19 +19,19 @@ sources:
 
 - Execute the command from a local or remote `npm` package:
 
-`npx {{command}} {{arg1 arg2 ...}}`
+`npx {{command}} {{argument1 argument2 ...}}`
 
-- In case multiple commands with the same name exist, it is possible to specify the package name:
+- In case multiple commands with the same name exist, it is possible to explicitly specify the package:
 
-`npx --package {{package_name}} {{command}}`
+`npx --package {{package}} {{command}}`
 
 - Run a command if it exists in the current path or in `node_modules/.bin`:
 
-`npx --no-install {{command}} {{command_arguments}}`
+`npx --no-install {{command}} {{argument1 argument2 ...}}`
 
 - Execute a specific command suppressing any output from `npx` itself:
 
-`npx --quiet {{command}} {{arg1 arg2 ...}}`
+`npx --quiet {{command}} {{argument1 argument2 ...}}`
 
 - Display help:
 

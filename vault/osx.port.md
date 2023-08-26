@@ -2,8 +2,8 @@
 id: osx.port
 title: Port
 desc: ''
-updated: 1644811682010
-created: 1644811682010
+updated: 1693073888712
+created: 1693073888712
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -23,7 +23,7 @@ sources:
 
 - Install a package:
 
-`sudo port install {{package_name}}`
+`sudo port install {{package}}`
 
 - List installed packages:
 

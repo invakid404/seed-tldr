@@ -2,8 +2,8 @@
 id: common.cradle-sql
 title: Cradle Sql
 desc: ''
-updated: 1642441815004
-created: 1642441815004
+updated: 1693073888431
+created: 1693073888431
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -23,7 +23,7 @@ sources:
 
 - Rebuild the database schema for a specific package:
 
-`cradle sql build {{package_name}}`
+`cradle sql build {{package}}`
 
 - Empty the entire database:
 
@@ -31,7 +31,7 @@ sources:
 
 - Empty the database tables for a specific package:
 
-`cradle sql flush {{package_name}}`
+`cradle sql flush {{package}}`
 
 - Populate the tables for all packages:
 
@@ -39,5 +39,5 @@ sources:
 
 - Populate the tables for a specific package:
 
-`cradle sql populate {{package_name}}`
+`cradle sql populate {{package}}`
 

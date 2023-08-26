@@ -2,8 +2,8 @@
 id: common.nimble
 title: Nimble
 desc: ''
-updated: 1642441815051
-created: 1642441815051
+updated: 1693073888529
+created: 1693073888529
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -24,7 +24,7 @@ sources:
 
 - Install a package:
 
-`nimble install {{package_name}}`
+`nimble install {{package}}`
 
 - List installed packages:
 

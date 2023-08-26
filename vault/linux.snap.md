@@ -2,8 +2,8 @@
 id: linux.snap
 title: Snap
 desc: ''
-updated: 1689531679860
-created: 1689531679860
+updated: 1693073888675
+created: 1693073888675
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -20,19 +20,19 @@ sources:
 
 - Search for a package:
 
-`snap find {{package_name}}`
+`snap find {{query}}`
 
 - Install a package:
 
-`snap install {{package_name}}`
+`snap install {{package}}`
 
 - Update a package:
 
-`snap refresh {{package_name}}`
+`snap refresh {{package}}`
 
 - Update a package to another channel (track, risk, or branch):
 
-`snap refresh {{package_name}} --channel={{channel}}`
+`snap refresh {{package}} --channel={{channel}}`
 
 - Update all packages:
 
@@ -44,7 +44,7 @@ sources:
 
 - Uninstall a package:
 
-`snap remove {{package_name}}`
+`snap remove {{package}}`
 
 - Check for recent snap changes in the system:
 

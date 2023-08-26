@@ -2,8 +2,8 @@
 id: linux.pacman
 title: Pacman
 desc: ''
-updated: 1687198849119
-created: 1687198849119
+updated: 1693073888658
+created: 1693073888658
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -25,11 +25,11 @@ sources:
 
 - Install a new package:
 
-`sudo pacman -S {{package_name}}`
+`sudo pacman -S {{package}}`
 
 - Remove a package and its dependencies:
 
-`sudo pacman -Rs {{package_name}}`
+`sudo pacman -Rs {{package}}`
 
 - Search the database for packages containing a specific file:
 

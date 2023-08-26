@@ -2,8 +2,8 @@
 id: common.pip
 title: Pip
 desc: ''
-updated: 1656591837547
-created: 1656591837547
+updated: 1693073888545
+created: 1693073888545
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -20,7 +20,7 @@ sources:
 
 - Install a package (see `pip install` for more install examples):
 
-`pip install {{package_name}}`
+`pip install {{package}}`
 
 - Install a package to the user's directory instead of the system-wide default location:
 
@@ -28,11 +28,11 @@ sources:
 
 - Upgrade a package:
 
-`pip install --upgrade {{package_name}}`
+`pip install --upgrade {{package}}`
 
 - Uninstall a package:
 
-`pip uninstall {{package_name}}`
+`pip uninstall {{package}}`
 
 - Save installed packages to file:
 
@@ -40,7 +40,7 @@ sources:
 
 - Show installed package info:
 
-`pip show {{package_name}}`
+`pip show {{package}}`
 
 - Install packages from a file:
 

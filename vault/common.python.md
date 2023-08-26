@@ -2,8 +2,8 @@
 id: common.python
 title: Python
 desc: ''
-updated: 1642441815063
-created: 1642441815063
+updated: 1693073888558
+created: 1693073888558
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -39,7 +39,7 @@ sources:
 
 - Install a package using `pip`:
 
-`python -m {{pip}} install {{package_name}}`
+`python -m pip install {{package}}`
 
 - Interactively debug a Python script:
 

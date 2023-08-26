@@ -2,8 +2,8 @@
 id: common.pipenv
 title: Pipenv
 desc: ''
-updated: 1642441815060
-created: 1642441815060
+updated: 1693073888545
+created: 1693073888545
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -28,7 +28,7 @@ sources:
 
 - Install a package:
 
-`pipenv install {{package_name}}`
+`pipenv install {{package}}`
 
 - Install all the dependencies for a project:
 
@@ -40,7 +40,7 @@ sources:
 
 - Uninstall a package:
 
-`pipenv uninstall {{package_name}}`
+`pipenv uninstall {{package}}`
 
 - Start a shell within the created virtual environment:
 

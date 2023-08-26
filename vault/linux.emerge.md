@@ -2,8 +2,8 @@
 id: linux.emerge
 title: Emerge
 desc: ''
-updated: 1670203646388
-created: 1670203646388
+updated: 1693073888628
+created: 1693073888628
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -32,11 +32,11 @@ sources:
 
 - Install a new package, with confirmation:
 
-`emerge -av {{package_name}}`
+`emerge -av {{package}}`
 
 - Remove a package, with confirmation:
 
-`emerge -Cav {{package_name}}`
+`emerge -Cav {{package}}`
 
 - Remove orphaned packages (that were installed only as dependencies):
 

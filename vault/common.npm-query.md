@@ -2,8 +2,8 @@
 id: common.npm-query
 title: Npm Query
 desc: ''
-updated: 1664015078888
-created: 1664015078888
+updated: 1693073888532
+created: 1693073888532
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -27,11 +27,11 @@ sources:
 
 - Print dependencies with a specific name:
 
-`npm query '#{{package_name}}'`
+`npm query '#{{package}}'`
 
 - Print dependencies with a specific name and within a semantic versioning range:
 
-`npm query #{{package_name}}@{{semantic_version}}`
+`npm query #{{package}}@{{semantic_version}}`
 
 - Print dependencies which have no dependencies:
 

@@ -2,8 +2,8 @@
 id: common.pip-uninstall
 title: Pip Uninstall
 desc: ''
-updated: 1642441815060
-created: 1642441815060
+updated: 1693073888545
+created: 1693073888545
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -19,7 +19,7 @@ sources:
 
 - Uninstall a package:
 
-`pip uninstall {{package_name}}`
+`pip uninstall {{package}}`
 
 - Uninstall packages listed in a specific file:
 
@@ -27,5 +27,5 @@ sources:
 
 - Uninstall package without asking for confirmation:
 
-`pip uninstall --yes {{package_name}}`
+`pip uninstall --yes {{package}}`
 

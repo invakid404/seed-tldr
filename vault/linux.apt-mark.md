@@ -2,8 +2,8 @@
 id: linux.apt-mark
 title: Apt Mark
 desc: ''
-updated: 1642441815087
-created: 1642441815087
+updated: 1693073888612
+created: 1693073888612
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -19,15 +19,15 @@ sources:
 
 - Mark a package as automatically installed:
 
-`sudo apt-mark auto {{package_name}}`
+`sudo apt-mark auto {{package}}`
 
 - Hold a package at its current version and prevent updates to it:
 
-`sudo apt-mark hold {{package_name}}`
+`sudo apt-mark hold {{package}}`
 
 - Allow a package to be updated again:
 
-`sudo apt-mark unhold {{package_name}}`
+`sudo apt-mark unhold {{package}}`
 
 - Show manually installed packages:
 

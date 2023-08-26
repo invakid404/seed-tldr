@@ -2,8 +2,8 @@
 id: linux.apt-file
 title: Apt File
 desc: ''
-updated: 1670487844897
-created: 1670487844897
+updated: 1693073888612
+created: 1693073888612
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -27,7 +27,7 @@ sources:
 
 - List the contents of a specific package:
 
-`apt-file {{show|list}} {{package_name}}`
+`apt-file {{show|list}} {{package}}`
 
 - Search for packages that match the `regular_expression`:
 

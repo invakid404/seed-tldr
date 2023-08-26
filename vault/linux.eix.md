@@ -2,8 +2,8 @@
 id: linux.eix
 title: Eix
 desc: ''
-updated: 1642441815093
-created: 1642441815093
+updated: 1693073888628
+created: 1693073888628
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -20,11 +20,11 @@ sources:
 
 - Search for a package:
 
-`eix {{package_name}}`
+`eix {{query}}`
 
 - Search for installed packages:
 
-`eix --installed {{package_name}}`
+`eix --installed {{query}}`
 
 - Search in package descriptions:
 

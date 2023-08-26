@@ -2,8 +2,8 @@
 id: common.cs-launch
 title: Cs Launch
 desc: ''
-updated: 1673284741484
-created: 1673284741484
+updated: 1693073888432
+created: 1693073888432
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -19,11 +19,11 @@ sources:
 
 - Launch a specific application with arguments:
 
-`cs launch {{application_name}} -- {{arg1 arg2 ...}}`
+`cs launch {{application_name}} -- {{argument1 argument2 ...}}`
 
 - Launch a specific application version with arguments:
 
-`cs launch {{application_name}}:{{application_version}} -- {{arg1 arg2 ...}}`
+`cs launch {{application_name}}:{{application_version}} -- {{argument1 argument2 ...}}`
 
 - Launch a specific version of an application specifying which is the main file:
 

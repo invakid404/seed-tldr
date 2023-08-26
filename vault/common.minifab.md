@@ -2,8 +2,8 @@
 id: common.minifab
 title: Minifab
 desc: ''
-updated: 1685974490773
-created: 1685974490773
+updated: 1693073888520
+created: 1693073888520
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -39,7 +39,7 @@ sources:
 
 - Invoke a chaincode method with the specified arguments:
 
-`minifab invoke -n {{chaincode_name}} -p '"{{method_name}}", "{{arg0}}", "{{arg1}}", ...'`
+`minifab invoke -n {{chaincode_name}} -p '"{{method_name}}", "{{argument1}}", "{{argument2}}", ...'`
 
 - Make a query on the ledger:
 

@@ -2,8 +2,8 @@
 id: common.espanso
 title: Espanso
 desc: ''
-updated: 1642441815013
-created: 1642441815013
+updated: 1693073888447
+created: 1693073888447
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -27,7 +27,7 @@ sources:
 
 - Install a package from the hub store (<https://hub.espanso.org/>):
 
-`espanso install {{package_name}}`
+`espanso install {{package}}`
 
 - Restart (required after installing a package, useful in case of failure):
 

@@ -2,8 +2,8 @@
 id: linux.eopkg
 title: Eopkg
 desc: ''
-updated: 1656591837620
-created: 1656591837620
+updated: 1693073888628
+created: 1693073888628
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -19,7 +19,7 @@ sources:
 
 - Install a specific package:
 
-`sudo eopkg install {{package_name}}`
+`sudo eopkg install {{package}}`
 
 - Update all packages:
 

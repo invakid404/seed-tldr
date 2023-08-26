@@ -2,8 +2,8 @@
 id: linux.cpulimit
 title: Cpulimit
 desc: ''
-updated: 1642441815091
-created: 1642441815091
+updated: 1693073888622
+created: 1693073888622
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -27,7 +27,7 @@ sources:
 
 - Launch a given program and limit it to only use 50% of the CPU:
 
-`cpulimit --limit {{50}} -- {{program arg1 arg2 ...}}`
+`cpulimit --limit {{50}} -- {{program argument1 argument2 ...}}`
 
 - Launch a program, limit its CPU usage to 50% and run cpulimit in the background:
 

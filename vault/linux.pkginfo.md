@@ -2,8 +2,8 @@
 id: linux.pkginfo
 title: Pkginfo
 desc: ''
-updated: 1670145407146
-created: 1670145407146
+updated: 1693073888661
+created: 1693073888661
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -23,7 +23,7 @@ sources:
 
 - List files owned by a package:
 
-`pkginfo -l {{package_name}}`
+`pkginfo -l {{package}}`
 
 - List the owner(s) of files matching a pattern:
 

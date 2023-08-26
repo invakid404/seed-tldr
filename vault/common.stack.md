@@ -2,8 +2,8 @@
 id: common.stack
 title: Stack
 desc: ''
-updated: 1642441815071
-created: 1642441815071
+updated: 1693073888575
+created: 1693073888575
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -19,7 +19,7 @@ sources:
 
 - Create a new package:
 
-`stack new {{package_name}} {{template_name}}`
+`stack new {{package}} {{template}}`
 
 - Compile a package:
 
@@ -39,5 +39,5 @@ sources:
 
 - Run a program and pass an argument to it:
 
-`stack exec {{program_name}} -- {{argument}}`
+`stack exec {{program}} -- {{argument}}`
 

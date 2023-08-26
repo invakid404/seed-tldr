@@ -2,8 +2,8 @@
 id: linux.aura
 title: Aura
 desc: ''
-updated: 1642441815088
-created: 1642441815088
+updated: 1693073888614
+created: 1693073888614
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -19,11 +19,11 @@ sources:
 
 - Search for packages from the official repositories and AUR:
 
-`aura --aursync --both --search {{package_name|search_regex}}`
+`aura --aursync --both --search {{keyword|regular_expression}}`
 
 - Install a package from the AUR:
 
-`aura --aursync {{package_name}}`
+`aura --aursync {{package}}`
 
 - Update all AUR packages in a verbose mode and remove all make dependencies:
 
@@ -31,7 +31,7 @@ sources:
 
 - Install a package from the official repositories:
 
-`aura --sync {{package_name}}`
+`aura --sync {{package}}`
 
 - Synchronize and update all packages from the official repositories:
 
@@ -39,11 +39,11 @@ sources:
 
 - Downgrade a package using the package cache:
 
-`aura --downgrade {{package_name}}`
+`aura --downgrade {{package}}`
 
 - Remove a package and its dependencies:
 
-`aura --remove --recursive --unneeded {{package_name}}`
+`aura --remove --recursive --unneeded {{package}}`
 
 - Remove orphan packages (installed as dependencies but not required by any package):
 

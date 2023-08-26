@@ -2,8 +2,8 @@
 id: common.opam
 title: Opam
 desc: ''
-updated: 1642441815054
-created: 1642441815054
+updated: 1693073888536
+created: 1693073888536
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -24,15 +24,15 @@ sources:
 
 - Search for packages:
 
-`opam search {{package_name}}`
+`opam search {{query}}`
 
 - Install a package and all of its dependencies:
 
-`opam install {{package_name}}`
+`opam install {{package}}`
 
 - Display detailed information about a package:
 
-`opam show {{package_name}}`
+`opam show {{package}}`
 
 - List all installed packages:
 

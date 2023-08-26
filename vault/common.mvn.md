@@ -2,8 +2,8 @@
 id: common.mvn
 title: Mvn
 desc: ''
-updated: 1693069969965
-created: 1693069969965
+updated: 1693073888525
+created: 1693073888525
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -48,5 +48,5 @@ sources:
 
 - Run a class with a main method:
 
-`mvn exec:java -Dexec.mainClass="{{com.example.Main}}" -Dexec.args="{{arg1 arg2}}"`
+`mvn exec:java -Dexec.mainClass="{{com.example.Main}}" -Dexec.args="{{argument1 argument2 ...}}"`
 

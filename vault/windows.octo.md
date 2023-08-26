@@ -2,8 +2,8 @@
 id: windows.octo
 title: Octo
 desc: ''
-updated: 1642441815128
-created: 1642441815128
+updated: 1693073888724
+created: 1693073888724
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -19,11 +19,11 @@ sources:
 
 - Create a package:
 
-`octo pack --id={{package_name}}`
+`octo pack --id={{package}}`
 
 - Push a package to a repository on the Octopus server:
 
-`octo push --package={{package_name}}`
+`octo push --package={{package}}`
 
 - Create a release:
 

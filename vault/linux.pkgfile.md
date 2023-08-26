@@ -2,8 +2,8 @@
 id: linux.pkgfile
 title: Pkgfile
 desc: ''
-updated: 1642441815108
-created: 1642441815108
+updated: 1693073888661
+created: 1693073888661
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -28,11 +28,11 @@ sources:
 
 - List all files provided by a package:
 
-`pkgfile --list {{package_name}}`
+`pkgfile --list {{package}}`
 
-- List only files provided by a package located within the `bin` or `sbin` directory:
+- List executables provided by a package:
 
-`pkgfile --list --binaries {{package_name}}`
+`pkgfile --list --binaries {{package}}`
 
 - Search for a package that owns a specific file using case-insensitive matching:
 

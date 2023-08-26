@@ -2,8 +2,8 @@
 id: linux.distrobox-export
 title: Distrobox Export
 desc: ''
-updated: 1679229162639
-created: 1679229162639
+updated: 1693073888624
+created: 1693073888624
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -20,7 +20,7 @@ sources:
 
 - Export an app from the container to the host (the desktop entry/icon will show up in your host system's application list):
 
-`distrobox-export --app {{package_name}} --extra-flags "--foreground"`
+`distrobox-export --app {{package}} --extra-flags "--foreground"`
 
 - Export a binary from the container to the host:
 

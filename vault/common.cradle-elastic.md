@@ -2,8 +2,8 @@
 id: common.cradle-elastic
 title: Cradle Elastic
 desc: ''
-updated: 1642441815004
-created: 1642441815004
+updated: 1693073888430
+created: 1693073888430
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -23,7 +23,7 @@ sources:
 
 - Truncate the Elasticsearch index for a specific package:
 
-`cradle elastic flush {{package_name}}`
+`cradle elastic flush {{package}}`
 
 - Submit the Elasticsearch schema:
 
@@ -31,7 +31,7 @@ sources:
 
 - Submit the Elasticsearch schema for a specific package:
 
-`cradle elastic map {{package_name}}`
+`cradle elastic map {{package}}`
 
 - Populate the Elasticsearch indices for all packages:
 
@@ -39,5 +39,5 @@ sources:
 
 - Populate the Elasticsearch indices for a specific package:
 
-`cradle elastic populate {{package_name}}`
+`cradle elastic populate {{package}}`
 

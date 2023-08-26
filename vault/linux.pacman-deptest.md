@@ -2,8 +2,8 @@
 id: linux.pacman-deptest
 title: Pacman Deptest
 desc: ''
-updated: 1684067360696
-created: 1684067360696
+updated: 1693073888658
+created: 1693073888658
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -20,7 +20,7 @@ sources:
 
 - Print the package names of the dependencies that aren't installed:
 
-`pacman --deptest {{package_name1}} {{package_name2}}`
+`pacman --deptest {{package1 package2 ...}}`
 
 - Check if the installed package satisfies the given minimum version:
 

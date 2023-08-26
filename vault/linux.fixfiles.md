@@ -2,8 +2,8 @@
 id: linux.fixfiles
 title: Fixfiles
 desc: ''
-updated: 1683011715853
-created: 1683011715853
+updated: 1693073888630
+created: 1693073888630
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -31,7 +31,7 @@ sources:
 
 - Use the [R]pm database to discover all files within specific packages and restore the file contexts:
 
-`fixfiles -R {{rpm_package_name1,rpm_package_name2 ...}}`
+`fixfiles -R {{rpm_package1,rpm_package2 ...}}`
 
 - Run a diff on the `PREVIOUS_FILECONTEXT` file to the [C]urrently installed one, and restore the context of all affected files:
 

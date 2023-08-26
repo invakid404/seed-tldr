@@ -2,8 +2,8 @@
 id: linux.yaourt
 title: Yaourt
 desc: ''
-updated: 1642441815119
-created: 1642441815119
+updated: 1693073888689
+created: 1693073888689
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -23,15 +23,15 @@ sources:
 
 - Install a new package (includes AUR):
 
-`yaourt -S {{package_name}}`
+`yaourt -S {{package}}`
 
 - Remove a package and its dependencies (includes AUR packages):
 
-`yaourt -Rs {{package_name}}`
+`yaourt -Rs {{package}}`
 
 - Search the package database for a keyword (including AUR):
 
-`yaourt -Ss {{package_name}}`
+`yaourt -Ss {{query}}`
 
 - List installed packages, versions, and repositories (AUR packages will be listed under the repository name 'local'):
 

@@ -2,8 +2,8 @@
 id: android.cmd
 title: Cmd
 desc: ''
-updated: 1672830921982
-created: 1672830921982
+updated: 1693073888392
+created: 1693073888392
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -27,5 +27,5 @@ sources:
 
 - Call a service with specific arguments:
 
-`cmd {{service}} {{arg1 arg2 ...}}`
+`cmd {{service}} {{argument1 argument2 ...}}`
 

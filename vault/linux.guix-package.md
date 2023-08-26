@@ -2,8 +2,8 @@
 id: linux.guix-package
 title: Guix Package
 desc: ''
-updated: 1642441815097
-created: 1642441815097
+updated: 1693073888635
+created: 1693073888635
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -19,11 +19,11 @@ sources:
 
 - Install a new package:
 
-`guix package -i {{package_name}}`
+`guix package -i {{package}}`
 
 - Remove a package:
 
-`guix package -r {{package_name}}`
+`guix package -r {{package}}`
 
 - Search the package database for a regular expression:
 

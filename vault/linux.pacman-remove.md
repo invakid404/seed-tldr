@@ -2,8 +2,8 @@
 id: linux.pacman-remove
 title: Pacman Remove
 desc: ''
-updated: 1684067360696
-created: 1684067360696
+updated: 1693073888658
+created: 1693073888658
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -20,15 +20,15 @@ sources:
 
 - Remove a package and its dependencies:
 
-`sudo pacman --remove --recursive {{package_name}}`
+`sudo pacman --remove --recursive {{package}}`
 
 - Remove a package and both its dependencies and configuration files:
 
-`sudo pacman --remove --recursive --nosave {{package_name}}`
+`sudo pacman --remove --recursive --nosave {{package}}`
 
 - Remove a package without prompting:
 
-`sudo pacman --remove --noconfirm {{package_name}}`
+`sudo pacman --remove --noconfirm {{package}}`
 
 - Remove orphan packages (installed as dependencies but not required by any package):
 
@@ -36,11 +36,11 @@ sources:
 
 - Remove a package and all packages that depend on it:
 
-`sudo pacman --remove --cascade {{package_name}}`
+`sudo pacman --remove --cascade {{package}}`
 
 - List packages that would be affected (does not remove any packages):
 
-`pacman --remove --print {{package_name}}`
+`pacman --remove --print {{package}}`
 
 - Display help for this subcommand:
 

@@ -2,8 +2,8 @@
 id: linux.pacstall
 title: Pacstall
 desc: ''
-updated: 1642441815107
-created: 1642441815107
+updated: 1693073888659
+created: 1693073888659
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -19,15 +19,15 @@ sources:
 
 - Search the package database for a package name:
 
-`pacstall --search {{package_name}}`
+`pacstall --search {{query}}`
 
 - Install a package:
 
-`pacstall --install {{package_name}}`
+`pacstall --install {{package}}`
 
 - Remove a package:
 
-`pacstall --remove {{package_name}}`
+`pacstall --remove {{package}}`
 
 - Add a repository to the database (only GitHub and GitLab are supported):
 
@@ -43,7 +43,7 @@ sources:
 
 - Display information about a package:
 
-`pacstall --query-info {{package_name}}`
+`pacstall --query-info {{package}}`
 
 - List all installed packages:
 

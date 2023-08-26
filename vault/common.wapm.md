@@ -2,8 +2,8 @@
 id: common.wapm
 title: Wapm
 desc: ''
-updated: 1642441815082
-created: 1642441815082
+updated: 1693073888594
+created: 1693073888594
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -25,17 +25,17 @@ sources:
 
 `wapm install`
 
-- Download a specific version of a package and add it to the list of dependencies in wapm.toml:
+- Download a specific version of a package and add it to the list of dependencies in `wapm.toml`:
 
-`wapm install {{package_name}}@{{version}}`
+`wapm install {{package}}@{{version}}`
 
 - Download a package and install it globally:
 
-`wapm install --global {{package_name}}`
+`wapm install --global {{package}}`
 
 - Uninstall a package and remove it from the list of dependencies in `wapm.toml`:
 
-`wapm uninstall {{package_name}}`
+`wapm uninstall {{package}}`
 
 - Print a tree of locally installed dependencies:
 

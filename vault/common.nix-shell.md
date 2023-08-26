@@ -2,8 +2,8 @@
 id: common.nix-shell
 title: Nix Shell
 desc: ''
-updated: 1682500598899
-created: 1682500598899
+updated: 1693073888529
+created: 1693073888529
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -24,7 +24,7 @@ sources:
 
 - Run shell command in non-interactive shell and exit:
 
-`nix-shell --run "{{command}} {{arg1 arg2 ...}}"`
+`nix-shell --run "{{command}} {{argument1 argument2 ...}}"`
 
 - Start with expression in `default.nix` in the current directory:
 
@@ -32,13 +32,13 @@ sources:
 
 - Start with packages loaded from nixpkgs:
 
-`nix-shell --packages {{package_name_1 package_name_2 ...}}`
+`nix-shell --packages {{package1 package2 ...}}`
 
 - Start with packages loaded from specific nixpkgs revision:
 
-`nix-shell --packages {{package_name_1 package_name_2 ...}} -I nixpkgs={{https://github.com/NixOS/nixpkgs/archive/nixpkgs_revision.tar.gz}}`
+`nix-shell --packages {{package1 package2 ...}} -I nixpkgs={{https://github.com/NixOS/nixpkgs/archive/nixpkgs_revision.tar.gz}}`
 
 - Evaluate rest of file in specific interpreter, for use in `#!-scripts` (see <https://nixos.org/manual/nix/stable/#use-as-a-interpreter>):
 
-`nix-shell -i {{interpreter}} --packages {{package_name_1 package_name_2 ...}}`
+`nix-shell -i {{interpreter}} --packages {{package1 package2 ...}}`
 

@@ -2,8 +2,8 @@
 id: common.meteor
 title: Meteor
 desc: ''
-updated: 1642441815047
-created: 1642441815047
+updated: 1693073888519
+created: 1693073888519
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -31,11 +31,11 @@ sources:
 
 - Add a package to the project:
 
-`meteor add {{package_name}}`
+`meteor add {{package}}`
 
 - Remove a package from the project:
 
-`meteor remove {{package_name}}`
+`meteor remove {{package}}`
 
 - Create a production build of the project as a tarball under the given directory:
 

@@ -2,8 +2,8 @@
 id: linux.gnome-software
 title: Gnome Software
 desc: ''
-updated: 1656591837625
-created: 1656591837625
+updated: 1693073888633
+created: 1693073888633
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -25,9 +25,9 @@ sources:
 
 `gnome-software --mode {{updates|updated|installed|overview}}`
 
-- Launch the GNOME Software GUI if it's not open, and view the specified package:
+- Launch the GNOME Software GUI if it's not open and view the details of the specified package:
 
-`gnome-software --details {{package_name}}`
+`gnome-software --details {{package}}`
 
 - Display the version:
 

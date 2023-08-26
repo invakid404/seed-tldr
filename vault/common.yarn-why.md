@@ -2,8 +2,8 @@
 id: common.yarn-why
 title: Yarn Why
 desc: ''
-updated: 1643828695823
-created: 1643828695823
+updated: 1693073888606
+created: 1693073888606
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -19,5 +19,5 @@ sources:
 
 - Show why a Yarn package is installed:
 
-`yarn-why {{package_name}}`
+`yarn-why {{package}}`
 

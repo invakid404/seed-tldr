@@ -2,8 +2,8 @@
 id: windows.choco-new
 title: Choco New
 desc: ''
-updated: 1642441815126
-created: 1642441815126
+updated: 1693073888718
+created: 1693073888718
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -19,21 +19,21 @@ sources:
 
 - Create a new package skeleton:
 
-`choco new {{package_name}}`
+`choco new {{package}}`
 
 - Create a new package with a specific version:
 
-`choco new {{package_name}} --version {{version}}`
+`choco new {{package}} --version {{version}}`
 
 - Create a new package with a specific maintainer name:
 
-`choco new {{package_name}} --maintainer {{maintainer_name}}`
+`choco new {{package}} --maintainer {{maintainer_name}}`
 
 - Create a new package in a custom output directory:
 
-`choco new {{package_name}} --output-directory {{path/to/directory}}`
+`choco new {{package}} --output-directory {{path/to/directory}}`
 
 - Create a new package with specific 32-bit and 64-bit installer URLs:
 
-`choco new {{package_name}} url="{{url}}" url64="{{url}}"`
+`choco new {{package}} url="{{url}}" url64="{{url}}"`
 

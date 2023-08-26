@@ -2,8 +2,8 @@
 id: common.composer
 title: Composer
 desc: ''
-updated: 1642441815003
-created: 1642441815003
+updated: 1693073888428
+created: 1693073888428
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -23,7 +23,7 @@ sources:
 
 - Add a package as a dependency for this project, adding it to `composer.json`:
 
-`composer require {{user/package_name}}`
+`composer require {{user/package}}`
 
 - Install all the dependencies in this project's `composer.json` and create `composer.lock`:
 
@@ -31,7 +31,7 @@ sources:
 
 - Uninstall a package from this project, removing it as a dependency from `composer.json`:
 
-`composer remove {{user/package_name}}`
+`composer remove {{user/package}}`
 
 - Update all the dependencies in this project's `composer.json` and note versions in `composer.lock` file:
 
@@ -43,7 +43,7 @@ sources:
 
 - Learn more about why a dependency can't be installed:
 
-`composer why-not {{user/package_name}}`
+`composer why-not {{user/package}}`
 
 - Update composer to its latest version:
 

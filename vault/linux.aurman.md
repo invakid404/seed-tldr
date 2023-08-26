@@ -2,8 +2,8 @@
 id: linux.aurman
 title: Aurman
 desc: ''
-updated: 1642441815088
-created: 1642441815088
+updated: 1693073888614
+created: 1693073888614
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -28,15 +28,15 @@ sources:
 
 - Install a new package:
 
-`aurman --sync {{package_name}}`
+`aurman --sync {{package}}`
 
 - Install a new package without show changes of `PKGBUILD` files:
 
-`aurman --sync --noedit {{package_name}}`
+`aurman --sync --noedit {{package}}`
 
 - Install a new package without prompting:
 
-`aurman --sync --noedit --noconfirm {{package_name}}`
+`aurman --sync --noedit --noconfirm {{package}}`
 
 - Search the package database for a keyword from the official repositories and AUR:
 
@@ -44,7 +44,7 @@ sources:
 
 - Remove a package and its dependencies:
 
-`aurman --remove --recursive --nosave {{package_name}}`
+`aurman --remove --recursive --nosave {{package}}`
 
 - Clear the package cache (use two `--clean` flags to clean all packages):
 

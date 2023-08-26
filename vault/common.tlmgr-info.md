@@ -2,8 +2,8 @@
 id: common.tlmgr-info
 title: Tlmgr Info
 desc: ''
-updated: 1642441815076
-created: 1642441815076
+updated: 1693073888582
+created: 1693073888582
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -31,11 +31,11 @@ sources:
 
 - Show information about a specific package:
 
-`tlmgr info {{package_name}}`
+`tlmgr info {{package}}`
 
 - List all files contained in a specific package:
 
-`tlmgr info {{package_name}} --list`
+`tlmgr info {{package}} --list`
 
 - List all installed packages:
 
@@ -43,7 +43,7 @@ sources:
 
 - Show only specific information about a package:
 
-`tlmgr info {{package_name}} --data "{{name}},{{category}},{{installed}},{{size}},{{depends}},..."`
+`tlmgr info {{package}} --data "{{name}},{{category}},{{installed}},{{size}},{{depends}},..."`
 
 - Print all available packages as JSON encoded array:
 

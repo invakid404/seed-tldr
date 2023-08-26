@@ -2,8 +2,8 @@
 id: linux.prt-get
 title: Prt Get
 desc: ''
-updated: 1656591837645
-created: 1656591837645
+updated: 1693073888663
+created: 1693073888663
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -19,19 +19,19 @@ sources:
 
 - Install a package:
 
-`prt-get install {{package_name}}`
+`prt-get install {{package}}`
 
 - Install a package with dependency handling:
 
-`prt-get depinst {{package_name}}`
+`prt-get depinst {{package}}`
 
 - Update a package manually:
 
-`prt-get upgrade {{package_name}}`
+`prt-get upgrade {{package}}`
 
 - Remove a package:
 
-`prt-get remove {{package_name}}`
+`prt-get remove {{package}}`
 
 - Upgrade the system from the local ports tree:
 
@@ -39,7 +39,7 @@ sources:
 
 - Search the ports tree:
 
-`prt-get search {{package_name}}`
+`prt-get search {{query}}`
 
 - Search for a file in a package:
 

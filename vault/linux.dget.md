@@ -2,8 +2,8 @@
 id: linux.dget
 title: Dget
 desc: ''
-updated: 1684034192329
-created: 1684034192329
+updated: 1693073888624
+created: 1693073888624
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -19,7 +19,7 @@ sources:
 
 - Download a binary package:
 
-`dget {{package_name}}`
+`dget {{package}}`
 
 - Download and extract a package source from its `.dsc` file:
 

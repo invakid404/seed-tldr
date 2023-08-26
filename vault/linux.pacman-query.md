@@ -2,8 +2,8 @@
 id: linux.pacman-query
 title: Pacman Query
 desc: ''
-updated: 1684067360696
-created: 1684067360696
+updated: 1693073888658
+created: 1693073888658
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -32,11 +32,11 @@ sources:
 
 - Display information about an installed package:
 
-`pacman --query --info {{package_name}}`
+`pacman --query --info {{package}}`
 
 - List files owned by a package:
 
-`pacman --query --list {{package_name}}`
+`pacman --query --list {{package}}`
 
 - List orphan packages (installed as dependencies but not required by any package):
 

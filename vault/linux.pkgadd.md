@@ -2,8 +2,8 @@
 id: linux.pkgadd
 title: Pkgadd
 desc: ''
-updated: 1685843802283
-created: 1685843802283
+updated: 1693073888661
+created: 1693073888661
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -19,9 +19,9 @@ sources:
 
 - Install a local software package:
 
-`pkgadd {{package_name}}`
+`pkgadd {{package}}`
 
 - Update an already installed package from a local package:
 
-`pkgadd -u {{package_name}}`
+`pkgadd -u {{package}}`
 

@@ -2,8 +2,8 @@
 id: common.pip-install
 title: Pip Install
 desc: ''
-updated: 1642441815060
-created: 1642441815060
+updated: 1693073888545
+created: 1693073888545
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -19,11 +19,11 @@ sources:
 
 - Install a package:
 
-`pip install {{package_name}}`
+`pip install {{package}}`
 
 - Install a specific version of a package:
 
-`pip install {{package_name}}=={{package_version}}`
+`pip install {{package}}=={{version}}`
 
 - Install packages listed in a file:
 

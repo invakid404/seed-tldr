@@ -2,8 +2,8 @@
 id: linux.pkgrm
 title: Pkgrm
 desc: ''
-updated: 1685843802283
-created: 1685843802283
+updated: 1693073888661
+created: 1693073888661
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -19,5 +19,5 @@ sources:
 
 - Remove an installed package:
 
-`pkgrm {{package_name}}`
+`pkgrm {{package}}`
 

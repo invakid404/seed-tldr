@@ -2,8 +2,8 @@
 id: linux.slapt-get
 title: Slapt Get
 desc: ''
-updated: 1656591837653
-created: 1656591837653
+updated: 1693073888674
+created: 1693073888674
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -24,11 +24,11 @@ sources:
 
 - Install a package, or update it to the latest available version:
 
-`slapt-get --install {{package_name}}`
+`slapt-get --install {{package}}`
 
 - Remove a package:
 
-`slapt-get --remove {{package_name}}`
+`slapt-get --remove {{package}}`
 
 - Upgrade all installed packages to their latest available versions:
 
@@ -36,9 +36,9 @@ sources:
 
 - Locate packages by the package name, disk set, or version:
 
-`slapt-get --search {{package_name}}`
+`slapt-get --search {{query}}`
 
 - Show information about a package:
 
-`slapt-get --show {{package_name}}`
+`slapt-get --show {{package}}`
 

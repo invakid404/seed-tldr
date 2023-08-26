@@ -2,8 +2,8 @@
 id: common.cordova
 title: Cordova
 desc: ''
-updated: 1642441815004
-created: 1642441815004
+updated: 1693073888429
+created: 1693073888429
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -19,7 +19,7 @@ sources:
 
 - Create a Cordova project:
 
-`cordova create {{path}} {{package_name}} {{project_name}}`
+`cordova create {{path/to/directory}} {{package}} {{project_name}}`
 
 - Display the current workspace status:
 

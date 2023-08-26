@@ -2,8 +2,8 @@
 id: common.cabal
 title: Cabal
 desc: ''
-updated: 1642441815000
-created: 1642441815000
+updated: 1693073888421
+created: 1693073888421
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -24,11 +24,11 @@ sources:
 
 - Show information about a package:
 
-`cabal info {{package_name}}`
+`cabal info {{package}}`
 
 - Download and install a package:
 
-`cabal install {{package_name}}`
+`cabal install {{package}}`
 
 - Create a new Haskell project in the current directory:
 

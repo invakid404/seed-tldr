@@ -2,8 +2,8 @@
 id: linux.pacman-files
 title: Pacman Files
 desc: ''
-updated: 1684067360696
-created: 1684067360696
+updated: 1693073888658
+created: 1693073888658
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -36,7 +36,7 @@ sources:
 
 - List the files owned by a specific package:
 
-`pacman --files --list {{package_name}}`
+`pacman --files --list {{package}}`
 
 - Display help:
 

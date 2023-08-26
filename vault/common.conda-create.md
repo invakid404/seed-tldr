@@ -2,8 +2,8 @@
 id: common.conda-create
 title: Conda Create
 desc: ''
-updated: 1642441815003
-created: 1642441815003
+updated: 1693073888429
+created: 1693073888429
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -27,5 +27,5 @@ sources:
 
 - Create a new environment with a specified name and install a given package:
 
-`conda create --name {{env_name}} {{package_name}}`
+`conda create --name {{env_name}} {{package}}`
 

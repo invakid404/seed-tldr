@@ -2,8 +2,8 @@
 id: linux.dpkg
 title: Dpkg
 desc: ''
-updated: 1670203646387
-created: 1670203646387
+updated: 1693073888626
+created: 1693073888626
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -25,7 +25,7 @@ sources:
 
 - Remove a package:
 
-`dpkg -r {{package_name}}`
+`dpkg -r {{package}}`
 
 - List installed packages:
 
@@ -33,7 +33,7 @@ sources:
 
 - List a package's contents:
 
-`dpkg -L {{package_name}}`
+`dpkg -L {{package}}`
 
 - List contents of a local package file:
 
@@ -41,5 +41,5 @@ sources:
 
 - Find out which package owns a file:
 
-`dpkg -S {{filename}}`
+`dpkg -S {{path/to/file}}`
 
