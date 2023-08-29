@@ -2,8 +2,8 @@
 id: common.objdump
 title: Objdump
 desc: ''
-updated: 1661609946685
-created: 1661609946685
+updated: 1693293286957
+created: 1693293286957
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -20,6 +20,10 @@ sources:
 - Display the file header information:
 
 `objdump -f {{binary}}`
+
+- Display all header information:
+
+`objdump -x {{binary}}`
 
 - Display the disassembled output of executable sections:
 
