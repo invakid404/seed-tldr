@@ -2,8 +2,8 @@
 id: common.git
 title: Git
 desc: ''
-updated: 1642441815028
-created: 1642441815028
+updated: 1693909002928
+created: 1693909002928
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,7 +15,7 @@ sources:
 # git
 
 > Distributed version control system.
-> Some subcommands such as `commit`, `add`, `branch`, `checkout`, `push`, etc. have their own usage documentation, accessible via `tldr git subcommand`.
+> Some subcommands such as `commit`, `add`, `branch`, `checkout`, `push`, etc. have their own usage documentation.
 > More information: <https://git-scm.com/>.
 
 - Check the Git version:

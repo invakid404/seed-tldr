@@ -2,8 +2,8 @@
 id: common.cs
 title: Cs
 desc: ''
-updated: 1673284741485
-created: 1673284741485
+updated: 1693909002886
+created: 1693909002886
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -15,7 +15,7 @@ sources:
 # coursier
 
 > Application and artifact manager for the Scala language, it can install Scala applications and setup your Scala development environment.
-> Some subcommands such as `install`, `launch`, `java`, `fetch`, `resolve`, `complete-dep`, etc. have their own usage documentation, accessible via `tldr cs subcommand`.
+> Some subcommands such as `install`, `launch`, `java`, `fetch`, `resolve`, `complete-dep`, etc. have their own usage documentation.
 > More information: <https://get-coursier.io/docs/overview>.
 
 - Display version:
