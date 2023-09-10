@@ -2,8 +2,8 @@
 id: common.elm
 title: Elm
 desc: ''
-updated: 1642441815012
-created: 1642441815012
+updated: 1694355154966
+created: 1694355154966
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'

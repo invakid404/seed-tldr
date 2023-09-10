@@ -2,8 +2,8 @@
 id: common.gh-auth
 title: Gh Auth
 desc: ''
-updated: 1691562058974
-created: 1691562058974
+updated: 1694355154977
+created: 1694355154977
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'

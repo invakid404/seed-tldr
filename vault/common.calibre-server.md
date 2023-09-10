@@ -2,8 +2,8 @@
 id: common.calibre-server
 title: Calibre Server
 desc: ''
-updated: 1642441815000
-created: 1642441815000
+updated: 1694355154940
+created: 1694355154940
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -18,11 +18,11 @@ sources:
 > Note: e-books must already be imported into the library using the GUI or the `calibredb` CLI.
 > More information: <https://manual.calibre-ebook.com/generated/en/calibre-server.html>.
 
-- Start a server to distribute e-books. Access at http&#x3A;//localhost:8080:
+- Start a server to distribute e-books. Access at <http://localhost:8080>:
 
 `calibre-server`
 
-- Start server on different port. Access at http&#x3A;//localhost:port:
+- Start server on different port. Access at <http://localhost:port>:
 
 `calibre-server --port {{port}}`
 

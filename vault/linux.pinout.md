@@ -2,8 +2,8 @@
 id: linux.pinout
 title: Pinout
 desc: ''
-updated: 1656591837643
-created: 1656591837643
+updated: 1694355155151
+created: 1694355155151
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'

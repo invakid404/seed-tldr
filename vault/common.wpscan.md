@@ -2,8 +2,8 @@
 id: common.wpscan
 title: Wpscan
 desc: ''
-updated: 1642441815083
-created: 1642441815083
+updated: 1694355155100
+created: 1694355155100
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'

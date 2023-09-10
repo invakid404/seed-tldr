@@ -2,8 +2,8 @@
 id: linux.gbp
 title: Gbp
 desc: ''
-updated: 1642441815096
-created: 1642441815096
+updated: 1694355155126
+created: 1694355155126
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'

@@ -2,8 +2,8 @@
 id: common.hugo
 title: Hugo
 desc: ''
-updated: 1684383586654
-created: 1684383586654
+updated: 1694355155007
+created: 1694355155007
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'

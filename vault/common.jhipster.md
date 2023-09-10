@@ -2,8 +2,8 @@
 id: common.jhipster
 title: Jhipster
 desc: ''
-updated: 1642441815037
-created: 1642441815037
+updated: 1694355155013
+created: 1694355155013
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'

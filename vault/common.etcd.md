@@ -2,8 +2,8 @@
 id: common.etcd
 title: Etcd
 desc: ''
-updated: 1642441815013
-created: 1642441815013
+updated: 1694355154968
+created: 1694355154968
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -29,7 +29,7 @@ sources:
 
 `etcd --name {{my_etcd_cluster}}`
 
-- Start a single-node etcd cluster with extensive metrics available at http&#x3A;//localhost:2379/debug/pprof/:
+- Start a single-node etcd cluster with extensive metrics available at <http://localhost:2379/debug/pprof/>:
 
 `etcd --enable-pprof --metrics extensive`
 
