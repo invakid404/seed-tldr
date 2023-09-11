@@ -2,8 +2,8 @@
 id: common.htop
 title: Htop
 desc: ''
-updated: 1694312584660
-created: 1694312584660
+updated: 1694463317349
+created: 1694463317349
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -31,7 +31,7 @@ sources:
 
 - Start `htop` with the specified delay between updates, in tenths of a second (i.e. 50 = 5 seconds):
 
-`htop --delay 50`
+`htop --delay {{50}}`
 
 - See interactive commands while running htop:
 
