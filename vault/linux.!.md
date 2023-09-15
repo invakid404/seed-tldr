@@ -2,8 +2,8 @@
 id: linux.!
 title: '!'
 desc: ''
-updated: 1690985689311
-created: 1690985689311
+updated: 1694740147975
+created: 1694740147975
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -25,7 +25,7 @@ sources:
 
 `!{{number}}`
 
-- Substitute with a command that was used specified lines back:
+- Substitute with a command that was used a specified number of lines back:
 
 `!-{{number}}`
 
