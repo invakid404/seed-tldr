@@ -2,8 +2,8 @@
 id: linux.iptables
 title: Iptables
 desc: ''
-updated: 1694524806782
-created: 1694524806782
+updated: 1695011007299
+created: 1695011007299
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -14,8 +14,9 @@ sources:
 ---
 # iptables
 
-> Program that allows configuration of tables, chains and rules provided by the Linux kernel firewall.
-> More information: <https://www.netfilter.org/projects/iptables/>.
+> Configure tables, chains and rules of the Linux kernel IPv4 firewall.
+> Use `ip6tables` to set rules for IPv6 traffic. See also: `iptables-save`, `iptables-restore`.
+> More information: <https://manned.org/iptables>.
 
 - View chains, rules, packet/byte counters and line numbers for the filter table:
 
@@ -31,7 +32,7 @@ sources:
 
 - [A]ppend rule to chain policy for IP considering [p]rotocol and port:
 
-`sudo iptables --append {{chain}} --source {{ip}} --protocol {{protocol}} --dport {{port}} --jump {{rule}}`
+`sudo iptables --append {{chain}} --source {{ip}} --protocol {{tcp|udp|icmp|...}} --dport {{port}} --jump {{rule}}`
 
 - Add a NAT rule to translate all traffic from the `192.168.0.0/24` subnet to the host's public IP:
 
@@ -40,12 +41,4 @@ sources:
 - [D]elete chain rule:
 
 `sudo iptables --delete {{chain}} {{rule_line_number}}`
-
-- Save `iptables` configuration of a given [t]able to a file:
-
-`sudo iptables-save --table {{tablename}} > {{path/to/iptables_file}}`
-
-- Restore `iptables` configuration from a file:
-
-`sudo iptables-restore < {{path/to/iptables_file}}`
 
