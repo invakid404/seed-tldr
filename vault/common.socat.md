@@ -2,8 +2,8 @@
 id: common.socat
 title: Socat
 desc: ''
-updated: 1643710045553
-created: 1643710045553
+updated: 1695097209841
+created: 1695097209841
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -20,6 +20,10 @@ sources:
 - Listen to a port, wait for an incoming connection and transfer data to STDIO:
 
 `socat - TCP-LISTEN:8080,fork`
+
+- Listen on a port using SSL and print to STDOUT:
+
+`socat OPENSSL-LISTEN:4433,reuseaddr,cert=./cert.pem,cafile=./ca.cert.pem,key=./key.pem,verify=0 STDOUT`
 
 - Create a connection to a host and port, transfer data in STDIO to connected host:
 
