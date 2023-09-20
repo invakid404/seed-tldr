@@ -2,8 +2,8 @@
 id: linux.resolvectl
 title: Resolvectl
 desc: ''
-updated: 1683605969436
-created: 1683605969436
+updated: 1695198038566
+created: 1695198038566
 stub: false
 isDir: false
 gitNotePath: 'pages/{{ noteHiearchy }}.md'
@@ -30,6 +30,14 @@ sources:
 
 `resolvectl query {{ip_address}}`
 
+- Flush all local DNS caches:
+
+`resolvectl flush-caches`
+
+- Display DNS statistics (transactions, cache, and DNSSEC verdicts):
+
+`resolvectl statistics`
+
 - Retrieve an MX record of a domain:
 
 `resolvectl --legend={{no}} --type={{MX}} query {{domain}}`
@@ -37,10 +45,6 @@ sources:
 - Resolve an SRV record, for example \_xmpp-server.\_tcp gmail.com:
 
 `resolvectl service _{{service}}._{{protocol}} {{name}}`
-
-- Retrieve the public key from an email address from an OPENPGPKEY DNS record:
-
-`resolvectl openpgp {{email}}`
 
 - Retrieve a TLS key:
 
